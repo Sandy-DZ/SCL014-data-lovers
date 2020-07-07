@@ -65,15 +65,26 @@ function rolSupport(){
 }
 
 // <!-- -------------------------filtro por Dificultad------------------------------------>
-easyFilt.addEventListener("click", difficultyEasy);
-function difficultyEasy(){
-    finList = initList.filter(champ => champ.difficulty <= 4);
-    if (champ => champ.difficulty >= 5) {
-        const difficultyMiddle = champ.difficulty;
-        console.log("Middle");
+filtro.addEventListener("click", difficulty);
+function difficulty(){
+    const filterItems = query => {
+        return fruits.filter((el) =>
+          el.toLowerCase().indexOf(query.toLowerCase()) > -1
+        );
+      }
+    if(champ => champ.difficulty <= 4){
+        const difficultyEasy;
+        difficultyEasy = initList.filter(champ => champ.difficulty <= 4);
+        console.log(filterItems('difficultyEasy')); // ['easy']
+    }
+    else if (champ => champ.difficulty >= 5) {
+        const difficultyMiddle;
+        difficultyMiddle = initList.filter(champ => champ.difficulty >= 5 && <=7);
+        console.log(filterItems('difficultyMiddle')); // ['middle']
     }else if(champ => champ.difficulty >=8){
         const difficultyHard;
-        console.log("Hard");
+        difficultyHard = initList.filter(champ => champ.difficulty >=8);
+        console.log(filterHard('diffficultyHard')); //['Hard']
     }
 }
 
