@@ -4,6 +4,9 @@ body{
   font-size: 1.2rem;
   line-height: 1.6em;
   margin: 0;  /*con este le quite el margen de arriba al header para que no quede separado en la barra inicial*/
+  color: white;
+  /*background-image: url(https://i.imgur.com/7JV2ErD.jpg);
+  background-repeat: no-repeat;*/
 } 
 /*rgba(147, 115, 65, 1)*/
 
@@ -73,6 +76,30 @@ p{
 
 .main{
   padding-top: 12rem;
+}
+
+img{
+  border-radius:60%;
+  width: 215px;
+  height: 206px;
+}
+
+.champ{
+  justify-content: center;
+  background-color: rgba(8, 42, 85, 0.699);
+  padding: 4rem;
+  background-image: url(https://i.imgur.com/7JV2ErD.jpg);
+  background-repeat: no-repeat;
+}
+.allChamps{
+  padding: 14rem;
+}
+icon{
+  width: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  
 }
 
 .footer{

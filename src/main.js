@@ -25,8 +25,8 @@ function showChampions (){
         let file = document.createElement('section');
         file.setAttribute('class','file');
         champions =
-        `<p class='' id=''> ${dataLol[i].name} </p>
-        <p> ${dataLol[i].title} </p>
+        `<h1 class='' id=''> ${dataLol[i].name} </h1>
+        <h3> ${dataLol[i].title} </h3>
         <p> ${dataLol[i].blurb} </p>
         <img src='${dataLol[i].splash}'>`;
         allFiles.appendChild(file);
