@@ -11,3 +11,5 @@
     });
 });
 */
+import datos from './data.js';
+let menuBtn = document.getElementById("buttonEnter");
