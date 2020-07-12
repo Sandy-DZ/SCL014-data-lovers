@@ -28,9 +28,11 @@ function showChampions (){
         `<h1 class='' id=''> ${dataLol[i].name} </h1>
         <h3> ${dataLol[i].title} </h3>
         <p> ${dataLol[i].blurb} </p>
+        <p> ${dataLol[i].tags} </p>
         <img src='${dataLol[i].splash}'>`;
         allFiles.appendChild(file);
         file.innerHTML = champions;
+
     };
 };
 showChampions();

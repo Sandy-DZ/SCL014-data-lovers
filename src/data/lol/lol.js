@@ -1,25 +1,25 @@
 export default {
   type: "champion",
   format: "standAloneComplex",
-  version: "6.24.1",
+  version: "V10.14",
   data: {
     Aatrox: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Aatrox",
       key: "266",
       name: "Aatrox",
-      title: "the Darkin Blade",
+      title: "La Espada Darkin",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Aatrox.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
       blurb:
-        "Aatrox is a legendary warrior, one of only five that remain of an ancient race known as the Darkin. He wields his massive blade with grace and poise, slicing through legions in a style that is hypnotic to behold. With each foe felled, Aatrox's ...",
+        "Aatrox y sus hermanos, que alguna vez fueron respetados defensores de Shurima contra el Vacío, se convirtieron en una amenaza aún mayor para Runaterra y los derrotaron con hechicería mortal usada con astucia. Pero, después de siglos de encarcelamiento, Aatrox fue el primero en encontrar la libertad una vez más; corrompió y transformó a los bastante tontos como para intentar blandir el arma mágica que contenía su esencia. Ahora, con cuerpos robados, camina por Runaterra con una apariencia retorcida de su forma original y busca la venganza apocalíptica que tanto desea.",
       info: {
         attack: 8,
         defense: 4,
         magic: 3,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Aatrox.png",
@@ -30,48 +30,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Fighter", "Tank"],
+      tags: ["Luchador", "Tanque"],
       partype: "BloodWell",
+      rangetype:"cuerpo a cuerpo",
+      date: "2013-06-13",
+      patch: "V3.8",
+      graphic :{
+        damage:3,
+        toughness:3,
+        control:2,
+        mobility:2,
+        utility:2,
+      },
       stats: {
-        hp: 537.8,
-        hpperlevel: 85,
-        mp: 105.6,
-        mpperlevel: 45,
-        movespeed: 345,
-        armor: 24.384,
-        armorperlevel: 3.8,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 150,
-        hpregen: 6.59,
-        hpregenperlevel: 0.5,
+        hp: 580,
+        hpperlevel: 90,
+        mp: 0,
+        mpperlevel: 0,
+        armor: 38,
+        armorperlevel: 3.25,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 3,
+        hpregenperlevel: 1,
         mpregen: 0,
         mpregenperlevel: 0,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 60.376,
-        attackdamageperlevel: 3.2,
-        attackspeedoffset: -0.04,
-        attackspeedperlevel: 3
-      }
+        attackdamage: 60,
+        attackdamageperlevel: 5,
+        attackspeedoffset: 0.651,
+        attackspeedperlevel: 2.5,
+        attackrange: 175,
+        movespeed: 345
+      },
+      skill:[
+         {pasive:"Heraldo de la destrucción",img:"https://opgg-static.akamaized.net/images/lol/passive/Aatrox_Passive.png?image=q_auto,w_48&v=1591083841",info:"Cada cierto tiempo, el siguiente ataque básico de Aatrox inflige daño físico adicional según la vida máxima del objetivo, y lo cura por la cantidad de daño infligido"},
+         {q:"La Espada Darkin",img:"https://opgg-static.akamaized.net/images/lol/spell/AatroxQ.png?image=q_auto,w_48&v=1591083841",info:"Aatrox golpea el piso con su espada e inflige daño físico. Puede atacar con ella tres veces, cada vez con un área de efecto distinta"},
+         {w:"Cadenas Infernales",img:"https://opgg-static.akamaized.net/images/lol/spell/AatroxW.png?image=q_auto,w_48&v=1591083841",info:"Aatrox golpea el suelo e inflige daño al primer enemigo golpeado. Los campeones o monstruos grandes deben abandonar la zona de impacto rápidamente o los arrastrará al centro y les infligirá daño de nuevo"},
+         {e:"Impulso Siniestro",img:"https://opgg-static.akamaized.net/images/lol/spell/AatroxE.png?image=q_auto,w_48&v=1591083841",info:"Aatrox se cura de forma pasiva al dañar a campeones enemigos. Al activarlo, se desplaza en una dirección."},
+         {r:"Destructor de Mundos",img:"https://opgg-static.akamaized.net/images/lol/spell/AatroxR.png?image=q_auto,w_48&v=1591083841",info:"Aatrox despliega su forma demoniaca, aterroriza a los súbditos enemigos cercanos, y obtiene daño de ataque, curación aumentada y velocidad de movimiento. Si participa en un derribo, estos efectos extienden su duración."}
+      ]
     },
     Ahri: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Ahri",
       key: "103",
       name: "Ahri",
-      title: "the Nine-Tailed Fox",
+      title: "La Vastaya De Nueve Colas",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Ahri.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
       blurb:
-        "Unlike other foxes that roamed the woods of southern Ionia, Ahri had always felt a strange connection to the magical world around her; a connection that was somehow incomplete. Deep inside, she felt the skin she had been born into was an ill fit for ...",
+        "Ahri, conectada de forma innata con el poder latente de Runaterra, es una vastaya que puede moldear la magia en orbes de energía pura. Se divierte jugueteando con su presa y manipulando sus emociones, antes de devorar su esencia vital. A pesar de su naturaleza predadora, Ahri conserva cierta empatía porque recibe destellos de los recuerdos de cada alma que consume.",
       info: {
         attack: 3,
         defense: 4,
         magic: 8,
-        difficulty: 5
+        difficulty: 2
       },
       image: {
         full: "Ahri.png",
@@ -82,48 +97,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage", "Assassin"],
+      tags: ["Mago", "Asesino"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2011-12-14",
+      patch: "V1.0.0.131",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:2,
+        mobility:3,
+        utility:0,
+      },
       stats: {
-        hp: 514.4,
-        hpperlevel: 80,
-        mp: 334,
-        mpperlevel: 50,
-        movespeed: 330,
+        hp: 526,
+        hpperlevel: 92,
+        mp: 418,
+        mpperlevel: 25,
         armor: 20.88,
         armorperlevel: 3.5,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 550,
-        hpregen: 6.505,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen: 6.5,
         hpregenperlevel: 0.6,
-        mpregen: 6,
+        mpregen: 8,
         mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
         attackdamage: 53.04,
         attackdamageperlevel: 3,
-        attackspeedoffset: -0.065,
-        attackspeedperlevel: 2
-      }
+        attackspeedoffset: 0.668,
+        attackspeedperlevel: 2,
+        attackrange: 550,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Elegancia Vastaya",img:"https://opgg-static.akamaized.net/images/lol/passive/Ahri_SoulEater2.png?image=q_auto,w_48&v=1591083841",info:"Si Ahri logra alcanzar a un campeón 2 veces con sus hechizos en un breve periodo, obtiene un aumento temporal de velocidad de movimiento."},
+        {q:"Orbe del Engaño",img:"https://opgg-static.akamaized.net/images/lol/spell/AhriOrbofDeception.png?image=q_auto,w_48&v=1591083841",info:"Ahri lanza y recupera su orbe, lo que inflige daño mágico de ida y daño verdadero de vuelta. Después de acertar varios hechizos, el siguiente orbe de Ahri le restaura vida."},
+        {w:"Fuego Zorruno",img:"https://opgg-static.akamaized.net/images/lol/spell/AhriFoxFire.png?image=q_auto,w_48&v=1591083841",info:"Ahri lanza tres fuegos zorrunos que se fijan en enemigos cercanos y los atacan."},
+        {e:"Encanto",img:"https://opgg-static.akamaized.net/images/lol/spell/AhriSeduce.png?image=q_auto,w_48&v=1591083841",info:"Ahri lanza un beso que inflige daño y deja encantado al enemigo, lo que detiene de inmediato las habilidades de movimiento del objetivo y hace que avance hacia ella de manera inofensiva. El objetivo recibe daño aumentado de Ahri temporalmente."},
+        {r:"Impulso Espiritual",img:"https://opgg-static.akamaized.net/images/lol/spell/AhriTumble.png?image=q_auto,w_48&v=1591083841",info:"Ahri se desplaza hacia adelante y dispara rayos de esencia, lo que inflige daño a los enemigos cercanos. Puedes lanzar Impulso Espiritual hasta tres veces antes de que entre en enfriamiento."}
+      ]
     },
     Akali: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Akali",
       key: "84",
       name: "Akali",
-      title: "the Fist of Shadow",
+      title: "La Asesina Furtiva",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Akali.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
       blurb:
-        "There exists an ancient order originating in the Ionian Isles dedicated to the preservation of balance. Order, chaos, light, darkness -- all things must exist in perfect harmony for such is the way of the universe. This order is known as the Kinkou ...",
+        "Tras renunciar a la Orden Kinkou y a su título como el Puño de la Sombra, Akali pelea a solas, lista para ser el arma letal que su pueblo necesita. Aunque conserva todo lo que aprendió de su maestro Shen, juró defender a Jonia de sus enemigos... una víctima a la vez. Puede que Akali ataque en silencio, pero su mensaje resonará con fuerza y claridad: témanle a la asesina sin maestro.",
       info: {
         attack: 5,
         defense: 3,
         magic: 8,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Akali.png",
@@ -134,48 +164,62 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Assassin"],
+      tags: ["Asesino"],
       partype: "Energy",
+      rangetype:"cuerpo a cuerpo",
+      date: "2010-05-11",
+      patch: "V1.0.0.85",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:1,
+        mobility:3,
+        utility:1,
+      },
       stats: {
-        hp: 587.8,
-        hpperlevel: 85,
+        hp: 575,
+        hpperlevel: 95,
         mp: 200,
         mpperlevel: 0,
-        movespeed: 350,
-        armor: 26.38,
+        armor: 23,
         armorperlevel: 3.5,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 8.34,
-        hpregenperlevel: 0.65,
+        mrbase: 37,
+        mrlevel : 1.25,
+        hpregen: 8,
+        hpregenperlevel: 0.5,
         mpregen: 50,
         mpregenperlevel: 0,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 58.376,
-        attackdamageperlevel: 3.2,
-        attackspeedoffset: -0.1,
-        attackspeedperlevel: 3.1
-      }
+        attackdamage: 62.4,
+        attackdamageperlevel: 3.3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 3.2,
+        attackrange: 125,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Marca de la Asesina",img:"https://opgg-static.akamaized.net/images/lol/passive/Akali_P.png?image=q_auto,w_48&v=1591083841",info:"Infligir daño a un campeón con tus hechizos crea un círculo de energía a su alrededor. Salir de dicho círculo hará que el siguiente ataque básico de Akali esté potenciado con alcance y daño adicionales."},
+        {q:"Ráfaga de los cinco Filos",img:"https://opgg-static.akamaized.net/images/lol/spell/AkaliQ.png?image=q_auto,w_48&v=1591083841",info:"Akali arroja cinco kunai que ralentizan e infligen daño según su daño de ataque y su poder de habilidad adicionales."},
+        {w:"Manto Crepuscular",img:"https://opgg-static.akamaized.net/images/lol/spell/AkaliW.png?image=q_auto,w_48&v=1591083841",info:"Akali desata una cortina de humo y obtiene velocidad de movimiento por un momento. Al estar dentro del manto, Akali se vuelve invisible y no puede ser alcanzada por hechizos y ataques enemigos. Quedará revelada por un instante si ataca o usa habilidades."},
+        {e:"Maniobra de Shuriken",img:"https://opgg-static.akamaized.net/images/lol/spell/AkaliE.png?image=q_auto,w_48&v=1591083841",info:"Akali realiza una voltereta hacia atrás y arroja un shuriken hacia adelante, lo que inflige daño físico. El primer enemigo o nube de humo impactados quedan marcados. Vuelve a lanzarlo para desplazarte hacia el objetivo marcado e infligir daño adicional."},
+        {r:"Ejecución Perfecta",img:"https://opgg-static.akamaized.net/images/lol/spell/AkaliR.png?image=q_auto,w_48&v=1591083841",info:"Akali salta hacia una dirección para infligir daño a los enemigos alcanzados. Relanzamiento: Akali se desplaza en una dirección y ejecuta a todos los enemigos alcanzados."}
+      ]
     },
     Alistar: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Alistar",
       key: "12",
       name: "Alistar",
-      title: "the Minotaur",
+      title: "El Minotauro",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Alistar.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
-      blurb:
-        "As the mightiest warrior to ever emerge from the Minotaur tribes of the Great Barrier, Alistar defended his tribe from Valoran's many dangers; that is, until the coming of the Noxian army. Alistar was lured from his village by the machinations of ...",
+      blurb:"Alistar, que desde siempre fue un gran guerrero con una temible reputación, busca venganza por la muerte de su clan a manos del imperio noxiano. Aunque haya sido esclavizado y forzado a tener una vida de gladiador, su voluntad inquebrantable fue lo que impidió que se convirtiera en una bestia completamente. Ahora, libre de las cadenas de sus anteriores amos, pelea en nombre de los desamparados y desprotegidos usando tanto su furia como sus cuernos, pezuñas y puños como armas.",
       info: {
         attack: 6,
         defense: 9,
         magic: 5,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Alistar.png",
@@ -186,48 +230,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Tank", "Support"],
+      tags: ["Tanque", "Soporte"],
       partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-02-21",
+      patch: "semana alfa 2",
+      graphic :{
+        damage:1,
+        toughness:3,
+        control:3,
+        mobility:1,
+        utility:2,
+      },
       stats: {
-        hp: 613.36,
+        hp: 600,
         hpperlevel: 106,
-        mp: 278.84,
-        mpperlevel: 38,
-        movespeed: 330,
-        armor: 24.38,
+        mp: 350,
+        mpperlevel:40 ,
+        armor: 44,
         armorperlevel: 3.5,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 8.675,
+        mrbase:32.1 ,
+        mrlevel : 1.25,
+        hpregen: 8.5,
         hpregenperlevel: 0.85,
         mpregen: 8.5,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 61.1116,
-        attackdamageperlevel: 3.62,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 2.125
-      }
+        mpregenperlevel:0.8,
+        attackdamage: 62,
+        attackdamageperlevel:3.75,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:2.125 ,
+        attackrange:125,
+        movespeed:330
+      },
+      skill:[
+        {pasive:"Rugido Triunfal",img:"https://opgg-static.akamaized.net/images/lol/passive/Alistar_E.png?image=q_auto,w_48&v=1591083841",info:"Alistar carga su rugido al aturdir o desplazar campeones enemigos, o cuando mueren enemigos cercanos. Al cargarse al máximo, se cura a sí mismo y a todos los campeones aliados cercanos."},
+        {q:"Pulverizar",img:"https://opgg-static.akamaized.net/images/lol/spell/Pulverize.png?image=q_auto,w_48&v=1591083841",info:"Alistar aplasta el suelo, lo que inflige daño a los enemigos cercanos y los lanza por el aire"},
+        {w:"Testarazo",img:"https://opgg-static.akamaized.net/images/lol/spell/Headbutt.png?image=q_auto,w_48&v=1591083841",info:"Alistar propina un cabezazo al objetivo, dañándolo y empujándolo hacia atrás."},
+        {e:"Pisotear",img:"https://opgg-static.akamaized.net/images/lol/spell/AlistarE.png?image=q_auto,w_48&v=1591083841",info:"Alistar atropella a las unidades enemigas cercanas. Ignora la colisión con unidades y obtiene acumulaciones si daña a un campeón enemigo. Cuando tenga el máx. de acumulaciones, el siguiente ataque básico de Alistar contra un campeón enemigo infligirá daño mágico adicional y lo aturdirá"},
+        {r:"Voluntad Inquebrantable",img:"https://opgg-static.akamaized.net/images/lol/spell/FerociousHowl.png?image=q_auto,w_48&v=1591083841",info:"Alistar desata un rugido salvaje, lo que elimina todos los efectos de control de masas en él y reduce el daño físico y mágico que recibe mientras dura el efecto."}
+      ]
     },
     Amumu: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Amumu",
       key: "32",
       name: "Amumu",
-      title: "the Sad Mummy",
+      title: "La Momia Triste",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Amumu.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
       blurb:
-        "''Solitude can be lonelier than death.''<br><br>A lonely and melancholy soul from ancient Shurima, Amumu roams the world in search of a friend. Cursed by an ancient spell, he is doomed to remain alone forever, as his touch is death and his affection ...",
+        "''La soledad puede ser más solitaria que la muerte''<br><br>Cuenta la leyenda que Amumu es un alma solitaria y melancólica de la antigua Shurima que vaga por el mundo en busca de un amigo. Una antigua maldición lo condenó a permanecer solo por toda la eternidad. Sus caricias son la muerte, su afecto es la ruina. Quienes afirman haberlo visto lo describen como un cadáver viviente de corta estatura envuelto en vendajes. Amumu ha sido la inspiración de mitos, canciones y folclore que se han contado una y otra vez a lo largo de generaciones, tanto que es imposible separar la verdad de la ficción.",
       info: {
         attack: 2,
         defense: 6,
         magic: 8,
-        difficulty: 3
+        difficulty:1
       },
       image: {
         full: "Amumu.png",
@@ -238,48 +297,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Tank", "Mage"],
+      tags: ["Tanque", "Mago"],
       partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-06-26",
+      patch: "V.26.06.2009",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:3,
+        mobility:1,
+        utility:1,
+      },
       stats: {
-        hp: 613.12,
-        hpperlevel: 84,
-        mp: 287.2,
-        mpperlevel: 40,
-        movespeed: 335,
-        armor: 23.544,
-        armorperlevel: 3.8,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 8.875,
-        hpregenperlevel: 0.85,
-        mpregen: 7.38,
-        mpregenperlevel: 0.525,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 53.384,
-        attackdamageperlevel: 3.8,
-        attackspeedoffset: -0.02,
-        attackspeedperlevel: 2.18
-      }
+        hp:613.12,
+        hpperlevel:84,
+        mp:287.2,
+        mpperlevel:40,
+        armor:33,
+        armorperlevel:3.8,
+        mrbase:32.1,
+        mrlevel :1.25,
+        hpregen:9,
+        hpregenperlevel:0.85,
+        mpregen:7.382,
+        mpregenperlevel:0.525,
+        attackdamage:53.38,
+        attackdamageperlevel:3.8,
+        attackspeedoffset: 0.736,
+        attackspeedperlevel:2.18,
+        attackrange:125,
+        movespeed:335
+      },
+      skill:[
+        {pasive:"Toque Maldito",img:"https://opgg-static.akamaized.net/images/lol/passive/Amumu_Passive.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos de Amumu infligen Maldición a sus enemigos, lo que hace que reciban daño verdadero adicional con el daño mágico que reciban."},
+        {q:"Lanzamiento de Vendas",img:"https://opgg-static.akamaized.net/images/lol/spell/BandageToss.png?image=q_auto,w_48&v=1591083841",info:"Amumu lanza una venda adhesiva a un objetivo que lo aturde y lo desplaza hacia él"},
+        {w:"Desesperanza",img:"https://opgg-static.akamaized.net/images/lol/spell/AuraofDespair.png?image=q_auto,w_48&v=1591083841",info:"Abrumados por la angustia, los enemigos cercanos pierden parte de su vida máxima por seg y sus Maldiciones se reinician."},
+        {e:"Berrinche",img:"https://opgg-static.akamaized.net/images/lol/spell/Tantrum.png?image=q_auto,w_48&v=1591083841",info:"Reduce de forma permanente el daño físico que recibe Amumu. Además, le permite desatar su furia para infligir daño a los enemigos cercanos. Los ataques que alcancen a Amumu reducen el enfriamiento de Berrinche por 0.5 seg."},
+        {r:"Maldición de la Momia Triste",img:"https://opgg-static.akamaized.net/images/lol/spell/CurseoftheSadMummy.png?image=q_auto,w_48&v=1591083841",info:"Amumu envuelve en vendas a las unidades enemigas cercanas, lo que les aplica Maldición, les inflige daño, y hace que no puedan atacar ni moverse."}
+      ]
     },
     Anivia: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Anivia",
       key: "34",
       name: "Anivia",
-      title: "the Cryophoenix",
+      title: "La Criofénix",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Anivia.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg",
       blurb:
-        "Anivia is a being of the coldest winter, a mystical embodiment of ice magic, and an ancient protector of the Freljord. She commands all the power and fury of the land itself, calling the snow and bitter wind to defend her home from those who would ...",
+        "Anivia es un espíritu benevolente alado que soporta interminables ciclos de vida, muerte y resurrección para proteger Fréljord. Nació de la unión del hielo cruel y del viento penetrante, por lo que es una semidiosa que utiliza esos poderes elementales para frustrar a quien se atreva a perturbar su tierra natal. Anivia guía y protege a las tribus del norte hostil, quienes la veneran como símbolo de esperanza y como presagio de un gran cambio. Pelea con cada fibra de su ser sabiendo que su recuerdo perdurará a través de su sacrificio y que renacerá en un nuevo mañana.",
       info: {
         attack: 1,
         defense: 4,
         magic: 10,
-        difficulty: 10
+        difficulty: 3
       },
       image: {
         full: "Anivia.png",
@@ -290,48 +364,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage", "Support"],
+      tags: ["Mago", "Soporte"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-07-10",
+      patch: "V.10.07.2009",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:3,
+        mobility:1,
+        utility:2,
+      },
       stats: {
-        hp: 467.6,
-        hpperlevel: 70,
-        mp: 396.04,
-        mpperlevel: 50,
-        movespeed: 325,
-        armor: 21.22,
-        armorperlevel: 4,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 600,
-        hpregen: 5.57,
-        hpregenperlevel: 0.55,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 51.376,
-        attackdamageperlevel: 3.2,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 1.68
-      }
+        hp:480,
+        hpperlevel:82,
+        mp:495,
+        mpperlevel:25,
+        armor:21.22,
+        armorperlevel:4,
+        mrbase:30,
+        mrlevel :0.5,
+        hpregen:5.5,
+        hpregenperlevel:0.55,
+        mpregen:8,
+        mpregenperlevel:0.8,
+        attackdamage:51.376,
+        attackdamageperlevel:3.2,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:1.68,
+        attackrange:600,
+        movespeed:325
+      },
+      skill:[
+        {pasive:"Renacimiento",img:"https://opgg-static.akamaized.net/images/lol/passive/Anivia_P.png?image=q_auto,w_48&v=1591083841",info:"Al recibir daño letal, Anivia se convertirá en un huevo y renacerá con vida completa."},
+        {q:"Destello Helado",img:"https://opgg-static.akamaized.net/images/lol/spell/FlashFrost.png?image=q_auto,w_48&v=1591083841",info:"Anivia junta sus alas e invoca una esfera de hielo que vuela hacia sus oponentes. Esta congela e inflige daño a cualquiera que esté en su camino. Cuando la esfera estalla, inflige daño moderado dentro de un radio específico y aturde a cualquiera que esté dentro del área."},
+        {w:"Cristalizar",img:"https://opgg-static.akamaized.net/images/lol/spell/Crystallize.png?image=q_auto,w_48&v=1591083841",info:"Anivia condensa la humedad en el aire y la convierte en un muro infranqueable de hielo que bloquea todo movimiento. El muro tiene una corta duración antes de derretirse."},
+        {e:"Quemadura Gélida",img:"https://opgg-static.akamaized.net/images/lol/spell/Frostbite.png?image=q_auto,w_48&v=1591083841",info:"Con un aleteo de sus alas, Anivia lanza una ráfaga de viento congelado a su enemigo que le inflige una pequeña cantidad de daño. Si el objetivo quedó aturdido por Destello Helado recientemente o si recibió daño por una Tormenta Glacial completamente formada, recibirá el doble de daño."},
+        {r:"Tormenta Glacial",img:"https://opgg-static.akamaized.net/images/lol/spell/GlacialStorm.png?image=q_auto,w_48&v=1591083841",info:"Anivia invoca una lluvia torrencial de hielo y granizo para dañar a sus enemigos y ralentizar su avance."}
+      ]
     },
     Annie: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Annie",
       key: "1",
       name: "Annie",
-      title: "the Dark Child",
+      title: "La Hija De La Oscuridad",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Annie.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
       blurb:
-        "There have always been those within Noxus who did not agree with the evils perpetrated by the Noxian High Command. The High Command had just put down a coup attempt from the self-proclaimed Crown Prince Raschallion, and a crackdown on any form of ...",
+        "Annie es una peligrosa, talentosa y encantadora niña maga que posee un inmenso poder piroquinético. Incluso bajo las sombras de las montañas al norte de Noxus, es una maga excepcional. Su afinidad innata con el fuego se manifestó pronto en su vida a través de explosiones emocionales impredecibles, aunque con el tiempo aprendió a controlar esos ''trucos''. Uno de sus favoritos es invocar a Tibbers, su amado osito de peluche, como una feroz bestia de fuego. Perdida en la perpetua inocencia de la niñez, Annie vaga por los bosques oscuros siempre en busca de alguien con quien jugar.",
       info: {
         attack: 2,
         defense: 3,
         magic: 10,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Annie.png",
@@ -342,48 +431,130 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage"],
+      tags: ["Mago"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-02-21",
+      patch: "semana alfa 2",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:3,
+        mobility:1,
+        utility:2,
+      },
       stats: {
-        hp: 511.68,
-        hpperlevel: 76,
-        mp: 334,
-        mpperlevel: 50,
-        movespeed: 335,
-        armor: 19.22,
-        armorperlevel: 4,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 575,
-        hpregen: 5.42,
-        hpregenperlevel: 0.55,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 50.41,
-        attackdamageperlevel: 2.625,
-        attackspeedoffset: 0.08,
-        attackspeedperlevel: 1.36
-      }
+        hp:524,
+        hpperlevel:88,
+        mp:418,
+        mpperlevel:25,
+        armor:19.22,
+        armorperlevel:4,
+        mrbase:30,
+        mrlevel:0.5,
+        hpregen:5.5,
+        hpregenperlevel:0.55,
+        mpregen:8,
+        mpregenperlevel:0.8,
+        attackdamage:50.41,
+        attackdamageperlevel:2.625,
+        attackspeedoffset:0.579,
+        attackspeedperlevel:1.36,
+        attackrange:625,
+        movespeed:335
+      },
+      skill:[
+        {pasive:"Piromanía",img:"https://opgg-static.akamaized.net/images/lol/passive/Annie_Passive.png?image=q_auto,w_48&v=1591083841",info:"Luego de lanzar 4 hechizos, el próximo hechizo ofensivo de Annie aturdirá al objetivo."},
+        {q:"Desintegrar",img:"https://opgg-static.akamaized.net/images/lol/spell/AnnieQ.png?image=q_auto,w_48&v=1591083841",info:"Annie lanza una bola de fuego imbuida de Maná, infligiendo daño y recuperando el costo de Maná si destruye el objetivo."},
+        {w:"Incinerar",img:"https://opgg-static.akamaized.net/images/lol/spell/AnnieW.png?image=q_auto,w_48&v=1591083841",info:"Annie lanza un abrasador cono de fuego, dañando a todos los enemigos de la zona."},
+        {e:"Escudo Fundido",img:"https://opgg-static.akamaized.net/images/lol/spell/AnnieE.png?image=q_auto,w_48&v=1591083841",info:"Le otorga a Annie un porcentaje aumentado de reducción de daño, un aumento de velocidad de movimiento y daña a los enemigos que la atacan con ataques básicos."},
+        {r:"Invocar Tibbers",r2:"Controlar Tibbers",img:"https://opgg-static.akamaized.net/images/lol/spell/AnnieR.png?image=q_auto,w_48&v=1591083841",info:"Annie da vida a su oso Tibbers, que daña a todas las unidades de la zona. Tibbers puede atacar y quemar a los enemigos adyacentes."}
+      ]
+    },
+    Aphelios: {
+      version: "V10.14",
+      id: "Aphelios",
+      key: "523",
+      name: "Aphelios",
+      title: "El Arma De Los Adeptos",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Aphelios.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg",
+      blurb:
+        "Aphelios emerge de la sombra de la luz de la luna con sus armas listas y mata a los enemigos de su fe en un silencio melancólico. Habla únicamente a través de la certeza de su puntería y del disparo de cada arma. Si bien su impulso proviene de un veneno que lo enmudece, es guiado por su hermana Alune. Desde un santuario lejano, le envía un arsenal de armas de piedra lunar a sus manos. Mientras la luna resplandezca en lo alto, Aphelios nunca estará solo.",
+      info: {
+        attack: 6,
+        defense: 2,
+        magic: 1,
+        difficulty: 3
+      },
+      image: {
+        full: "Aphelios.png",
+        sprite: "champion0.png",
+        group: "champion",
+        x: 288,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tirador"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2019-12-11",
+      patch: "V9.24",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:2,
+        mobility:1,
+        utility:1,
+      },
+      stats: {
+        hp:530,
+        hpperlevel:86,
+        mp:348,
+        mpperlevel:42,
+        armor:28,
+        armorperlevel:3,
+        mrbase:26,
+        mrlevel :0.5,
+        hpregen:3.25,
+        hpregenperlevel:0.55,
+        mpregen:6.5,
+        mpregenperlevel:0.4,
+        attackdamage:57,
+        attackdamageperlevel:2,
+        attackspeedoffset: 0.64,
+        attackspeedperlevel:2.1,
+        attackrange:550,
+        movespeed:325
+      },
+      skill:[
+        {pasive:"El Victimario y la Vidente",img:"https://opgg-static.akamaized.net/images/lol/passive/ApheliosP.png?image=q_auto,w_48&v=1591083841",info:"Aphelios usa 5 armas Lunari que fabricó su hermana, Alune. Puede usar dos a la vez: una principal y otra secundaria. Cada arma tiene un ataque básico único y una habilidad activa. Los ataques y las habilidades consumen munición. Aphelios descarta el arma cuando se agota la munición y Alune invoca la siguiente de las 5"},
+        {q:"Habilidades de Armas",img:"https://opgg-static.akamaized.net/images/lol/spell/ApheliosQ_ClientTooltipWrapper.png?image=q_auto,w_48&v=1591083841",info:"Aphelios tiene 5 habilidades activas diferentes, que dependen de su arma principal: Calibrum (Rifle): disparo de largo alcance que marca a su objetivo y permite un segundo ataque de gran alcance. Severum (Pistola Guadaña): te desplazas rápidamente y atacas a los enemigos cercanos con ambas armas. Gravitum (Cañón): inmovilizas a todos los enemigos que se encuentren ralentizados por esta arma. Infernum (Lanzallamas): atacas en forma de cono y disparas con tu arma secundaria. Crescendum (Chakram): despliegas una torreta que dispara con el arma secundaria de Aphelios."},
+        {w:"Cambio de Arma",img:"https://opgg-static.akamaized.net/images/lol/spell/ApheliosW.png?image=q_auto,w_48&v=1591083841",info:"Aphelios cambia su arma principal con su arma secundaria, con lo que reemplaza su ataque básico y su habilidad activa"},
+        {e:"Sistema de Armas en Serie",img:"https://opgg-static.akamaized.net/images/lol/spell/ApheliosE_ClientTooltipWrapper.png?image=q_auto,w_48&v=1591083841",info:"Aphelios no tiene una tercera habilidad. Este espacio muestra el siguiente arma que obtendrá de Alune. Al principio, el orden de las armas es fijo, pero puede cambiar en el curso de la partida. Cuando un arma se queda sin munición, se va al último lugar."},
+        {r:"Vigilia de Luz Lunar",img:"https://opgg-static.akamaized.net/images/lol/spell/ApheliosR.png?image=q_auto,w_48&v=1591083841",info:"Lanza una onda de luz lunar concentrada que explota al impacto contra campeones enemigos. Aplica el efecto único del arma principal de Aphelios."}
+      ]
     },
     Ashe: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Ashe",
       key: "22",
       name: "Ashe",
-      title: "the Frost Archer",
+      title: "la Arquera de Hielo",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Ashe.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
       blurb:
-        "With each arrow she fires from her ancient ice-enchanted bow, Ashe proves she is a master archer. She chooses each target carefully, waits for the right moment, and then strikes with power and precision. It is with this same vision and focus that she ...",
+        "Como Hija del Hielo y madre de guerra de la tribu Avarosa, Ashe comanda la más grande horda en el norte. Estoica, inteligente e idealista, pero incómoda con su rol de líder, ella aprovecha las magias ancestrales de su linaje para portar un arco de Hielo Puro. Apoyada por la creencia de su gente que ella es el héroe mitológico reencarnado de Avarosa, Ashe espera unificar el Fréljord una vez más al retomar sus tierras antiguas y tribales.",
       info: {
         attack: 7,
         defense: 3,
         magic: 2,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Ashe.png",
@@ -394,48 +565,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Marksman", "Support"],
+      tags: ["Tirador", "Soporte"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-02-21",
+      patch: "semana alfa 2",
+      graphic :{
+        damage:2,
+        toughness:0,
+        control:3,
+        mobility:0,
+        utility:2,
+      },
       stats: {
-        hp: 527.72,
-        hpperlevel: 79,
-        mp: 280,
-        mpperlevel: 32,
-        movespeed: 325,
-        armor: 21.212,
-        armorperlevel: 3.4,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 600,
-        hpregen: 5.42,
-        hpregenperlevel: 0.55,
-        mpregen: 6.97,
-        mpregenperlevel: 0.4,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 56.508,
-        attackdamageperlevel: 2.26,
-        attackspeedoffset: -0.05,
-        attackspeedperlevel: 3.33
-      }
+        hp:570,
+        hpperlevel:87,
+        mp:280,
+        mpperlevel:32,
+        armor:26,
+        armorperlevel:3.4,
+        mrbase:30,
+        mrlevel :0.5,
+        hpregen:3.5,
+        hpregenperlevel:0.55,
+        mpregen:6.972,
+        mpregenperlevel:0.4,
+        attackdamage:61,
+        attackdamageperlevel:2.96,
+        attackspeedoffset: 0.658,
+        attackspeedperlevel:3.33,
+        attackrange:600,
+        movespeed:325
+      },
+      skill:[
+        {pasive:"Tiro Escarchado",img:"https://opgg-static.akamaized.net/images/lol/passive/Ashe_P.png?image=q_auto,w_48&v=1591083841",info:"Los ataques de Ashe ralentizan a su objetivo, lo que ocasiona que inflija daño aumentado a dichos objetivos. Los golpes críticos de Ashe no infligen daño adicional, pero aplican una ralentización potenciada a sus objetivos."},
+        {q:"Concentración de la Guardabosques",img:"https://opgg-static.akamaized.net/images/lol/spell/AsheQ.png?image=q_auto,w_48&v=1591083841",info:"Ashe acumula Concentración al atacar. Cuando tiene Concentración máxima, Ashe puede activar Concentración de la Guardabosques, que consume todas las acumulaciones de Concentración y aumenta su velocidad de ataque, lo que transforma su ataque básico en un poderoso torbellino de golpes durante ese tiempo."},
+        {w:"Descarga",img:"https://opgg-static.akamaized.net/images/lol/spell/Volley.png?image=q_auto,w_48&v=1591083841",info:"Ashe dispara 9 flechas en un arco para causar más daño. Además, aplica Tiro Escarchado."},
+        {e:"Tiro de Halcón",img:"https://opgg-static.akamaized.net/images/lol/spell/AsheSpiritOfTheHawk.png?image=q_auto,w_48&v=1591083841",info:"Ashe puede enviar su Espíritu Halcón a cualquier parte del mapa en misión de exploración."},
+        {r:"Flecha de Cristal Encancatada",img:"https://opgg-static.akamaized.net/images/lol/spell/EnchantedCrystalArrow.png?image=q_auto,w_48&v=1591083841",info:"Ashe dispara un proyectil de hielo en línea recta. Si la flecha impacta contra un campeón enemigo, inflige daño y lo aturde. El aturdimiento será mayor cuanto más larga sea la distancia que recorra la flecha. Además, las unidades enemigas circundantes reciben daño y se ralentizan."}
+      ]
     },
     AurelionSol: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "AurelionSol",
       key: "136",
       name: "Aurelion Sol",
-      title: "The Star Forger",
+      title: "El Forjador de Estrellas",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/AurelionSol.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
       blurb:
-        "Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his ...",
+        "Aurelion Sol alguna vez adornó el gran vacío del cosmos con maravillas celestiales de su propia creación. Ahora, se ve obligado a usar su increíble poder para el beneficio de un imperio espacial que, tras engañarlo, lo mantiene bajo su servicio. Deseoso de volver a sus días de gloria, Aurelion Sol bajaría cada estrella del cielo, si tuviera que hacerlo, con tal de recuperar su libertad.",
       info: {
         attack: 2,
         defense: 3,
         magic: 8,
-        difficulty: 7
+        difficulty: 3
       },
       image: {
         full: "AurelionSol.png",
@@ -446,48 +632,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage", "Fighter"],
+      tags: ["Mago", "Luchador"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2016-03-24",
+      patch: "V6.6",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:2,
+        utility:0,
+      },
       stats: {
-        hp: 550,
-        hpperlevel: 80,
-        mp: 350,
-        mpperlevel: 50,
-        movespeed: 325,
-        armor: 19,
-        armorperlevel: 3.6,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 550,
-        hpregen: 6.5,
-        hpregenperlevel: 0.6,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 57,
-        attackdamageperlevel: 3.2,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 1.36
-      }
+        hp: 575,
+        hpperlevel:92,
+        mp:350,
+        mpperlevel:50,
+        armor:19,
+        armorperlevel:3.6,
+        mrbase:30,
+        mrlevel :0.5,
+        hpregen:7,
+        hpregenperlevel:0.6,
+        mpregen:6,
+        mpregenperlevel:0.8,
+        attackdamage:57,
+        attackdamageperlevel:3.2,
+        attackspeedoffset:0.625,
+        attackspeedperlevel:1.36,
+        attackrange:550,
+        movespeed:325
+      },
+      skill:[
+        {pasive:"Centro del Universo",img:"https://opgg-static.akamaized.net/images/lol/passive/AurelionSol_Passive.png?image=q_auto,w_48&v=1591083841",info:"Las estrellas orbitan alrededor de Aurelion Sol e infligen daño mágico al alcanzar a un enemigo."},
+        {q:"Explosión Astral",img:"https://opgg-static.akamaized.net/images/lol/spell/AurelionSolQ.png?image=q_auto,w_48&v=1591083841",info:"Aurelion Sol crea un disco expansivo que explota para aturdir e infligir daño a los enemigos que se alejan demasiado de él."},
+        {w:"Expansión Celestial",img:"https://opgg-static.akamaized.net/images/lol/spell/AurelionSolW.png?image=q_auto,w_48&v=1591083841",info:"Aurelion Sol desplaza sus estrellas aún más lejos y aumenta su daño y velocidad."},
+        {e:"Cometa Legendario",img:"https://opgg-static.akamaized.net/images/lol/spell/AurelionSolE.png?image=q_auto,w_48&v=1591083841",info:"Aurelion Sol despega y vuela una larga distancia."},
+        {r:"Voz de Luz",img:"https://opgg-static.akamaized.net/images/lol/spell/AurelionSolR.png?image=q_auto,w_48&v=1591083841",info:"Aurelion Sol proyecta una explosión de fuego estelar puro que inflige daño y ralentiza a todos los enemigos atrapados en ella y derriba a los enemigos cercanos, empujándolos a una distancia segura."}
+      ]
     },
     Azir: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Azir",
       key: "268",
       name: "Azir",
-      title: "the Emperor of the Sands",
+      title: "El Emperador de las Arenas",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Azir.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg",
       blurb:
-        "''Shurima was once the glory of Runeterra. I will make it so again.''<br><br>Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his ...",
+        "''Shurima fue una vez la gloria de Runeterra. Lo haré de nuevo.''<br><br>Azir, emperador de Shurima en un pasado remoto, fue un hombre orgulloso que estuvo a punto de alcanzar la inmortalidad. Dominado por la arrogancia, fue traicionado y asesinado en la hora de su mayor triunfo. Pero ahora, milenios después, renació como un ser Ascendido de inmenso poder. Su enterrada ciudad resurgió de las arenas y Azir está decidido a restaurar la antigua gloria de Shurima.",
       info: {
         attack: 6,
         defense: 3,
         magic: 8,
-        difficulty: 9
+        difficulty: 3
       },
       image: {
         full: "Azir.png",
@@ -498,48 +699,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage", "Marksman"],
+      tags: ["Mago", "Tirador"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2014-09-16",
+      patch: "V4.16",
+      graphic :{
+    	damage:3,
+	    toughness:1,
+	    control:2,
+    	mobility:2,
+	    utility:1,
+      },
       stats: {
-        hp: 524.4,
-        hpperlevel: 80,
-        mp: 350.56,
-        mpperlevel: 42,
-        movespeed: 325,
-        armor: 19.04,
-        armorperlevel: 3,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 525,
-        hpregen: 6.92,
-        hpregenperlevel: 0.55,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 52,
-        attackdamageperlevel: 2.8,
-        attackspeedoffset: -0.02,
-        attackspeedperlevel: 1.5
-      }
+        hp:552,
+        hpperlevel:92,
+        mp:438,
+        mpperlevel:21,
+        armor:19.04,
+        armorperlevel:3,
+        mrbase:30,
+        mrlevel :0.5,
+        hpregen:7,
+        hpregenperlevel:0.75,
+        mpregen:8,
+        mpregenperlevel:0.8,
+        attackdamage:52,
+        attackdamageperlevel:2.8,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:3,
+        attackrange:525,
+        movespeed:335
+      },
+      skill:[
+        {pasive:"Legado de Shurima"},
+        {q:"Conquistador de las Arenas"},
+        {w:"¡Levántense!"},
+        {e:"Arenas Movedizas"},
+        {r:"División Imperial"}
+      ]
     },
     Bard: {
-      version: "6.24.1",
-      id: "Bard",
+      version: "V10.14",
+      id: "Bardo",
       key: "432",
-      name: "Bard",
-      title: "the Wandering Caretaker",
+      name: "Bardo",
+      title: "El Guardián Trotamundos",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Bard.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
       blurb:
-        "Bard travels through realms beyond the imagination of mortal beings. Some of Valoran's greatest scholars have spent their lives trying to understand the mysteries he embodies. This enigmatic spirit has been given many names throughout the history of ...",
+        "El Bardo es un viajero de un reino más allá de las estrellas y un agente de la serendipia quien lucha por conservar el balance donde sea que la vida resista la indiferencia del caos. Muchas canciones de Runaterra hablan sobre su extraordinaria naturaleza y todas ellas dicen que los artefactos de un inmenso poder mágico atraen al vagabundo cósmico. Rodeado por un alegre coro de espíritus de meeps, es imposible pensar que sus acciones son malévolas, ya que el Bardo siempre busca servir al bien de todos... a su extraña manera.",
       info: {
         attack: 4,
         defense: 4,
         magic: 5,
-        difficulty: 9
+        difficulty: 3
       },
       image: {
         full: "Bard.png",
@@ -550,48 +766,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Support", "Mage"],
+      tags: ["Soporte", "Mago"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2015-03-12",
+      patch: "V5.5",
+      graphic :{
+	    damage:1,
+	    toughness:1,
+	    control:3,
+	    mobility:2,
+	    utility:3,
+      },
       stats: {
-        hp: 535,
-        hpperlevel: 89,
-        mp: 350,
-        mpperlevel: 50,
-        movespeed: 330,
-        armor: 25,
-        armorperlevel: 4,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 500,
-        hpregen: 5.4,
-        hpregenperlevel: 0.55,
-        mpregen: 6,
-        mpregenperlevel: 0.45,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 52,
-        attackdamageperlevel: 3,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 2
-      }
+        hp:575,
+        hpperlevel:89,
+        mp:350,
+        mpperlevel:50,
+        armor:34,
+        armorperlevel:4,
+        mrbase:30,
+        mrlevel :0.5,
+        hpregen:5.5,
+        hpregenperlevel:0.55,
+        mpregen:6,
+        mpregenperlevel:0.45,
+        attackdamage:52,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:2,
+        attackrange:500,
+        movespeed:330
+      },
+      skill:[
+        {pasive:"Llamado del Viajero","Llamado del Viajero 2"},
+        {q:"Amarre Cósmico"},
+        {w:"Altar del Guardián"},
+        {e:"Viaje Místico"},
+        {r:"Destino Apacible"}
+      ]
     },
     Blitzcrank: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Blitzcrank",
       key: "53",
       name: "Blitzcrank",
-      title: "the Great Steam Golem",
+      title: "El Gran Gólem de Vapor",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Blitzcrank.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
       blurb:
-        "Zaun is a place where both magic and science have gone awry, and the unchecked nature of experimentation has taken its toll. However, Zaun's lenient restrictions allow their researchers and inventors the leeway to push the bounds of science at an ...",
+        "Blitzcrank es un autómata gigantesco y casi indestructible de Zaun, que originalmente fue creado para deshacerse de los desechos tóxicos. Sin embargo, él cree que su propósito principal era demasiado limitado, así que modificó su propia forma para poder servir mejor a la frágil gente del Sumidero. Blitzcrank utiliza su fuerza y durabilidad desinteresadamente para proteger a los demás, extendiendo su puño de metal o lanzando una ráfaga de energía para someter a quienes busquen causar problemas.",
       info: {
         attack: 4,
         defense: 8,
         magic: 5,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Blitzcrank.png",
@@ -602,48 +833,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Tank", "Fighter"],
+      tags: ["Tanque", "Luchador"],
       partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-09-02",
+      patch: "V0.9.22.16",
+      graphic :{
+        damage:1,
+        toughness:2,
+        control:3,
+        mobility:1,
+        utility:0,
+      },
       stats: {
         hp: 582.6,
-        hpperlevel: 95,
+        hpperlevel:95 ,
         mp: 267.2,
         mpperlevel: 40,
-        movespeed: 325,
-        armor: 24.38,
-        armorperlevel: 4,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 8.51,
+        armor: 37,
+        armorperlevel:3.5 ,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 8.5,
         hpregenperlevel: 0.75,
         mpregen: 8.5,
         mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
         attackdamage: 61.54,
-        attackdamageperlevel: 3.5,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 1.13
-      }
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:1.13 ,
+        attackrange:125 ,
+        movespeed: 325
+      },
+      skill:[
+        {pasive:"Barrera de Maná"},
+        {q:"Agarre Cohete"},
+        {w:"Sobremarcha"},
+        {e:"Puño de Poder"},
+        {r:"Campo Estático"}
+      ]
     },
     Brand: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Brand",
       key: "63",
       name: "Brand",
-      title: "the Burning Vengeance",
+      title: "La Venganza Ardiente",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Brand.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
       blurb:
-        "In a faraway place known as Lokfar there was a seafaring marauder called Kegan Rodhe. As was his people's way, Kegan sailed far and wide with his fellows, stealing treasures from those unlucky enough to catch their attention. To some, he was a ...",
+        "La criatura conocida como Brand es una lección de la tentación del poder. Alguna vez fue un simple hombre de la tribu de Fréljord y su nombre era Kegan Rodhe, pero al estar buscando una de las Runas del Mundo, Kegan traicionó a sus compañeros y se la quedó para él mismo. Y en un instante, el hombre se había esfumado. Su alma se quemó y se desvaneció, y su cuerpo ahora es el recipiente de una flama viva. Brand ahora vaga en Valoran en busca de otras Runas, jurando venganza por los males que no pudo haber sufrido ni en una docena de vidas mortales.",
       info: {
         attack: 2,
         defense: 2,
         magic: 9,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Brand.png",
@@ -654,48 +900,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage"],
+      tags: ["Mago"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2011-04-12",
+      patch: "V1.0.0.115",
+      graphic :{
+	    damage:3,
+	    toughness:0,
+	    control:2,
+	    mobility:0,
+	    utility:0,
+      },
       stats: {
-        hp: 507.68,
-        hpperlevel: 76,
-        mp: 375.6,
-        mpperlevel: 42,
-        movespeed: 340,
+        hp:519.68 ,
+        hpperlevel:88,
+        mp: 469,
+        mpperlevel:21,
         armor: 21.88,
-        armorperlevel: 3.5,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 550,
-        hpregen: 5.42,
-        hpregenperlevel: 0.55,
-        mpregen: 8.005,
-        mpregenperlevel: 0.6,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 57.04,
-        attackdamageperlevel: 3,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 1.36
-      }
+        armorperlevel:3.5,
+        mrbase: 30,
+        mrlevel :0.5,
+        hpregen:5.5,
+        hpregenperlevel:0.55,
+        mpregen:10.665,
+        mpregenperlevel:0.6,
+        attackdamage:57.04,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:1.36,
+        attackrange:550,
+        movespeed:340
+      },
+      skill:[
+        {pasive:"Llamarada"},
+        {q:"Abrasar"},
+        {w:"Columna de Fuego"},
+        {e:"Conflagración"},
+        {r:"Piroclasma"}
+      ]
     },
     Braum: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Braum",
       key: "201",
       name: "Braum",
-      title: "the Heart of the Freljord",
+      title: "El Corazón Del Fréljord",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Braum.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
       blurb:
-        "''Would you like a bedtime story?''<br><br>''Grandma, I'm too old for that.''<br><br>''You're never too old to be told a story.''<br><br>The girl reluctantly crawls into bed and waits, knowing she won't win this battle. A bitter wind howls outside, ...",
+        "Dotado de bíceps masivos y un corazón aún más grande, Braum es un querido héroe de Fréljord. Todas las tabernas al norte de Frostheld brindan por su fuerza legendaria; se dice que taló un bosque de robles en una sola noche y que hizo añicos una montaña entera con un solo golpe. Con una puerta de bóveda encantada como escudo, Braum vaga el norte congelado portando una sonrisa bigotona tan grande como sus músculos: un verdadero amigo para aquellos que lo necesitan.",
       info: {
         attack: 3,
         defense: 9,
         magic: 4,
-        difficulty: 3
+        difficulty: 1
       },
       image: {
         full: "Braum.png",
@@ -706,48 +967,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Support", "Tank"],
+      tags: ["Soporte", "Tanque"],
       partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2014-05-12",
+      patch: "V4.7",
+      graphic :{
+	    damage:1,
+	    toughness:2,
+	    control:3,
+	    mobility:1,
+	    utility:2,
+      },
       stats: {
-        hp: 576.16,
-        hpperlevel: 87,
-        mp: 310.6,
-        mpperlevel: 45,
-        movespeed: 335,
-        armor: 26.72,
-        armorperlevel: 4.5,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 8.18,
-        hpregenperlevel: 1,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 55.376,
-        attackdamageperlevel: 3.2,
-        attackspeedoffset: -0.03,
-        attackspeedperlevel: 3.5
-      }
+        hp:540,
+        hpperlevel:87,
+        mp:310.6,
+        mpperlevel:45,
+        armor:47,
+        armorperlevel:4,
+        mrbase:32.1,
+        mrlevel :1.25,
+        hpregen:8,
+        hpregenperlevel:1,
+        mpregen:6,
+        mpregenperlevel:0.8,
+        attackdamage:55.376,
+        attackdamageperlevel:3.2,
+        attackspeedoffset: 0.644,
+        attackspeedperlevel:3.5,
+        attackrange:125,
+        movespeed:335
+      },
+      skill:[
+        {pasive:"Golpes Conmocionantes"},
+        {q:"Rigor del Invierno"},
+        {w:"Detrás de Mí"},
+        {e:"Inquebrantable"},
+        {r:"Fisura Glacial"}
+      ]
     },
     Caitlyn: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Caitlyn",
       key: "51",
       name: "Caitlyn",
-      title: "the Sheriff of Piltover",
+      title: "La Sheriff De Piltóver",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Caitlyn.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
       blurb:
-        "''Go ahead, run. I'll give you a five minute head start.''<br><br>One of the reasons Piltover is known as the City of Progress is because it has an extraordinarily low crime rate. This hasn't always been the case; brigands and thieves of all sorts ...",
+        "Reconocida como la mejor pacificadora, Caitlyn también es la mejor oportunidad de Piltóver para deshacerse de los elementos criminales elusivos de su ciudad. A veces hace equipo con Vi y es un buen contrapunto para la naturaleza más impulsiva de su compañera. Aunque carga un rifle hextech único, el arma más poderosa de Caitlyn es su intelecto superior, el cual le permite tender trampas elaboradas para malhechores que son suficientemente tontos para operar en la Ciudad del Progreso.",
       info: {
         attack: 8,
         defense: 2,
         magic: 2,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Caitlyn.png",
@@ -758,48 +1034,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Marksman"],
+      tags: ["Tirador"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2011-01-04",
+      patch: "V1.0.0.108",
+      graphic :{
+	    damage:3,
+	    toughness:0,
+	    control:2,
+	    mobility:2,
+	    utility:0,
+      },
       stats: {
-        hp: 524.4,
-        hpperlevel: 80,
-        mp: 313.7,
-        mpperlevel: 35,
-        movespeed: 325,
-        armor: 22.88,
+        hp: 510,
+        hpperlevel:93 ,
+        mp:313.7 ,
+        mpperlevel:35,
+        armor:28 ,
         armorperlevel: 3.5,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 650,
-        hpregen: 5.67,
-        hpregenperlevel: 0.55,
+        mrbase: 30,
+        mrlevel :0.5 ,
+        hpregen: 3.5,
+        hpregenperlevel:0.55 ,
         mpregen: 7.4,
         mpregenperlevel: 0.55,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 53.66,
-        attackdamageperlevel: 2.18,
-        attackspeedoffset: 0.1,
-        attackspeedperlevel: 4
-      }
+        attackdamage: 62,
+        attackdamageperlevel:2.88,
+        attackspeedoffset: 0.568,
+        attackspeedperlevel:4 ,
+        attackrange:650 ,
+        movespeed:325 
+      },
+      skill:[
+        {pasive:"Disparo a la Cabeza"},
+        {q:"Pacificadora de Piltóver"},
+        {w:"Trampa Para Yordles"},
+        {e:"Red Calibre 90"},
+        {r:"As Bajo la Mira"}
+      ]
     },
     Camille: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Camille",
       key: "164",
       name: "Camille",
-      title: "the Steel Shadow",
+      title: "La Sombra de Acero",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Camille.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
       blurb:
-        "Weaponized to execute outside the boundaries of the law, Camille Ferros is an elegant and elite operative who ensures the commerce of the Piltover machine with its Zaunite underbelly runs smoothly. Raised among manners and money, she is the Principal ...",
+        "Armada para operar fuera de los límites de la ley, Camille es la principal inteligencia del Clan Ferros: una elegante agente de élite que se asegura de que la máquina de Piltóver y el submundo zaunita funcione sin problemas. Al ser adaptable y precisa, ella ve las técnicas torpes como una vergüenza que necesita ponerse en línea. Con una mente tan brillante y afilada como las cuchillas que porta, la búsqueda de Camille por la superioridad a través de las mejoras de cuerpo de hextech, han hecho que la gente se pregunte si es más máquina que mujer.",
       info: {
         attack: 8,
         defense: 6,
         magic: 3,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Camille.png",
@@ -810,48 +1101,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Fighter", "Tank"],
+      tags: ["Luchador", "Tanque"],
       partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2016-12-07",
+      patch: "V6.24",
+      graphic :{
+        damage:3,
+        toughness:2,
+        control:2,
+        mobility:3,
+        utility:0,
+      },
       stats: {
         hp: 575.6,
-        hpperlevel: 95,
+        hpperlevel: 85,
         mp: 338.8,
         mpperlevel: 32,
-        movespeed: 340,
-        armor: 26,
-        armorperlevel: 3.8,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
+        armor: 35,
+        armorperlevel:3.8 ,
+        mrbase: 32.1,
+        mrlevel : 1.25,
         hpregen: 8.5,
         hpregenperlevel: 0.8,
         mpregen: 8.15,
         mpregenperlevel: 0.75,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 62,
-        attackdamageperlevel: 3.5,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 2.5
-      }
+        attackdamage: 68,
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.644,
+        attackspeedperlevel:2.5 ,
+        attackrange: 125,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Defensas Flexibles"},
+        {q: "Protocolo de Precisión","Protocolo de Precisión 2"},
+        {w: "Barrido Táctico"},
+        {e: "Gancho","salto de Muro"},
+        {r: "El Ultimátum Hextech"}
+     ]
     },
     Cassiopeia: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Cassiopeia",
       key: "69",
       name: "Cassiopeia",
-      title: "the Serpent's Embrace",
+      title: "El Abrazo de la Serpiente",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Cassiopeia.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_0.jpg",
       blurb:
-        "Cassiopeia is a terrifying creature - half woman, half snake - whose slightest glance brings death. The youngest daughter of one of Noxus' most influential families, she was once a beautiful and cunning temptress capable of manipulating the hardest ...",
+        "Cassiopeia es una criatura mortífera que disfruta manipular a otros para que hagan su voluntad siniestra. La más joven y más hermosa hija de la familia noble de Du Couteau de Noxus, se aventuró a las profundidades de la cripta debajo de Shurima en búsqueda de un poder antiguo. Ahí la mordió un espantoso guardián de la tumba y su veneno la transformó en un depredador similar a una víbora. Astuta y ágil, Cassiopeia ahora se desliza bajo el velo de la noche y petrifica a sus enemigos con su maléfica mirada.",
       info: {
         attack: 2,
         defense: 3,
         magic: 9,
-        difficulty: 10
+        difficulty: 3
       },
       image: {
         full: "Cassiopeia.png",
@@ -862,48 +1168,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage"],
+      tags: ["Mago"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2010-12-14",
+      patch: "V1.0.0.107",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:3,
+        mobility:1,
+        utility:0,
+      },
       stats: {
-        hp: 525,
-        hpperlevel: 75,
-        mp: 375,
-        mpperlevel: 60,
-        movespeed: 328,
-        armor: 25,
-        armorperlevel: 3.5,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 550,
+        hp: 560,
+        hpperlevel: 90,
+        mp: 350,
+        mpperlevel: 40,
+        armor: 18,
+        armorperlevel:3.5 ,
+        mrbase: 32,
+        mrlevel : 0.5,
         hpregen: 5.5,
         hpregenperlevel: 0.5,
-        mpregen: 6,
+        mpregen: 8,
         mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
         attackdamage: 53,
-        attackdamageperlevel: 3,
-        attackspeedoffset: -0.034,
-        attackspeedperlevel: 1.5
-      }
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.647,
+        attackspeedperlevel:1.5 ,
+        attackrange: 550,
+        movespeed: 328
+      },
+      skill:[
+        {pasive:"Gracia Serpentina"},
+        {q:"Explosion Nociva"},
+        {w:"Miasma"},
+        {e:"Colmillos Gemelos"},
+        {r:"Mirada Petrificante"}
+      ]
     },
     Chogath: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Chogath",
       key: "31",
       name: "Cho'Gath",
-      title: "the Terror of the Void",
+      title: "El Terror Del Vacío",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Chogath.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg",
       blurb:
-        "There is a place between dimensions, between worlds. To some it is known as the Outside, to others it is the Unknown. To those that truly know, however, it is called the Void. Despite its name, the Void is not an empty place, but rather the home of ...",
+        "Desde el momento que Cho'Gath emergió por primera vez a la fuerte luz del sol de Runaterra, la bestia se vio consumida por el hambre más pura e insaciable. Como una expresión perfecta del deseo del Vacío para consumir toda vida conocida, la biología compleja de Cho'Gath convierte rápidamente la materia en más crecimiento para su cuerpo, aumentando su masa y densidad muscular o endureciendo su caparazón como diamante orgánico. Cuando crecer más no cumple con las necesidades del engendro del Vacío, este vomita el material excedente en forma de espinas filosas como navajas, dejando a la presa como brocheta, lista para comerse más tarde.",
       info: {
         attack: 3,
         defense: 7,
         magic: 7,
-        difficulty: 5
+        difficulty: 2
       },
       image: {
         full: "Chogath.png",
@@ -914,48 +1235,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Tank", "Mage"],
+      tags: ["Tanque", "Mago"],
       partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-06-26",
+      patch: "V.26.07.2009",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:2,
+        mobility:0,
+        utility:1,
+      },
       stats: {
-        hp: 574.4,
-        hpperlevel: 80,
-        mp: 272.2,
-        mpperlevel: 40,
-        movespeed: 345,
-        armor: 28.88,
+        hp:574.4 ,
+        hpperlevel:80 ,
+        mp:272.2 ,
+        mpperlevel:40 ,
+        armor: 38,
         armorperlevel: 3.5,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 8.925,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 9,
         hpregenperlevel: 0.85,
-        mpregen: 7.205,
+        mpregen: 7.206,
         mpregenperlevel: 0.45,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 61.156,
-        attackdamageperlevel: 4.2,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 1.44
-      }
+        attackdamage:69 ,
+        attackdamageperlevel:4.2,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 1.44,
+        attackrange:125 ,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Carnívoro"},
+        {q:"Ruptura"},
+        {w:"Grito Salvaje"},
+        {e:"Clavos Vorpalinos"},
+        {r:"Festín"}
+      ]
     },
     Corki: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Corki",
       key: "42",
       name: "Corki",
-      title: "the Daring Bombardier",
+      title: "El Bombardero Osado",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Corki.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_0.jpg",
       blurb:
-        "When Heimerdinger and his yordle colleagues migrated to Piltover, they embraced science as a way of life, and they immediately made several groundbreaking contributions to the techmaturgical community. What yordles lack in stature, they make up for ...",
+        "Corki, el piloto yordle, adora dos cosas sobre todo lo demás: volar y su glamoroso bigote... aunque no siempre en ese orden. Luego de dejar la Ciudad de Bandle, se estableció en Piltóver y se enamoró de las máquinas maravillosas que encontró ahí. Se dedicó al desarrollo de artilugios voladores, liderando una fuerza de defensa área de veteranos que se conocen como Serpientes Aulladoras. Corki, quien mantiene la calma bajo fuego enemigo, patrulla los cielos alrededor de su hogar adoptivo y nunca ha encontrado un problema que unos cuantos misiles no puedan resolver.",
       info: {
         attack: 8,
         defense: 3,
         magic: 6,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Corki.png",
@@ -966,48 +1302,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Marksman"],
+      tags: ["Tirador"],
       partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-09-19",
+      patch: "V0.9.25.21",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:1,
+        mobility:2,
+        utility:0,
+      },
       stats: {
-        hp: 512.76,
-        hpperlevel: 82,
+        hp: 518,
+        hpperlevel: 87,
         mp: 350.16,
         mpperlevel: 34,
-        movespeed: 325,
-        armor: 23.38,
-        armorperlevel: 3.5,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 550,
-        hpregen: 5.42,
+        armor: 28,
+        armorperlevel:3.5 ,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen:5.5 ,
         hpregenperlevel: 0.55,
-        mpregen: 7.42,
+        mpregen: 7.424,
         mpregenperlevel: 0.55,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 56,
-        attackdamageperlevel: 3.5,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 2.3
-      }
+        attackdamage: 55,
+        attackdamageperlevel:2.5,
+        attackspeedoffset: 0.638,
+        attackspeedperlevel: 2.3,
+        attackrange:550 ,
+        movespeed:325
+      },
+      skill:[
+        {pasive:"Munición Hextech", "El Paquete"},
+        {q:"Bomba Fosfórica"},
+        {w:"Valquiria","Entrega Especial"},
+        {e:"Cañon de Repetición"},
+        {r:"Descarga de Misiles", "Misil Grande"}
+      ]
     },
     Darius: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Darius",
       key: "122",
       name: "Darius",
-      title: "the Hand of Noxus",
+      title: "La Mano De Noxus",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Darius.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
       blurb:
-        "There is no greater symbol of Noxian might than Darius, the nation's most feared and battle-hardened warrior. Orphaned at a young age, Darius had to fight to keep himself and his younger brother alive. By the time he joined the military, he had ...",
+        "No hay símbolo más grande del poder noxiano que Darius, el líder más temido y con más experiencia en la guerra. Desde sus orígenes humildes hasta convertirse en la Mano de Noxus, Darius acaba con los enemigos del imperio, de los cuales, muchos también son noxianos. Al saber que él nunca dudará si su causa es justa y que no titubeará una vez que levanta su hacha, quienes se enfrentan al comandante de la Legión Trifariana saben no les tendrá misericordia.",
       info: {
         attack: 9,
         defense: 5,
         magic: 1,
-        difficulty: 2
+        difficulty: 1
       },
       image: {
         full: "Darius.png",
@@ -1018,48 +1369,63 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Fighter", "Tank"],
+      tags: ["Luchador", "Tanque"],
       partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2012-05-23",
+      patch: "V1.0.0.140",
+      graphic :{
+        damage:3,
+        toughness:2,
+        control:2,
+        mobility:0,
+        utility:0,
+      },
       stats: {
         hp: 582.24,
-        hpperlevel: 100,
+        hpperlevel:100 ,
         mp: 263,
-        mpperlevel: 37.5,
-        movespeed: 340,
-        armor: 30,
-        armorperlevel: 4,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 175,
-        hpregen: 9.845,
+        mpperlevel:37.5 ,
+        armor:39 ,
+        armorperlevel:4 ,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 10,
         hpregenperlevel: 0.95,
-        mpregen: 6.585,
+        mpregen: 6.6,
         mpregenperlevel: 0.35,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 56,
-        attackdamageperlevel: 5,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 1
-      }
+        attackdamage: 64,
+        attackdamageperlevel:5,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 1,
+        attackrange: 175,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Hemorragia",img:"https://opgg-static.akamaized.net/images/lol/passive/Darius_Icon_Hemorrhage.png?image=q_auto,w_48&v=1591083841"},
+        {q:"Diezmar",img:"https://opgg-static.akamaized.net/images/lol/spell/DariusCleave.png?image=q_auto,w_48&v=1591083841"},
+        {w:"Golpe Incapacitante",img:"https://opgg-static.akamaized.net/images/lol/spell/DariusNoxianTacticsONH.png?image=q_auto,w_48&v=1591083841"},
+        {e:"Aprehender",img:"https://opgg-static.akamaized.net/images/lol/spell/DariusAxeGrabCone.png?image=q_auto,w_48&v=1591083841"},
+        {r:"Guillotina Noxiana",img:"https://opgg-static.akamaized.net/images/lol/spell/DariusExecute.png?image=q_auto,w_48&v=1591083841"}
+      ]
     },
     Diana: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Diana",
       key: "131",
       name: "Diana",
-      title: "Scorn of the Moon",
+      title: "El Desdén de la Luna",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Diana.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
       blurb:
-        "''I am the light coursing in the soul of the moon.''<br><br>Bearing her crescent moonblade, Diana fights as a warrior of the Lunari, a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, ...",
+        "Portando su hoja lunar creciente, Diana pelea como una guerrera de los Lunari, una poderosa fe que impera en las tierras alrededor del Monte Targón. Blindada con una armadura reluciente del color de la nieve de invierno durante la noche, ella es la encarnación viviente del poder de la luna de plata. Imbuida con la esencia de un Aspecto que viene de más allá de la cúspide de torres de Targón, Diana ya no es completamente humana, y le cuesta entender su poder y propósito en este mundo",
       info: {
         attack: 7,
         defense: 6,
         magic: 8,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Diana.png",
@@ -1070,33 +1436,48 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Fighter", "Mage"],
+      tags: ["Luchador", "Mago"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 589.2,
-        hpperlevel: 90,
-        mp: 297.2,
-        mpperlevel: 40,
-        movespeed: 345,
-        armor: 26.048,
-        armorperlevel: 3.6,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 150,
-        hpregen: 7.425,
-        hpregenperlevel: 0.85,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 53.04,
-        attackdamageperlevel: 3,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 2.25
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ],
     },
     Draven: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Draven",
       key: "119",
       name: "Draven",
@@ -1124,31 +1505,46 @@ export default {
       },
       tags: ["Marksman"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 557.76,
-        hpperlevel: 82,
-        mp: 360.56,
-        mpperlevel: 39,
-        movespeed: 330,
-        armor: 25.544,
-        armorperlevel: 3.3,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 550,
-        hpregen: 6.175,
-        hpregenperlevel: 0.7,
-        mpregen: 8.04,
-        mpregenperlevel: 0.65,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 55.8,
-        attackdamageperlevel: 2.91,
-        attackspeedoffset: -0.08,
-        attackspeedperlevel: 2.7
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ],
     },
     DrMundo: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "DrMundo",
       key: "36",
       name: "Dr. Mundo",
@@ -1176,31 +1572,46 @@ export default {
       },
       tags: ["Fighter", "Tank"],
       partype: "None",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 582.52,
-        hpperlevel: 89,
-        mp: 0,
-        mpperlevel: 0,
-        movespeed: 345,
-        armor: 26.88,
-        armorperlevel: 3.5,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 7.76,
-        hpregenperlevel: 0.75,
-        mpregen: 0,
-        mpregenperlevel: 0,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 61.27,
-        attackdamageperlevel: 3,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 2.8
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ],
     },
     Ekko: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Ekko",
       key: "245",
       name: "Ekko",
@@ -1228,31 +1639,46 @@ export default {
       },
       tags: ["Assassin", "Fighter"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 580,
-        hpperlevel: 80,
-        mp: 280,
-        mpperlevel: 50,
-        movespeed: 340,
-        armor: 27,
-        armorperlevel: 3,
-        spellblock: 32,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 9,
-        hpregenperlevel: 0.9,
-        mpregen: 7,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 55,
-        attackdamageperlevel: 3,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 3.3
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ],
     },
     Elise: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Elise",
       key: "60",
       name: "Elise",
@@ -1280,31 +1706,46 @@ export default {
       },
       tags: ["Mage", "Fighter"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 529.4,
-        hpperlevel: 80,
-        mp: 324,
-        mpperlevel: 50,
-        movespeed: 325,
-        armor: 22.128,
-        armorperlevel: 3.35,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 550,
-        hpregen: 5.705,
-        hpregenperlevel: 0.6,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 50.54,
-        attackdamageperlevel: 3,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 1.75
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ],
     },
     Evelynn: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Evelynn",
       key: "28",
       name: "Evelynn",
@@ -1330,31 +1771,46 @@ export default {
       },
       tags: ["Assassin", "Mage"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 531.2,
-        hpperlevel: 90,
-        mp: 315.6,
-        mpperlevel: 42,
-        movespeed: 340,
-        armor: 26.5,
-        armorperlevel: 3.8,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 9.82,
-        hpregenperlevel: 0.55,
-        mpregen: 8.105,
-        mpregenperlevel: 0.6,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 53.88,
-        attackdamageperlevel: 3.5,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 3.6
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ]
     },
     Ezreal: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Ezreal",
       key: "81",
       name: "Ezreal",
@@ -1382,31 +1838,46 @@ export default {
       },
       tags: ["Marksman", "Mage"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 484.4,
-        hpperlevel: 80,
-        mp: 360.6,
-        mpperlevel: 42,
-        movespeed: 325,
-        armor: 21.88,
-        armorperlevel: 3.5,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 550,
-        hpregen: 6.42,
-        hpregenperlevel: 0.55,
-        mpregen: 8.09,
-        mpregenperlevel: 0.65,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 55.66,
-        attackdamageperlevel: 2.41,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 2.8
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ]
     },
     FiddleSticks: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "FiddleSticks",
       key: "9",
       name: "Fiddlesticks",
@@ -1434,31 +1905,46 @@ export default {
       },
       tags: ["Mage", "Support"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 524.4,
-        hpperlevel: 80,
-        mp: 400.12,
-        mpperlevel: 56,
-        movespeed: 335,
-        armor: 20.88,
-        armorperlevel: 3.5,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 480,
-        hpregen: 5.605,
-        hpregenperlevel: 0.6,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 48.36,
-        attackdamageperlevel: 2.625,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 2.11
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ]
     },
     Fiora: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Fiora",
       key: "114",
       name: "Fiora",
@@ -1486,31 +1972,46 @@ export default {
       },
       tags: ["Fighter", "Assassin"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 550,
-        hpperlevel: 85,
-        mp: 300,
-        mpperlevel: 40,
-        movespeed: 345,
-        armor: 24,
-        armorperlevel: 3.5,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 150,
-        hpregen: 8.25,
-        hpregenperlevel: 0.55,
-        mpregen: 8,
-        mpregenperlevel: 0.7,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 60,
-        attackdamageperlevel: 3.3,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 3.2
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ]
     },
     Fizz: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Fizz",
       key: "105",
       name: "Fizz",
@@ -1538,31 +2039,46 @@ export default {
       },
       tags: ["Assassin", "Fighter"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 558.48,
-        hpperlevel: 86,
-        mp: 317.2,
-        mpperlevel: 37,
-        movespeed: 335,
-        armor: 22.412,
-        armorperlevel: 3.4,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 175,
-        hpregen: 8.175,
-        hpregenperlevel: 0.7,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 58.04,
-        attackdamageperlevel: 3,
-        attackspeedoffset: -0.05,
-        attackspeedperlevel: 3.1
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ]
     },
     Galio: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Galio",
       key: "3",
       name: "Galio",
@@ -1590,31 +2106,46 @@ export default {
       },
       tags: ["Tank", "Mage"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 577.8,
-        hpperlevel: 85,
-        mp: 369,
-        mpperlevel: 47,
-        movespeed: 335,
-        armor: 26.88,
-        armorperlevel: 3.5,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 8.71,
-        hpregenperlevel: 0.75,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 61.97,
-        attackdamageperlevel: 3.375,
-        attackspeedoffset: -0.02,
-        attackspeedperlevel: 1.2
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ]
     },
     Gangplank: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Gangplank",
       key: "41",
       name: "Gangplank",
@@ -1642,31 +2173,46 @@ export default {
       },
       tags: ["Fighter"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 540,
-        hpperlevel: 82,
-        mp: 282,
-        mpperlevel: 40,
-        movespeed: 345,
-        armor: 26,
-        armorperlevel: 3,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 6,
-        hpregenperlevel: 0.6,
-        mpregen: 7.5,
-        mpregenperlevel: 0.7,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 56,
-        attackdamageperlevel: 3,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 3.2
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ]
     },
     Garen: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Garen",
       key: "86",
       name: "Garen",
@@ -1694,31 +2240,46 @@ export default {
       },
       tags: ["Fighter", "Tank"],
       partype: "None",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 616.28,
-        hpperlevel: 84.25,
-        mp: 0,
-        mpperlevel: 0,
-        movespeed: 340,
-        armor: 27.536,
-        armorperlevel: 3,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 175,
-        hpregen: 7.84,
-        hpregenperlevel: 0.5,
-        mpregen: 0,
-        mpregenperlevel: 0,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 57.88,
-        attackdamageperlevel: 4.5,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 2.9
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ]
     },
     Gnar: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Gnar",
       key: "150",
       name: "Gnar",
@@ -1746,31 +2307,46 @@ export default {
       },
       tags: ["Fighter", "Tank"],
       partype: "Gnarfury",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 540,
-        hpperlevel: 65,
-        mp: 100,
-        mpperlevel: 0,
-        movespeed: 325,
-        armor: 23,
-        armorperlevel: 2.5,
-        spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 175,
-        hpregen: 2.5,
-        hpregenperlevel: 0.5,
-        mpregen: 0,
-        mpregenperlevel: 0,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 51,
-        attackdamageperlevel: 3,
-        attackspeedoffset: 0,
-        attackspeedperlevel: 6
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ]
     },
     Gragas: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Gragas",
       key: "79",
       name: "Gragas",
@@ -1798,31 +2374,46 @@ export default {
       },
       tags: ["Fighter", "Mage"],
       partype: "MP",
+      rangetype:"",
+      date: "",
+      patch: "",
+      graphic :{
+        damage:,
+        toughness:,
+        control:,
+        mobility:,
+        utility:,
+      },
       stats: {
-        hp: 583.52,
-        hpperlevel: 89,
-        mp: 400,
-        mpperlevel: 47,
-        movespeed: 330,
-        armor: 26.048,
-        armorperlevel: 3.6,
-        spellblock: 32.1,
-        spellblockperlevel: 1.25,
-        attackrange: 125,
-        hpregen: 5.5,
-        hpregenperlevel: 0.5,
-        mpregen: 6,
-        mpregenperlevel: 0.8,
-        crit: 0,
-        critperlevel: 0,
-        attackdamage: 61.38,
-        attackdamageperlevel: 3.5,
-        attackspeedoffset: -0.04,
-        attackspeedperlevel: 2.05
-      }
+        hp: ,
+        hpperlevel: ,
+        mp: ,
+        mpperlevel: ,
+        armor: ,
+        armorperlevel: ,
+        mrbase: ,
+        mrlevel : ,
+        hpregen: ,
+        hpregenperlevel: ,
+        mpregen: ,
+        mpregenperlevel: ,
+        attackdamage: ,
+        attackdamageperlevel:,
+        attackspeedoffset: -,
+        attackspeedperlevel: ,
+        attackrange: ,
+        movespeed: 
+      },
+      skill:[
+        {pasive:"",img:""},
+        {q:"",img:""},
+        {w:"",img:""},
+        {e:"",img:""},
+        {r:"",img:""}
+     ]
     },
     Graves: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Graves",
       key: "104",
       name: "Graves",
@@ -1874,7 +2465,7 @@ export default {
       }
     },
     Hecarim: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Hecarim",
       key: "120",
       name: "Hecarim",
@@ -1927,7 +2518,7 @@ export default {
       }
     },
     Heimerdinger: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Heimerdinger",
       key: "74",
       name: "Heimerdinger",
@@ -1979,7 +2570,7 @@ export default {
       }
     },
     Illaoi: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Illaoi",
       key: "420",
       name: "Illaoi",
@@ -2031,7 +2622,7 @@ export default {
       }
     },
     Irelia: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Irelia",
       key: "39",
       name: "Irelia",
@@ -2083,7 +2674,7 @@ export default {
       }
     },
     Ivern: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Ivern",
       key: "427",
       name: "Ivern",
@@ -2135,7 +2726,7 @@ export default {
       }
     },
     Janna: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Janna",
       key: "40",
       name: "Janna",
@@ -2187,7 +2778,7 @@ export default {
       }
     },
     JarvanIV: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "JarvanIV",
       key: "59",
       name: "Jarvan IV",
@@ -2239,7 +2830,7 @@ export default {
       }
     },
     Jax: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Jax",
       key: "24",
       name: "Jax",
@@ -2291,7 +2882,7 @@ export default {
       }
     },
     Jayce: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Jayce",
       key: "126",
       name: "Jayce",
@@ -2343,7 +2934,7 @@ export default {
       }
     },
     Jhin: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Jhin",
       key: "202",
       name: "Jhin",
@@ -2395,7 +2986,7 @@ export default {
       }
     },
     Jinx: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Jinx",
       key: "222",
       name: "Jinx",
@@ -2447,7 +3038,7 @@ export default {
       }
     },
     Kalista: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Kalista",
       key: "429",
       name: "Kalista",
@@ -2499,7 +3090,7 @@ export default {
       }
     },
     Karma: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Karma",
       key: "43",
       name: "Karma",
@@ -2551,7 +3142,7 @@ export default {
       }
     },
     Karthus: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Karthus",
       key: "30",
       name: "Karthus",
@@ -2603,7 +3194,7 @@ export default {
       }
     },
     Kassadin: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Kassadin",
       key: "38",
       name: "Kassadin",
@@ -2655,7 +3246,7 @@ export default {
       }
     },
     Katarina: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Katarina",
       key: "55",
       name: "Katarina",
@@ -2707,7 +3298,7 @@ export default {
       }
     },
     Kayle: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Kayle",
       key: "10",
       name: "Kayle",
@@ -2759,7 +3350,7 @@ export default {
       }
     },
     Kennen: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Kennen",
       key: "85",
       name: "Kennen",
@@ -2811,7 +3402,7 @@ export default {
       }
     },
     Khazix: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Khazix",
       key: "121",
       name: "Kha'Zix",
@@ -2863,7 +3454,7 @@ export default {
       }
     },
     Kindred: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Kindred",
       key: "203",
       name: "Kindred",
@@ -2915,7 +3506,7 @@ export default {
       }
     },
     Kled: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Kled",
       key: "240",
       name: "Kled",
@@ -2967,7 +3558,7 @@ export default {
       }
     },
     KogMaw: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "KogMaw",
       key: "96",
       name: "Kog'Maw",
@@ -3019,7 +3610,7 @@ export default {
       }
     },
     Leblanc: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Leblanc",
       key: "7",
       name: "LeBlanc",
@@ -3071,7 +3662,7 @@ export default {
       }
     },
     LeeSin: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "LeeSin",
       key: "64",
       name: "Lee Sin",
@@ -3123,7 +3714,7 @@ export default {
       }
     },
     Leona: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Leona",
       key: "89",
       name: "Leona",
@@ -3175,7 +3766,7 @@ export default {
       }
     },
     Lissandra: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Lissandra",
       key: "127",
       name: "Lissandra",
@@ -3227,7 +3818,7 @@ export default {
       }
     },
     Lucian: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Lucian",
       key: "236",
       name: "Lucian",
@@ -3279,7 +3870,7 @@ export default {
       }
     },
     Lulu: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Lulu",
       key: "117",
       name: "Lulu",
@@ -3331,7 +3922,7 @@ export default {
       }
     },
     Lux: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Lux",
       key: "99",
       name: "Lux",
@@ -3383,7 +3974,7 @@ export default {
       }
     },
     Malphite: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Malphite",
       key: "54",
       name: "Malphite",
@@ -3435,7 +4026,7 @@ export default {
       }
     },
     Malzahar: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Malzahar",
       key: "90",
       name: "Malzahar",
@@ -3487,7 +4078,7 @@ export default {
       }
     },
     Maokai: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Maokai",
       key: "57",
       name: "Maokai",
@@ -3539,7 +4130,7 @@ export default {
       }
     },
     MasterYi: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "MasterYi",
       key: "11",
       name: "Master Yi",
@@ -3591,7 +4182,7 @@ export default {
       }
     },
     MissFortune: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "MissFortune",
       key: "21",
       name: "Miss Fortune",
@@ -3643,7 +4234,7 @@ export default {
       }
     },
     MonkeyKing: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "MonkeyKing",
       key: "62",
       name: "Wukong",
@@ -3695,7 +4286,7 @@ export default {
       }
     },
     Mordekaiser: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Mordekaiser",
       key: "82",
       name: "Mordekaiser",
@@ -3747,7 +4338,7 @@ export default {
       }
     },
     Morgana: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Morgana",
       key: "25",
       name: "Morgana",
@@ -3799,7 +4390,7 @@ export default {
       }
     },
     Nami: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Nami",
       key: "267",
       name: "Nami",
@@ -3851,7 +4442,7 @@ export default {
       }
     },
     Nasus: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Nasus",
       key: "75",
       name: "Nasus",
@@ -3903,7 +4494,7 @@ export default {
       }
     },
     Nautilus: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Nautilus",
       key: "111",
       name: "Nautilus",
@@ -3955,7 +4546,7 @@ export default {
       }
     },
     Nidalee: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Nidalee",
       key: "76",
       name: "Nidalee",
@@ -4007,7 +4598,7 @@ export default {
       }
     },
     Nocturne: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Nocturne",
       key: "56",
       name: "Nocturne",
@@ -4059,7 +4650,7 @@ export default {
       }
     },
     Nunu: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Nunu",
       key: "20",
       name: "Nunu",
@@ -4111,7 +4702,7 @@ export default {
       }
     },
     Olaf: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Olaf",
       key: "2",
       name: "Olaf",
@@ -4163,7 +4754,7 @@ export default {
       }
     },
     Orianna: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Orianna",
       key: "61",
       name: "Orianna",
@@ -4215,7 +4806,7 @@ export default {
       }
     },
     Pantheon: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Pantheon",
       key: "80",
       name: "Pantheon",
@@ -4267,7 +4858,7 @@ export default {
       }
     },
     Poppy: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Poppy",
       key: "78",
       name: "Poppy",
@@ -4319,7 +4910,7 @@ export default {
       }
     },
     Quinn: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Quinn",
       key: "133",
       name: "Quinn",
@@ -4371,7 +4962,7 @@ export default {
       }
     },
     Rammus: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Rammus",
       key: "33",
       name: "Rammus",
@@ -4423,7 +5014,7 @@ export default {
       }
     },
     RekSai: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "RekSai",
       key: "421",
       name: "Rek'Sai",
@@ -4475,7 +5066,7 @@ export default {
       }
     },
     Renekton: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Renekton",
       key: "58",
       name: "Renekton",
@@ -4527,7 +5118,7 @@ export default {
       }
     },
     Rengar: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Rengar",
       key: "107",
       name: "Rengar",
@@ -4579,7 +5170,7 @@ export default {
       }
     },
     Riven: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Riven",
       key: "92",
       name: "Riven",
@@ -4631,7 +5222,7 @@ export default {
       }
     },
     Rumble: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Rumble",
       key: "68",
       name: "Rumble",
@@ -4683,7 +5274,7 @@ export default {
       }
     },
     Ryze: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Ryze",
       key: "13",
       name: "Ryze",
@@ -4735,7 +5326,7 @@ export default {
       }
     },
     Sejuani: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Sejuani",
       key: "113",
       name: "Sejuani",
@@ -4787,7 +5378,7 @@ export default {
       }
     },
     Shaco: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Shaco",
       key: "35",
       name: "Shaco",
@@ -4839,7 +5430,7 @@ export default {
       }
     },
     Shen: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Shen",
       key: "98",
       name: "Shen",
@@ -4891,7 +5482,7 @@ export default {
       }
     },
     Shyvana: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Shyvana",
       key: "102",
       name: "Shyvana",
@@ -4943,7 +5534,7 @@ export default {
       }
     },
     Singed: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Singed",
       key: "27",
       name: "Singed",
@@ -4995,7 +5586,7 @@ export default {
       }
     },
     Sion: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Sion",
       key: "14",
       name: "Sion",
@@ -5047,7 +5638,7 @@ export default {
       }
     },
     Sivir: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Sivir",
       key: "15",
       name: "Sivir",
@@ -5099,7 +5690,7 @@ export default {
       }
     },
     Skarner: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Skarner",
       key: "72",
       name: "Skarner",
@@ -5151,7 +5742,7 @@ export default {
       }
     },
     Sona: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Sona",
       key: "37",
       name: "Sona",
@@ -5203,7 +5794,7 @@ export default {
       }
     },
     Soraka: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Soraka",
       key: "16",
       name: "Soraka",
@@ -5255,7 +5846,7 @@ export default {
       }
     },
     Swain: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Swain",
       key: "50",
       name: "Swain",
@@ -5307,7 +5898,7 @@ export default {
       }
     },
     Syndra: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Syndra",
       key: "134",
       name: "Syndra",
@@ -5359,7 +5950,7 @@ export default {
       }
     },
     TahmKench: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "TahmKench",
       key: "223",
       name: "Tahm Kench",
@@ -5411,7 +6002,7 @@ export default {
       }
     },
     Taliyah: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Taliyah",
       key: "163",
       name: "Taliyah",
@@ -5463,7 +6054,7 @@ export default {
       }
     },
     Talon: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Talon",
       key: "91",
       name: "Talon",
@@ -5515,7 +6106,7 @@ export default {
       }
     },
     Taric: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Taric",
       key: "44",
       name: "Taric",
@@ -5567,7 +6158,7 @@ export default {
       }
     },
     Teemo: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Teemo",
       key: "17",
       name: "Teemo",
@@ -5619,7 +6210,7 @@ export default {
       }
     },
     Thresh: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Thresh",
       key: "412",
       name: "Thresh",
@@ -5671,7 +6262,7 @@ export default {
       }
     },
     Tristana: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Tristana",
       key: "18",
       name: "Tristana",
@@ -5723,7 +6314,7 @@ export default {
       }
     },
     Trundle: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Trundle",
       key: "48",
       name: "Trundle",
@@ -5775,7 +6366,7 @@ export default {
       }
     },
     Tryndamere: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Tryndamere",
       key: "23",
       name: "Tryndamere",
@@ -5827,7 +6418,7 @@ export default {
       }
     },
     TwistedFate: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "TwistedFate",
       key: "4",
       name: "Twisted Fate",
@@ -5879,7 +6470,7 @@ export default {
       }
     },
     Twitch: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Twitch",
       key: "29",
       name: "Twitch",
@@ -5931,7 +6522,7 @@ export default {
       }
     },
     Udyr: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Udyr",
       key: "77",
       name: "Udyr",
@@ -5983,7 +6574,7 @@ export default {
       }
     },
     Urgot: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Urgot",
       key: "6",
       name: "Urgot",
@@ -6035,7 +6626,7 @@ export default {
       }
     },
     Varus: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Varus",
       key: "110",
       name: "Varus",
@@ -6087,7 +6678,7 @@ export default {
       }
     },
     Vayne: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Vayne",
       key: "67",
       name: "Vayne",
@@ -6139,7 +6730,7 @@ export default {
       }
     },
     Veigar: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Veigar",
       key: "45",
       name: "Veigar",
@@ -6191,7 +6782,7 @@ export default {
       }
     },
     Velkoz: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Velkoz",
       key: "161",
       name: "Vel'Koz",
@@ -6243,7 +6834,7 @@ export default {
       }
     },
     Vi: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Vi",
       key: "254",
       name: "Vi",
@@ -6294,7 +6885,7 @@ export default {
       }
     },
     Viktor: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Viktor",
       key: "112",
       name: "Viktor",
@@ -6346,7 +6937,7 @@ export default {
       }
     },
     Vladimir: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Vladimir",
       key: "8",
       name: "Vladimir",
@@ -6398,7 +6989,7 @@ export default {
       }
     },
     Volibear: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Volibear",
       key: "106",
       name: "Volibear",
@@ -6450,7 +7041,7 @@ export default {
       }
     },
     Warwick: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Warwick",
       key: "19",
       name: "Warwick",
@@ -6502,7 +7093,7 @@ export default {
       }
     },
     Xerath: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Xerath",
       key: "101",
       name: "Xerath",
@@ -6554,7 +7145,7 @@ export default {
       }
     },
     XinZhao: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "XinZhao",
       key: "5",
       name: "Xin Zhao",
@@ -6606,7 +7197,7 @@ export default {
       }
     },
     Yasuo: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Yasuo",
       key: "157",
       name: "Yasuo",
@@ -6658,7 +7249,7 @@ export default {
       }
     },
     Yorick: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Yorick",
       key: "83",
       name: "Yorick",
@@ -6710,7 +7301,7 @@ export default {
       }
     },
     Zac: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Zac",
       key: "154",
       name: "Zac",
@@ -6762,7 +7353,7 @@ export default {
       }
     },
     Zed: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Zed",
       key: "238",
       name: "Zed",
@@ -6814,7 +7405,7 @@ export default {
       }
     },
     Ziggs: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Ziggs",
       key: "115",
       name: "Ziggs",
@@ -6866,7 +7457,7 @@ export default {
       }
     },
     Zilean: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Zilean",
       key: "26",
       name: "Zilean",
@@ -6918,7 +7509,7 @@ export default {
       }
     },
     Zyra: {
-      version: "6.24.1",
+      version: "V10.14",
       id: "Zyra",
       key: "143",
       name: "Zyra",

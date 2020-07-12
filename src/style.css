@@ -1,6 +1,6 @@
 body{
   background:rgb(9, 27, 49);
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Abhaya Libre', serif;
   font-size: 1.2rem;
   line-height: 1.6em;
   margin: 0;  /*con este le quite el margen de arriba al header para que no quede separado en la barra inicial*/
@@ -8,14 +8,23 @@ body{
   /*background-image: url(https://i.imgur.com/7JV2ErD.jpg);
   background-repeat: no-repeat;*/
 } 
-/*rgba(147, 115, 65, 1)*/
+
 
 h1{
-  font-size: 2rem;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 4rem;
   line-height: 1.3em;
+  text-align: center;
 }
-
+h3{
+  font-family: 'Abhaya Libre', serif;
+  font-size: 2.5rem;
+  line-height: 1.3em;
+  text-align: center;
+}
 p{
+  font-family: 'Abhaya Libre', serif;
+  font-weight: bolder;
   margin-bottom:1.6em ;
 }
 
@@ -55,13 +64,13 @@ p{
   display: none;
 }
 
-.navigation dl{
+.navigation dl{ 
   margin: 0;
   padding: 0;
   list-style: none; /*quitamos los efectos de lista*/
 }
 
-.navigation dl dt{
+.navigation dl dt{ /* ----------------------------------Nav de la lista de pagina ------------------------------------- */
   display :inline-block; /*los ponemos a los costados*/
 }
 .navigation dl dt a{
@@ -74,25 +83,39 @@ p{
   background: rgba(147, 115, 65, 1);
 }
 
+.icon dl dt { /* ----------------------------------------Nav de los iconos de rol --------------------------------------*/
+  display :inline-block;
+}
 .main{
   padding-top: 12rem;
 }
 
 img{
   border-radius:60%;
-  width: 215px;
+  width: 315px;
   height: 206px;
+  
 }
-
-.champ{
-  justify-content: center;
-  background-color: rgba(8, 42, 85, 0.699);
-  padding: 4rem;
-  background-image: url(https://i.imgur.com/7JV2ErD.jpg);
+.item{
+  order: 2;
+}
+.file{
+  /*text-align: center;*/
+  background-image: url(https://i.imgur.com/6GK6izh.png);
   background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  
+}
+.champ {
+  justify-content: center;
+  background-color: rgba(3, 29, 63, 0.123);
+  /*background-image: url(https://i.imgur.com/RhQRUme.png);*/
+  align-items: space-around;
+  
 }
 .allChamps{
-  padding: 14rem;
+  padding: 5rem;
 }
 icon{
   width: 60px;
@@ -142,3 +165,14 @@ icon{
   }
   
 }
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/

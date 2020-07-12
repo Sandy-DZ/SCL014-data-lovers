@@ -80,7 +80,7 @@ Detalle de cada propiedad, por ejemplo:
 
 ```json
 "Aatrox": {
-  "version": "6.24.1",
+  "version": "V10.14",
   "id": "Aatrox",
   "key": "266",
   "name": "Aatrox",
