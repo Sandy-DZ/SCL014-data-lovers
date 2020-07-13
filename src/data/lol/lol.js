@@ -732,11 +732,11 @@ export default {
         movespeed:335
       },
       skill:[
-        {pasive:"Legado de Shurima"},
-        {q:"Conquistador de las Arenas"},
-        {w:"¡Levántense!"},
-        {e:"Arenas Movedizas"},
-        {r:"División Imperial"}
+        {pasive:"Legado de Shurima",img:"https://opgg-static.akamaized.net/images/lol/passive/Azir_Passive.png?image=q_auto,w_48&v=1591083841",info:"Azir puede invocar el Disco Solar desde las ruinas de torretas aliadas o enemigas."},
+        {q:"Conquistador de las Arenas",img:"https://opgg-static.akamaized.net/images/lol/spell/AzirQWrapper.png?image=q_auto,w_48&v=1591083841",info:"Azir envía a todos los soldados de arena hacia una ubicación. Los soldados de arena infligen daño mágico a los enemigos que atraviesan y además aplican una ralentización durante 1 segundo."},
+        {w:"¡Levántense!",img:"https://opgg-static.akamaized.net/images/lol/spell/AzirW.png?image=q_auto,w_48&v=1591083841",info:"Azir invoca a un soldado de arena para atacar a los objetivos cercanos por él. El ataque básico de estos soldados reemplaza el suyo contra todos los enemigos que estén a su alcance. Su ataque inflige daño mágico a todos los enemigos situados en una línea. Además, ¡Levántense! otorga velocidad de ataque de manera pasiva a Azir y a sus soldados de arena."},
+        {e:"Arenas Movedizas",img:"https://opgg-static.akamaized.net/images/lol/spell/AzirEWrapper.png?image=q_auto,w_48&v=1591083841",info:"Azir se escuda a sí mismo por un momento y se desplaza hacia uno de sus Soldados de Arena, lo que inflige daño a los enemigos. Si alcanza un campeón enemigo, Azir preparará al instante un nuevo Soldado de Arena para desplegarlo y detiene su desplazamiento."},
+        {r:"División Imperial",img:"https://opgg-static.akamaized.net/images/lol/spell/AzirR.png?image=q_auto,w_48&v=1591083841",info:"Azir invoca un muro de soldados que, con una carga hacia delante, infligen daño y derriban al enemigo."}
       ]
     },
     Bard: {
@@ -799,11 +799,11 @@ export default {
         movespeed:330
       },
       skill:[
-        {pasive:"Llamado del Viajero","Llamado del Viajero 2"},
-        {q:"Amarre Cósmico"},
-        {w:"Altar del Guardián"},
-        {e:"Viaje Místico"},
-        {r:"Destino Apacible"}
+        {pasive:"Llamado del Viajero",img:"https://opgg-static.akamaized.net/images/lol/passive/Bard_Passive.png?image=q_auto,w_48&v=1591083841",info:"Meeps: Bardo atrae espíritus menores que lo ayudarán en sus ataques básicos para infligir daño mágico adicional. Cuando Bardo haya recolectado suficientes Campanillas, sus meeps también infligirán daño en un área y ralentizarán a los enemigos que impacten. Campanillas: Aparecen campanillas ancestrales de forma aleatoria para que Bardo las recolecte. Las campanillas ancestrales otorgan experiencia, maná máximo y acumulaciones de velocidad de movimiento fuera de combate."},
+        {q:"Amarre Cósmico",img:"https://opgg-static.akamaized.net/images/lol/spell/BardQ.png?image=q_auto,w_48&v=1591083841",info:"El Bardo dispara un proyectil que ralentiza al primer enemigo alcanzado, luego sigue su trayectoria. A partir de ahí, si golpea un muro, el objetivo inicial queda aturdido. Si golpea a otro enemigo, los dos sufren el efecto."},
+        {w:"Altar del Guardián",img:"https://opgg-static.akamaized.net/images/lol/spell/BardW.png?image=q_auto,w_48&v=1591083841",info:"Manifiesta un santuario curativo que tarda unos segundos en cargarse y desaparece después de curar al primer aliado que lo toca."},
+        {e:"Viaje Místico",img:"https://opgg-static.akamaized.net/images/lol/spell/BardE.png?image=q_auto,w_48&v=1591083841",info:"El Bardo abre un portal en un terreno cercano. Tanto sus aliados como sus enemigos pueden atravesarlo para cruzar al otro lado, pero solo funciona en un sentido."},
+        {r:"Destino Apacible",img:"https://opgg-static.akamaized.net/images/lol/spell/BardR.png?image=q_auto,w_48&v=1591083841",info:"El Bardo lanza arcos de energía espiritual que inmovilizan a todos los campeones, súbditos, monstruos y torretas de la zona momentáneamente."}
       ]
     },
     Blitzcrank: {
@@ -866,11 +866,11 @@ export default {
         movespeed: 325
       },
       skill:[
-        {pasive:"Barrera de Maná"},
-        {q:"Agarre Cohete"},
-        {w:"Sobremarcha"},
-        {e:"Puño de Poder"},
-        {r:"Campo Estático"}
+        {pasive:"Barrera de Maná",img:"https://opgg-static.akamaized.net/images/lol/passive/Blitzcrank_ManaBarrier.png?image=q_auto,w_48&v=1591083841",info:"Cuando se queda con poca vida, Blitzcrank obtiene un escudo según su maná."},
+        {q:"Agarre Cohete",img:"https://opgg-static.akamaized.net/images/lol/spell/RocketGrab.png?image=q_auto,w_48&v=1591083841",info:"Blitzcrank dispara su mano derecha para apresar a un rival que encuentre en su camino, infligiendo daño y atrayéndolo hacia él."},
+        {w:"Sobremarcha",img:"https://opgg-static.akamaized.net/images/lol/spell/Overdrive.png?image=q_auto,w_48&v=1591083841",info:"Blitzcrank se sobrecarga para aumentar drásticamente su velocidad de movimiento y su velocidad de ataque. Queda ralentizado temporalmente después que termina el efecto."},
+        {e:"Puño de Poder",img:"https://opgg-static.akamaized.net/images/lol/spell/PowerFist.png?image=q_auto,w_48&v=1591083841",info:"Blitzcrank carga su puño para que su siguiente ataque cause el doble de daño y lance al objetivo por el aire."},
+        {r:"Campo Estático",img:"https://opgg-static.akamaized.net/images/lol/spell/StaticField.png?image=q_auto,w_48&v=1591083841",info:"Los enemigos atacados por Blitzcrank quedan marcados y sufren daños de relámpago después de 1 seg. Además, Blitzcrank puede activar esta habilidad para eliminar los escudos de enemigos cercanos, infligirles daño y silenciarlos brevemente."}
       ]
     },
     Brand: {
@@ -933,11 +933,11 @@ export default {
         movespeed:340
       },
       skill:[
-        {pasive:"Llamarada"},
-        {q:"Abrasar"},
-        {w:"Columna de Fuego"},
-        {e:"Conflagración"},
-        {r:"Piroclasma"}
+        {pasive:"Llamarada",img:"https://opgg-static.akamaized.net/images/lol/passive/BrandP.png?image=q_auto,w_48&v=1591083841",info:"Los hechizos de Brand prenden a sus objetivos en llamas e infligen daño a lo largo de 4 seg. Se acumula hasta 3 veces. Si Brand mata a un enemigo en llamas, recupera maná. Llamarada se vuelve inestable cuando alcanza el máximo de acumulaciones contra un campeón o un monstruo. Detona en 2 seg, lo que aplica efectos de hechizo e inflige daño masivo en una zona alrededor de la víctima."},
+        {q:"Abrasar",img:"https://opgg-static.akamaized.net/images/lol/spell/BrandQ.png?image=q_auto,w_48&v=1591083841",info:"Brand lanza una bola de fuego hacia adelante que inflige daño mágico. Si el objetivo está en llamas, Abrasar aturdirá al enemigo durante 1.5 seg."},
+        {w:"Columna de Fuego",img:"https://opgg-static.akamaized.net/images/lol/spell/BrandW.png?image=q_auto,w_48&v=1591083841",info:"Tras unos momentos, Brand crea una Columna de Fuego en la zona objetivo, lo que inflige daño mágico a las unidades enemigas dentro del área. Las unidades en llamas reciben un 25% de daño adicional."},
+        {e:"Conflagración",img:"https://opgg-static.akamaized.net/images/lol/spell/BrandE.png?image=q_auto,w_48&v=1591083841",info:"Brand conjura un poderoso ataque contra su objetivo y le inflige daño mágico. Si el objetivo está en llamas, Conflagración se expande a enemigos cercanos."},
+        {r:"Piroclasma",img:"https://opgg-static.akamaized.net/images/lol/spell/BrandR.png?image=q_auto,w_48&v=1591083841",info:"Brand desata un devastador torrente de fuego que inflige daño mágico cada vez que rebota, hasta 5 rebotes. Los rebotes tendrán la prioridad de acumular Llamarada al máximo en campeones. Si el objetivo está en llamas, Piroclasma lo ralentizará durante un breve periodo."}
       ]
     },
     Braum: {
@@ -1000,11 +1000,11 @@ export default {
         movespeed:335
       },
       skill:[
-        {pasive:"Golpes Conmocionantes"},
-        {q:"Rigor del Invierno"},
-        {w:"Detrás de Mí"},
-        {e:"Inquebrantable"},
-        {r:"Fisura Glacial"}
+        {pasive:"Golpes Conmocionantes",img:"https://opgg-static.akamaized.net/images/lol/passive/Braum_Passive.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos de Braum aplican Golpes Conmocionantes. Una vez que se aplique la primera acumulación, los ataques básicos de aliados también acumulan Golpes Conmocionantes. Al alcanzar 4 acumulaciones, el objetivo queda aturdido y recibe daño mágico. No pueden recibir acumulaciones nuevas durante los siguientes segundos, pero reciben daño mágico adicional de los ataques de Braum."},
+        {q:"Rigor del Invierno",img:"https://opgg-static.akamaized.net/images/lol/spell/BraumQ.png?image=q_auto,w_48&v=1591083841",info:"Braum lanza hielo de su escudo, lo que ralentiza e inflige daño mágico. Aplica una acumulación de Golpes Conmocionantes."},
+        {w:"Detrás de Mí",img:"https://opgg-static.akamaized.net/images/lol/spell/BraumW.png?image=q_auto,w_48&v=1591083841",info:"Braum salta hacia un campeón o súbdito aliado. Al llegar, Braum y el aliado obtienen armadura y resistencia mágica durante algunos segundos."},
+        {e:"Inquebrantable",img:"https://opgg-static.akamaized.net/images/lol/spell/BraumE.png?image=q_auto,w_48&v=1591083841",info:"Braum levanta su escudo en una dirección durante varios segundos e intercepta todos los proyectiles para destruirlos en el proceso. Repele el daño del primer ataque por completo y reduce el daño de todos los ataques subsecuentes en esa dirección."},
+        {r:"Fisura Glacial",img:"https://opgg-static.akamaized.net/images/lol/spell/BraumRWrapper.png?image=q_auto,w_48&v=1591083841",info:"Braum golpea con fuerza el piso y lanza por el aire a los enemigos cercanos y en línea frente a él. A lo largo de la línea permanece una fisura que ralentiza a los enemigos."}
       ]
     },
     Caitlyn: {
@@ -1067,11 +1067,11 @@ export default {
         movespeed:325 
       },
       skill:[
-        {pasive:"Disparo a la Cabeza"},
-        {q:"Pacificadora de Piltóver"},
-        {w:"Trampa Para Yordles"},
-        {e:"Red Calibre 90"},
-        {r:"As Bajo la Mira"}
+        {pasive:"Disparo a la Cabeza",img:"https://opgg-static.akamaized.net/images/lol/passive/Caitlyn_Headshot.png?image=q_auto,w_48&v=1591083841",info:"Caitlyn disparará a la cabeza tras cierto número de ataques básicos o contra un objetivo que atrape. Los disparos a la cabeza infligen daño adicional que aumenta con su probabilidad de golpe crítico. El alcance de ataque del Disparo a la Cabeza de Caitlyn se duplica contra objetivos que estén atrapados."},
+        {q:"Pacificadora de Piltóver",img:"https://opgg-static.akamaized.net/images/lol/spell/CaitlynPiltoverPeacemaker.png?image=q_auto,w_48&v=1591083841",info:"Caitlyn carga su rifle durante 1 segundo para liberar un disparo penetrante que provoca daño físico (causa menos daños a los objetivos posteriores)."},
+        {w:"Trampa Para Yordles",img:"https://opgg-static.akamaized.net/images/lol/spell/CaitlynYordleTrap.png?image=q_auto,w_48&v=1591083841",info:"Caitlyn pone una trampa para encontrar yordles escurridizos. Cuando se activa, la trampa revela e inmoviliza al campeón enemigo durante 1.5 seg y le otorga un Disparo a la Cabeza potenciado a Caitlyn."},
+        {e:"Red Calibre 90",img:"https://opgg-static.akamaized.net/images/lol/spell/CaitlynEntrapment.png?image=q_auto,w_48&v=1591083841",info:"Caitlyn lanza una red pesada para ralentizar a su objetivo. El retroceso empuja hacia atrás a Caitlyn."},
+        {r:"As Bajo la Mira",img:"https://opgg-static.akamaized.net/images/lol/spell/CaitlynAceintheHole.png?image=q_auto,w_48&v=1591083841",info:"Caitlyn se toma su tiempo para preparar el tiro perfecto, causando una gran cantidad de Daño a un solo objetivo a gran distancia. Los campeones enemigos pueden interceptar la bala para sus aliados."}
       ]
     },
     Camille: {
@@ -1134,11 +1134,11 @@ export default {
         movespeed: 340
       },
       skill:[
-        {pasive:"Defensas Flexibles"},
-        {q: "Protocolo de Precisión","Protocolo de Precisión 2"},
-        {w: "Barrido Táctico"},
-        {e: "Gancho","salto de Muro"},
-        {r: "El Ultimátum Hextech"}
+        {pasive:"Defensas Flexibles",img:"https://opgg-static.akamaized.net/images/lol/passive/Camille_Passive.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos a campeones otorgan un escudo igual al 20% de la Vida Máxima de Camille contra su tipo de daño (físico o mágico) por un breve momento."},
+        {q: "Protocolo de Precisión",img:"https://opgg-static.akamaized.net/images/lol/spell/CamilleQ.png?image=q_auto,w_48&v=1591083841",info:"El siguiente ataque de Camille inflige daño adicional y le otorga velocidad de movimiento adicional. Puedes volver a lanzar este hechizo durante un breve periodo e infligirá mucho daño adicional si Camille se toma un momento entre ambos ataques."},
+        {w: "Barrido Táctico",img:"https://opgg-static.akamaized.net/images/lol/spell/CamilleW.png?image=q_auto,w_48&v=1591083841",info:"Camille ataca en un área en cono después de una espera, lo que inflige daño. Los enemigos que se encuentren en la mitad exterior quedarán ralentizados y recibirán daño adicional, lo que le restaura vida a Camille."},
+        {e: "Gancho",img:"https://opgg-static.akamaized.net/images/lol/spell/CamilleE.png?image=q_auto,w_48&v=1591083841",info:"Camille se impulsa a sí misma hacia un muro, salta y, al aterrizar, lanza a los campeones enemigos por el aire."},
+        {r: "El Ultimátum Hextech",img:"https://opgg-static.akamaized.net/images/lol/spell/CamilleR.png?image=q_auto,w_48&v=1591083841",info:"Camille se desplaza a un campeón objetivo y lo inmoviliza en el área. Además, inflige daño mágico adicional al objetivo con sus ataques básicos."}
      ]
     },
     Cassiopeia: {
@@ -1201,11 +1201,11 @@ export default {
         movespeed: 328
       },
       skill:[
-        {pasive:"Gracia Serpentina"},
-        {q:"Explosion Nociva"},
-        {w:"Miasma"},
-        {e:"Colmillos Gemelos"},
-        {r:"Mirada Petrificante"}
+        {pasive:"Gracia Serpentina",img:"https://opgg-static.akamaized.net/images/lol/passive/Cassiopeia_Passive.png?image=q_auto,w_48&v=1591083841",info:"Cassiopeia gana velocidad de movimiento por nivel, pero no puede comprar objetos del tipo Botas."},
+        {q:"Explosion Nociva",img:"https://opgg-static.akamaized.net/images/lol/spell/CassiopeiaQ.png?image=q_auto,w_48&v=1591083841",info:"Cassiopeia lanza Veneno sobre un área después de un breve momento. Si impacta a un campeón enemigo, obtiene velocidad de movimiento aumentada."},
+        {w:"Miasma",img:"https://opgg-static.akamaized.net/images/lol/spell/CassiopeiaW.png?image=q_auto,w_48&v=1591083841",info:"Cassiopeia libera varias nubes de veneno que ralentizan, anclan y dañan ligeramente a los enemigos que pasen a través de ellas. Los enemigos anclados no podrán utilizar habilidades de movimiento."},
+        {e:"Colmillos Gemelos",img:"https://opgg-static.akamaized.net/images/lol/spell/CassiopeiaE.png?image=q_auto,w_48&v=1591083841",info:"Cassiopeia libera un ataque que inflige daño adicional a objetivos afectados con Veneno y se cura a sí misma por un porcentaje del daño infligido. Si el objetivo muere por este ataque, Cassiopeia recupera maná."},
+        {r:"Mirada Petrificante",img:"https://opgg-static.akamaized.net/images/lol/spell/CassiopeiaR.png?image=q_auto,w_48&v=1591083841",info:"Cassiopeia lanza un rayo de energía mágica de sus ojos que aturde a los enemigos frente a ella que la estén viendo y ralentiza a los enemigos que le estén dando la espalda."}
       ]
     },
     Chogath: {
@@ -1268,11 +1268,11 @@ export default {
         movespeed: 345
       },
       skill:[
-        {pasive:"Carnívoro"},
-        {q:"Ruptura"},
-        {w:"Grito Salvaje"},
-        {e:"Clavos Vorpalinos"},
-        {r:"Festín"}
+        {pasive:"Carnívoro",img:"https://opgg-static.akamaized.net/images/lol/passive/GreenTerror_TailSpike.png?image=q_auto,w_48&v=1591083841",info:"Cho'Gath restaura Vida y Maná cada vez que elimina a un enemigo. La cantidad aumenta con el nivel de Cho'Gath."},
+        {q:"Ruptura",img:"https://opgg-static.akamaized.net/images/lol/spell/Rupture.png?image=q_auto,w_48&v=1591083841",info:"Provoca una ruptura en el piso en la ubicación objetivo que hace volar a las unidades enemigas, les inflige daño y las ralentiza."},
+        {w:"Grito Salvaje",img:"https://opgg-static.akamaized.net/images/lol/spell/FeralScream.png?image=q_auto,w_48&v=1591083841",info:"Cho'Gath desata un terrible grito en forma de cono a los enemigos, les inflige daño mágico y los silencia durante unos segundos."},
+        {e:"Clavos Vorpalinos",img:"https://opgg-static.akamaized.net/images/lol/spell/VorpalSpikes.png?image=q_auto,w_48&v=1591083841",info:"Los ataques de Cho'Gath liberan púas mortales que dañan y ralentizan a todas las unidades enemigas frente a él."},
+        {r:"Festín",img:"https://opgg-static.akamaized.net/images/lol/spell/Feast.png?image=q_auto,w_48&v=1591083841",info:"Devora a una unidad enemiga y le inflige una gran cantidad de daño verdadero. Si el objetivo muere, Cho'Gath crece y obtiene vida máxima."}
       ]
     },
     Corki: {
@@ -1335,11 +1335,11 @@ export default {
         movespeed:325
       },
       skill:[
-        {pasive:"Munición Hextech", "El Paquete"},
+        {pasive:"Munición Hextech", },
         {q:"Bomba Fosfórica"},
-        {w:"Valquiria","Entrega Especial"},
+        {w:"Valquiria",},
         {e:"Cañon de Repetición"},
-        {r:"Descarga de Misiles", "Misil Grande"}
+        {r:"Descarga de Misiles",}
       ]
     },
     Darius: {
