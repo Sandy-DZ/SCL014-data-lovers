@@ -105,6 +105,8 @@ img{
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
+  flex-direction: column;
+  justify-content: left;
   
 }
 .champ {
