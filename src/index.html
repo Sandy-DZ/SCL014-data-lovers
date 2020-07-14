@@ -2,11 +2,65 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data lol</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
+    
+    <!-- first sectión for users beginins-->
+    <header class="header">
+      <section class="container logo-nav-container">
+        <a href="#" class="logo">
+         <!--<img src= "image/logo-800-47024e2aeaaa8651c172ba883264dd43.png" alt="logo" class="d-inline-block align-top"></a>--> 
+        <span class="menu-icon">ver menu</span>
+        <nav class="navigation">
+          <dl class="show">
+            <dt><a href="#">Como Jugar</a></dt>
+            <dt><a href="#">Campeones</a></dt>
+            <dt><a href="#">Aspectos</a></dt>
+            <dt><a href="#">Historia</a></dt>
+            <dt><a href="#">Quienes somos</a></dt>
+            <input type= "text" style="width: 5rem;" placeholder= "Buscar" id="buscador" onkeyup="filtrar()" >
+          </dl>
+        </nav>
+  
+      </section>
+    </header>
+    <main class="main">
+      <section class="container" >
+        <h1>Como Jugar</h1>
+          <p>
+            League of Legends es un juego de estrategia por equipos en el que dos equipos 
+            conformados por cinco poderosos campeones se enfrentan para destruir la base del otro.            Morbi vitae tristique dolor. Quisque a lobortis lacus, pellentesque sollicitudin dolor.            Pellentesque tempor neque eros, at luctus diam mollis eu. Sed mattis vitae augue venenatis feugiat.            Nullam ornare felis non turpis elementum luctus.            Proin semper lectus nec ex cursus dictum.             Quisque sit amet semper ipsum. Etiam nec ante a lectus facilisis sagittis in in ligula.
+          </p>
+
+          
+      </section>
+      
+      <section class="allChamps" id="nameChamp">
+        <section class="icon">
+          <input type="image" src="https://i.imgur.com/2Qj7X7s.png" class="Assassin" alt="Asesino" id="assaBtn" width="120" height="110"></input>
+          <input type="image" src="https://i.imgur.com/MkhREJw.png" class="Mage" alt="mago" id="mageBtn" width="120" height="120"></input>
+          <input type="image" src="https://i.imgur.com/OuuslSa.png" class="Fighter" alt="peleador" id="figthBtn" width="130" height="120"></input>
+          <input type="image" src="https://i.imgur.com/CImDB4Z.png" class="Support" alt="soporte" id="suppBtn" width="120" height="110"></input>
+          <input type="image" src="https://i.imgur.com/OVz7c6F.png" class="Marksman" alt="tirador" id="marksBtn" width="120" height="110"></input>
+          <input type="image" src="https://i.imgur.com/wHxzpv4.png" class="Tank" alt="tanque" id="tankBtn" width="130" height="110"></input>
+        </section>
+            <section>
+              <div class="champ" id="root">
+              </div>
+            </section>
+      </section>
+      
+      
+    <footer class="footer">
+      <section class="container">
+        <p> ™ & © 2020 Diseñado por constanza y sandy</p>
+      </section>
+    </footer>
+
     <script src="main.js" type="module"></script>
+    <script src="filtrar.js"></script>
   </body>
 </html>
