@@ -3686,23 +3686,90 @@ export default {
         {r:"Juicio Divino",img:"https://opgg-static.akamaized.net/images/lol/spell/KayleR.png?image=q_auto,w_48&v=1591083841",info:"Kayle vuelve a un aliado invulnerable e invoca a los antiguos Aspectos de la Justicia para que purifiquen el área alrededor de su objetivo con una lluvia divina de espadas."}
      ]
     },
+    Kayn: {
+      version: "V10.14",
+      id: "Kayn",
+      key: "141",
+      name: "Kayn",
+      title: "El Segador Sombrío",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Kayn.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg",
+      blurb:
+        "Shieda Kayn, un practicante sin igual de la letal magia sombría, lucha para alcanzar su verdadero destino: conducir la Orden de la Sombra hacia una nueva era de supremacía joniana. Esgrime la oscura arma viviente Rhaast, inmutable ante la progresiva corrupción de su cuerpo y mente. Solo hay dos resultados posibles: o Kayn somete el arma a su voluntad... o la cuchilla malévola lo consume por completo, para dar lugar a la destrucción de Runaterra.",
+      info: {
+        attack:10 ,
+        defense: 6,
+        magic:1 ,
+        difficulty:3 
+      },
+      image: {
+        full: "Kayn.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2017-07-12",
+      patch: "V7.14",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:1,
+        mobility:3,
+        utility:1,
+      },
+      stats: {
+        hp: 585,
+        hpperlevel: 85,
+        mp: 410,
+        mpperlevel:50 ,
+        armor: 38,
+        armorperlevel: 3.3,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 8,
+        hpregenperlevel: 0.75,
+        mpregen: 11.5,
+        mpregenperlevel: 0.95,
+        attackdamage: 68,
+        attackdamageperlevel:3.3,
+        attackspeedoffset: 0.669,
+        attackspeedperlevel: 2.7,
+        attackrange: 175,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"La Guadaña Darkin",img:"https://opgg-static.akamaized.net/images/lol/passive/Kayn_Passive_Primary.png?image=q_auto,w_48&v=1591083841",info:"Kayn empuña un arma antigua y pelea contra Rhaast, el darkin en su interior, por el control de su cuerpo. El Darkin triunfará o Kayn dominará a Rhaast y se convertirá en el Asesino Sombrío. Darkin: cura un porcentaje del daño de hechizos infligido a campeones. Asesino Sombrío: inflige daño adicional los primeros segundos en combate contra campeones enemigos."},
+        {q:"Corte Segador",img:"https://opgg-static.akamaized.net/images/lol/spell/KaynQ.png?image=q_auto,w_48&v=1591083841",info:"Kayn se desplaza y luego ataca. Ambas acciones infligen daño."},
+        {w:"Alcance de Cuchilla",img:"https://opgg-static.akamaized.net/images/lol/spell/KaynW.png?image=q_auto,w_48&v=1591083841",info:"Kayn daña y ralentiza objetivos en una línea."},
+        {e:"Paso Sombrío",img:"https://opgg-static.akamaized.net/images/lol/spell/KaynE.png?image=q_auto,w_48&v=1591083841",info:"Kayn puede caminar por el terreno."},
+        {r:"Transgresión de Umbral",img:"https://opgg-static.akamaized.net/images/lol/spell/KaynR.png?image=q_auto,w_48&v=1591083841",info:"Kayn se esconde en el cuerpo de un enemigo e inflige daño masivo cuando sale."}
+     ]
+    },
     Kennen: {
       version: "V10.14",
       id: "Kennen",
       key: "85",
       name: "Kennen",
-      title: "the Heart of the Tempest",
+      title: "El Corazón De La Tempestad",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Kennen.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kennen_0.jpg",
       blurb:
-        "There exists an ancient order originating in the Ionian Isles dedicated to the preservation of balance. Order, chaos, light, darkness -- all things must exist in perfect harmony for such is the way of the universe. This order is known as the Kinkou ...",
+        "Además de ser un rápido ejecutor del balance Jonio, Kennen es el único miembro yordle del Kinkou. A pesar de su pequeña y peluda estatura, está ansioso por enfrentarse a cualquier amenaza con una tormenta de shuriken y desbordante entusiasmo. A lado de su maestro, Shen, Kennen patrulla el reino espiritual, utilizando devastadora energía eléctrica para eliminar a sus enemigos.",
       info: {
         attack: 6,
         defense: 4,
         magic: 7,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Kennen.png",
@@ -3713,44 +3780,44 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage", "Marksman"],
+      tags: ["Mago", "Tirador"],
       partype: "Energy",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"a distancia",
+      date: "2010-04-08",
+      patch: "V1.0.0.82",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:3,
+        toughness:1,
+        control:3,
+        mobility:1,
+        utility:0,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 541,
+        hpperlevel: 84,
+        mp: 200,
+        mpperlevel:0 ,
+        armor: 29,
+        armorperlevel:3.75 ,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen: 5.5,
+        hpregenperlevel: 0.65,
+        mpregen: 50,
+        mpregenperlevel: 0,
+        attackdamage: 48,
+        attackdamageperlevel:3.75,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 3.4,
+        attackrange:550,
+        movespeed: 335
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
+        {pasive:"Marca de la Tormenta",img:"https://opgg-static.akamaized.net/images/lol/passive/Kennen_Passive.png?image=q_auto,w_48&v=1591083841",info:"Kennen aturde a los enemigos a los que alcanza 3 veces con sus habilidades."},
+        {q:"Shuriken Trueno",img:"https://opgg-static.akamaized.net/images/lol/spell/KennenShurikenHurlMissile1.png?image=q_auto,w_48&v=1591083841",info:"Kennen arroja hacia un lugar un veloz shuriken, causando daño y añadiendo una Marca de la Tormenta a todos los rivales que golpea."},
+        {w:"Tensión Eléctrica",img:"https://opgg-static.akamaized.net/images/lol/spell/KennenBringTheLight.png?image=q_auto,w_48&v=1591083841",info:"Kennen inflige daño adicional de forma pasiva y añade a su objetivo una Marca de la Tormenta cada ciertos ataques. Puede activar esta habilidad para dañar y añadir otra Marca de la Tormenta a los objetivos que ya están marcados."},
+        {e:"Impulso Relámpago",img:"https://opgg-static.akamaized.net/images/lol/spell/KennenLightningRush.png?image=q_auto,w_48&v=1591083841",info:"Kennen adopta la forma de un relámpago, lo que le permite atravesar unidades y aplicarles una Marca de la Tormenta. Kennen obtiene velocidad de movimiento al cambiar a esta forma y velocidad de ataque al cambiar de vuelta."},
+        {r:"Tempestad Cercenante",img:"https://opgg-static.akamaized.net/images/lol/spell/KennenShurikenStorm.png?image=q_auto,w_48&v=1591083841",info:"Kennen invoca una tormenta que golpea a los campeones enemigos cercanos causando daño mágico."}
      ]
     },
     Khazix: {
@@ -3758,18 +3825,18 @@ export default {
       id: "Khazix",
       key: "121",
       name: "Kha'Zix",
-      title: "the Voidreaver",
+      title: "El Saqueador Del Vacío",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Khazix.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Khazix_0.jpg",
       blurb:
-        "A vicious Void predator, Kha'Zix infiltrated Valoran to devour the land's most promising creatures. With each kill he absorbs his prey's strength, evolving to grow more powerful. Kha'Zix hungers most to conquer and consume Rengar, the one beast he ...",
+        "El Vacío crece y el Vacío se adapta. En ninguna de sus múltiples manifestaciones estas verdades son más evidentes que en Kha'Zix. La evolución es la esencia de este mutante horror que nació para sobrevivir y acabar con los más fuertes. Cuando se le dificulta esa tarea, desarrolla nuevas y más efectivas maneras para contrarrestar y asesinar a su presa. Aunque inicialmente era una bestia sin mente, la inteligencia de Kha'Zix se desarrolló tanto como su cuerpo. Ahora, la criatura planea sus cacerías e incluso aprovecha el terror visceral que genera en sus víctimas",
       info: {
         attack: 9,
         defense: 4,
         magic: 3,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Khazix.png",
@@ -3780,44 +3847,44 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Assassin", "Fighter"],
+      tags: ["Asesino", "Luchador"],
       partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"cuerpo a cuerpo",
+      date: "2012-09-27",
+      patch: "V1.0.0.148",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:3,
+        toughness:1,
+        control:1,
+        mobility:2,
+        utility:0,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 572.8,
+        hpperlevel: 85,
+        mp: 327.2,
+        mpperlevel: 40,
+        armor: 36,
+        armorperlevel:3 ,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 7.5,
+        hpregenperlevel: 0.75,
+        mpregen: 7.59,
+        mpregenperlevel: 0.5,
+        attackdamage: 63,
+        attackdamageperlevel:3.1,
+        attackspeedoffset: 0.668,
+        attackspeedperlevel: 2.7,
+        attackrange: 125,
+        movespeed: 350
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
+        {pasive:"Amenaza Invisible",img:"https://opgg-static.akamaized.net/images/lol/passive/Khazix_P.png?image=q_auto,w_48&v=1591083841",info:"Los enemigos cercanos que estén aislados de sus aliados quedarán marcados. Las habilidades de Kha'Zix tienen interacciones con objetivos aislados. Cuando el equipo enemigo no tiene visión de Kha'Zix, obtiene Amenaza Invisible, lo cual hace que su siguiente ataque básico contra un campeón enemigo inflija daño mágico adicional y lo ralentice durante unos segundos."},
+        {q:"Saborea su Miedo",img:"https://opgg-static.akamaized.net/images/lol/spell/KhazixQ.png?image=q_auto,w_48&v=1591083841",info:"Causa daño físico al objetivo. El daño aumenta en objetivos aislados. Si elige Evolucionar Garras Segadoras, devolverá una parte de su enfriamiento si se usa contra objetivos aislados. Kha'Zix también obtiene alcance adicional en sus ataques básicos y Saborea su Miedo."},
+        {w:"Púas del Vacío",img:"https://opgg-static.akamaized.net/images/lol/spell/KhazixW.png?image=q_auto,w_48&v=1591083841",info:"Kha'Zix dispara unas púas explosivas que causan daño físico a los enemigos alcanzados. Kha'Zix se cura si está dentro del radio de explosión. Si elige Púas del Vacío Evolucionadas, Púas del Vacío ahora dispara tres púas en un cono, ralentiza a los enemigos alcanzados y revela a los campeones enemigos golpeados durante 2 segundos. Los objetivos aislados quedan ralentizados en mayor porcentaje."},
+        {e:"Salto",img:"https://opgg-static.akamaized.net/images/lol/spell/KhazixE.png?image=q_auto,w_48&v=1591083841",info:"Kha'Zix salta hacia una zona y causa daño físico al aterrizar. Si elige Evolucionar las Alas, el alcance de Salto aumenta por 200 y el enfriamiento se restablece al asesinar un campeón o asistir."},
+        {r:"Ataque del Vacío",img:"https://opgg-static.akamaized.net/images/lol/spell/KhazixR.png?image=q_auto,w_48&v=1591083841",info:"Cada rango le permite a Kha'Zix evolucionar una de sus habilidades, lo que le otorga un efecto adicional único. Al activarse, Kha'Zix se vuelve Invisible, activa Amenaza Invisible y aumenta su velocidad de movimiento. Si elige Evolucionar Camuflaje Adaptable, aumenta la duración de la Invisibilidad de Ataque del Vacío, y le otorga un uso adicional."}
      ]
     },
     Kindred: {
@@ -3825,18 +3892,18 @@ export default {
       id: "Kindred",
       key: "203",
       name: "Kindred",
-      title: "The Eternal Hunters",
+      title: "Los Cazadores Eternos",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Kindred.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kindred_0.jpg",
       blurb:
-        "''Tell me again, little Lamb, which things are ours to take?''<br>''All things, Dear Wolf.''<br>Separate, but never parted, Kindred represents the twin essences of death. Lamb's arrow offers a swift release for those who accept their fate. Wolf hunts ...",
+        "Separados, pero nunca divididos, los Kindred representan las esencias hermanas de la muerte. La flecha de la Oveja ofrece una vía de escape rápida para los mortales que acepten su destino. El Lobo sale a la caza de los que huyen de su final y les proporciona un fin violento con sus fauces implacables. Aunque las interpretaciones de la naturaleza de los Kindred difieren a lo largo y ancho de Runaterra, todos los mortales deben elegir el verdadero rostro de su muerte.",
       info: {
         attack: 8,
         defense: 2,
         magic: 2,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Kindred.png",
@@ -3847,9 +3914,9 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Marksman"],
+      tags: ["Tirador"],
       partype: "MP",
-      rangetype:"",
+      rangetype:"a distancia",
       date: "",
       patch: "",
       graphic :{
@@ -3880,7 +3947,7 @@ export default {
         movespeed: 
       },
       skill:[
-        {pasive:"",img:"",info:""},
+        {pasive:"",img:"",info:"Kindred puede marcar objetivos para cazar. Completar con éxito una cacería potencia de forma permanente las habilidades básicas de Kindred. Cada vez que completa 4 cacerías también aumenta el rango de ataque básico."},
         {q:"",img:"",info:""},
         {w:"",img:"",info:""},
         {e:"",img:"",info:""},
