@@ -13,9 +13,7 @@ import lol from "./data/lol/lol.js";
 //                 blurb : datachamps[champ].blurb,
 //                 difficulty : datachamps[champ].info.difficulty,
 //                 tags : datachamps[champ].tags,
-//                 info : datachamps[champ].info.attack,
-//                 info1 : datachamps [champ].info.defense,
-//                 info2 : datachamps[champ].info.magic
+//                 
 //             }
 //             championData.push(card);
 //         }
