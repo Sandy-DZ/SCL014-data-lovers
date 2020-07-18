@@ -10048,6 +10048,6 @@ export default {
         {w:"Crecimiento Desenfrenado",img:"https://opgg-static.akamaized.net/images/lol/spell/ZyraW.png?image=q_auto,w_48&v=1591083841",info:"Zyra planta semillas que duran hasta 60 seg. Si lanza Espinas Mortales y Raíces Atrapadoras cerca de ellas, estas se convertirán en plantas que pelearán por Zyra. Zyra puede almacenar varias semillas al mismo tiempo y matar enemigos reduce el tiempo de recarga de Crecimiento Desenfrenado."},
         {e:"Raíces Atrapadoras",img:"https://opgg-static.akamaized.net/images/lol/spell/ZyraE.png?image=q_auto,w_48&v=1591083841",info:"Zyra lanza unas vides que se extienden por el suelo para aprisionar a su objetivo, lo que inflige daño e inmoviliza a los enemigos en su camino. Si lanza Raíces Atrapadoras cerca de una semilla, brotará un Azotavides, cuyos ataques de corto alcance reducen la velocidad de movimiento del enemigo."},
         {r:"Tuercespinas",img:"https://opgg-static.akamaized.net/images/lol/spell/ZyraR.png?image=q_auto,w_48&v=1591083841",info:"Zyra invoca un matorral retorcido en la ubicación indicada, lo que inflige daño a los enemigos a medida que se expande y los lanza por el aire cuando se contrae. Las plantas dentro del matorral se enfurecen."}
-     ]
+    ]
     }
   }
