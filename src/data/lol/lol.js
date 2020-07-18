@@ -4296,7 +4296,7 @@ export default {
       name: "Lillia",
       title: "La Flor Tímida",
       img:
-        "",
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Lillia.png",
       splash:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8d574470daab356b/5efcd6bb60ea214019a4dc55/01_Lillia-Splash-Base.jpg",
       blurb:
@@ -4959,7 +4959,4160 @@ export default {
         {r:"Balacera",img:"https://opgg-static.akamaized.net/images/lol/spell/MissFortuneBulletTime.png?image=q_auto,w_48&v=1591083841",info:"Miss Fortune canaliza una ráfaga de balas en forma de cono frente a ella que inflige una enorme cantidad de daño a los enemigos. Cada oleada de Balacera puede infligir golpes críticos."}
      ]
     },
-    MonkeyKing: {
+    Mordekaiser: {
+      version: "V10.14",
+      id: "Mordekaiser",
+      key: "82",
+      name: "Mordekaiser",
+      title: "El Renacido De Hierro",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Mordekaiser.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mordekaiser_0.jpg",
+      blurb:
+        "Asesinado dos veces y renacido tres, Mordekaiser es un señor de la guerra brutal de una época olvidada, quien usa su brujería nigromántica para atar almas a una esclavitud eterna. Quedan muy pocos que recuerden sus conquistas precedentes o que conozcan el verdadero alcance de sus poderes, pero las antiguas almas que lo hacen, temen que llegue el día que regrese para reclamar el dominio sobre vivos y muertos.",
+      info: {
+        attack: 4,
+        defense: 6,
+        magic: 7,
+        difficulty: 2
+      },
+      image: {
+        full: "Mordekaiser.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 384,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador"],
+      partype: "None",
+      rangetype:"cuerpo a cuerpo",
+      date: "2010-02-24",
+      patch: "V1.0.0.75",
+      graphic :{
+        damage:3,
+        toughness:2,
+        control:1,
+        mobility:0,
+        utility:2,
+      },
+      stats: {
+        hp: 575,
+        hpperlevel: 90,
+        mp: 0,
+        mpperlevel:0 ,
+        armor: 37,
+        armorperlevel: 3,
+        mrbase: 32,
+        mrlevel : 1.25,
+        hpregen: 5,
+        hpregenperlevel:0.75 ,
+        mpregen: 0,
+        mpregenperlevel:0 ,
+        attackdamage: 61,
+        attackdamageperlevel:4,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 1,
+        attackrange:175 ,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Oscuridad Creciente",img:"https://opgg-static.akamaized.net/images/lol/passive/MordekaiserPassive.png?image=q_auto,w_48&v=1591083841",info:"Mordekaiser obtiene una poderosa aura de daño y velocidad de movimiento después de asestar 3 ataques o hechizos contra campeones."},
+        {q:"Aniquilación",img:"https://opgg-static.akamaized.net/images/lol/spell/MordekaiserQ.png?image=q_auto,w_48&v=1591083841",info:"Mordekaiser golpea el piso con su maza e inflige daño a todos los enemigos alcanzados. El daño aumenta cuando alcanza a un solo enemigo."},
+        {w:"Indestructible",img:"https://opgg-static.akamaized.net/images/lol/spell/MordekaiserW.png?image=q_auto,w_48&v=1591083841",info:"Mordekaiser almacena el daño que inflige y recibe para crear un escudo. Puede consumir el escudo para curarse."},
+        {e:"Garra del Inframundo",img:"https://opgg-static.akamaized.net/images/lol/spell/MordekaiserE.png?image=q_auto,w_48&v=1591083841",info:"Mordekaiser atrae a todos los enemigos en un área."},
+        {r:"Reino de la Muerte",img:"https://opgg-static.akamaized.net/images/lol/spell/MordekaiserR.png?image=q_auto,w_48&v=1591083841",info:"Mordekaiser arrastra a su víctima a una dimensión distinta con él y roba una parte de sus estadísticas. Si la mata, conservará las estadísticas hasta que la víctima reaparezca."}
+     ]
+    },
+    Morgana: {
+      version: "V10.14",
+      id: "Morgana",
+      key: "25",
+      name: "Morgana",
+      title: "La Desolada",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Morgana.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg",
+      blurb:
+        "Atribulada entre su naturaleza celestial y mortal, Morgana ató sus alas para aceptar su humanidad e inflige su dolor y amargura en los deshonestos y los corruptos. Rechaza las leyes y tradiciones que considera injustas y pelea por la verdad desde las sombras de Demacia con escudos y cadenas de fuego oscuro, aun cuando otros tratan de reprimirla. Pero, ante todo, Morgana cree que incluso los parias y los desterrados serán capaces de elevarse de nuevo un día.",
+      info: {
+        attack: 1,
+        defense: 6,
+        magic: 8,
+        difficulty: 1
+      },
+      image: {
+        full: "Morgana.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 432,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago", "Soporte"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-02-21",
+      patch: "Semana Alpha 2",
+      graphic :{
+        damage:2,
+        toughness:1,
+        control:3,
+        mobility:1,
+        utility:2,
+      },
+      stats: {
+        hp: 560,
+        hpperlevel: 90,
+        mp: 340,
+        mpperlevel: 60,
+        armor: 25,
+        armorperlevel: 3.8,
+        mrbase: 30,
+        mrlevel :0.5 ,
+        hpregen: 5.5,
+        hpregenperlevel:0.4 ,
+        mpregen:11 ,
+        mpregenperlevel: 0.4,
+        attackdamage: 56,
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 1.53,
+        attackrange: 450,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Sifón del Alma",img:"https://opgg-static.akamaized.net/images/lol/passive/FallenAngel_Empathize.png?image=q_auto,w_48&v=1591083841",info:"Morgana drena el espíritu de sus enemigos y se cura mientras inflige daño a campeones o monstruos y súbditos grandes."},
+        {q:"Hechizo Oscuro",img:"https://opgg-static.akamaized.net/images/lol/spell/MorganaQ.png?image=q_auto,w_48&v=1591083841",info:"Morgana inmoviliza a un enemigo con magia oscura y lo obliga a sentir el dolor que ha causado, lo que le inflige daño mágico."},
+        {w:"Sombra Maldita",img:"https://opgg-static.akamaized.net/images/lol/spell/MorganaW.png?image=q_auto,w_48&v=1591083841",info:"Morgana proyecta una sombra maldita en un área que inflige daño a los enemigos que osen pisar su círculo oscuro. Reciben daño mágico prolongado que aumenta entre menos vida tenga el enemigo afectado."},
+        {e:"Escudo Negro",img:"https://opgg-static.akamaized.net/images/lol/spell/MorganaE.png?image=q_auto,w_48&v=1591083841",info:"Morgana confiere a un aliado una barrera protectora de fuego estelar que absorbe daño mágico y anula efectos de control de masas hasta que se rompe."},
+        {r:"Grilletes del Alma",img:"https://opgg-static.akamaized.net/images/lol/spell/MorganaR.png?image=q_auto,w_48&v=1591083841",info:"Morgana libera toda la fuerza de su poder celestial, con lo que desata sus alas y sobrevuela. Morgana ata cadenas de dolor oscuras a los campeones enemigos cercanos y obtiene velocidad de movimiento al moverse hacia ellos. Las cadenas ralentizan e infligen daño inicial. Después de un momento, aturden a los que no puedan romperlas."}
+     ]
+    },
+    Nami: {
+      version: "V10.14",
+      id: "Nami",
+      key: "267",
+      name: "Nami",
+      title: "La Invocadora De Mareas",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nami.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_0.jpg",
+      blurb:
+        "Como una joven y obstinada vastaya de los mares, Nami fue la primera de la tribu Marai en dejar las olas y aventurarse a tierra firme cuando se quebrantó el ancestral acuerdo con los targonianos. Sin ninguna otra opción, se dedicó a la tarea de completar el sagrado ritual que garantizaría la seguridad de su gente. En medio del caos de esta nueva era, Nami se enfrenta a un futuro incierto con valor y determinación junto a su báculo invocador de mareas para blandir la fuerza de los mismos océanos.",
+      info: {
+        attack: 4,
+        defense: 3,
+        magic: 7,
+        difficulty: 2
+      },
+      image: {
+        full: "Nami.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 0,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Soporte", "Mago"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2012-12-07",
+      patch: "V1.0.0.152",
+      graphic :{
+        damage:1,
+        toughness:1,
+        control:3,
+        mobility:1,
+        utility:2,
+      },
+      stats: {
+        hp: 475,
+        hpperlevel:74 ,
+        mp:365 ,
+        mpperlevel: 43,
+        armor: 29,
+        armorperlevel: 4,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen: 5.5,
+        hpregenperlevel: 0.55,
+        mpregen: 11.5,
+        mpregenperlevel: 0.4,
+        attackdamage: 51.208,
+        attackdamageperlevel:3.1,
+        attackspeedoffset: 0.644,
+        attackspeedperlevel: 2.61,
+        attackrange: 550,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Oleaje",img:"https://opgg-static.akamaized.net/images/lol/passive/NamiPassive.png?image=q_auto,w_48&v=1591083841",info:"Cuando las habilidades de Nami impactan a campeones aliados, obtienen velocidad de movimiento durante un breve periodo."},
+        {q:"Prisión de Agua",img:"https://opgg-static.akamaized.net/images/lol/spell/NamiQ.png?image=q_auto,w_48&v=1591083841",info:"Envía una burbuja a una zona objetivo, lo que inflige daño y aturde a todos los enemigos al impacto."},
+        {w:"Flujo y Reflujo",img:"https://opgg-static.akamaized.net/images/lol/spell/NamiW.png?image=q_auto,w_48&v=1591083841",info:"Desata una corriente de agua que rebota de un lado a otro entre aliados y campeones enemigos, lo que cura a aliados y daña a enemigos."},
+        {e:"Bendición de la Marea",img:"https://opgg-static.akamaized.net/images/lol/spell/NamiE.png?image=q_auto,w_48&v=1591083841",info:"Potencia a un campeón aliado por un breve periodo. Los hechizos y ataques básicos de ese aliado infligen daño mágico adicional y ralentizan al objetivo."},
+        {r:"Maremoto",img:"https://opgg-static.akamaized.net/images/lol/spell/NamiR.png?image=q_auto,w_48&v=1591083841",info:"Invoca un Maremoto masivo que lanza por el aire a los enemigos, los ralentiza e inflige daño. Los aliados alcanzados obtienen el efecto de Oleaje dos veces."}
+     ]
+    },
+    Nasus: {
+      version: "V10.14",
+      id: "Nasus",
+      key: "75",
+      name: "Nasus",
+      title: "El Curador De Las Arenas",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nasus.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nasus_0.jpg",
+      blurb:
+        "Nasus es una imponente criatura Ascendida con cabeza de chacal procedente de la antigua Shurima; una figura heroica a la que la gente del desierto encumbró al nivel de semidiós. Poseedor de una increíble inteligencia, fue un guardián del saber y estratega sin igual cuya sabiduría guio durante siglos al antiguo imperio de Shurima hasta alcanzar la cumbre de su grandeza. Tras la caída del imperio, se sometió a un exilio autoimpuesto, lo que terminó por convertirlo en leyenda. Ahora que la antigua ciudad de Shurima resurgió de sus cenizas, su héroe ha regresado para asegurarse de que nunca vuelva a caer.",
+      info: {
+        attack: 7,
+        defense: 5,
+        magic: 6,
+        difficulty: 2
+      },
+      image: {
+        full: "Nasus.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 48,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Tanque"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-10-01",
+      patch: "V0.9.25.24",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:2,
+        mobility:0,
+        utility:1,
+      },
+      stats: {
+        hp: 561.2,
+        hpperlevel: 90,
+        mp: 325.6,
+        mpperlevel: 42,
+        armor:34 ,
+        armorperlevel: 3.5,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 9,
+        hpregenperlevel: 0.9,
+        mpregen: 7.44,
+        mpregenperlevel: 0.5,
+        attackdamage: 67,
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.638,
+        attackspeedperlevel: 3.48,
+        attackrange:125,
+        movespeed: 350
+      },
+      skill:[
+        {pasive:"Devorador de Almas",img:"https://opgg-static.akamaized.net/images/lol/passive/Nasus_Passive.png?image=q_auto,w_48&v=1591083841",info:"Nasus drena la energía espiritual de sus enemigos, lo que le otorga Robo de Vida adicional."},
+        {q:"Golpe Absorbente",img:"https://opgg-static.akamaized.net/images/lol/spell/NasusQ.png?image=q_auto,w_48&v=1591083841",info:"Nasus golpea a su enemigo, lo que le inflige daño e incrementa la fuerza de sus Golpes Absorbentes futuros si lo asesina."},
+        {w:"Marchitar",img:"https://opgg-static.akamaized.net/images/lol/spell/NasusW.png?image=q_auto,w_48&v=1591083841",info:"Nasus envejece a un campeón enemigo, lo que reduce progresivamente las velocidades de ataque y de movimiento del objetivo."},
+        {e:"Fuego Espiritual",img:"https://opgg-static.akamaized.net/images/lol/spell/NasusE.png?image=q_auto,w_48&v=1591083841",info:"Nasus desata una llama espiritual en una ubicación que inflige daño y reduce la armadura de los enemigos que se encuentren sobre ella."},
+        {r:"Furia de las Arenas",img:"https://opgg-static.akamaized.net/images/lol/spell/NasusR.png?image=q_auto,w_48&v=1591083841",info:"Nasus desata una poderosa tormenta de arena que azota a los enemigos cercanos. Mientras ruge la tormenta, obtiene vida y alcance de ataque aumentados; inflige daño a los enemigos cercanos; Golpe Absorbente tiene un enfriamiento más corto; y obtiene armadura y resistencia mágica adicionales durante el efecto."}
+     ]
+    },
+    Nautilus: {
+      version: "V10.14",
+      id: "Nautilus",
+      key: "111",
+      name: "Nautilus",
+      title: "El Titán De Las Profundidades",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nautilus.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_0.jpg",
+      blurb:
+        "Una solitaria leyenda tan antigua como los primeros muelles hundidos de Aguasturbias, el gigante en armadura conocido como Nautilus deambula las oscuras aguas de la costa de las Islas de la Llama Azul. Motivado por una traición ya olvidada, ataca sin advertencia y barre su enorme ancla de un lado a otro para salvar a los desafortunados y llevar a los codiciosos a su perdición. Dicen que viene por los que olvidan pagar el ''tributo de Aguasturbias'', para llevarlos debajo de las olas con él. Se ha vuelto un recordatorio de hierro de que nadie puede escapar de las profundidades.",
+      info: {
+        attack: 4,
+        defense: 6,
+        magic: 6,
+        difficulty:2
+      },
+      image: {
+        full: "Nautilus.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 96,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tanque", "Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2012-02-14",
+      patch: "V1.0.0.134",
+      graphic :{
+        damage:1,
+        toughness:3,
+        control:3,
+        mobility:1,
+        utility:0,
+      },
+      stats: {
+        hp: 576.48,
+        hpperlevel: 86,
+        mp: 400,
+        mpperlevel:47 ,
+        armor: 39,
+        armorperlevel:3.75 ,
+        mrbase:32.1,
+        mrlevel : 1.25,
+        hpregen: 8.5,
+        hpregenperlevel:0.55 ,
+        mpregen: 8.626,
+        mpregenperlevel: 0.5,
+        attackdamage: 61,
+        attackdamageperlevel:3.3,
+        attackspeedoffset: 0.612,
+        attackspeedperlevel: 1,
+        attackrange:175 ,
+        movespeed: 325
+      },
+      skill:[
+        {pasive:"Golpe Maestro",img:"https://opgg-static.akamaized.net/images/lol/passive/Nautilus_StaggeringBlow.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos de Nautilus infligen daño físico aumentado e inmovilizan a su objetivo brevemente. Golpe Maestro no puede aplicarse más de una vez cada cierto tiempo sobre el mismo objetivo."},
+        {q:"Línea de Dragado",img:"https://opgg-static.akamaized.net/images/lol/spell/NautilusAnchorDrag.png?image=q_auto,w_48&v=1591083841",info:"Nautilus arroja su ancla. Si alcanza a un campeón, arrastra a ambos hasta una posición intermedia. Si alcanza terreno, Nautilus se arrastra a sí mismo hasta el ancla, el enfriamiento de Línea de Dragado se reduce a la mitad y se reembolsa la mitad del costo de Maná."},
+        {w:"Ira del Titán",img:"https://opgg-static.akamaized.net/images/lol/spell/NautilusPiercingGaze.png?image=q_auto,w_48&v=1591083841",info:"Nautilus se envuelve con una energía oscura, lo que le otorga un escudo que bloquea el daño recibido. Mientras el escudo esté activo, sus ataques infligen daño prolongado a los enemigos alrededor de su objetivo."},
+        {e:"Aguas Revueltas",img:"https://opgg-static.akamaized.net/images/lol/spell/NautilusSplashZone.png?image=q_auto,w_48&v=1591083841",info:"Nautilus golpea con fuerza el suelo y provoca una serie de tres explosiones en la tierra a su alrededor. Cada explosión inflige daño y ralentiza al enemigo."},
+        {r:"Carga de las Profundidades",img:"https://opgg-static.akamaized.net/images/lol/spell/NautilusGrandLine.png?image=q_auto,w_48&v=1591083841",info:"Nautilus lanza una onda expansiva al suelo que persigue a un oponente. Esta onda expansiva hace pedazos la tierra, lo que lanza a los enemigos por el aire. Cuando alcanza al enemigo, la onda expansiva estalla, lo que lanza por el aire y aturde al objetivo."}
+     ]
+    },
+    Neeko: {
+      version: "V10.14",
+      id: "Neeko",
+      key: "518",
+      name: "Neeko",
+      title: "La Camaleón Curiosa",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Neeko.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Neeko_0.jpg",
+      blurb:
+        "Proveniente de una tribu vastaya perdida desde hace mucho tiempo, Neeko puede mezclarse en cualquier multitud adoptando la apariencia de los demás e incluso absorber un poco de su estado emocional para distinguir a un amigo de un enemigo en tan solo un instante. Nadie nunca tiene la certeza de dónde o en quién podría estar Neeko, pero quienes intenten hacerle daño pronto verán su verdadera personalidad y sentirán el poder de su magia espiritual primordial desatado sobre ellos.",
+      info: {
+        attack:1 ,
+        defense: 1,
+        magic: 9,
+        difficulty:2 
+      },
+      image: {
+        full: "Neeko.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2018-12-05",
+      patch: "V8.24",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:3,
+        mobility:1,
+        utility:1,
+      },
+      stats: {
+        hp:540 ,
+        hpperlevel: 90,
+        mp: 450,
+        mpperlevel: 30,
+        armor: 21,
+        armorperlevel:4 ,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen: 7.5,
+        hpregenperlevel: 0.75,
+        mpregen: 7,
+        mpregenperlevel: 0.7,
+        attackdamage: 48,
+        attackdamageperlevel:2.5,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:3 ,
+        attackrange:550 ,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Ilusión de Camaleón",img:"https://opgg-static.akamaized.net/images/lol/passive/Neeko_P.png?image=q_auto,w_48&v=1591083841",info:"Neeko puede verse como un campeón aliado. Recibir daño de campeones enemigos o lanzar hechizos de daño romperá la ilusión."},
+        {q:"Estallido Floral",img:"https://opgg-static.akamaized.net/images/lol/spell/NeekoQ.png?image=q_auto,w_48&v=1591083841",info:"Neeko arroja una semilla que inflige daño mágico. La semilla volverá a florecer si alcanza a un campeón o mata una unidad."},
+        {w:"División de Esencia",img:"https://opgg-static.akamaized.net/images/lol/spell/NeekoW.png?image=q_auto,w_48&v=1591083841",info:"De forma pasiva, Neeko inflige daño mágico adicional cada tercer ataque. Neeko puede activarla para enviar un clon en una dirección."},
+        {e:"Espiral Enredadiza",img:"https://opgg-static.akamaized.net/images/lol/spell/NeekoE.png?image=q_auto,w_48&v=1591083841",info:"Neeko arroja una espiral que daña e inmoviliza a todo lo que atraviesa. Si la espiral mata a un enemigo o atraviesa a un campeón, aumentará su tamaño, velocidad y duración de inmovilización."},
+        {r:"Detonación Silvestre",img:"https://opgg-static.akamaized.net/images/lol/spell/NeekoR.png?image=q_auto,w_48&v=1591083841",info:"Después de cargar un momento, Neeko salta por el aire y obtiene un escudo. Cuando aterriza, los enemigos cercanos reciben daño y quedan aturdidos. Los enemigos no pueden ver la carga si Neeko está bajo los efectos de la ilusión."}
+     ]
+    },
+    Nidalee: {
+      version: "V10.14",
+      id: "Nidalee",
+      key: "76",
+      name: "Nidalee",
+      title: "La Cazadora Salvaje",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nidalee.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_0.jpg",
+      blurb:
+        "Criada en las profundidades de la jungla, Nidalee es una rastreadora maestra que puede transformarse en puma a su voluntad. Ni mujer, ni bestia, ella defiende salvajemente su territorio de todos y cada uno de los intrusos, con trampas cuidadosamente colocadas y lanzas a distancia. Ella paraliza a su presa antes de atacarla en su forma felina; los pocos que sobreviven cuentan sobre una salvaje mujer con instintos agudos y garras muy filosas...",
+      info: {
+        attack: 5,
+        defense: 4,
+        magic: 7,
+        difficulty: 3
+      },
+      image: {
+        full: "Nidalee.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 144,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Asesino", "Luchador"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-12-17",
+      patch: "V1.0.0.63",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:0,
+        mobility:3,
+        utility:2,
+      },
+      stats: {
+        hp:545 ,
+        hpperlevel:85 ,
+        mp: 295.6,
+        mpperlevel:45 ,
+        armor: 28,
+        armorperlevel:3.5 ,
+        mrbase:30 ,
+        mrlevel : 0.5,
+        hpregen: 6,
+        hpregenperlevel:0.6 ,
+        mpregen: 6,
+        mpregenperlevel: 0.8,
+        attackdamage: 61,
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.638,
+        attackspeedperlevel: 3.22,
+        attackrange: 525,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Merodear",img:"https://opgg-static.akamaized.net/images/lol/passive/Nidalee_Passive.png?image=q_auto,w_48&v=1591083841",info:"Moverse por la maleza aumenta un 10% la Velocidad de Movimiento de Nidalee durante 2 segundos. El aumento es del 30% si se mueve hacia campeones enemigos visibles a una distancia de 1400 o menos. Si daña a algún campeón o monstruo con Jabalina o Trampa, se activa Cacería y le otorga Visión Verdadera de él durante 4 segundos. Nidalee gana un 10% de bonificación en su Velocidad de Movimiento (un 30% cerca del objetivo Cazado). Además, usar Tumbar y Salto contra él será más eficaz."},
+        {q:"Jabalina",img:"https://opgg-static.akamaized.net/images/lol/spell/JavelinToss.png?image=q_auto,w_48&v=1591083841",info:"En forma humana, Nidalee lanza a su objetivo una jabalina cuyo daño aumenta proporcionalmente a la distancia. Como felino, intentará herir de muerte a su objetivo con su siguiente ataque e inflige más daño cuanta menos vida le quede."},
+        {w:"Trampa",img:"https://opgg-static.akamaized.net/images/lol/spell/Bushwhack.png?image=q_auto,w_48&v=1591083841",info:"En forma humana, Nidalee coloca una trampa para rivales incautos que revela y causa daño a quien la acciona. Como felino, salta en una dirección y causa daño de área donde aterriza."},
+        {e:"Arrebato Primitivo",img:"https://opgg-static.akamaized.net/images/lol/spell/PrimalSurge.png?image=q_auto,w_48&v=1591083841",info:"En forma humana, Nidalee canaliza el espíritu felino para sanar a sus aliados y otorgarles Velocidad de Ataque durante un breve periodo de tiempo. Como felino, lanza zarpazos en una dirección e inflige daño a los enemigos que tiene delante."},
+        {r:"Piel de Puma",img:"https://opgg-static.akamaized.net/images/lol/spell/AspectOfTheCougar.png?image=q_auto,w_48&v=1591083841",info:"Nidalee se transforma en un puma, por lo que obtiene habilidades nuevas."}
+     ]
+    },
+    Nocturne: {
+      version: "V10.14",
+      id: "Nocturne",
+      key: "56",
+      name: "Nocturne",
+      title: "La Pesadilla Eterna",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nocturne.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nocturne_0.jpg",
+      blurb:
+        "Nocturne, una fusión demoniaca traída de las pesadillas que aterran a todas las mentes conscientes, se convirtió en una fuerza primigenia de maldad pura. Su aspecto de caos líquido es el de una sombra sin rostro con ojos crueles y armado con unas cuchillas diabólicas. Después de liberarse a sí mismo del reino espiritual, Nocturne descendió al mundo de los despiertos para alimentarse del terror que prospera en la auténtica oscuridad.",
+      info: {
+        attack: 9,
+        defense: 5,
+        magic: 2,
+        difficulty: 2
+      },
+      image: {
+        full: "Nocturne.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 192,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Asesino", "Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2011-03-15",
+      patch: "V1.0.0.113",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:2,
+        mobility:2,
+        utility:2,
+      },
+      stats: {
+        hp:585,
+        hpperlevel:85,
+        mp: 275,
+        mpperlevel: 35,
+        armor: 38,
+        armorperlevel:3.5,
+        mrbase: 32.1,
+        mrlevel : 0.75,
+        hpregen: 7,
+        hpregenperlevel:0.75,
+        mpregen: 7,
+        mpregenperlevel: 0.45,
+        attackdamage:62,
+        attackdamageperlevel:3.1,
+        attackspeedoffset: 0.721,
+        attackspeedperlevel:2.7 ,
+        attackrange: 125,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Navajas de la Penumbra",img:"https://opgg-static.akamaized.net/images/lol/passive/Nocturne_UmbraBlades.png?image=q_auto,w_48&v=1591083841",info:"Cada cierto tiempo, el siguiente ataque de Nocturne impacta a los enemigos cercanos, les inflige daño físico adicional y se cura a sí mismo. Los ataques básicos de Nocturne reducen este enfriamiento."},
+        {q:"Portador del Anochecer",img:"https://opgg-static.akamaized.net/images/lol/spell/NocturneDuskbringer.png?image=q_auto,w_48&v=1591083841",info:"Nocturne lanza una cuchilla de sombras que inflige daño, deja un Rastro de Oscuridad y hace que los campeones también dejen uno detrás. Dentro del rastro, Nocturne puede atravesar unidades e incrementa su velocidad de movimiento y daño de ataque."},
+        {w:"Manto de Oscuridad",img:"https://opgg-static.akamaized.net/images/lol/spell/NocturneShroudofDarkness.png?image=q_auto,w_48&v=1591083841",info:"Nocturne potencia sus cuchillas, lo que le otorga velocidad de ataque de manera pasiva. Activar Manto de Oscuridad permite que Nocturne entre en la oscuridad, lo que crea una barrera mágica que lo defiende de la siguiente habilidad enemiga y duplica su velocidad de ataque pasiva si la bloquea con éxito."},
+        {e:"Horror Inenarrable",img:"https://opgg-static.akamaized.net/images/lol/spell/NocturneUnspeakableHorror.png?image=q_auto,w_48&v=1591083841",info:"Nocturne siembra una pesadilla en la mente de su objetivo, lo que inflige daño cada segundo y aterroriza al objetivo si no se aleja del alcance de Nocturne antes del fin del hechizo."},
+        {r:"Paranoia",img:"https://opgg-static.akamaized.net/images/lol/spell/NocturneParanoia.png?image=q_auto,w_48&v=1591083841",info:"Nocturne reduce el radio de visión de todos los campeones enemigos y suprime su visión de aliados. Después, Nocturne puede lanzarse hacia un campeón enemigo cercano."}
+     ]
+    },
+    Nunu: {
+      version: "V10.14",
+      id: "Nunu",
+      key: "20",
+      name: "Nunu",
+      title: "El Niño Y Su Yeti",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nunu.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nunu_0.jpg",
+      blurb:
+        "Había una vez un niño que quería demostrar que era un héroe al matar a un temible monstruo... solo para descubrir que la bestia, un yeti solitario y mágico, simplemente necesitaba un amigo. Unidos por un poder ancestral y el amor compartido por las bolas de nieve, Nunu y Willump ahora pasean salvajes por todo el Fréljord y les dan vida a aventuras imaginarias. Tienen la esperanza que en algún sitio allá afuera, puedan encontrar a la madre de Nunu. Después de todo, si logran salvarla, tal vez se vuelvan héroes...",
+      info: {
+        attack: 4,
+        defense: 6,
+        magic: 7,
+        difficulty: 2
+      },
+      image: {
+        full: "Nunu.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Soporte", "Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-02-21",
+      patch: "Semana Alpha 2",
+      graphic :{
+        damage:1,
+        toughness:3,
+        control:2,
+        mobility:1,
+        utility:2,
+      },
+      stats: {
+        hp: 570,
+        hpperlevel:82,
+        mp: 280,
+        mpperlevel:42 ,
+        armor: 32,
+        armorperlevel: 3,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 5,
+        hpregenperlevel:0.8 ,
+        mpregen:7 ,
+        mpregenperlevel:0.5 ,
+        attackdamage: 61,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 2.25,
+        attackrange:125 ,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Llamado del Fréljord",img:"https://opgg-static.akamaized.net/images/lol/passive/NunuPassive.png?image=q_auto,w_48&v=1591083841",info:"Nunu aumenta la velocidad de ataque y de movimiento de Willump, de un aliado cercano y hace que los ataques básicos de Willump inflijan daño a los enemigos que rodean al objetivo."},
+        {q:"Voracidad Nunu",img:"https://opgg-static.akamaized.net/images/lol/spell/NunuQ.png?image=q_auto,w_48&v=1591083841",info:"Willump muerde a un súbdito, monstruo o campeón enemigo para infligirle daño y curarse."},
+        {w:"¡Gigantobola de Nieve!",img:"https://opgg-static.akamaized.net/images/lol/spell/NunuW.png?image=q_auto,w_48&v=1591083841",info:"Willump crea una bola de nieve que crece en tamaño y velocidad conforme la rueda. La bola de nieve inflige daño y lanza a los enemigos por el aire."},
+        {e:"¡Come Nieve!",img:"https://opgg-static.akamaized.net/images/lol/spell/NunuE.png?image=q_auto,w_48&v=1591083841",info:"Nunu lanza varias bolas de nieve que infligen daño a los enemigos. Al terminar de lanzarlas, Willump inmoviliza a cualquier campeón o monstruo grande que haya sido alcanzado por una bola de nieve."},
+        {r:"Cero Absoluto",img:"https://opgg-static.akamaized.net/images/lol/spell/NunuR.png?image=q_auto,w_48&v=1591083841",info:"Nunu y Willump crean una poderosa tormenta de nieve en un área, lo que ralentiza a los enemigos y les inflige una gran cantidad de daño cuando termina."}
+     ]
+    },
+    Olaf: {
+      version: "V10.14",
+      id: "Olaf",
+      key: "2",
+      name: "Olaf",
+      title: "El Berserker",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Olaf.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Olaf_0.jpg",
+      blurb:
+        "Como una fuerza imparable de destrucción, el portador de hachas Olaf no quiere nada más que morir en glorioso combate. Proveniente de la brutal península freljordiana de Lokfar, alguna vez recibió una profecía que predecía su muerte pacífica, que es el destino del cobarde y un gran insulto entre su gente. Buscando la muerte e impulsado por la ira, Olaf masacró todo cuanto encontró en la tierra, eliminando un gran número de guerreros y bestias legendarias en busca de un oponente que lo detuviera. Ahora, como elemento brutal de la Garra Invernal, busca su fin en las grandes guerras que se acercan.",
+      info: {
+        attack: 9,
+        defense: 5,
+        magic: 3,
+        difficulty: 1
+      },
+      image: {
+        full: "Olaf.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 288,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchadar", "Tanque"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2010-06-09",
+      patch: "V1.0.0.87",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:2,
+        mobility:1,
+        utility:0,
+      },
+      stats: {
+        hp: 597.24,
+        hpperlevel: 93,
+        mp: 315.6,
+        mpperlevel: 42,
+        armor: 35,
+        armorperlevel: 3,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 8.5,
+        hpregenperlevel: 0.9,
+        mpregen: 7.466,
+        mpregenperlevel:0.575,
+        attackdamage: 68,
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.694,
+        attackspeedperlevel: 2.7,
+        attackrange: 125,
+        movespeed: 350
+      },
+      skill:[
+        {pasive:"Ira del Berserker",img:"https://opgg-static.akamaized.net/images/lol/passive/Olaf_Passive.png?image=q_auto,w_48&v=1591083841",info:"La Velocidad de Ataque de Olaf aumenta en un 1% por cada 1% de Vida faltante."},
+        {q:"Corriente Marina",img:"https://opgg-static.akamaized.net/images/lol/spell/OlafAxeThrowCast.png?image=q_auto,w_48&v=1591083841",info:"Olaf lanza un hacha al suelo en un lugar objetivo, inflige daño a las unidades que atraviesa y reduce su velocidad de movimiento. Si Olaf recoge el hacha, el enfriamiento de la habilidad se reduce en 4,5 segundos."},
+        {w:"Golpes Sanguinarios",img:"https://opgg-static.akamaized.net/images/lol/spell/OlafFrenziedStrikes.png?image=q_auto,w_48&v=1591083841",info:"Aumenta la velocidad de ataque de Olaf. Además, le otorga robo de vida y curación aumentada de todas las fuentes según la cantidad de vida faltante."},
+        {e:"Lance Temerario",img:"https://opgg-static.akamaized.net/images/lol/spell/OlafRecklessStrike.png?image=q_auto,w_48&v=1591083841",info:"Olaf ataca con tal fuerza que causa daño verdadero a su objetivo y a sí mismo, pero el daño autoinfligido se recupera si destruye al objetivo."},
+        {r:"Ragnarok",img:"https://opgg-static.akamaized.net/images/lol/spell/OlafRagnarok.png?image=q_auto,w_48&v=1591083841",info:"Olaf es temporalmente inmune a inhabilitaciones."}
+     ]
+    },
+    Orianna: {
+      version: "V10.14",
+      id: "Orianna",
+      key: "61",
+      name: "Orianna",
+      title: "La Doncella Mecánica",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Orianna.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Orianna_0.jpg",
+      blurb:
+        "Aunque una vez una curiosa chica de carne y hueso, Orianna es ahora una maravilla tecnológica hecha completamente de relojería. Sufrió una terrible enfermedad después de un accidente en los bajos distritos de Zaun y su deteriorado cuerpo tuvo que ser reemplazado con refinados artilugios, parte por parte. Acompañada de una extraordinaria esfera de latón que construyó para su compañía y protección, Orianna ahora es libre de explorar las maravillas de Piltóver y más allá.",
+      info: {
+        attack: 4,
+        defense: 3,
+        magic: 9,
+        difficulty: 2
+      },
+      image: {
+        full: "Orianna.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 336,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago", "Soporte"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2011-06-01",
+      patch: "V1.0.0.119",
+      graphic :{
+        damage:2,
+        toughness:1,
+        control:2,
+        mobility:1,
+        utility:2,
+      },
+      stats: {
+        hp: 530,
+        hpperlevel: 91,
+        mp: 418,
+        mpperlevel: 25,
+        armor: 17.04,
+        armorperlevel:3,
+        mrbase: 26,
+        mrlevel : 0.5,
+        hpregen: 7,
+        hpregenperlevel:0.55 ,
+        mpregen: 8,
+        mpregenperlevel: 0.8,
+        attackdamage: 40.368,
+        attackdamageperlevel:2.6,
+        attackspeedoffset: 0.658,
+        attackspeedperlevel: 3.5,
+        attackrange: 525,
+        movespeed: 325
+      },
+      skill:[
+        {pasive:"Mecanismo de Cuerda",img:"https://opgg-static.akamaized.net/images/lol/passive/OriannaPassive.png?image=q_auto,w_48&v=1591083841",info:"Los autoataques de Orianna infligen daño mágico adicional. El daño adicional incrementa si Orianna ataca al mismo objetivo."},
+        {q:"Orden- Atacar",img:"https://opgg-static.akamaized.net/images/lol/spell/OrianaIzunaCommand.png?image=q_auto,w_48&v=1591083841",info:"Orianna le ordena a la Bola que salga disparada hacia una ubicación objetivo, lo que inflige daño mágico a los objetivos que encuentre en el camino (inflige menos daño a cada objetivo consecutivo). Después, la Bola permanece en esa ubicación."},
+        {w:"Orden- Disonancia",img:"https://opgg-static.akamaized.net/images/lol/spell/OrianaDissonanceCommand.png?image=q_auto,w_48&v=1591083841",info:"Orianna le ordena a la Bola que libere un pulso de energía, lo que inflige daño mágico a su alrededor. Esto crea un campo de energía que aumenta la velocidad de movimiento de los aliados y ralentiza a los oponentes."},
+        {e:"Orden- Proteger",img:"https://opgg-static.akamaized.net/images/lol/spell/OrianaRedactCommand.png?image=q_auto,w_48&v=1591083841",info:"Orianna le ordena a la Bola que se una a un campeón aliado para protegerlo, e inflige daño mágico a los enemigos que atraviese a su paso. Además, la Bola le otorga armadura y resistencia mágica adicionales al campeón al que se une."},
+        {r:"Orden- Onda de Choque",img:"https://opgg-static.akamaized.net/images/lol/spell/OrianaDetonateCommand.png?image=q_auto,w_48&v=1591083841",info:"Orianna le ordena a la Bola que desencadene una onda de choque, lo que inflige daño mágico y lanza a los enemigos cercanos hacia la Bola tras unos momentos."}
+     ]
+    },
+    Ornn: {
+      version: "V10.14",
+      id: "Ornn",
+      key: "516",
+      name: "Ornn",
+      title: "El Fuego Debajo De La Montaña",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Ornn.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ornn_0.jpg",
+      blurb:
+        "Ornn es el espíritu Fréljordiano de las forjas y artesanías. Trabaja en solitario en una gigantesca forja hecha en las cavernas de lava bajo el volcán conocido como Hogar. Allí, aviva las calderas burbujeantes de piedra fundida para purificar los minerales y crear objetos de calidad inigualable. Mientras que otras deidades, especialmente Volibear, recorren la tierra y se entrometen en asuntos de los mortales, Ornn se encarga de poner en su lugar a estos impetuosos seres, ya sea con su martillo confiable o con el desmedido poder de las propias montañas.",
+      info: {
+        attack: 5,
+        defense: 9,
+        magic: 3,
+        difficulty:2 
+      },
+      image: {
+        full: "Ornn.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tanque"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2017-08-23",
+      patch: "V7.17",
+      graphic :{
+        damage:1,
+        toughness:3,
+        control:3,
+        mobility:1,
+        utility:2,
+      },
+      stats: {
+        hp: 590,
+        hpperlevel:95,
+        mp: 340.6,
+        mpperlevel: 45,
+        armor: 36,
+        armorperlevel: 4,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 9,
+        hpregenperlevel: 0.9,
+        mpregen: 8.01,
+        mpregenperlevel: 0.6,
+        attackdamage: 69,
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 2,
+        attackrange: 175,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Forja Viviente",img:"https://opgg-static.akamaized.net/images/lol/passive/OrnnP.png?image=q_auto,w_48&v=1591083841",info:"Ornn obtiene armadura y resistencia mágica adicionales de todas las fuentes. Ornn puede gastar oro para forjar objetos no consumibles en cualquier lugar. Además, puede crear objetos maestros para él y para sus aliados."},
+        {q:"Ruptura Volcánica",img:"https://opgg-static.akamaized.net/images/lol/spell/OrnnQ.png?image=q_auto,w_48&v=1591083841",info:"Ornn golpea el suelo, lo que crea una fisura que inflige daño y ralentiza a los enemigos alcanzados. Tras una pequeña demora, una columna de magma se forma en la ubicación del objetivo."},
+        {w:"Rugido de Fuego",img:"https://opgg-static.akamaized.net/images/lol/spell/OrnnW.png?image=q_auto,w_48&v=1591083841",info:"Ornn avanza lanzando fuego por la boca. Los enemigos que reciban el impacto de la última llama se vuelven Frágiles."},
+        {e:"Embestida Abrasadora",img:"https://opgg-static.akamaized.net/images/lol/spell/OrnnE.png?image=q_auto,w_48&v=1591083841",info:"Ornn embiste, lo que inflige daño a los enemigos que atraviesa. Si Ornn colisiona con terreno mientras embiste, el impacto crea una onda expansiva a su alrededor que inflige daño y levanta a los enemigos."},
+        {r:"Llamado del Dios de la Forja",img:"https://opgg-static.akamaized.net/images/lol/spell/OrnnR.png?image=q_auto,w_48&v=1591083841",info:"Ornn invoca un enorme elemental en una ubicación, el cual avanza hacia él a una velocidad que aumenta. Los enemigos atropellados por el elemental reciben daño, quedan ralentizados y se vuelven Frágiles. Ornn puede volver a lanzar la habilidad para embestir al elemental, lo que hará que cambie de dirección y avanzará hacia donde haya recibido el golpe. Esto causará que todos los enemigos que atropelle sean levantados, reciban el mismo daño y vuelvan a recibir el efecto de Fragilidad."}
+     ]
+    },
+    Pantheon: {
+      version: "V10.14",
+      id: "Pantheon",
+      key: "80",
+      name: "Pantheon",
+      title: "La Lanza Inquebrantable",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Pantheon.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pantheon_0.jpg",
+      blurb:
+        "Antaño un reticente huésped del Aspecto de la guerra, Atreus sobrevivió cuando el poder celestial en su interior fue asesinado, negándose a sucumbir ante un golpe que, de un desgarro, borró estrellas de los cielos. Con el tiempo, aprendió a aceptar el poder de su propia mortalidad, así como la terca resiliencia implícita en ella. Ahora, Atreus combate lo divino como el renacido Pantheon, con una voluntad implacable que alimenta las armas del aspecto caído en el campo de batalla.",
+      info: {
+        attack: 9,
+        defense: 4,
+        magic: 3,
+        difficulty: 2
+      },
+      image: {
+        full: "Pantheon.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 384,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Asesino"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2010-02-02",
+      patch: "V1.0.0.72",
+      graphic :{
+        damage:3,
+        toughness:2,
+        control:2,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp: 580,
+        hpperlevel:95,
+        mp: 317.12,
+        mpperlevel: 31,
+        armor: 40,
+        armorperlevel: 3.75,
+        mrbase: 28,
+        mrlevel : 1.25,
+        hpregen: 10,
+        hpregenperlevel: 0.65,
+        mpregen: 7.356,
+        mpregenperlevel: 0.45,
+        attackdamage: 64,
+        attackdamageperlevel:3.3,
+        attackspeedoffset: 0.644,
+        attackspeedperlevel: 2.95,
+        attackrange: 175,
+        movespeed: 355
+      },
+      skill:[
+        {pasive:"Voluntad del Mortal",img:"https://opgg-static.akamaized.net/images/lol/passive/Pantheon_Passive.png?image=q_auto,w_48&v=1591083841",info:"Después de varios hechizos o ataques, el siguiente hechizo de Pantheon quedará potenciado."},
+        {q:"Lanza Cometa",img:"https://opgg-static.akamaized.net/images/lol/spell/PantheonQ.png?image=q_auto,w_48&v=1591083841",info:"Pantheon golpea con su lanza o la arroja en la dirección indicada."},
+        {w:"Salto con Escudo",img:"https://opgg-static.akamaized.net/images/lol/spell/PantheonW.png?image=q_auto,w_48&v=1591083841",info:"Pantheon se desplaza hacia un objetivo, le inflige daño y lo aturde."},
+        {e:"Égida de Asalto",img:"https://opgg-static.akamaized.net/images/lol/spell/PantheonE.png?image=q_auto,w_48&v=1591083841",info:"Pantheon prepara su escudo, se vuelve invulnerable al daño frontal y ataca de forma repetida con su lanza."},
+        {r:"Gran Descarga Estelar",img:"https://opgg-static.akamaized.net/images/lol/spell/PantheonR.png?image=q_auto,w_48&v=1591083841",info:"Pantheon se prepara y luego salta por el aire para aterrizar en la ubicación indicada como un cometa."}
+     ]
+    },
+    Poppy: {
+      version: "V10.14",
+      id: "Poppy",
+      key: "78",
+      name: "Poppy",
+      title: "La Guardiana Del Martillo",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Poppy.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Poppy_0.jpg",
+      blurb:
+        "A Runaterra no le hacen falta campeones valientes, pero pocos son tan tenaces como Poppy. Como portadora del legendario martillo de Orlon, un arma que la supera al doble de tamaño, esta determinada yordle ha pasado años en búsqueda del aclamado ''Héroe de Demacia'', quien se dice es su legítimo dueño. Hasta entonces, ella se dirige con diligencia hacia la batalla y repele a los enemigos del reino con cada impacto giratorio.",
+      info: {
+        attack: 6,
+        defense: 7,
+        magic: 2,
+        difficulty: 2
+      },
+      image: {
+        full: "Poppy.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 432,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tanque", "Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2010-01-13",
+      patch: "V1.0.0.70",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:3,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp: 540,
+        hpperlevel:90 ,
+        mp:280 ,
+        mpperlevel: 40,
+        armor: 38,
+        armorperlevel: 3.5,
+        mrbase: 32,
+        mrlevel :1.25 ,
+        hpregen: 8.,
+        hpregenperlevel:0.8 ,
+        mpregen: 7,
+        mpregenperlevel: 0.7,
+        attackdamage: 64,
+        attackdamageperlevel:4,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:2.5 ,
+        attackrange: 125,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Embajadora de Hierro",img:"https://opgg-static.akamaized.net/images/lol/passive/Poppy_Passive.png?image=q_auto,w_48&v=1591083841",info:"Poppy arroja su escudo, que rebota contra el objetivo. Lo puede recoger para obtener un escudo temporal."},
+        {q:"Impacto de Martillo",img:"https://opgg-static.akamaized.net/images/lol/spell/PoppyQ.png?image=q_auto,w_48&v=1591083841",info:"Poppy agita su martillo, lo que inflige daño y crea un área que ralentiza a los enemigos y estalla luego de un rato."},
+        {w:"Presencia Inalterable",img:"https://opgg-static.akamaized.net/images/lol/spell/PoppyW.png?image=q_auto,w_48&v=1591083841",info:"Poppy obtiene resistencia mágica y armadura de forma pasiva. Este efecto aumenta cuando tiene poca vida. Poppy puede activar Presencia Inalterable para obtener velocidad de movimiento y detener los desplazamientos de enemigos alrededor de ella. Si detiene un desplazamiento, el enemigo quedará ralentizado y anclado."},
+        {e:"Carga Heroica",img:"https://opgg-static.akamaized.net/images/lol/spell/PoppyE.png?image=q_auto,w_48&v=1591083841",info:"Poppy se desplaza hacia el objetivo y lo empuja. Si el objetivo choca con un muro, queda aturdido."},
+        {r:"Veredicto de la Guardiana",img:"https://opgg-static.akamaized.net/images/lol/spell/PoppyR.png?image=q_auto,w_48&v=1591083841",info:"Poppy canaliza un golpe con martillo lanzando muy lejos a los enemigos."}
+     ]
+    },
+    Kalista: {
+      version: "V10.14",
+      id: "Pyke",
+      key: "555",
+      name: "Pyke",
+      title: "El Destripador Del Muelle Rojo",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Pyke.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg",
+      blurb:
+        "Un reconocido arponero de los Muelles del Matadero de Aguasturbias, Pyke debió encontrarse con su fin en el estómago de un enorme leviatán... pero logró regresar. Ahora acecha los húmedos callejones y rincones de su anterior ciudad y usa sus nuevos dones sobrenaturales para dar fin a las vidas de quienes explotan a otros por dinero de manera rápida y violenta. Y así, una ciudad que era reconocida por cazar monstruos ahora está al acecho de uno.",
+      info: {
+        attack: 9,
+        defense: 3,
+        magic: 1,
+        difficulty:2 
+      },
+      image: {
+        full: "Pyke.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Soporte","Asesino"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2018-05-31",
+      patch: "V8.11",
+      graphic :{
+        damage:2,
+        toughness:0,
+        control:3,
+        mobility:3,
+        utility:1,
+      },
+      stats: {
+        hp: 600,
+        hpperlevel: 90,
+        mp: 415,
+        mpperlevel: 50,
+        armor: 45,
+        armorperlevel: 3.5,
+        mrbase: 32,
+        mrlevel :1.25 ,
+        hpregen: 7,
+        hpregenperlevel: 0.5,
+        mpregen: 8,
+        mpregenperlevel: 1,
+        attackdamage: 62,
+        attackdamageperlevel:2,
+        attackspeedoffset: 0.667,
+        attackspeedperlevel: 2.5,
+        attackrange:150 ,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Don de los Ahogados",img:"https://opgg-static.akamaized.net/images/lol/passive/PykePassive.png?image=q_auto,w_48&v=1591083841",info:"Cuando Pyke se oculta de enemigos, regenera el daño que ha recibido recientemente de otros campeones. Pyke tampoco puede obtener vida máxima adicional, y, en vez de eso, obtiene DA adicional."},
+        {q:"Mondahuesos",img:"https://opgg-static.akamaized.net/images/lol/spell/PykeQ.png?image=q_auto,w_48&v=1591083841",info:"Pyke apuñala a un enemigo frente a él o jala a un enemigo hacia él."},
+        {w:"Aguas Espectrales",img:"https://opgg-static.akamaized.net/images/lol/spell/PykeW.png?image=q_auto,w_48&v=1591083841",info:"Pyke entra en Camuflaje y obtiene mucha velocidad de movimiento que decae con el tiempo."},
+        {e:"Corriente Fantasma",img:"https://opgg-static.akamaized.net/images/lol/spell/PykeE.png?image=q_auto,w_48&v=1591083841",info:"Pyke se desplaza y deja atrás a un fantasma que regresará a él, lo que aturde a los campeones enemigos a su paso."},
+        {r:"De lo Profundo",img:"https://opgg-static.akamaized.net/images/lol/spell/PykeR.png?image=q_auto,w_48&v=1591083841",info:"Pyke se teletransporta y ejecuta a enemigos con poca vida, lo que le permite lanzar este hechizo otra vez y le otorga oro adicional al aliado que lo asista."}
+     ]
+    },
+    Qiyana: {
+      version: "V10.14",
+      id: "Qiyana",
+      key: "246",
+      name: "Qiyana",
+      title: "La Emperatriz De Los Elementos",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Qiyana.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg",
+      blurb:
+        "En la ciudad selvática de Ixaocan, Qiyana trama su despiadado camino hacia el trono de Yun Tal. Última en la línea de sucesión familiar, se enfrenta a quienes se interpongan en su camino con descarada confianza y un dominio nunca antes visto de la magia elemental. Mientras la propia tierra obedece cada orden suya, Qiyana se ve a sí misma como la mejor elementalista de la historia de Ixaocan y, adjudicándose ese derecho, cree no solo merecer una ciudad, sino todo un imperio.",
+      info: {
+        attack:0 ,
+        defense: 2,
+        magic: 4,
+        difficulty: 3
+      },
+      image: {
+        full: "Qiyana.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Asesino"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2019-06-28",
+      patch: "V9.13",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:2,
+        mobility:2,
+        utility:1,
+      },
+      stats: {
+        hp: 590,
+        hpperlevel: 90,
+        mp: 320,
+        mpperlevel:50 ,
+        armor:28 ,
+        armorperlevel:3.5 ,
+        mrbase:32.1 ,
+        mrlevel : 1.25,
+        hpregen: 8.5,
+        hpregenperlevel: 0.65,
+        mpregen: 8,
+        mpregenperlevel: 0.7,
+        attackdamage: 64,
+        attackdamageperlevel:3.1,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 2.1,
+        attackrange: 150,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Privilegio Real",img:"https://opgg-static.akamaized.net/images/lol/passive/Qiyana_Passive.png?image=q_auto,w_48&v=1591083841",info:"El primer ataque básico o habilidad de Qiyana contra un enemigo inflige daño adicional"},
+        {q:"Filo de Ixtal",img:"https://opgg-static.akamaized.net/images/lol/spell/QiyanaQ.png?image=q_auto,w_48&v=1591083841",info:"Qiyana hace un corte con su arma e inflige daño con un efecto adicional según su elemento."},
+        {w:"Terraformación",img:"https://opgg-static.akamaized.net/images/lol/spell/QiyanaW.png?image=q_auto,w_48&v=1591083841",info:"Qiyana se desplaza hacia una ubicación y encanta su arma con un elemento. Sus ataques y habilidades infligen daño adicional mientras su arma está encantada."},
+        {e:"Osadía",img:"https://opgg-static.akamaized.net/images/lol/spell/QiyanaE.png?image=q_auto,w_48&v=1591083841",info:"Qiyana se desplaza hacia un enemigo y le inflige daño."},
+        {r:"Talento Supremo",img:"https://opgg-static.akamaized.net/images/lol/spell/QiyanaR.png?image=q_auto,w_48&v=1591083841",info:"Qiyana lanza una onda de choque que detona todos los elementos alcanzados, lo que inflige daño y aturde a los enemigos cercanos."}
+     ]
+    },
+    Quinn: {
+      version: "V10.14",
+      id: "Quinn",
+      key: "133",
+      name: "Quinn",
+      title: "Las Alas De Demacia",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Quinn.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg",
+      blurb:
+        "Quinn es una caballero y exploradora de Demacia que se embarca en misiones que la llevan al mismo núcleo del territorio enemigo. Comparte un vínculo inquebrantable con su legendaria águila, Valor, y sus enemigos a menudo quedan derrotados antes de darse cuenta de que peleaban contra no uno, sino dos de los más grandes héroes del reino. Con agilidad y acrobacias cuando la situación lo amerita, Quinn empuña su ballesta mientras que Valor marca a sus escurridizos objetivos desde los cielos, lo que los vuelve un dúo letal en el campo de batalla.",
+      info: {
+        attack: 9,
+        defense: 4,
+        magic: 2,
+        difficulty: 2
+      },
+      image: {
+        full: "Quinn.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 0,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tirador", "Luchador"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2013-03-01",
+      patch: "V3.03",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:3,
+        utility:1,
+      },
+      stats: {
+        hp: 532.8,
+        hpperlevel: 85,
+        mp: 268.8,
+        mpperlevel: 35,
+        armor: 28,
+        armorperlevel: 3.5,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen: 5.5,
+        hpregenperlevel: 0.55,
+        mpregen: 6.972,
+        mpregenperlevel: 0.4,
+        attackdamage: 59,
+        attackdamageperlevel:2.4,
+        attackspeedoffset: 0.668,
+        attackspeedperlevel: 3.1,
+        attackrange: 525,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Hostigador",img:"https://opgg-static.akamaized.net/images/lol/passive/Quinn_Passive.png?image=q_auto,w_48&v=1591083841",info:"Valor, el águila de Quinn, marca como Vulnerables a los enemigos de forma periódica. El primer ataque básico de Quinn contra objetivos Vulnerables infligirá daño físico adicional."},
+        {q:"Ataque Cegador",img:"https://opgg-static.akamaized.net/images/lol/spell/QuinnQ.png?image=q_auto,w_48&v=1591083841",info:"Quinn ordena a Valor que marque a un enemigo y dificulte su visión antes de dañar a todos los enemigos en el área cercana."},
+        {w:"Sentidos Aguzados",img:"https://opgg-static.akamaized.net/images/lol/spell/QuinnW.png?image=q_auto,w_48&v=1591083841",info:"Otorga de forma pasiva Velocidad de Ataque y Velocidad de Movimiento a Quinn después de atacar a un objetivo Vulnerable. Al activarla, Valor revela una amplia zona cercana."},
+        {e:"Asalto",img:"https://opgg-static.akamaized.net/images/lol/spell/QuinnE.png?image=q_auto,w_48&v=1591083841",info:"Quinn corre hacia un enemigo, le inflige daño físico y ralentiza su Velocidad de Movimiento. Al alcanzar al objetivo, lo utiliza para dar un salto que lo interrumpe brevemente. Luego aterriza a una distancia del objetivo igual a su alcance de ataque máximo."},
+        {r:"Detrás de las Lineas Enemigas",img:"https://opgg-static.akamaized.net/images/lol/spell/QuinnR.png?image=q_auto,w_48&v=1591083841",info:"Quinn y Valor vuelan a una gran velocidad como equipo. Terminar la habilidad lanzará Impacto Celeste, lo que inflige daño a los enemigos cercanos y marca a los campeones para dejarlos Vulnerables."}
+     ]
+    },
+    Rakan: {
+      version: "V10.14",
+      id: "Rakan",
+      key: "497",
+      name: "Rakan",
+      title: "El Encantador",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Rakan.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rakan_0.jpg",
+      blurb:
+        "Tan impredecible como encantador, Rakan es un vastaya infame que siempre se mete en problemas, además de ser el mejor guerrero bailarín en la historia tribal de Lhotlan. Para los humanos de las tierras altas de Jonia, su nombre ha sido por mucho tiempo sinónimo de festivales salvajes, fiestas incontrolables y música anárquica. Pocos se imaginarían que este artista energético y viajero también es pareja de la rebelde Xayah, dedicado a su causa.",
+      info: {
+        attack: 2,
+        defense: 4,
+        magic: 8,
+        difficulty: 2
+      },
+      image: {
+        full: "Rakan.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Soporte"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2017-04-19",
+      patch: "V7.8",
+      graphic :{
+        damage:1,
+        toughness:2,
+        control:3,
+        mobility:3,
+        utility:3,
+      },
+      stats: {
+        hp: 540,
+        hpperlevel: 85,
+        mp: 315,
+        mpperlevel: 50,
+        armor: 32,
+        armorperlevel: 3.9,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 5,
+        hpregenperlevel: 0.5,
+        mpregen: 8.75,
+        mpregenperlevel: 0.5,
+        attackdamage: 62,
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.635,
+        attackspeedperlevel: 3,
+        attackrange: 300,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Plumas Encantadas",img:"https://opgg-static.akamaized.net/images/lol/passive/Rakan_P.png?image=q_auto,w_48&v=1591083841",info:"Rakan obtiene un escudo periódicamente."},
+        {q:"Cálamo Reluciente",img:"https://opgg-static.akamaized.net/images/lol/spell/RakanQ.png?image=q_auto,w_48&v=1591083841",info:"Arroja una pluma mágica que inflige daño mágico. Impactar a un campeón o monstruo épico permite que Rakan cure a sus aliados."},
+        {w:"Gran Entrada",img:"https://opgg-static.akamaized.net/images/lol/spell/RakanW.png?image=q_auto,w_48&v=1591083841",info:"Se desplaza hacia una ubicación y lanza por el aire a enemigos cercanos al llegar"},
+        {e:"Danza de Combate",img:"https://opgg-static.akamaized.net/images/lol/spell/RakanE.png?image=q_auto,w_48&v=1591083841",info:"Vuela hasta un campeón aliado y le otorga un escudo. Se puede volver a lanzar sin costo por un breve periodo."},
+        {r:"Celeridad",img:"https://opgg-static.akamaized.net/images/lol/spell/RakanR.png?image=q_auto,w_48&v=1591083841",info:"Obtiene velocidad de movimiento, además inflige daño y deja encantados a los enemigos alcanzados."}
+     ]
+    },
+    Rammus: {
+      version: "V10.14",
+      id: "Rammus",
+      key: "33",
+      name: "Rammus",
+      title: "El Armadurillo",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Rammus.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rammus_0.jpg",
+      blurb:
+        "Idolatrado por muchos, desdeñado por algunos, mistificado por todos, el curioso ser Rammus, es un enigma. Protegido por un caparazón con púas, Rammus inspira teorías cada vez más disparatadas sobre su origen a dondequiera que vaya: desde semidiós hasta oráculo sagrado y hasta una mera bestia transformada por la magia. No importa cuál sea la verdad, Rammus es reservado y no se detiene ante nadie mientras cruza el desierto de Shurima",
+      info: {
+        attack: 4,
+        defense: 10,
+        magic: 5,
+        difficulty: 2
+      },
+      image: {
+        full: "Rammus.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 48,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tanque", "Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-07-10",
+      patch: "07.10.2009",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:3,
+        mobility:2,
+        utility:1,
+      },
+      stats: {
+        hp: 564.48,
+        hpperlevel:86 ,
+        mp: 310.44,
+        mpperlevel: 33,
+        armor: 36,
+        armorperlevel: 4.3,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 8,
+        hpregenperlevel: 0.55,
+        mpregen: 7.84,
+        mpregenperlevel: 0.5,
+        attackdamage: 55.88,
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.656,
+        attackspeedperlevel: 2.215,
+        attackrange: 125,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Caparazón de Púas",img:"https://opgg-static.akamaized.net/images/lol/passive/Armordillo_ScavengeArmor.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos de Rammus infligen daño mágico adicional que aumenta con su armadura."},
+        {q:"Bola Rodante",img:"https://opgg-static.akamaized.net/images/lol/spell/PowerBall.png?image=q_auto,w_48&v=1591083841",info:"Rammus se lanza como una bola a gran velocidad contra sus enemigos, infligiéndoles daño y ralentizando a los afectados por el impacto."},
+        {w:"Posición Defensiva",img:"https://opgg-static.akamaized.net/images/lol/spell/DefensiveBallCurl.png?image=q_auto,w_48&v=1591083841",info:"Rammus se sitúa en posición defensiva, su Armadura y su Resistencia Mágica aumentan bastante. Esto amplifica el daño de Caparazón de Púas y devuelve daño a los enemigos que le lancen ataques básicos, pero también se ralentiza durante este periodo."},
+        {e:"Provocación Frenética",img:"https://opgg-static.akamaized.net/images/lol/spell/PuncturingTaunt.png?image=q_auto,w_48&v=1591083841",info:"Rammus provoca a un monstruo o a un campeón enemigo para que se lance de forma descuidada contra él. Además, obtiene mayor velocidad de ataque por un corto momento que se extiende si cualquiera de sus otros hechizos está activo."},
+        {r:"Temblores",img:"https://opgg-static.akamaized.net/images/lol/spell/Tremors2.png?image=q_auto,w_48&v=1591083841",info:"Rammus crea olas de destrucción que envían pulsaciones por el suelo que causan daño a los enemigos cercanos y los ralentiza. Las torretas reciben doble daño de los Temblores."}
+     ]
+    },
+    RekSai: {
+      version: "V10.14",
+      id: "RekSai",
+      key: "421",
+      name: "Rek'Sai",
+      title: "La Excavadora Del Vacío",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/RekSai.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/RekSai_0.jpg",
+      blurb:
+        "Rek'Sai es una depredadora sin piedad y un engendro del Vacío que se mueve debajo de la tierra para emboscar y devorar a las presas desprevenidas. Su hambre insaciable ha dejado en calidad de desecho a regiones enteras del antes gran imperio de Shurima. Comerciantes, mercaderes y hasta caravanas armadas viajan se desvían cientos de kilómetros de su camino para evitar sus tierras de caza y las de sus descendientes. Todos saben que cuando Rek'Sai aparece en el horizonte, es una garantía que la muerte vendrá desde abajo.",
+      info: {
+        attack: 8,
+        defense: 5,
+        magic: 2,
+        difficulty: 1
+      },
+      image: {
+        full: "RekSai.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 96,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador"],
+      partype: "Battlefury",
+      rangetype:"cuerpo a cuerpo",
+      date: "2014-12-11",
+      patch: "V4.21",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:2,
+        mobility:2,
+        utility:2,
+      },
+      stats: {
+        hp: 570,
+        hpperlevel:85 ,
+        mp: 100,
+        mpperlevel:0 ,
+        armor: 36,
+        armorperlevel: 3.75,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen:7.5 ,
+        hpregenperlevel: 0.65,
+        mpregen: 0,
+        mpregenperlevel: 0,
+        attackdamage: 64,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.667,
+        attackspeedperlevel:2 ,
+        attackrange: 175,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Furia de la Xer'Sai",img:"https://opgg-static.akamaized.net/images/lol/passive/RekSai_Passive.png?image=q_auto,w_48&v=1591083841",info:"Mientras está en la superficie, Rek'Sai genera Furia con los ataques básicos y habilidades. Bajo la superficie, consume Furia para curarse."},
+        {q:"Ira de la Reina",img:"https://opgg-static.akamaized.net/images/lol/spell/RekSaiQ.png?image=q_auto,w_48&v=1591083841",info:"Los siguientes 3 ataques básicos de Rek'Sai infligen daño físico adicional a los enemigos cercanos. Si está bajo tierra, Rek'Sai lanza una ráfaga de tierra cargada de vacío que inflige daño físico y revela a los enemigos alcanzados."},
+        {w:"Excavar",img:"https://opgg-static.akamaized.net/images/lol/spell/RekSaiW.png?image=q_auto,w_48&v=1591083841",info:"Rek'Sai se entierra en el suelo para obtener nuevas habilidades y aumentar su velocidad de movimiento. Su alcance de visión se reduce y no puede usar ataques básicos. Si está bajo tierra, Rek'Sai puede lanzar Emerger para lanzar por el aire e infligir daño a enemigos cercanos."},
+        {e:"Mordedura Feroz",img:"https://opgg-static.akamaized.net/images/lol/spell/RekSaiE.png?image=q_auto,w_48&v=1591083841",info:"Rek'Sai muerde a su objetivo e inflige el doble de daño y daño verdadero si tiene Furia máxima. Si está bajo tierra, Rek'Sai crea un túnel de larga duración que puede utilizar varias veces. Los enemigos pueden destruirlo si se paran encima de cualquier entrada."},
+        {r:"Impulso del Vacío",img:"https://opgg-static.akamaized.net/images/lol/spell/RekSaiRWrapper.png?image=q_auto,w_48&v=1591083841",info:"Rek'Sai marca a sus objetivos de manera pasiva al infligirles daño. Puede activar esta habilidad para volverse inalcanzable por un breve periodo y embestir a un objetivo marcado para infligir una gran cantidad de daño según su vida faltante."}
+     ]
+    },
+    Renekton: {
+      version: "V10.14",
+      id: "Renekton",
+      key: "58",
+      name: "Renekton",
+      title: "El Carnicero De Las Arenas",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Renekton.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renekton_0.jpg",
+      blurb:
+        "Renekton es una terrorífica criatura Ascendida movida por la ira y procedente de los desiertos abrasadores de Shurima. Antaño fue el guerrero más admirado del imperio, un líder que condujo a los ejércitos shurimanos a incontables victorias. Sin embargo, tras la caída del imperio, Renekton quedó sepultado bajo las arenas, donde lentamente sucumbió a la locura mientras el mundo seguía girando y cambiando. Ahora, libre de nuevo, le carcome el ansia de hallar a su hermano Nasus y acabar con él, pues lo culpa en su locura de los siglos pasados entre las tinieblas.",
+      info: {
+        attack: 8,
+        defense: 5,
+        magic: 2,
+        difficulty: 1
+      },
+      image: {
+        full: "Renekton.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 144,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Tanque"],
+      partype: "Rage",
+      rangetype:"cuerpo a cuerpo",
+      date: "2011-01-18",
+      patch: "V1.0.0.109",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:2,
+        mobility:2,
+        utility:1,
+      },
+      stats: {
+        hp: 575,
+        hpperlevel: 87,
+        mp: 100,
+        mpperlevel: 0,
+        armor: 35,
+        armorperlevel: 4,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 8,
+        hpregenperlevel: 0.75,
+        mpregen: 0,
+        mpregenperlevel: 0,
+        attackdamage:69 ,
+        attackdamageperlevel:3.75,
+        attackspeedoffset: 0.665,
+        attackspeedperlevel:2.75 ,
+        attackrange: 125,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Reino de la Ira",img:"https://opgg-static.akamaized.net/images/lol/passive/Renekton_Passive.png?image=q_auto,w_48&v=1591083841",info:"Renekton logra Furia con cada autoataque que realiza. Esta Furia puede potenciar sus habilidades con efectos de bonificación. Además, Renekton consigue bonificaciones de Furia cuando tiene poca vida."},
+        {q:"Sacrifica al Débil",img:"https://opgg-static.akamaized.net/images/lol/spell/RenektonCleave.png?image=q_auto,w_48&v=1591083841",info:"Renekton blande su filo, infligiendo una cantidad moderada de daño a todos los objetivos que lo rodean y recibe una curación equivalente a una pequeña parte del daño infligido. Si tiene más de 50 puntos de Furia, aumentan su daño y su curación."},
+        {w:"Depredador Implacable",img:"https://opgg-static.akamaized.net/images/lol/spell/RenektonPreExecute.png?image=q_auto,w_48&v=1591083841",info:"Renekton corta dos veces a su objetivo, lo cual inflige daño físico moderado y lo aturde durante 0.75 seg. Si Renekton tiene más de 50 de Furia, cortará a su objetivo tres veces y destruirá los escudos contra daño del objetivo, lo que infligirá daño físico alto y lo aturdirá durante 1.5 seg."},
+        {e:"Cortar",img:"https://opgg-static.akamaized.net/images/lol/spell/RenektonSliceAndDice.png?image=q_auto,w_48&v=1591083841",info:"Renekton se arroja hacia la dirección marcada, causando daño a todas las unidades que se encuentre en el camino. Si está potenciado, Renekton inflige daño adicional y reduce la Armadura de los enemigos impactados."},
+        {r:"Dominus",img:"https://opgg-static.akamaized.net/images/lol/spell/RenektonReignOfTheTyrant.png?image=q_auto,w_48&v=1591083841",info:"Renekton se transforma en tirano, ganando Vida adicional y causando daño a los enemigos que lo rodean. Mientras está en esta forma, Renekton gana Furia periódicamente."}
+     ]
+    },
+    Rengar: {
+      version: "V10.14",
+      id: "Rengar",
+      key: "107",
+      name: "Rengar",
+      title: "El Orgullo Acechante",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Rengar.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg",
+      blurb:
+        "Rengar es un feroz vastaya cazador de trofeos que vive para sentir la emoción de rastrear y asesinar a criaturas peligrosas. Recorre el mundo en búsqueda de las bestias más salvajes que puede encontrar y en particular persigue cualquier rastro de Kha'Zix, la criatura del vacío que le arrancó el ojo. Rengar caza a sus presas no para alimentarse ni por la gloria, sino simplemente por la belleza de la persecución.",
+      info: {
+        attack: 7,
+        defense: 4,
+        magic: 2,
+        difficulty: 3
+      },
+      image: {
+        full: "Rengar.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 192,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Asesino", "Luchador"],
+      partype: "Ferocity",
+      rangetype:"cuerpo a cuerpo",
+      date: "2012-08-21",
+      patch: "V1.0.0.145",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:2,
+        mobility:2,
+        utility:1,
+      },
+      stats: {
+        hp: 585,
+        hpperlevel: 90,
+        mp: 4,
+        mpperlevel:0 ,
+        armor:34 ,
+        armorperlevel:3 ,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 7,
+        hpregenperlevel: 0.5,
+        mpregen: 0,
+        mpregenperlevel:0 ,
+        attackdamage:68 ,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.667,
+        attackspeedperlevel: 3,
+        attackrange: 125,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Depredador Invisible",img:"https://opgg-static.akamaized.net/images/lol/passive/Rengar_P.png?image=q_auto,w_48&v=1591083841",info:"Al estar en la maleza, Rengar salta hacia su objetivo con su ataque básico. Saltar sin Ferocidad, genera Ferocidad. Al llegar al máximo de Ferocidad, su siguiente habilidad estará potenciada. Lanzar una habilidad potenciada aumenta la velocidad de movimiento de Rengar durante algunos segundos. Matar campeones enemigos añade trofeos al Collar de Dientehueso de Rengar, lo que otorga daño de ataque adicional."},
+        {q:"Fiereza",img:"https://opgg-static.akamaized.net/images/lol/spell/RengarQ.png?image=q_auto,w_48&v=1591083841",info:"El siguiente ataque de Rengar apuñala brutalmente a su objetivo y le inflige daño adicional. Efecto de Ferocidad: inflige daño aumentado y otorga velocidad de ataque."},
+        {w:"Rugido de Batalla",img:"https://opgg-static.akamaized.net/images/lol/spell/RengarW.png?image=q_auto,w_48&v=1591083841",info:"Rengar desata un rugido de batalla, daña a los enemigos cercanos y se cura un poco del daño que haya recibido recientemente. Efecto de Ferocidad: Además, elimina los efectos de control de masas sobre él."},
+        {e:"Boleadoras",img:"https://opgg-static.akamaized.net/images/lol/spell/RengarE.png?image=q_auto,w_48&v=1591083841",info:"Rengar arroja su boleadora, lo que ralentiza al primer objetivo alcanzado por un breve periodo. Efecto de Ferocidad: enraíza al objetivo."},
+        {r:"Adrenalina del Cazador",img:"https://opgg-static.akamaized.net/images/lol/spell/RengarR.png?image=q_auto,w_48&v=1591083841",info:"El instinto de cazador de Rengar lo domina. Entra en camuflaje y revela al campeón enemigo más cercano en un amplio radio a su alrededor. Durante Adrenalina del Cazador, Rengar obtiene velocidad de movimiento y puede abalanzarse contra el enemigo rastreado sin estar en la maleza, con lo que reduce su armadura."}
+     ]
+    },
+    Riven: {
+      version: "V10.14",
+      id: "Riven",
+      key: "92",
+      name: "Riven",
+      title: "La Desterrada",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Riven.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg",
+      blurb:
+        "Riven, que anteriormente era una líder de los guerreros de Noxus, está exiliada en una tierra que alguna vez intentó conquistar. Ascendió por los rangos con la fuerza de su convicción y brutal eficiencia, lo cual la recompensó con su legendaria espada rúnica y una tropa propia. Sin embargo, en el frente jonio, la fe de Riven en su tierra fue puesta a prueba y finalmente se quebró. Cortó todos sus lazos con el imperio y ahora busca encontrar su lugar en un mundo en pedazos, incluso con rumores que mencionan que Noxus ha sido reforjado...",
+      info: {
+        attack: 8,
+        defense: 5,
+        magic: 1,
+        difficulty: 3
+      },
+      image: {
+        full: "Riven.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 240,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Asesino"],
+      partype: "None",
+      rangetype:"cuerpo a cuerpo",
+      date: "2011-09-14",
+      patch: "V1.0.0.125",
+      graphic :{
+        damage:3,
+        toughness:2,
+        control:2,
+        mobility:3,
+        utility:0,
+      },
+      stats: {
+        hp:560 ,
+        hpperlevel:86 ,
+        mp: 0,
+        mpperlevel: 0,
+        armor: 33,
+        armorperlevel: 3.2,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen:8.5 ,
+        hpregenperlevel: 0.5,
+        mpregen: 0,
+        mpregenperlevel: 0,
+        attackdamage:64 ,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 3.5,
+        attackrange: 125,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Espada Rúnica",img:"https://opgg-static.akamaized.net/images/lol/passive/RivenRunicBlades.png?image=q_auto,w_48&v=1591083841",info:"Las habilidades de Riven cargan su espada y sus ataques básicos consumen cargas para infligir daño adicional."},
+        {q:"Alas Rotas",img:"https://opgg-static.akamaized.net/images/lol/spell/RivenTriCleave.png?image=q_auto,w_48&v=1591083841",info:"Riven lanza una serie de golpes. Esta habilidad puede reactivarse tres veces en poco tiempo. El tercer impacto hará retroceder a los enemigos cercanos."},
+        {w:"Estallido de Ki",img:"https://opgg-static.akamaized.net/images/lol/spell/RivenMartyr.png?image=q_auto,w_48&v=1591083841",info:"Riven emite un Estallido de Ki que daña y aturde a los enemigos cercanos."},
+        {e:"Valor",img:"https://opgg-static.akamaized.net/images/lol/spell/RivenFeint.png?image=q_auto,w_48&v=1591083841",info:"Riven avanza una corta distancia y bloquea el Daño que recibe."},
+        {r:"Espada del Exilio",img:"https://opgg-static.akamaized.net/images/lol/spell/RivenFengShuiEngine.png?image=q_auto,w_48&v=1591083841",info:"Riven potencia su fiel arma con energía que aumenta su Daño de Ataque y alcance. Además, mientras dura la activación, obtiene la capacidad de usar una vez Cuchillada de Viento, un potente ataque a distancia."}
+     ]
+    },
+    Rumble: {
+      version: "V10.14",
+      id: "Rumble",
+      key: "68",
+      name: "Rumble",
+      title: "La Amenaza Mecánica",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Rumble.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rumble_0.jpg",
+      blurb:
+        "Rumble es un joven inventor con un peculiar temperamento. Con nada más que sus dos manos y un montón de chatarra, el yordle construyó un colosal traje mecánico equipado con un arsenal de arpones electrificados y cohetes incendiarios. Aunque otros se burlan de sus creaciones hechas de chatarra, a Rumble no le importa porque, al final, él es quien tiene el escupellamas.",
+      info: {
+        attack: 3,
+        defense: 6,
+        magic: 8,
+        difficulty: 3
+      },
+      image: {
+        full: "Rumble.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 288,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Mago"],
+      partype: "Heat",
+      rangetype:"cuerpo a cuerpo",
+      date: "2011-04-26",
+      patch: "V1.0.0.116",
+      graphic :{
+        damage:3,
+        toughness:2,
+        control:2,
+        mobility:1,
+        utility:0,
+      },
+      stats: {
+        hp:589 ,
+        hpperlevel: 85,
+        mp: 100,
+        mpperlevel:0 ,
+        armor: 30.88,
+        armorperlevel: 3.5,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 8,
+        hpregenperlevel: 0.6,
+        mpregen: 0,
+        mpregenperlevel: 0,
+        attackdamage: 61.036,
+        attackdamageperlevel:3.2,
+        attackspeedoffset: 0.644,
+        attackspeedperlevel: 1.85,
+        attackrange: 125,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Titán del Desguazadero",img:"https://opgg-static.akamaized.net/images/lol/passive/Rumble_JunkyardTitan1.png?image=q_auto,w_48&v=1591083841",info:"Rumble genera Calor cada vez que lanza un hechizo. Cuando alcanza el 50% de Calor, entra en la Zona de Riesgo, lo que le otorga efectos adicionales a todas sus habilidades básicas. Cuando alcanza el 100% de Calor, comienza a Sobrecalentarse, lo que le otorga daño adicional a sus ataques básicos, pero le impide lanzar hechizos durante unos segundos."},
+        {q:"Escupellamas",img:"https://opgg-static.akamaized.net/images/lol/spell/RumbleFlameThrower.png?image=q_auto,w_48&v=1591083841",info:"Rumble incinera a los oponentes que estén ante él, infligiendo daño mágico en un cono durante 3 segundos. El daño aumenta dentro de la Zona de Riesgo."},
+        {w:"Escudo de Chatarra",img:"https://opgg-static.akamaized.net/images/lol/spell/RumbleShield.png?image=q_auto,w_48&v=1591083841",info:"Rumble activa un escudo que lo protege del Daño y le garantiza un estallido de velocidad. Dentro de la Zona de Riesgo, la fuerza del escudo y la bonificación de velocidad se incrementan."},
+        {e:"Arpón Electrico",img:"https://opgg-static.akamaized.net/images/lol/spell/RumbleGrenade.png?image=q_auto,w_48&v=1591083841",info:"Rumble lanza un arpón que electrocuta a su objetivo con daño mágico y ralentiza su velocidad de movimiento. Rumble puede cargar hasta 2 arpones a la vez. Mientras está en la Zona de Riesgo, el daño y porcentaje de ralentización aumentan."},
+        {r:"El Equilibrador",img:"https://opgg-static.akamaized.net/images/lol/spell/RumbleCarpetBomb.png?image=q_auto,w_48&v=1591083841",info:"Rumble lanza un grupo de misiles, los cuales crean un muro de llamas que inflige daño y ralentiza a los enemigos."}
+     ]
+    },
+    Ryze: {
+      version: "V10.14",
+      id: "Ryze",
+      key: "13",
+      name: "Ryze",
+      title: "El Mago Rúnico",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Ryze.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg",
+      blurb:
+        "Ryze, considerado por muchos como uno de los hechiceros más expertos en Runaterra, es un antiguo y endurecido archimago con una responsabilidad casi imposible de llevar. Armado con una constitución sin igual y una gran gama de conocimiento místico, se pasa la vida buscando Runas del Mundo, fragmentos de magia pura que alguna vez moldearon el mundo a partir de la nada. Debe recuperar esos glifos antes de que caigan en las manos equivocadas porque, aunque alguna vez se usaron para construir a Runaterra, también se pueden utilizar para destruirla.",
+      info: {
+        attack: 2,
+        defense: 2,
+        magic: 10,
+        difficulty: 2
+      },
+      image: {
+        full: "Ryze.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 336,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago", "Luchador"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-02-21",
+      patch: "Semana Alpha 2",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:2,
+        utility:2,
+      },
+      stats: {
+        hp: 575,
+        hpperlevel: 98,
+        mp: 300,
+        mpperlevel: 50,
+        armor: 22,
+        armorperlevel: 3,
+        mrbase: 36,
+        mrlevel : 0.5,
+        hpregen: 8,
+        hpregenperlevel: 0.8,
+        mpregen: 8,
+        mpregenperlevel: 1,
+        attackdamage: 58,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 2.112,
+        attackrange: 550,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Maestría Arcana",img:"https://opgg-static.akamaized.net/images/lol/passive/Ryze_P.png?image=q_auto,w_48&v=1591083841",info:"Los hechizos de Ryze infligen daño adicional según su maná adicional y obtiene un porcentaje adicional a su maná máximo según su poder de habilidad."},
+        {q:"Descarga Eléctrica Ryze",img:"https://opgg-static.akamaized.net/images/lol/spell/RyzeQWrapper.png?image=q_auto,w_48&v=1591083841",info:"De forma pasiva, las otras habilidades básicas de Ryze restablecen el enfriamiento de Descarga Eléctrica y cargan una runa. Cuando Ryze usa Descarga Eléctrica con 2 runas cargadas, obtiene un breve aumento de velocidad de movimiento. Al usar la habilidad, Ryze lanza una carga de energía pura en una línea e inflige daño al primer enemigo alcanzado. Si el objetivo tiene Flujo sobre él, Descarga Eléctrica inflige daño adicional y rebota a los enemigos cercanos que tengan Flujo."},
+        {w:"Prisión Rúnica",img:"https://opgg-static.akamaized.net/images/lol/spell/RyzeW.png?image=q_auto,w_48&v=1591083841",info:"Ryze atrapa a un objetivo en una jaula de runas, lo cual le inflige daño y ralentiza su movimiento. Si el objetivo tiene Flujo, quedará inmovilizado."},
+        {e:"Flujo de Hechizos",img:"https://opgg-static.akamaized.net/images/lol/spell/RyzeE.png?image=q_auto,w_48&v=1591083841",info:"Ryze desata un orbe de poder mágico puro que inflige daño a un enemigo y debilita a todos los enemigos cercanos. Los hechizos de Ryze tienen efectos adicionales contra los enemigos debilitados."},
+        {r:"Distorsión del Entorno",img:"https://opgg-static.akamaized.net/images/lol/spell/RyzeR.png?image=q_auto,w_48&v=1591083841",info:"De forma pasiva, Descarga Eléctrica inflige más daño contra los objetivos que tengan Flujo. Al usar la habilidad, Ryze crea un portal hacia una ubicación cercana. Después de unos segundos, los aliados que se encuentren cerca del portal se teletransportarán a la ubicación objetivo."}
+     ]
+    },
+    Sejuani: {
+      version: "V10.14",
+      id: "Sejuani",
+      key: "113",
+      name: "Sejuani",
+      title: "La Furia Del Norte",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Sejuani.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sejuani_0.jpg",
+      blurb:
+        "Sejuani es la brutal e implacable Hija del Hielo y líder de la Garra Invernal, una de las tribus más temidas del Fréljord. La supervivencia de su gente es una constante y desesperada batalla contra los elementos, lo que los obliga a invadir a noxianos, demacianos y avarosanos por igual para sobrevivir a los duros inviernos. Sejuani encabeza los más peligrosos de esos ataques montada en su jabalí, Bristle, mientras blande su mangual de Hielo Puro para congelar y quebrar a sus enemigos.",
+      info: {
+        attack: 5,
+        defense: 7,
+        magic: 6,
+        difficulty: 2
+      },
+      image: {
+        full: "Sejuani.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 384,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tanque", "Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2012-01-17",
+      patch: "V1.0.0.132",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:3,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp:560 ,
+        hpperlevel:100 ,
+        mp: 400,
+        mpperlevel: 40,
+        armor: 34,
+        armorperlevel: 4.25,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 8.5,
+        hpregenperlevel: 1,
+        mpregen: 7,
+        mpregenperlevel: 0.7,
+        attackdamage: 66,
+        attackdamageperlevel:4,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:3.5 ,
+        attackrange: 150,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"la Furia del Norte",img:"https://opgg-static.akamaized.net/images/lol/passive/Sejuani_passive.png?image=q_auto,w_48&v=1591083841",info:"Al estar fuera de combate, Sejuani obtiene Armadura de Escarcha que otorga armadura y resistencia mágica, además de inmunidad a ralentizaciones. Armadura de Escarcha persiste por un corto periodo después de que Sejuani recibe daño. Sejuani puede dañar a un enemigo aturdido para hacerlo trizas e infligirle una gran cantidad de daño mágico."},
+        {q:"Asalto Ártico",img:"https://opgg-static.akamaized.net/images/lol/spell/SejuaniQ.png?image=q_auto,w_48&v=1591083841",info:"Sejuani se lanza a la carga y envía a los enemigos por el aire. La carga se detiene después de golpear a un campeón enemigo."},
+        {w:"Ira del Invieerno",img:"https://opgg-static.akamaized.net/images/lol/spell/SejuaniW.png?image=q_auto,w_48&v=1591083841",info:"Sejuani golpea dos veces con su mazo, lo que inflige daño y aplica acumulaciones de Escarcha."},
+        {e:"Permahielo",img:"https://opgg-static.akamaized.net/images/lol/spell/SejuaniE.png?image=q_auto,w_48&v=1591083841",info:"Sejuani congela y aturde al enemigo campeón que tenga el máximo de acumulaciones de Escarcha."},
+        {r:"Prisión Glacial",img:"https://opgg-static.akamaized.net/images/lol/spell/SejuaniR.png?image=q_auto,w_48&v=1591083841",info:"Sejuani arroja su bola que congela y aturde al primer campeón que alcanza, y crea una tormenta de hielo que ralentiza a los demás enemigos."}
+     ]
+    },
+    Senna: {
+      version: "V10.14",
+      id: "Senna",
+      key: "235",
+      name: "Senna",
+      title: "La Redentora",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Senna.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg",
+      blurb:
+        "Condenada desde la infancia a ser acechada por la sobrenatural Niebla Negra, Senna se unió a una orden sagrada conocida como los Centinelas de la Luz y luchó salvajemente contra ella. No obstante, el cruel espectro Thresh la asesinó y encerró su alma en una linterna. Senna se rehusó a perder la esperanza y, dentro de la linterna, aprendió a usar la Niebla; tras ello, reemergió en una nueva vida, cambiada para siempre. Ahora, cada disparo de su arma reliquia combina la oscuridad y la luz. Con ella, Senna busca acabar con Niebla Negra al ponerla en su propia contra y así redimir a las almas perdidas que lleva dentro.",
+      info: {
+        attack: 7,
+        defense: 2,
+        magic: 6,
+        difficulty:2 
+      },
+      image: {
+        full: "Senna.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tirador", "Mago"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2019-11-10",
+      patch: "V9.22",
+      graphic :{
+        damage:2,
+        toughness:1,
+        control:2,
+        mobility:1,
+        utility:3,
+      },
+      stats: {
+        hp: 520,
+        hpperlevel: 75,
+        mp: 350,
+        mpperlevel:45 ,
+        armor: 28,
+        armorperlevel: 3.5,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen: 3.5,
+        hpregenperlevel: 0.55,
+        mpregen: 11.5,
+        mpregenperlevel: 0.4,
+        attackdamage: 50,
+        attackdamageperlevel:0,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 4,
+        attackrange: 600,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Absolución",img:"https://opgg-static.akamaized.net/images/lol/passive/Senna_Passive.Senna.png?image=q_auto,w_48&v=1591083841",info:"Cuando las unidades mueren cerca de Senna, la Niebla Negra atrapa sus almas periódicamente. Senna puede atacar a estas almas para liberarlas, con lo que absorbe la niebla que las mantiene muertas. La niebla alimenta el poder de su cañón reliquia con daño de ataque, alcance de ataque y probabilidad de golpe crítico aumentados. Los ataques del cañón reliquia de Senna tardan más en disparar, infligen daño adicional y le otorgan una porción de la velocidad de movimiento de su objetivo por un momento."},
+        {q:"Oscuridad Lacerante",img:"https://opgg-static.akamaized.net/images/lol/spell/SennaQ.png?image=q_auto,w_48&v=1591083841",info:"Desde los dos compartimentos de su cañón reliquia, Senna dispara un rayo combinado de luz y sombra contra un objetivo, lo que cura a aliados y daña a enemigos."},
+        {w:"Abrazo Final",img:"https://opgg-static.akamaized.net/images/lol/spell/SennaW.png?image=q_auto,w_48&v=1591083841",info:"Senna lanza una ola de Niebla Negra. Si impacta a un enemigo, la oleada hambrienta se abalanza sobre él para inmovilizarlo, junto con todas las unidades cercanas después de un momento."},
+        {e:"Maldición de la Niebla Negra",img:"https://opgg-static.akamaized.net/images/lol/spell/SennaE.png?image=q_auto,w_48&v=1591083841",info:"Senna canaliza la niebla que almacena en su arma, genera una tormenta a su alrededor y abraza la oscuridad para convertirse en un espectro. Los aliados que entren en la zona se camuflan y también aparecen como espectros mientras la niebla los cubre. Los espectros obtienen velocidad de movimiento aumentada, no son seleccionables y ocultan su identidad."},
+        {r:"Cañón de Sombras",img:"https://opgg-static.akamaized.net/images/lol/spell/SennaR.png?image=q_auto,w_48&v=1591083841",info:"Senna invoca las piedras reliquia de los Centinelas caídos, partiendo su cañón reliquia en un despliegue de sombra y luz. Después dispara un rayo global que escuda a los aliados contra el daño, mientras los enemigos en el centro reciben daño."}
+     ]
+    },
+    Sett: {
+      version: "V10.14",
+      id: "Sett",
+      key: "148",
+      name: "Sett",
+      title: "El Jefe",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Sett.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg",
+      blurb:
+        "Sett, uno de los líderes del creciente inframundo criminal de Jonia, ascendió a la fama tras la guerra con Noxus. Se inició como un humilde púgil en las arenas de pelea de Navori, pero pronto ganó notoriedad por su fuerza salvaje y su habilidad para soportar castigos aparentemente interminables. Tras ascender en las clasificaciones de los combatientes locales, Sett se abrió camino a golpes hasta la cima y ahora es quien dirige las arenas en las que alguna vez peleó.",
+      info: {
+        attack:8 ,
+        defense: 5,
+        magic: 1,
+        difficulty: 1
+      },
+      image: {
+        full: "Sett.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Tanque"],
+      partype: "GnarFury",
+      rangetype:"cuerpo a cuerpo",
+      date: "2020-01-14",
+      patch: "V10.1",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:2,
+        mobility:2,
+        utility:1,
+      },
+      stats: {
+        hp: 600,
+        hpperlevel: 93,
+        mp: 0,
+        mpperlevel: 0,
+        armor: 33,
+        armorperlevel: 4,
+        mrbase:32 ,
+        mrlevel :1.25 ,
+        hpregen: 7,
+        hpregenperlevel:0.5 ,
+        mpregen: 0,
+        mpregenperlevel:0 ,
+        attackdamage: 60,
+        attackdamageperlevel:4,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 1.75,
+        attackrange: 125,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Determinación de la Grieta",img:"https://opgg-static.akamaized.net/images/lol/passive/Sett_P.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos de Sett se alternan entre un golpe izquierdo y derecho. El golpe con la derecha es ligeramente más fuerte y rápido. Sett odia perder, por lo que obtiene regeneración de vida adicional según su vida faltante."},
+        {q:"Saluda a mis Nudillos",img:"https://opgg-static.akamaized.net/images/lol/spell/SettQ.png?image=q_auto,w_48&v=1591083841",info:"Los dos ataques siguientes de Sett infligen daño adicional según la vida máxima del objetivo. Además, Sett obtiene velocidad de movimiento al dirigirse hacia campeones enemigos."},
+        {w:"Mi Turno",img:"https://opgg-static.akamaized.net/images/lol/spell/SettW.png?image=q_auto,w_48&v=1591083841",info:"Set almacena de forma pasiva el daño que recibe como Determinación. Al lanzar la habilidad, Sett consume todo el Determinación almacenado para obtener un escudo y realizar un golpe en un área, lo que inflige daño verdadero en el centro y daño físico a los lados."},
+        {e:"Ahora Bésense",img:"https://opgg-static.akamaized.net/images/lol/spell/SettE.png?image=q_auto,w_48&v=1591083841",info:"Sett atrae a todos los enemigos que se encuentren a ambos lados de él, les inflige daño y los aturde. Si los enemigos se encuentran de un solo lado, los ralentiza en vez de aturdirlos."},
+        {r:"Hora del Show",img:"https://opgg-static.akamaized.net/images/lol/spell/SettR.png?image=q_auto,w_48&v=1591083841",info:"Sett carga a un enemigo por el aire y lo azota contra el suelo, lo que inflige daño y ralentiza a todos los enemigos cerca del lugar de aterrizaje."}
+     ]
+    },
+    Shaco: {
+      version: "V10.14",
+      id: "Shaco",
+      key: "35",
+      name: "Shaco",
+      title: "El Bufón Siniestro",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Shaco.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shaco_0.jpg",
+      blurb:
+        "Creado hace mucho tiempo como un juguete para un solitario príncipe, la marioneta encantada Shaco ahora se deleita con la matanza y el caos. Corrompido por una oscura magia y la pérdida de su querido dueño, la que alguna vez fue una gentil marioneta ahora encuentra placer en la miseria de las pobres almas que atormenta. Usa juguetes y trucos simples con letal eficacia, y cree que los resultados de sus sangrientos ''juegos'' son divertidos. Para los que escuchan una siniestra carcajada en la mitad de la noche, podría ser que el Bufón Siniestro los marcó como sus próximos juguetes.",
+      info: {
+        attack: 8,
+        defense: 4,
+        magic: 6,
+        difficulty: 3
+      },
+      image: {
+        full: "Shaco.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 432,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Asesino"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-10-10",
+      patch: "V0.9.25.34",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:2,
+        mobility:2,
+        utility:2,
+      },
+      stats: {
+        hp: 587,
+        hpperlevel:89 ,
+        mp:297.2 ,
+        mpperlevel: 40,
+        armor: 30,
+        armorperlevel:3.5 ,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 8.5,
+        hpregenperlevel:0.55 ,
+        mpregen:7.156 ,
+        mpregenperlevel: 0.45,
+        attackdamage: 63,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.694,
+        attackspeedperlevel:3 ,
+        attackrange: 125,
+        movespeed: 350
+      },
+      skill:[
+        {pasive:"Puñalada en la Espalda",img:"https://opgg-static.akamaized.net/images/lol/passive/Jester_CarefulStrikes.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos de Shaco y Veneno de Doble Filo infligen daño adicional cuando atacan desde atrás."},
+        {q:"Engaño",img:"https://opgg-static.akamaized.net/images/lol/spell/Deceive.png?image=q_auto,w_48&v=1591083841",info:"Shaco se vuelve Invisible y se teletransporta hacia la ubicación objetivo. Su siguiente ataque básico estará potenciado, lo que inflige daño adicional y asesta un golpe crítico si ataca desde atrás."},
+        {w:"Caja Sorpresa",img:"https://opgg-static.akamaized.net/images/lol/spell/JackInTheBox.png?image=q_auto,w_48&v=1591083841",info:"Shaco crea una caja sorpresa oculta. Al activarse, atemorizará y atacará a los enemigos cercanos."},
+        {e:"Veneno de Doble Filo",img:"https://opgg-static.akamaized.net/images/lol/spell/TwoShivPoison.png?image=q_auto,w_48&v=1591083841",info:"Los cuchillos de Shaco envenenan de forma pasiva al objetivo al impacto, lo que ralentiza su velocidad de movimiento. Puede lanzar sus cuchillos para infligir daño y envenenar al objetivo. Los cuchillos lanzados infligen daño adicional si el objetivo está por debajo del 30% de Vida."},
+        {r:"Alucinación",img:"https://opgg-static.akamaized.net/images/lol/spell/HallucinateFull.png?image=q_auto,w_48&v=1591083841",info:"Shaco crea una ilusión suya cerca de él, la cual puede atacar a los enemigos cercanos (causa daño reducido a torretas). Al morir, esta estalla y hace aparecer tres cajas sorpresa que causan daño a los enemigos cercanos."}
+     ]
+    },
+    Shen: {
+      version: "V10.14",
+      id: "Shen",
+      key: "98",
+      name: "Shen",
+      title: "El Ojo Del Crepúsculo",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Shen.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg",
+      blurb:
+        "Entre los secretos guerreros jonios conocidos como los Kinkou, Shen sirve como su líder, el Ojo del Crepúsculo. Desea mantenerse libre de las confusiones que provocan la emoción, los prejuicios y el ego, y camina por la senda oculta del juicio imparcial entre el mundo espiritual y el mundo real. Al estar encargado del balance entre ellos, Shen blande hojas de acero y energía arcana contra cualquiera que lo amenace.",
+      info: {
+        attack: 3,
+        defense: 9,
+        magic: 3,
+        difficulty: 2
+      },
+      image: {
+        full: "Shen.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 0,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tanque"],
+      partype: "Energy",
+      rangetype:"cuerpo a cuerpo",
+      date: "2010-03-24",
+      patch: "V1.0.0.81",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:2,
+        mobility:2,
+        utility:3,
+      },
+      stats: {
+        hp: 540,
+        hpperlevel: 85,
+        mp: 400,
+        mpperlevel: 0,
+        armor:34 ,
+        armorperlevel: 3,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 8.5,
+        hpregenperlevel: 0.75,
+        mpregen: 50,
+        mpregenperlevel: 0,
+        attackdamage:60,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.651,
+        attackspeedperlevel:3 ,
+        attackrange: 125,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Barrera de Ki",img:"https://opgg-static.akamaized.net/images/lol/passive/Shen_Passive.png?image=q_auto,w_48&v=1591083841",info:"Luego de lanzar un hechizo, Shen recibe un escudo. Afectar a otros campeones reduce el enfriamiento de este efecto."},
+        {q:"Ataque de Crepúsculo",img:"https://opgg-static.akamaized.net/images/lol/spell/ShenQ.png?image=q_auto,w_48&v=1591083841",info:"Shen recupera su hoja espiritual para atacar con ella, lo que inflige daño según la vida máxima del objetivo. Los ataques quedan muy potenciados si chocan con un campeón enemigo, y todos los enemigos golpeados quedan ralentizados mientras huyen de Shen."},
+        {w:"Refugio del Espíritu",img:"https://opgg-static.akamaized.net/images/lol/spell/ShenW.png?image=q_auto,w_48&v=1591083841",info:"Los ataques que golpeen a Shen o a sus aliados cerca de su hoja espiritual son bloqueados."},
+        {e:"Ataque de Sombra",img:"https://opgg-static.akamaized.net/images/lol/spell/ShenE.png?image=q_auto,w_48&v=1591083841",info:"Shen corre en una dirección y provoca a los enemigos a su paso."},
+        {r:"Unidos",img:"https://opgg-static.akamaized.net/images/lol/spell/ShenR.png?image=q_auto,w_48&v=1591083841",info:"Shen protege a un campeón aliado objetivo del daño recibido, y poco después se teletransporta hasta su ubicación."}
+     ]
+    },
+    Shyvana: {
+      version: "V10.14",
+      id: "Shyvana",
+      key: "102",
+      name: "Shyvana",
+      title: "La Hija Del Dragón",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Shyvana.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg",
+      blurb:
+        "Shyvana es una criatura que tiene la magia de un fragmento rúnico ardiendo dentro de su corazón. Aunque a menudo parece humanoide, puede tomar su verdadera forma como un dragón mientras incinera a sus enemigos con su aliento en llamas. Después de salvarle la vida al príncipe Jarvan IV, Shyvana ahora sirve en su guardia real mientras busca la aceptación de la desconfiada gente de Demacia.",
+      info: {
+        attack: 8,
+        defense: 6,
+        magic: 3,
+        difficulty:2
+      },
+      image: {
+        full: "Shyvana.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 48,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Mago"],
+      partype: "Dragonfury",
+      rangetype:"cuerpo a cuerpo",
+      date: "2011-11-01",
+      patch: "V1.0.0.128",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:0,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp: 595,
+        hpperlevel: 95,
+        mp: 100,
+        mpperlevel:0 ,
+        armor: 38,
+        armorperlevel: 3.35,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 8.5,
+        hpregenperlevel: 0.8,
+        mpregen: 0,
+        mpregenperlevel: 0,
+        attackdamage: 66,
+        attackdamageperlevel:3.4,
+        attackspeedoffset: 0.658,
+        attackspeedperlevel:2.5 ,
+        attackrange: 125,
+        movespeed: 350
+      },
+      skill:[
+        {pasive:"Furia de la Hija del Dragón",img:"https://opgg-static.akamaized.net/images/lol/passive/ShyvanaReinforcedScales.png?image=q_auto,w_48&v=1591083841",info:"Shyvana inflige daño adicional a dragones y obtiene Armadura y Resistencia Mágica. Cuantos más dragones asesine su equipo, mayor será su bonificación de Armadura y Resistencia Mágica."},
+        {q:"Mordida Gemela",img:"https://opgg-static.akamaized.net/images/lol/spell/ShyvanaDoubleAttack.png?image=q_auto,w_48&v=1591083841",info:"Shyvana atacará dos veces en su siguiente ataque. Los ataques básicos reducen el enfriamiento de Mordida Gemela por 0.5 seg. Forma de Dragón: Mordida Gemela atacará a todas las unidades frente a Shyvana."},
+        {w:"Quemadura",img:"https://opgg-static.akamaized.net/images/lol/spell/ShyvanaImmolationAura.png?image=q_auto,w_48&v=1591083841",info:"Shyvana se rodea de fuego e inflige daño mágico por segundo a los enemigos cercanos, además de moverse más rápido durante 3 segundos. Parte de este daño se aplica de nuevo cuando Shyvana usa sus ataques básicos contra un enemigo con Quemadura activada. La velocidad de movimiento se reduce mientras dura el hechizo. Los ataques básicos aumentan la duración de Quemadura. Forma de Dragón: Quemadura aumenta su tamaño."},
+        {e:"Aliento de Fuego",img:"https://opgg-static.akamaized.net/images/lol/spell/ShyvanaFireball.png?image=q_auto,w_48&v=1591083841",info:"Shyvana lanza una bola de fuego que inflige daño a todos los enemigos con los que se encuentra y deja cenizas que los marcan durante 5 segundos. Los ataques básicos de Shyvana contra los objetivos marcados infligen un porcentaje de la vida máxima como daño al golpear. Forma de Dragón: Aliento de Fuego revienta al impactar o en la ubicación objetivo, lo que inflige daño adicional y abrasa el suelo durante un breve periodo de tiempo."},
+        {r:"Descendiente del Dragón",img:"https://opgg-static.akamaized.net/images/lol/spell/ShyvanaTransformCast.png?image=q_auto,w_48&v=1591083841",info:"Shyvana se transforma en un dragón y vuela hacia un lugar objetivo. Los enemigos con los que se encuentre en su camino reciben Daño y son lanzados hacia su lugar objetivo. Shyvana obtiene Furia de forma pasiva y 2 de Furia con cada ataque básico."}
+     ]
+    },
+    Singed: {
+      version: "V10.14",
+      id: "Singed",
+      key: "27",
+      name: "Singed",
+      title: "El Químico Loco",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Singed.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Singed_0.jpg",
+      blurb:
+        "Singed es un alquimista de Zaun con un intelecto inigualable que ha dedicado su vida a superar los límites del conocimiento sin importar el costo, incluso si este es su propia cordura. ¿Su locura será calculada? Sus pociones rara vez fallan, pero a muchos les parece que Singed perdió todo sentido de humanidad y dejó atrás un rastro tóxico de miseria y terror a su paso.",
+      info: {
+        attack: 4,
+        defense: 8,
+        magic: 7,
+        difficulty: 2
+      },
+      image: {
+        full: "Singed.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 96,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tanque", "Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-04-18",
+      patch: "V18.4.2009",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:2,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp: 580,
+        hpperlevel:85 ,
+        mp: 330,
+        mpperlevel: 45,
+        armor: 34,
+        armorperlevel:3.5 ,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 9.5,
+        hpregenperlevel: 0.55,
+        mpregen: 7.5,
+        mpregenperlevel: 0.55,
+        attackdamage: 63,
+        attackdamageperlevel:3.375,
+        attackspeedoffset: 0.613,
+        attackspeedperlevel:1.9 ,
+        attackrange:125 ,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Estela Nociva",img:"https://opgg-static.akamaized.net/images/lol/passive/Singed_Passive.png?image=q_auto,w_48&v=1591083841",info:"Singed se aleja de los campeones enemigos y obtendrá una ráfaga de velocidad de movimiento al rebasarlos."},
+        {q:"Rastro de Veneno",img:"https://opgg-static.akamaized.net/images/lol/spell/PoisonTrail.png?image=q_auto,w_48&v=1591083841",info:"Deja un rastro de veneno tras Singed que daña a los enemigos."},
+        {w:"Megadhesivo",img:"https://opgg-static.akamaized.net/images/lol/spell/MegaAdhesive.png?image=q_auto,w_48&v=1591083841",info:"Lanza un frasco de megadhesivo al suelo que ralentiza a todos los enemigos que lo pisen."},
+        {e:"Arrojar",img:"https://opgg-static.akamaized.net/images/lol/spell/Fling.png?image=q_auto,w_48&v=1591083841",info:"Daña a la unidad enemiga objetivo y la lanza al aire detrás de Singed. Además, si el objetivo cae sobre el Megadhesivo, queda inmovilizado."},
+        {r:"Poción Demencial",img:"https://opgg-static.akamaized.net/images/lol/spell/InsanityPotion.png?image=q_auto,w_48&v=1591083841",info:"Singed ingiere una potente pócima química que aumenta su capacidad de combate."}
+     ]
+    },
+    Sion: {
+      version: "V10.14",
+      id: "Sion",
+      key: "14",
+      name: "Sion",
+      title: "El Coloso No Muerto",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Sion.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg",
+      blurb:
+        "Como héroe de guerra de una época antigua, Sion era venerado en Noxus por quitarle la vida al rey demaciano con sus propias manos. Sin embargo, se le negó el descanso eterno y lo resucitaron para servir a su imperio incluso en la muerte. Su matanza indiscriminada costó la vida de todos los que estuvieron en su camino sin importar sus lealtades, lo que demostró que ya no conservaba su humanidad. Aun así, con una tosca armadura atornillada a su podrida carne, Sion continúa dirigiéndose a la batalla con temerario desenfreno y sufre al intentar recordar su verdadero ser entre cada corte de su poderosa hacha.",
+      info: {
+        attack: 5,
+        defense: 9,
+        magic: 3,
+        difficulty: 2
+      },
+      image: {
+        full: "Sion.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 144,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tanque", "Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-02-21",
+      patch: "Semana Alpha 2",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:3,
+        mobility:1,
+        utility:0,
+      },
+      stats: {
+        hp:545 ,
+        hpperlevel: 73,
+        mp: 330,
+        mpperlevel: 42,
+        armor:32 ,
+        armorperlevel:3,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 7.5,
+        hpregenperlevel:0.8 ,
+        mpregen: 8,
+        mpregenperlevel: 0.6,
+        attackdamage: 68,
+        attackdamageperlevel:4,
+        attackspeedoffset: 0.679,
+        attackspeedperlevel:1.3 ,
+        attackrange:175 ,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Gloria en la Muerte",img:"https://opgg-static.akamaized.net/images/lol/passive/Sion_Passive1.png?image=q_auto,w_48&v=1591083841",info:"Después de morir, Sion revivirá temporalmente con vida que decae con rapidez. Sus ataques se vuelven muy rápidos, lo curan e infligen daño adicional según la vida máxima de su objetivo."},
+        {q:"Impacto Aniquilador",img:"https://opgg-static.akamaized.net/images/lol/spell/SionQ.png?image=q_auto,w_48&v=1591083841",info:"Sion carga un poderoso ataque en un área frente a él. Al liberar dicho ataque, infligirá daño a los enemigos. Si carga el tiempo suficiente, los enemigos alcanzados por el ataque también serán levantados y quedarán aturdidos."},
+        {w:"Horno del Alma",img:"https://opgg-static.akamaized.net/images/lol/spell/SionW.png?image=q_auto,w_48&v=1591083841",info:"Sion se protege con un escudo y al cabo de 3 segundos puede reactivarse para infligir daño mágico a los enemigos cercanos. Cuando Sion asesina a algún enemigo, aumenta de manera pasiva su vida máxima"},
+        {e:"Rugido del Asesino",img:"https://opgg-static.akamaized.net/images/lol/spell/SionE.png?image=q_auto,w_48&v=1591083841",info:"Sion lanza una onda de choque de corto alcance que daña, ralentiza y reduce la armadura del primer enemigo alcanzado. Si la onda de choque alcanza a un súbdito o monstruo, lo lanzará hacia atrás. Esto dañará, ralentizará y reducirá la armadura de todos los enemigos que atraviese."},
+        {r:"Embestida Imparable",img:"https://opgg-static.akamaized.net/images/lol/spell/SionR.png?image=q_auto,w_48&v=1591083841",info:"Sion se lanza a la carga a velocidad creciente. Puede cambiar ligeramente de dirección usando el cursor del ratón. Los enemigos a los que embiste resultan derribados y dañados en función de la distancia de la carga."}
+     ]
+    },
+    Sivir: {
+      version: "V10.14",
+      id: "Sivir",
+      key: "15",
+      name: "Sivir",
+      title: "La Señora De La Batalla",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Sivir.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sivir_0.jpg",
+      blurb:
+        "Sivir es una afamada buscadora de tesoros y capitana mercenaria que se gana la vida en el desierto de Shurima. Provista de una legendaria arma en forma de cruz e incrustada con gemas, ha peleado y ganado innumerables batallas para los que pueden permitirse su exorbitante precio. Conocida por su temeraria determinación y por una ambición sin fin, se jacta de poder recuperar los tesoros enterrados de las peligrosas tumbas de Shurima a cambio de una generosa recompensa. Ahora que unas fuerzas ancestrales agitan las arenas de Shurima, Sivir se encuentra dividida entre destinos opuestos.",
+      info: {
+        attack: 9,
+        defense: 3,
+        magic: 1,
+        difficulty: 2
+      },
+      image: {
+        full: "Sivir.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 192,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tirador"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-02-21",
+      patch: "Semana Alpha 2",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:0,
+        mobility:1,
+        utility:2,
+      },
+      stats: {
+        hp:562 ,
+        hpperlevel:90 ,
+        mp: 284,
+        mpperlevel: 50,
+        armor: 26,
+        armorperlevel:3.25 ,
+        mrbase:30 ,
+        mrlevel :0.5 ,
+        hpregen:3.25 ,
+        hpregenperlevel: 0.55,
+        mpregen: 8,
+        mpregenperlevel:0.9 ,
+        attackdamage: 61,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 1.6,
+        attackrange: 500,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Pies Ligeros",img:"https://opgg-static.akamaized.net/images/lol/passive/Sivir_Passive.png?image=q_auto,w_48&v=1591083841",info:"Sivir obtiene un pequeño aumento de velocidad de movimiento cuando ataca a un campeón enemigo."},
+        {q:"Cuchilla Búmeran",img:"https://opgg-static.akamaized.net/images/lol/spell/SivirQ.png?image=q_auto,w_48&v=1591083841",info:"Sivir arroja su navaja en cruz como un búmeran, causando daño tanto a la ida como a la vuelta."},
+        {w:"Rebote",img:"https://opgg-static.akamaized.net/images/lol/spell/SivirW.png?image=q_auto,w_48&v=1591083841",info:"Los ataques de Sivir rebotan en objetivos cercanos, infligiendo cada vez menos daño."},
+        {e:"Escudo Antihechizos",img:"https://opgg-static.akamaized.net/images/lol/spell/SivirE.png?image=q_auto,w_48&v=1591083841",info:"Crea una barrera mágica que bloquea una única habilidad enemiga utilizada sobre Sivir. Recupera Maná si se bloquea un hechizo."},
+        {r:"Cazadora",img:"https://opgg-static.akamaized.net/images/lol/spell/SivirR.png?image=q_auto,w_48&v=1591083841",info:"Sivir lidera a sus aliados en combate, otorgándoles un incremento drástico de su Velocidad de Movimiento durante un tiempo. Además, Sivir recibe una bonificación pasiva a su Velocidad de Ataque mientras Rebote está activo."}
+     ]
+    },
+    Skarner: {
+      version: "V10.14",
+      id: "Skarner",
+      key: "72",
+      name: "Skarner",
+      title: "La Vanguardia De Cristal",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Skarner.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Skarner_0.jpg",
+      blurb:
+        "Skarner es un gigantesco escorpión cristalino procedente de un oculto valle de Shurima. La antigua raza a la que pertenece, los brackern, es famosa por su sabiduría y su profunda conexión con la tierra, pues sus almas están fundidas con poderosos cristales vitales que albergan los pensamientos y recuerdos de sus antepasados. En una época ya ancestral, los brackern entraron en estado de hibernación para evitar un terrible desastre de naturaleza mágica; pero, recientemente, unos sucesos amenazantes despertaron a Skarner. Ahora, el único de los brackern que no sigue dormido lucha por proteger a sus hermanos contra quienes quieren hacerles daño.",
+      info: {
+        attack: 7,
+        defense: 6,
+        magic: 5,
+        difficulty: 2
+      },
+      image: {
+        full: "Skarner.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 240,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Tanque"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2011-08-09",
+      patch: "V1.0.0.123",
+      graphic :{
+        damage:1,
+        toughness:3,
+        control:3,
+        mobility:1,
+        utility:1,
+      },
+      stats: {
+        hp: 601.28,
+        hpperlevel:90 ,
+        mp: 320,
+        mpperlevel:40 ,
+        armor:38 ,
+        armorperlevel: 3.8,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 9,
+        hpregenperlevel:0.85 ,
+        mpregen: 7.206,
+        mpregenperlevel: 0.45,
+        attackdamage: 65,
+        attackdamageperlevel:4.5,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:2.1 ,
+        attackrange: 125,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Agujas de Cristal",img:"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Crystal_Spires.png/revision/latest?cb=20160608033809",info:"La presencia de Skarner hace que aparezcan cristales en distintos puntos del mapa. Cuando Skarner está cerca de cristales poseídos por su equipo, recibe enormes bonificaciones de velocidad de movimiento, velocidad de ataque y regeneración de maná."},
+        {q:"Cuchillada de Cristal",img:"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/31/Crystal_Slash.png/revision/latest?cb=20140619095657",info:"Skarner ataca con las garras y, además de causar daño físico a todos los enemigos cercanos, se carga con Energía de Cristal durante varios segundos si consigue alcanzar a alguna unidad. Si vuelve a lanzar Cuchillada de Cristal cuando está imbuido de energía de cristal, causa daño mágico adicional."},
+        {w:"Exoesqueleto Cristalino",img:"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/86/Crystalline_Exoskeleton.png/revision/latest?cb=20140619095856",info:"Skarner obtiene un escudo y, mientras lo mantiene activo, su velocidad de movimiento aumenta."},
+        {e:"Fractura",img:"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ed/Fracture.png/revision/latest?cb=20140619095951",info:"Skarner convoca una descarga de energía cristalina que daña a los enemigos alcanzados y los ralentiza. Durante un breve espacio de tiempo, los ataques básicos aturden a estos enemigos."},
+        {r:"Empalar",img:"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7d/Impale.png/revision/latest?cb=20140619100032",info:"Skarner suprime a un campeón enemigo y le causa daño. Mientras dure el efecto, Skarner puede moverse con libertad arrastrando consigo a su víctima. Al concluir el efecto, el objetivo de Skarner recibirá daño adicional."}
+     ]
+    },
+    Sona: {
+      version: "V10.14",
+      id: "Sona",
+      key: "37",
+      name: "Sona",
+      title: "La Virtuosa De Las Cuerdas",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Sona.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sona_0.jpg",
+      blurb:
+        "Sona es la virtuosa demaciana más destacada del encordado etwahl. Habla solo a través de sus agraciados acordes y vibrantes arias. Estos elegantes modales la volvieron muy querida por la aristocracia, pero otros sospechan que sus hechizantes melodías en verdad emanan magia, un tabú en Demacia. Silenciosa con los extraños pero de algún modo comprendida por sus compañeros cercanos, Sona utiliza sus armonías no solo para curar a aliados heridos, sino también para acabar con enemigos desprevenidos.",
+      info: {
+        attack: 5,
+        defense: 2,
+        magic: 8,
+        difficulty: 2
+      },
+      image: {
+        full: "Sona.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 288,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Soporte", "Mago"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2010-09-21",
+      patch: "V1.0.0.101",
+      graphic :{
+        damage:2,
+        toughness:1,
+        control:2,
+        mobility:1,
+        utility:2,
+      },
+      stats: {
+        hp:482.36 ,
+        hpperlevel:77 ,
+        mp: 340.6,
+        mpperlevel: 45,
+        armor:28 ,
+        armorperlevel: 3.3,
+        mrbase:30,
+        mrlevel : 0.5,
+        hpregen: 5.5,
+        hpregenperlevel:0.55 ,
+        mpregen:11.5,
+        mpregenperlevel:0.4 ,
+        attackdamage: 49,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.644,
+        attackspeedperlevel: 2.3,
+        attackrange: 550,
+        movespeed: 325
+      },
+      skill:[
+        {pasive:"Acorde de Potencia",img:"https://opgg-static.akamaized.net/images/lol/passive/Sona_Passive_Charged.png?image=q_auto,w_48&v=1591083841",info:"Tras lanzar 3 hechizos, el siguiente ataque de Sona infligirá daño mágico adicional y obtendrá un efecto adicional según la última canción que activó Sona."},
+        {q:"Himno del Valor",img:"https://opgg-static.akamaized.net/images/lol/spell/SonaQ.png?image=q_auto,w_48&v=1591083841",info:"Sona toca el Himno del Valor y envía ondas de sonido que infligen daño mágico a dos enemigos cercanos, dando prioridad a campeones y monstruos. Sona obtiene un aura temporal que le otorga a los aliados dentro de la zona daño adicional en su próximo ataque contra enemigos."},
+        {w:"Aria de la Perseverancia",img:"https://opgg-static.akamaized.net/images/lol/spell/SonaW.png?image=q_auto,w_48&v=1591083841",info:"Sona toca el Aria de la Perseverancia y envía melodías protectoras, lo que cura a Sona y a un aliado cercano herido. Sona obtiene un aura temporal que le otorga a los aliados dentro de la zona un escudo temporal."},
+        {e:"Canción de la Celeridad",img:"https://opgg-static.akamaized.net/images/lol/spell/SonaE.png?image=q_auto,w_48&v=1591083841",info:"Sona toca la Canción de la Celeridad y les otorga velocidad de movimiento adicional a los aliados cercanos. Sona obtiene un aura temporal que le otorga velocidad de movimiento adicional a los campeones aliados que entren a la zona."},
+        {r:"Crescendo",img:"https://opgg-static.akamaized.net/images/lol/spell/SonaR.png?image=q_auto,w_48&v=1591083841",info:"Sona toca su acorde definitivo para aturdir a campeones enemigos y obligarlos a bailar, lo que les inflige daño mágico. Cada rango reduce el enfriamiento de las habilidades básicas de Sona."}
+     ]}
+    },
+    Soraka: {
+      version: "V10.14",
+      id: "Soraka",
+      key: "16",
+      name: "Soraka",
+      title: "La Hija De Las Estrellas",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Soraka.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg",
+      blurb:
+        "Como nómada de las dimensiones celestiales más allá de Monte Targón, Soraka renunció a su inmortalidad para proteger a las razas mortales de sus mismos instintos más violentos. Se dedica a compartir las virtudes de la compasión y la misericordia a todos los que encuentra, e incluso cura a aquellos que desean hacerle daño. A pesar de todo lo que ha visto en este mundo, todavía cree que la gente de Runaterra tiene potencial por alcanzar.",
+      info: {
+        attack: 2,
+        defense: 5,
+        magic: 7,
+        difficulty: 1
+      },
+      image: {
+        full: "Soraka.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 336,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Soporte", "Mago"],
+      partype: "MP",
+      rangetype:"a distancia ",
+      date: "2009-02-21",
+      patch: "Semana Alpha 2",
+      graphic :{
+        damage:1,
+        toughness:1,
+        control:2,
+        mobility:1,
+        utility:3,
+      },
+      stats: {
+        hp: 535,
+        hpperlevel:74 ,
+        mp: 425,
+        mpperlevel:40 ,
+        armor:32 ,
+        armorperlevel: 3.8,
+        mrbase: 30,
+        mrlevel :0.5 ,
+        hpregen: 2.5,
+        hpregenperlevel:0.5 ,
+        mpregen: 11.5,
+        mpregenperlevel:0.4 ,
+        attackdamage:50 ,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 2.14,
+        attackrange:550 ,
+        movespeed: 325
+      },
+      skill:[
+        {pasive:"Salvación",img:"https://opgg-static.akamaized.net/images/lol/passive/Soraka_Passive.png?image=q_auto,w_48&v=1591083841",info:"Soraka corre más rápidamente hacia los aliados con poca Vida."},
+        {q:"Invocación Estelar",img:"https://opgg-static.akamaized.net/images/lol/spell/SorakaQ.png?image=q_auto,w_48&v=1591083841",info:"Una estrella cae del firmamento en la ubicación objetivo, lo que inflige daño mágico y ralentiza a los enemigos. Si Invocación Estelar alcanza a un campeón enemigo, Soraka recupera vida."},
+        {w:"Infusión Astral",img:"https://opgg-static.akamaized.net/images/lol/spell/SorakaW.png?image=q_auto,w_48&v=1591083841",info:"Soraka sacrifica parte de su vida para curar a otro campeón aliado."},
+        {e:"Equinoccio",img:"https://opgg-static.akamaized.net/images/lol/spell/SorakaE.png?image=q_auto,w_48&v=1591083841",info:"Crea una zona que silencia a todos los enemigos situados en su interior. Una vez que expira el efecto, los afectados quedan inmovilizados."},
+        {r:"Plegaria",img:"https://opgg-static.akamaized.net/images/lol/spell/SorakaR.png?image=q_auto,w_48&v=1591083841",info:"Soraka infunde esperanza a sus aliados, lo que cura instantáneamente a los campeones amigos (incluida ella)."}
+     ]
+    },
+    Swain: {
+      version: "V10.14",
+      id: "Swain",
+      key: "50",
+      name: "Swain",
+      title: "El Gran General Noxiano",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Swain.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Swain_0.jpg",
+      blurb:
+        "Jericho Swain es el visionario gobernante de una nación expansionista que solo venera a la fuerza. Aunque lo derribaron, incapacitaron y perdió su brazo izquierdo en las guerras jonias, tomó control del imperio con una inquebrantable determinación... y una nueva mano demoniaca. Ahora, Swain dirige a sus guerreros desde las filas delanteras y marcha contra una oscuridad que se avecina y que solo él puede ver... entre apariciones rodeadas de cuervos oscuros que se alimentan de los cadáveres a su alrededor. En un torbellino de sacrificios y secretos, el más grande de ellos es que el peor enemigo está dentro.",
+      info: {
+        attack: 2,
+        defense: 6,
+        magic: 9,
+        difficulty: 3
+      },
+      image: {
+        full: "Swain.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 384,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago", "Luchador"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2010-10-05",
+      patch: "V1.0.0.102",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:2,
+        mobility:0,
+        utility:1,
+      },
+      stats: {
+        hp: 525,
+        hpperlevel: 85,
+        mp: 468,
+        mpperlevel:28.5 ,
+        armor: 22.72,
+        armorperlevel:4 ,
+        mrbase: 30,
+        mrlevel :0.5 ,
+        hpregen:7 ,
+        hpregenperlevel:0.65 ,
+        mpregen: 8,
+        mpregenperlevel:0.8 ,
+        attackdamage: 58,
+        attackdamageperlevel:2.7,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:2.11 ,
+        attackrange: 525,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Parvada Hambrienta",img:"https://opgg-static.akamaized.net/images/lol/passive/Swain_P.png?image=q_auto,w_48&v=1591083841",info:"Los cuervos de Swain recolectan Fragmentos de Alma que lo curan y restauran su maná. Swain puede hacer clic derecho en un campeón enemigo inmovilizado para traerlo hacia él, infligirle daño y extraerle un Fragmento de Alma."},
+        {q:"Mano de la Muerte",img:"https://opgg-static.akamaized.net/images/lol/spell/SwainQ.png?image=q_auto,w_48&v=1591083841",info:"Swain desata varios rayos de energía sobrenaturales que atraviesan a los enemigos alcanzados y se detienen al impactar con campeones enemigos. Los enemigos reciben más daño con cada rayo que los alcance."},
+        {w:"Visión Imperial",img:"https://opgg-static.akamaized.net/images/lol/spell/SwainW.png?image=q_auto,w_48&v=1591083841",info:"Swain conjura un ojo demoniaco que inflige daño y ralentiza a los enemigos. Los campeones quedan revelados y le otorgan un Fragmento de Alma a Swain."},
+        {e:"Nunca Más",img:"https://opgg-static.akamaized.net/images/lol/spell/SwainE.png?image=q_auto,w_48&v=1591083841",info:"Swain lanza una oleada de poder demoniaco hacia adelante. Después, la oleada regresa e inmoviliza a los enemigos alcanzados."},
+        {r:"Ascenso Demoníaco",img:"https://opgg-static.akamaized.net/images/lol/spell/SwainR.png?image=q_auto,w_48&v=1591083841",info:"Swain se transforma en un demonio y drena vida de los campeones enemigos cercanos, súbditos y monstruos neutrales. Swain puede lanzar Llamarada Infernal para acabar con sus enemigos cercanos con una explosión de fuego de alma, lo que inflige daño igual a una porción de la vida drenada y termina su transformación."}
+     ]
+    },
+    Sylas: {
+      version: "V10.14",
+      id: "Sylas",
+      key: "517",
+      name: "Sylas",
+      title: "El Usurpador",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Sylas.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sylas_0.jpg",
+      blurb:
+        "Criado en uno de los lugares más humildes de Demacia, Sylas de Dregbourne se ha convertido en un símbolo del lado más oscuro de la Gran Ciudad. Cuando era niño, su habilidad para encontrar la hechicería oculta llamó la atención de notables cazadores de magos, quienes, al final, lo apresaron por utilizar esos mismos poderes contra ellos. Ahora que es libre, Sylas vive como un revolucionario curtido: utiliza la magia de aquellos que lo rodean para destruir el reino al que alguna vez sirvió, y su banda de seguidores magos y marginados parece crecer más cada día.",
+      info: {
+        attack:3,
+        defense: 4,
+        magic:8 ,
+        difficulty:2 
+      },
+      image: {
+        full: "Sylas.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Asesino","Mago"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2019-01-25",
+      patch: "V9.2",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:1,
+        mobility:3,
+        utility:1,
+      },
+      stats: {
+        hp: 525,
+        hpperlevel: 115,
+        mp: 280,
+        mpperlevel: 50,
+        armor: 27,
+        armorperlevel:4 ,
+        mrbase: 32,
+        mrlevel :1.75 ,
+        hpregen: 9,
+        hpregenperlevel:0.9 ,
+        mpregen: 7,
+        mpregenperlevel: 0.8,
+        attackdamage:61 ,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.645,
+        attackspeedperlevel: 3.5,
+        attackrange:175 ,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Ráfaga de Petricita",img:"https://opgg-static.akamaized.net/images/lol/passive/SylasP.png?image=q_auto,w_48&v=1591083841",info:"Después de lanzar un hechizo, Sylas almacena una carga de Ráfaga de Petricita. Los ataques básicos de Sylas consumen una carga y hacen girar sus cadenas energizadas a su alrededor, lo que inflige daño mágico adicional a los enemigos alcanzados. Sylas obtiene velocidad de ataque si tiene una carga de Ráfaga de Petricita."},
+        {q:"Azote de Cadenas",img:"https://opgg-static.akamaized.net/images/lol/spell/SylasQ.png?image=q_auto,w_48&v=1591083841",info:"Sylas azota sus cadenas, las cuales se cruzan en la ubicación deseada, infligen daño y ralentizan a los enemigos. Tras un momento, una energía mágica estallará desde el punto de intersección e infligirá daño."},
+        {w:"Matarreyes",img:"https://opgg-static.akamaized.net/images/lol/spell/SylasW.png?image=q_auto,w_48&v=1591083841",info:"Sylas se desplaza hacia un enemigo para atacarlo con fuerza mágica, lo que inflige daño de ejecución y lo cura al impacto contra campeones enemigos."},
+        {e:"Fuga",img:"https://opgg-static.akamaized.net/images/lol/spell/SylasE.png?image=q_auto,w_48&v=1591083841",info:"Sylas se desplaza hacia una ubicación. Sylas puede volver a lanzar la habilidad para extender sus cadenas e impulsarse hacia el enemigo alcanzado."},
+        {r:"Usurpación",img:"https://opgg-static.akamaized.net/images/lol/spell/SylasR.png?image=q_auto,w_48&v=1591083841",info:"Sylas roba la habilidad definitiva del enemigo y la puede lanzar libremente."}
+     ]
+    },
+    Syndra: {
+      version: "V10.14",
+      id: "Syndra",
+      key: "134",
+      name: "Syndra",
+      title: "La Soberana Oscura",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Syndra.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Syndra_0.jpg",
+      blurb:
+        "Syndra es una temible maga de Jonia con un extraordinario poder bajo su comando. Cuando era pequeña, alteró a los maestros de su aldea con su magia salvaje e imprudente. La enviaron lejos para que aprendiera a tener un mayor control, pero con el tiempo descubrió que su supuesto mentor había restringido sus habilidades. Convirtiendo sus sentimientos de traición y dolor en esferas oscuras de energía, Syndra juró destruir a todo aquel que intente controlarla.",
+      info: {
+        attack: 2,
+        defense: 3,
+        magic: 9,
+        difficulty: 3
+      },
+      image: {
+        full: "Syndra.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 432,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago", "Soporte"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2012-09-13",
+      patch: "V1.0.0.147",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:0,
+        utility:0,
+      },
+      stats: {
+        hp: 523,
+        hpperlevel: 90,
+        mp: 480,
+        mpperlevel: 40,
+        armor: 24.712,
+        armorperlevel:3.4 ,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen: 6.5,
+        hpregenperlevel: 0.6,
+        mpregen:8 ,
+        mpregenperlevel:0.8 ,
+        attackdamage:53.872 ,
+        attackdamageperlevel:2.9,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 2,
+        attackrange: 550,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Trascendencia",img:"https://opgg-static.akamaized.net/images/lol/passive/SyndraPassive.png?image=q_auto,w_48&v=1591083841",info:"Los hechizos obtienen efectos adicionales en sus rangos máximos. Esfera Oscura: inflige 25% de daño adicional a campeones. Fuerza de Voluntad: inflige 20% de daño verdadero adicional. Dispersar a los Débiles: la amplitud del hechizo aumenta un 50%. Poder Desatado: aumenta su alcance 75 unidades."},
+        {q:"Esfera Osura",img:"https://opgg-static.akamaized.net/images/lol/spell/SyndraQ.png?image=q_auto,w_48&v=1591083841",info:"Syndra conjura una esfera oscura e inflige daño mágico. La esfera permanece y se puede manipular con las demás habilidades."},
+        {w:"Fuerza de Voluntad",img:"https://opgg-static.akamaized.net/images/lol/spell/SyndraW.png?image=q_auto,w_48&v=1591083841",info:"Syndra recoge y lanza una Esfera Oscura o un súbdito enemigo, infligiendo daño mágico y reduciendo la Velocidad de Movimiento de sus enemigos."},
+        {e:"Dispersar a los Débiles",img:"https://opgg-static.akamaized.net/images/lol/spell/SyndraE.png?image=q_auto,w_48&v=1591083841",info:"Syndra empuja a los enemigos y a las Esferas Oscuras e inflige daño mágico. Los enemigos impactados por las Esferas Oscuras son aturdidos."},
+        {r:"Poder Desatado",img:"https://opgg-static.akamaized.net/images/lol/spell/SyndraR.png?image=q_auto,w_48&v=1591083841",info:"Syndra bombardea a un campeón enemigo con todas sus Esferas Oscuras."}
+     ]
+    },
+    TahmKench: {
+      version: "V10.14",
+      id: "TahmKench",
+      key: "223",
+      name: "Tahm Kench",
+      title: "El Rey Del Río",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/TahmKench.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/TahmKench_0.jpg",
+      blurb:
+        "Conocido por muchos nombres a lo largo de la historia, el demonio Tahm Kench viaja a través de las aguas de Runaterra mientras alimenta su insaciable apetito con la miseria de otros. Aunque pudiera parecer particularmente encantador y orgulloso, él va por el mundo físico como un vagabundo en búsqueda de su próxima presa inocente. Su lengua puede aturdir incluso a un guerrero muy acorazado a una docena de pasos de distancia, y caer en su barriga es llegar a un abismo del cual hay poca esperanza de salir.",
+      info: {
+        attack: 3,
+        defense: 9,
+        magic: 6,
+        difficulty:2
+      },
+      image: {
+        full: "TahmKench.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 0,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Soporte", "Tanque"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2015-07-09",
+      patch: "V5.13",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:2,
+        mobility:1,
+        utility:3,
+      },
+      stats: {
+        hp: 600,
+        hpperlevel: 100,
+        mp: 325,
+        mpperlevel: 40,
+        armor: 47,
+        armorperlevel:3.5 ,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 6.5,
+        hpregenperlevel:0.55 ,
+        mpregen: 8,
+        mpregenperlevel: 1,
+        attackdamage: 56,
+        attackdamageperlevel:3.2,
+        attackspeedoffset: 0.658,
+        attackspeedperlevel: 2.5,
+        attackrange:175 ,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Un Gusto Adquirido",img:"https://opgg-static.akamaized.net/images/lol/passive/TahmKench_P.png?image=q_auto,w_48&v=1591083841",info:"Tahm Kench utiliza la mayor parte de su inmenso cuerpo para atacar y usar sus habilidades, y obtiene daño adicional según su vida total. Infligir daño a campeones enemigos genera acumulaciones de Un Gusto Adquirido. Con tres acumulaciones, Tahm Kench podrá lanzar Devorar sobre un campeón enemigo."},
+        {q:"Lengüetazo",img:"https://opgg-static.akamaized.net/images/lol/spell/TahmKenchQ.png?image=q_auto,w_48&v=1591083841",info:"Tahm Kench lanza un lengüetazo que daña y ralentiza a la primera unidad alcanzada. Esta habilidad pasa a causar aturdimiento cuando el objetivo tiene tres acumulaciones de Un Gusto Adquirido."},
+        {w:"Devorar",img:"https://opgg-static.akamaized.net/images/lol/spell/TahmKenchW.png?image=q_auto,w_48&v=1591083841",info:"Tahm Kench devora a un objetivo, que recibe un porcentaje de su vida máxima en forma de daño mágico. Si se trata de un súbdito o un monstruo, puede escupirlo con un tiro de habilidad que causa daño mágico en la zona de impacto."},
+        {e:"Piel Dura",img:"https://opgg-static.akamaized.net/images/lol/spell/TahmKenchE.png?image=q_auto,w_48&v=1591083841",info:"Tahm Kench convierte el daño recibido en vida gris. A medida que esta va decreciendo, el campeón recupera un porcentaje de esta como vida normal. Pero si activa la habilidad, toda la vida gris se convierte en escudo."},
+        {r:"Viaje Abisal",img:"https://opgg-static.akamaized.net/images/lol/spell/TahmKenchNewR.png?image=q_auto,w_48&v=1591083841",info:"Tahm Kench se teletransporta a otro punto del mapa, y puede llevar un campeón aliado con él."}
+     ]
+    },
+    Taliyah: {
+      version: "V10.14",
+      id: "Taliyah",
+      key: "163",
+      name: "Taliyah",
+      title: "La Tejedora De Piedra",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Taliyah.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taliyah_0.jpg",
+      blurb:
+        "Taliyah es una maga nómada de Shurima que se siente dividida entre la libertad de la adolescencia y las responsabilidades adultas. Ha cruzado casi todo Valoran en un viaje para conocer la verdadera naturaleza de sus crecientes poderes, aunque más recientemente regresó a proteger a su tribu. Algunos han confundido su compasión por debilidad y pagaron el precio, pues detrás de la juvenil actitud de Taliyah yace una voluntad tan fuerte como para mover montañas y un espíritu lo suficiente feroz para causar estruendos en la tierra.",
+      info: {
+        attack: 1,
+        defense: 7,
+        magic: 8,
+        difficulty: 2
+      },
+      image: {
+        full: "Taliyah.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 48,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago", "Soporte"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2016-05-18",
+      patch: "V6.10",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:1,
+        utility:3,
+      },
+      stats: {
+        hp:532 ,
+        hpperlevel:90 ,
+        mp: 425,
+        mpperlevel:30 ,
+        armor: 20,
+        armorperlevel: 3.5,
+        mrbase:30 ,
+        mrlevel : 0.5,
+        hpregen:7 ,
+        hpregenperlevel:0.7 ,
+        mpregen: 9.335,
+        mpregenperlevel: 0.85,
+        attackdamage: 58,
+        attackdamageperlevel:3.3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:1.36 ,
+        attackrange:525,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Surfista de Rocas",img:"https://opgg-static.akamaized.net/images/lol/passive/Taliyah_Passive.png?image=q_auto,w_48&v=1591083841",info:"Taliyah gana velocidad de movimiento cerca de los muros."},
+        {q:"Descarga Pétrea",img:"https://opgg-static.akamaized.net/images/lol/spell/TaliyahQ.png?image=q_auto,w_48&v=1591083841",info:"Taliyah lanza una descarga de misiles en una dirección objetivo y se puede mover libremente mientras lo hace. Esto erosiona la tierra debajo de ella. Si Taliyah lanza una Descarga Pétrea sobre tierra erosionada, solo lanzará un misil."},
+        {w:"Empujón Sísmico",img:"https://opgg-static.akamaized.net/images/lol/spell/TaliyahWVC.png?image=q_auto,w_48&v=1591083841",info:"Taliyah causa que una zona del terreno estalle y lanza a los enemigos hacia la dirección que elija."},
+        {e:"Tierra Desatada",img:"https://opgg-static.akamaized.net/images/lol/spell/TaliyahE.png?image=q_auto,w_48&v=1591083841",info:"Taliyah crea un campo minado que ralentiza y explota si los enemigos se desplazan por el mismo o si los empujan o arrastran a él."},
+        {r:"Muro de la Tejedora",img:"https://opgg-static.akamaized.net/images/lol/spell/TaliyahR.png?image=q_auto,w_48&v=1591083841",info:"Taliyah crea un muro muy largo en el que se desplaza."}
+     ]
+    },
+    Talon: {
+      version: "V10.14",
+      id: "Talon",
+      key: "91",
+      name: "Talon",
+      title: "La Sombra De La Navaja",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Talon.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg",
+      blurb:
+        "Talon es el filo que yace en la oscuridad y un despiadado asesino que ataca sin advertencia solo para escapar antes de que alguien note su presencia. Se hizo de una reputación peligrosa en las brutales calles de Noxus, donde se vio obligado a pelear, matar y robar para sobrevivir. Después de ser adoptado por la notable familia Du Couteau, dispuso su mortal oficio a la orden del imperio, donde asesina líderes, capitanes y héroes enemigos... así como a cualquier noxiano que sea lo suficiente tonto como para ganarse el desprecio de sus amos.",
+      info: {
+        attack: 9,
+        defense: 3,
+        magic: 1,
+        difficulty: 2
+      },
+      image: {
+        full: "Talon.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 96,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Asesino", "Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2011-08-24",
+      patch: "V1.0.0.124",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:1,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp: 588,
+        hpperlevel: 95,
+        mp: 377.2,
+        mpperlevel: 37,
+        armor: 30,
+        armorperlevel: 3.5,
+        mrbase: 39,
+        mrlevel : 1.25,
+        hpregen: 8.5,
+        hpregenperlevel:0.75 ,
+        mpregen: 7.6,
+        mpregenperlevel: 0.8,
+        attackdamage:68 ,
+        attackdamageperlevel:3.1,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 2.9,
+        attackrange:125 ,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Filo de la Hoja",img:"https://opgg-static.akamaized.net/images/lol/passive/TalonP.png?image=q_auto,w_48&v=1591083841",info:"Los hechizos de Talon hieren a campeones y monstruos grandes y se acumulan hasta tres veces. Cuando Talon ataca a un campeón con 3 acumulaciones de heridas, el objetivo sangra y recibe mucho daño prolongado."},
+        {q:"Diplomacia Noxiana",img:"https://opgg-static.akamaized.net/images/lol/spell/TalonQ.png?image=q_auto,w_48&v=1591083841",info:"Talon apuñala al objetivo. Si está a un alcance cuerpo a cuerpo, este ataque causa daño crítico. Si está fuera del alcance cuerpo a cuerpo, Talon saltará hacia su objetivo antes de apuñalarlo. Talon recupera un poco de vida y enfriamiento si esta habilidad asesina al objetivo."},
+        {w:"Rastrillar",img:"https://opgg-static.akamaized.net/images/lol/spell/TalonW.png?image=q_auto,w_48&v=1591083841",info:"Talon envía una ráfaga de dagas que luego vuelven hacia él, lo que inflige daño físico cada vez que pasan por un enemigo. Las cuchillas que regresan causan daño adicional y ralentizan a las unidades alcanzadas."},
+        {e:"Sendero del Asesino",img:"https://opgg-static.akamaized.net/images/lol/spell/TalonE.png?image=q_auto,w_48&v=1591083841",info:"Talon salta sobre cualquier terreno o estructura, hasta una distancia máxima. Esta habilidad tiene un enfriamiento corto, pero pone el terreno usado en un largo enfriamiento."},
+        {r:"Asalto Sombrío",img:"https://opgg-static.akamaized.net/images/lol/spell/TalonR.png?image=q_auto,w_48&v=1591083841",info:"Talon dispersa un anillo de cuchillas, se vuelve invisible y obtiene Velocidad de Movimiento adicional. Cuando Talon emerge de invisibilidad, las cuchillas convergen en su ubicación. Cada vez que las cuchillas se mueven, Asalto Sombrío causa daño físico a los enemigos que alcanza con al menos una cuchilla."}
+     ]
+    },
+    Taric: {
+      version: "V10.14",
+      id: "Taric",
+      key: "44",
+      name: "Taric",
+      title: "El Escudo De Valoran",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Taric.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taric_0.jpg",
+      blurb:
+        "Taric es el Aspecto del Protector y, gracias a su increíble poder, es el guardián de la vida, el amor y la belleza en Runaterra. Caído en desgracia debido a la negligencia de su deber y exiliado de su tierra, Demacia, Taric ascendió el Monte Targón buscando la redención y lo que encontró en la cima fue el llamado de las estrellas. Imbuido con el poder del Targón ancestral, el Escudo de Valoran no descansa en su deber de vigilar la traicionera corrupción del Vacío.",
+      info: {
+        attack: 4,
+        defense: 8,
+        magic: 5,
+        difficulty: 1
+      },
+      image: {
+        full: "Taric.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 144,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Soporte", "Luchador"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-08-19",
+      patch: "V0.9.22.15",
+      graphic :{
+        damage:1,
+        toughness:2,
+        control:2,
+        mobility:0,
+        utility:3,
+      },
+      stats: {
+        hp: 575,
+        hpperlevel: 85,
+        mp: 300,
+        mpperlevel: 60,
+        armor: 40,
+        armorperlevel:3.4 ,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 6,
+        hpregenperlevel:0.5 ,
+        mpregen: 8.5,
+        mpregenperlevel: 0.8,
+        attackdamage: 55,
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:2 ,
+        attackrange: 150,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Bravata",img:"https://opgg-static.akamaized.net/images/lol/passive/Taric_Passive.png?image=q_auto,w_48&v=1591083841",info:"Los hechizos potencian los siguientes 2 ataques básicos de Taric para infligir daño mágico adicional, reducir el enfriamiento de sus hechizos y atacar en una sucesión rápida."},
+        {q:"Toque de Luz Estelar",img:"https://opgg-static.akamaized.net/images/lol/spell/TaricQ.png?image=q_auto,w_48&v=1591083841",info:"Cura a campeones aliados cercanos según las cargas almacenadas. Los ataques potenciados con Bravata otorgan una carga de Toque de Luz Estelar."},
+        {w:"Baluarte",img:"https://opgg-static.akamaized.net/images/lol/spell/TaricW.png?image=q_auto,w_48&v=1591083841",info:"Aumenta de forma pasiva la Armadura de Taric y de todos los campeones aliados con Baluarte. Otorga escudo de forma activa a un aliado, y también Baluarte, siempre que permanezca cerca de Taric. Los hechizos de Taric se lanzan desde el aliado con Baluarte."},
+        {e:"Deslumbramiento",img:"https://opgg-static.akamaized.net/images/lol/spell/TaricE.png?image=q_auto,w_48&v=1591083841",info:"Taric prepara un haz de luz estelar que, después de una breve demora, inflige daño mágico y aturde a los enemigos."},
+        {r:"Resplandor Cósmico",img:"https://opgg-static.akamaized.net/images/lol/spell/TaricR.png?image=q_auto,w_48&v=1591083841",info:"Después de cierta demora, otorga pulsos de energía cósmica a los campeones aliados cercanos, lo que los hace invulnerables durante breve periodo de tiempo."}
+     ]
+    },
+    Teemo: {
+      version: "V10.14",
+      id: "Teemo",
+      key: "17",
+      name: "Teemo",
+      title: "El Explorador Veloz",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Teemo.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
+      blurb:
+        "Teemo no se inmuta ante los obstáculos más peligrosos y amenazadores mientras explora el mundo con un entusiasmo infinito y un espíritu lleno de alegría. Es un yordle con una moralidad inquebrantable que se enorgullece de seguir el código de los exploradores de Bandle, a veces con tanto ímpetu que no se percata de las consecuencias de sus acciones. Aunque algunos dicen que la existencia de los exploradores es cuestionable, algo es seguro: no hay que meterse con la convicción de Teemo.",
+      info: {
+        attack: 5,
+        defense: 3,
+        magic: 7,
+        difficulty:2
+      },
+      image: {
+        full: "Teemo.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 192,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tirador", "Asesino"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-02-21",
+      patch: "Semana Alpha 2",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:1,
+        utility:2,
+      },
+      stats: {
+        hp: 528,
+        hpperlevel: 90,
+        mp: 334,
+        mpperlevel: 20,
+        armor: 24.3,
+        armorperlevel: 3.75,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen: 5.5,
+        hpregenperlevel: 0.65,
+        mpregen: 9.6,
+        mpregenperlevel:0.45 ,
+        attackdamage:54 ,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.690,
+        attackspeedperlevel: 3.38,
+        attackrange: 500,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Tácticas de Guerrilla",img:"https://opgg-static.akamaized.net/images/lol/passive/Teemo_P.png?image=q_auto,w_48&v=1591083841",info:"Si Teemo permanece inmóvil y no realiza ninguna acción por un corto periodo, se vuelve invisible indefinidamente. Mientras esté en la maleza, podrá activar y mantener la invisibilidad mientras se mueve. Al romper la invisibilidad, Teemo gana el Elemento de la Sorpresa, lo que aumenta su Velocidad de Ataque por 3 segundos."},
+        {q:"Dardo Cegador",img:"https://opgg-static.akamaized.net/images/lol/spell/BlindingDart.png?image=q_auto,w_48&v=1591083841",info:"Nubla la visión del enemigo con un potente veneno, infligiendo Daño y cegando a la unidad objetivo mientras dure el efecto."},
+        {w:"Movimiento Rápido",img:"https://opgg-static.akamaized.net/images/lol/spell/MoveQuick.png?image=q_auto,w_48&v=1591083841",info:"Teemo se escabulle, aumentando de forma pasiva su Velocidad de Movimiento hasta que es golpeado por un campeón enemigo o una torreta. Teemo puede correr para obtener una bonificación de Velocidad de Movimiento que no se pierde si lo golpean por un breve periodo de tiempo."},
+        {e:"Tiro Tóxico",img:"https://opgg-static.akamaized.net/images/lol/spell/ToxicShot.png?image=q_auto,w_48&v=1591083841",info:"Cada ataque de Teemo envenena al objetivo, causándole daño al impactar y cada segundo después de 4 segundos."},
+        {r:"Trampa Nociva",img:"https://opgg-static.akamaized.net/images/lol/spell/TeemoRCast.png?image=q_auto,w_48&v=1591083841",info:"Teemo lanza una trampa venenosa explosiva usando uno de los hongos que lleva en su mochila. Si un enemigo lo pisa, suelta una nube venenosa que reduce la velocidad de los enemigos y les inflige daño durante un tiempo. Si Teemo lanza un hongo sobre otro hongo, este rebotará, obteniendo alcance adicional."}
+     ]
+    },
+    Thresh: {
+      version: "V10.14",
+      id: "Thresh",
+      key: "412",
+      name: "Thresh",
+      title: "El Carcelero Implacable",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Thresh.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
+      blurb:
+        "Sádico y astuto, Thresh es un espíritu ambicioso e incansable de las Islas de la Sombra. Otrora el custodio de incontables secretos arcanos, fue consumido por un poder mayor a la vida o la muerte. Ahora, se alimenta del tormento y quebranta a otros con sus lentas e insoportables torturas. Sus víctimas sufren más allá de su breve transición desde el mundo mortal cuando Thresh inflige agonía en sus almas y las aprisiona en su linterna maldita para torturarlas por toda la eternidad.",
+      info: {
+        attack: 5,
+        defense: 6,
+        magic: 6,
+        difficulty: 2
+      },
+      image: {
+        full: "Thresh.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Soporte", "Luchador"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2013-01-23",
+      patch: "V1.0.0.154",
+      graphic :{
+        damage:1,
+        toughness:2,
+        control:3,
+        mobility:1,
+        utility:3,
+      },
+      stats: {
+        hp: 560.52,
+        hpperlevel: 93,
+        mp: 273.92,
+        mpperlevel: 44,
+        armor: 28,
+        armorperlevel: 0,
+        mrbase: 30,
+        mrlevel :0.5 ,
+        hpregen: 7,
+        hpregenperlevel: 0.55,
+        mpregen:6 ,
+        mpregenperlevel: 0.8,
+        attackdamage: 56,
+        attackdamageperlevel:2.2,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:3.5 ,
+        attackrange: 450,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Condenación",img:"https://opgg-static.akamaized.net/images/lol/passive/Thresh_Passive.png?image=q_auto,w_48&v=1591083841",info:"Thresh puede cosechar las almas de los enemigos que mueren cerca de él. Al hacerlo, obtiene permanentemente Armadura y Poder de Habilidad."},
+        {q:"Sentencia de Muerte",img:"https://opgg-static.akamaized.net/images/lol/spell/ThreshQ.png?image=q_auto,w_48&v=1591083841",info:"Thresh envuelve a un enemigo en cadenas y lo jala hacia él. Activar esta habilidad por segunda vez atrae a Thresh hacia el enemigo."},
+        {w:"Pasaje OScuro",img:"https://opgg-static.akamaized.net/images/lol/spell/ThreshW.png?image=q_auto,w_48&v=1591083841",info:"Thresh lanza una linterna que protege a los campeones aliados cercanos contra daño. Los aliados pueden hacer clic en la linterna para desplazarse hacia Thresh."},
+        {e:"Despellejar",img:"https://opgg-static.akamaized.net/images/lol/spell/ThreshE.png?image=q_auto,w_48&v=1591083841",info:"Los ataques de Thresh se cargan e infligen más daño mientras más espere entre ataques. Al activarse, Thresh desliza su cadena y lanza a todos los enemigos alcanzados hacia la dirección del impacto."},
+        {r:"La Caja",img:"https://opgg-static.akamaized.net/images/lol/spell/ThreshRPenta.png?image=q_auto,w_48&v=1591083841",info:"Una prisión de muros que ralentiza e inflige daño al romperse."}
+     ]
+    },
+    Tristana: {
+      version: "V10.14",
+      id: "Tristana",
+      key: "18",
+      name: "Tristana",
+      title: "La Artillera Yordle",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Tristana.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_0.jpg",
+      blurb:
+        "Mientras que otros yordles usan su energía para hacer descubrimientos, inventos o simplemente travesuras, Tristana siempre estuvo inspirada por las aventuras de los grandes guerreros. Ella había escuchado mucho de Runaterra, sus facciones y sus guerras, y creía que su raza también podía ser merecedora de leyendas. Al poner el pie por primera vez en el mundo, tomó su confiable cañón, Boomer, y ahora salta hacia la batalla con una firme valentía y optimismo.",
+      info: {
+        attack: 9,
+        defense: 3,
+        magic: 5,
+        difficulty: 2
+      },
+      image: {
+        full: "Tristana.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 288,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tirador", "Asesino"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-02-21",
+      patch: "Semana Alpha 2",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp:559 ,
+        hpperlevel: 88,
+        mp: 250,
+        mpperlevel:32 ,
+        armor: 26,
+        armorperlevel: 3,
+        mrbase:30 ,
+        mrlevel : 0.5,
+        hpregen: 3.75,
+        hpregenperlevel:0.65 ,
+        mpregen: 7.2,
+        mpregenperlevel: 0.45,
+        attackdamage:61 ,
+        attackdamageperlevel:3.3,
+        attackspeedoffset: 0.679,
+        attackspeedperlevel:1.5 ,
+        attackrange: 525,
+        movespeed: 325
+      },
+      skill:[
+        {pasive:"En la Mira",img:"https://opgg-static.akamaized.net/images/lol/passive/Tristana_Passive.png?image=q_auto,w_48&v=1591083841",info:"Aumenta el alcance de los ataques de Tristana cuando sube de nivel."},
+        {q:"Fuego Rápido",img:"https://opgg-static.akamaized.net/images/lol/spell/TristanaQ.png?image=q_auto,w_48&v=1591083841",info:"Tristana dispara su arma rápidamente, lo que aumenta su Velocidad de Ataque por un breve tiempo."},
+        {w:"Salto Cohete",img:"https://opgg-static.akamaized.net/images/lol/spell/TristanaW.png?image=q_auto,w_48&v=1591083841",info:"Tristana dispara al suelo para propulsarse hasta un punto lejano. Al aterrizar, dañará y ralentizará durante un breve plazo a las unidades circundantes."},
+        {e:"Carga Explosiva",img:"https://opgg-static.akamaized.net/images/lol/spell/TristanaE.png?image=q_auto,w_48&v=1591083841",info:"Cuando Tristana mata a una unidad, sus proyectiles estallan como metralla e infligen daño a los enemigos circundantes. Se puede activar para colocarle una bomba a un enemigo, que explotará al cabo de un breve tiempo y hará daño a todas las unidades circundantes."},
+        {r:"Tiro Destructor",img:"https://opgg-static.akamaized.net/images/lol/spell/TristanaR.png?image=q_auto,w_48&v=1591083841",info:"Tristana carga una gran bola de cañón en su arma y la dispara a la unidad enemiga, que sufre Daño Mágico y debe retroceder. Si el objetivo carga consigo la Carga Explosiva, se duplica el radio de la detonación de la bomba."}
+     ]
+    },
+    Trundle: {
+      version: "V10.14",
+      id: "Trundle",
+      key: "48",
+      name: "Trundle",
+      title: "El Rey De Los Troles",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Trundle.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Trundle_0.jpg",
+      blurb:
+        "Trundle es un corpulento y retorcido trol con una voraz actitud, y no hay nada que no pueda aplastar hasta someterlo, ni siquiera el mismo Fréljord. Feroz y territorial, persigue a cualquiera que sea lo suficiente tonto como para entrar a su dominio. Entonces, con su enorme mazo de Hielo Puro, congela a sus enemigos hasta los huesos y los atraviesa con pilares congelados y dentados mientras se ríe cuando se desangran en la tundra.",
+      info: {
+        attack: 7,
+        defense: 6,
+        magic: 2,
+        difficulty: 2
+      },
+      image: {
+        full: "Trundle.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 336,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Tanque"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2010-12-01",
+      patch: "V1.0.0.106",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:1,
+        mobility:1,
+        utility:2,
+      },
+      stats: {
+        hp: 616,
+        hpperlevel: 96,
+        mp: 281,
+        mpperlevel: 45,
+        armor:37 ,
+        armorperlevel:2.7 ,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen:6 ,
+        hpregenperlevel: 0.75,
+        mpregen: 7.5,
+        mpregenperlevel: 0.6,
+        attackdamage:68 ,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.67,
+        attackspeedperlevel:2.9 ,
+        attackrange: 175,
+        movespeed: 350
+      },
+      skill:[
+        {pasive:"Tributo al Rey",img:"https://opgg-static.akamaized.net/images/lol/passive/Trundle_Passive.png?image=q_auto,w_48&v=1591083841",info:"Cuando una unidad enemiga muere cerca de Trundle, este se cura un porcentaje de su vida máxima."},
+        {q:"Mascar",img:"https://opgg-static.akamaized.net/images/lol/spell/TrundleTrollSmash.png?image=q_auto,w_48&v=1591083841",info:"Trundle muerde a su oponente y le inflige daño, lo ralentiza durante un breve periodo de tiempo y absorbe una porción de su daño de ataque."},
+        {w:"Reino Congelado",img:"https://opgg-static.akamaized.net/images/lol/spell/trundledesecrate.png?image=q_auto,w_48&v=1591083841",info:"Trundle convierte una ubicación objetivo en su territorio, lo que le otorga velocidad de ataque, velocidad de movimiento y curación aumentada de todas las fuentes al estar dentro de él."},
+        {e:"Pilar de Hielo",img:"https://opgg-static.akamaized.net/images/lol/spell/TrundleCircle.png?image=q_auto,w_48&v=1591083841",info:"Trundle crea un pilar de hielo en una ubicación determinada que se convierte en terreno infranqueable y ralentiza a todas las unidades cercanas."},
+        {r:"Subyugar",img:"https://opgg-static.akamaized.net/images/lol/spell/TrundlePain.png?image=q_auto,w_48&v=1591083841",info:"Trundle inmediatamente roba un porcentaje de la vida, armadura y resistencia mágica de su objetivo. Durante los siguientes 4 segundos se duplica la cantidad de vida, armadura y resistencia mágica robadas."}
+     ]
+    },
+    Tryndamere: {
+      version: "V10.14",
+      id: "Tryndamere",
+      key: "23",
+      name: "Tryndamere",
+      title: "El Rey Bárbaro",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Tryndamere.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tryndamere_0.jpg",
+      blurb:
+        "Impulsado por la ira, Tryndamere alguna vez emprendió su camino por Fréljord y desafió abiertamente a los más grandes guerreros del norte preparándose para los días más oscuros que se avecinaban. Por mucho tiempo, el iracundo bárbaro ha buscado la venganza por la aniquilación de su clan, aunque más recientemente encontró la compañía de Ashe, la líder de Avarosa, así como un hogar con su gente. Su fuerza casi inhumana y su resistencia son legendarias, atributos que le han otorgado incontables victorias a él y sus aliados incluso en situaciones desfavorables.",
+      info: {
+        attack: 10,
+        defense: 5,
+        magic: 2,
+        difficulty: 2
+      },
+      image: {
+        full: "Tryndamere.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 384,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Asesino"],
+      partype: "Battlefury",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-05-01",
+      patch: "05.1.2009",
+      graphic :{
+        damage:3,
+        toughness:2,
+        control:1,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp: 625.64,
+        hpperlevel:98 ,
+        mp: 100,
+        mpperlevel: 0,
+        armor:33 ,
+        armorperlevel:3.1 ,
+        mrbase:32.1 ,
+        mrlevel :1.25 ,
+        hpregen: 8.5,
+        hpregenperlevel: 0.9,
+        mpregen: 0,
+        mpregenperlevel:0 ,
+        attackdamage:69 ,
+        attackdamageperlevel:3.7,
+        attackspeedoffset: 0.670,
+        attackspeedperlevel:2.9 ,
+        attackrange:125 ,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Furia de Batalla",img:"https://opgg-static.akamaized.net/images/lol/passive/Tryndamere_Passive.png?image=q_auto,w_48&v=1591083841",info:"Tryndamere gana Furia por cada ataque, golpe crítico y golpe mortal que realiza. Furia aumenta pasivamente su Probabilidad de Golpe Crítico y se puede consumir con su hechizo Ansia de Sangre."},
+        {q:"Ansia de Sangre",img:"https://opgg-static.akamaized.net/images/lol/spell/TryndamereQ.png?image=q_auto,w_48&v=1591083841",info:"Tryndamere se alimenta de la emoción del combate y aumenta su daño de ataque mientras más herido se encuentre. Puede lanzar Ansia de Sangre para consumir su furia y curarse."},
+        {w:"Grito Burlón",img:"https://opgg-static.akamaized.net/images/lol/spell/TryndamereW.png?image=q_auto,w_48&v=1591083841",info:"Tryndamere realiza un grito ofensivo que reduce el daño de ataque de los campeones cercanos. También reduce la velocidad de movimiento de los enemigos que están de espaldas a Tryndamere."},
+        {e:"Cuchillada Giratoria",img:"https://opgg-static.akamaized.net/images/lol/spell/TryndamereE.png?image=q_auto,w_48&v=1591083841",info:"Tryndamere se desliza hacia una unidad objetivo e inflige daño a los enemigos en su camino."},
+        {r:"Furia Inmortal",img:"https://opgg-static.akamaized.net/images/lol/spell/UndyingRage.png?image=q_auto,w_48&v=1591083841",info:"El deseo de Tryndamere por combatir se vuelve tan grande que no puede morir, sin importar lo herido que esté."}
+     ]
+    },
+    TwistedFate: {
+      version: "V10.14",
+      id: "TwistedFate",
+      key: "4",
+      name: "Twisted Fate",
+      title: "El Maestro De Las Cartas",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Maokai.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Maokai_0.jpg",
+      blurb:
+        "Twisted Fate es un afamado experto en juegos de cartas y estafador. Ha apostado y usado su encanto en gran parte del mundo conocido, lo que le ha hecho ganarse el odio y la admiración de ricos y tontos por igual. Rara vez se toma las cosas en serio, despierta cada día con una burlesca sonrisa y un descuidado aire de fanfarrón. Por donde se vea, Twisted Fate siempre tiene un as bajo la manga.",
+      info: {
+        attack: 6,
+        defense: 2,
+        magic: 6,
+        difficulty:3
+      },
+      image: {
+        full: "TwistedFate.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 432,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-02-21",
+      patch: "Semana Alpha 2",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:2,
+        utility:2,
+      },
+      stats: {
+        hp: 534,
+        hpperlevel: 94,
+        mp: 333,
+        mpperlevel:19 ,
+        armor: 20.542,
+        armorperlevel:3.15 ,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen: 5.5,
+        hpregenperlevel: 0.6,
+        mpregen: 8,
+        mpregenperlevel: 0.8,
+        attackdamage: 49.954,
+        attackdamageperlevel:3.3,
+        attackspeedoffset: 0.651,
+        attackspeedperlevel: 3.22,
+        attackrange: 525,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Dados Cargados",img:"https://opgg-static.akamaized.net/images/lol/passive/Cardmaster_SealFate.png?image=q_auto,w_48&v=1591083841",info:"Al matar a una unidad, Twisted Fate lanza su dado ''de la suerte'' y recibe una cantidad de oro adicional entre 1 y 6."},
+        {q:"Comodines",img:"https://opgg-static.akamaized.net/images/lol/spell/WildCards.png?image=q_auto,w_48&v=1591083841",info:"Twisted Fate lanza tres cartas que infligen daño a cada unidad enemiga que atraviesan."},
+        {w:"Escoge una Carta",img:"https://opgg-static.akamaized.net/images/lol/spell/PickACard.png?image=q_auto,w_48&v=1591083841",info:"Twisted Fate elige una carta mágica de su baraja y la usa para su próximo ataque, lo que causa efectos adicionales."},
+        {e:"Baraja Trucada",img:"https://opgg-static.akamaized.net/images/lol/spell/CardmasterStack.png?image=q_auto,w_48&v=1591083841",info:"Cada 4 ataques, Twisted Fate inflige daño adicional. Además, su velocidad de ataque aumenta."},
+        {r:"Destino",img:"https://opgg-static.akamaized.net/images/lol/spell/Destiny.png?image=q_auto,w_48&v=1591083841",info:"Twisted Fate predice el futuro de sus enemigos, lo que los revela y permite el uso de Portal, que teletransporta a Twisted Fate a cualquier ubicación objetivo en 1.5 seg."}
+     ]
+    },
+    Twitch: {
+      version: "V10.14",
+      id: "Twitch",
+      key: "29",
+      name: "Twitch",
+      title: "La Rata Mutante",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Twitch.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Twitch_0.jpg",
+      blurb:
+        "Una rata zaunita de nacimiento, pero conocedor de la más fina suciedad por pasión. Twitch no tiene miedo de ensuciarse las patas. Apunta una ballesta potenciada con químicos hacia el centro de Piltóver y jura mostrarles a los que habitan arriba en la ciudad lo sucios que verdaderamente son. Siempre es escurridizo, y cuando no se encuentra deambulando por las alcantarillas, está hurgando en la basura de otras personas en busca de tesoros desechados... y tal vez un sándwich mohoso.",
+      info: {
+        attack: 9,
+        defense: 2,
+        magic: 3,
+        difficulty: 2
+      },
+      image: {
+        full: "Twitch.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 0,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tirador", "Asesino"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-05-01",
+      patch: "05.1.2009",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:1,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp: 612,
+        hpperlevel: 86,
+        mp: 287.2,
+        mpperlevel:40 ,
+        armor: 27,
+        armorperlevel:3 ,
+        mrbase:30 ,
+        mrlevel :0.5,
+        hpregen:3.75 ,
+        hpregenperlevel: 0.6,
+        mpregen: 7.256,
+        mpregenperlevel:0.45 ,
+        attackdamage: 59,
+        attackdamageperlevel:3.11,
+        attackspeedoffset: 0.679,
+        attackspeedperlevel: 3.38,
+        attackrange:550 ,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Veneno Mortal",img:"https://opgg-static.akamaized.net/images/lol/passive/Twitch_Passive.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos de Twitch infectan al objetivo e infligen daño verdadero cada seg."},
+        {q:"Emboscada",img:"https://opgg-static.akamaized.net/images/lol/spell/TwitchHideInShadows.png?image=q_auto,w_48&v=1591083841",info:"Twitch entra en camuflaje por un breve periodo y obtiene velocidad de movimiento. Al salir de camuflaje, Twitch obtiene velocidad de ataque por un breve periodo. Cuando muere un campeón enemigo que estaba bajo los efectos de Veneno Mortal, el enfriamiento de Emboscada se restablece."},
+        {w:"Tonel de Veneno",img:"https://opgg-static.akamaized.net/images/lol/spell/TwitchVenomCask.png?image=q_auto,w_48&v=1591083841",info:"Twitch lanza un barril de veneno que explota en un área, lo que ralentiza a los objetivos y les aplica veneno mortal."},
+        {e:"Contaminar",img:"https://opgg-static.akamaized.net/images/lol/spell/TwitchExpunge.png?image=q_auto,w_48&v=1591083841",info:"Twitch aniquila a los enemigos envenenados con una explosión de sus repugnantes enfermedades."},
+        {r:"Lluvia de Proyectiles",img:"https://opgg-static.akamaized.net/images/lol/spell/TwitchFullAutomatic.png?image=q_auto,w_48&v=1591083841",info:"Twitch libera el poder máximo de su ballesta que dispara flechas para atravesar a todos los enemigos que se encuentra en el camino a una gran distancia."}
+     ]
+    },
+    Udyr: {
+      version: "V10.14",
+      id: "Udyr",
+      key: "77",
+      name: "Udyr",
+      title: "El Cambiapieles",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Udyr.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg",
+      blurb:
+        "Udyr es más que un hombre; es un contenedor para el poder indomable de cuatro espíritus de animales primigenios. Al explotar las naturalezas animales de los espíritus, Udyr puede usar su fuerza única: el tigre le proporciona velocidad y ferocidad; la tortuga, resistencia; el oso, poder; y el fénix, la llama eterna. Con estos poderes combinados, Udyr puede aplacar a todo aquel que intente perjudicar el orden natural.",
+      info: {
+        attack: 8,
+        defense: 7,
+        magic: 4,
+        difficulty: 2
+      },
+      image: {
+        full: "Udyr.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 48,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Tanque"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-12-02",
+      patch: "V1.0.0.61",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:2,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp: 594,
+        hpperlevel: 99,
+        mp: 271,
+        mpperlevel:30 ,
+        armor: 34,
+        armorperlevel: 4,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 6,
+        hpregenperlevel:0.75 ,
+        mpregen: 7.5,
+        mpregenperlevel: 0.45,
+        attackdamage:66 ,
+        attackdamageperlevel:5,
+        attackspeedoffset: 0.658,
+        attackspeedperlevel: 2.67,
+        attackrange:125 ,
+        movespeed: 350
+      },
+      skill:[
+        {pasive:"Agilidad del Mono",img:"https://opgg-static.akamaized.net/images/lol/passive/Udyr_MonkeysAgility.png?image=q_auto,w_48&v=1591083841",info:"Cuando Udyr adopta una posición, obtiene una bonificación de velocidad de ataque y de movimiento durante un breve periodo. Este efecto se acumula varias veces."},
+        {q:"Posición del Tigre",img:"https://opgg-static.akamaized.net/images/lol/spell/UdyrTigerStance.png?image=q_auto,w_48&v=1591083841",info:"Posición del Tigre, Activación - la Velocidad de Ataque de Udyr aumenta unos segundos. Efecto persistente - El primer ataque de Udyr y cada tercer ataque posterior inflige una gran cantidad de daño durante 2 segundos."},
+        {w:"Posición de la Tortuga",img:"https://opgg-static.akamaized.net/images/lol/spell/UdyrTurtleStance.png?image=q_auto,w_48&v=1591083841",info:"Posición de la Tortuga, Activación - Udyr obtiene un escudo temporal que absorbe daño. Efecto persistente - El primer ataque de Udyr y cada tercer ataque posterior lo curan por el 2,5% de su vida máxima."},
+        {e:"Posición del Oso",img:"https://opgg-static.akamaized.net/images/lol/spell/UdyrBearStance.png?image=q_auto,w_48&v=1591083841",info:"Posición del Oso, Activación - la Velocidad de Movimiento de Udyr aumenta durante poco tiempo. Efecto persistente - los ataques básicos de Udyr aturden al objetivo durante 1 segundo. Este efecto no puede aplicarse al mismo objetivo más de una vez cada varios segundos."},
+        {r:"Posición del Fénix",img:"https://opgg-static.akamaized.net/images/lol/spell/UdyrPhoenixStance.png?image=q_auto,w_48&v=1591083841",info:"Posición del Fénix, Activación - Udyr emite ondas de fuego pulsantes que infligen daño a los enemigos cercanos. Efecto persistente - con el primer ataque básico y cada tercer ataque posterior, Udyr envuelve en llamas a los enemigos que estén frente a él."}
+     ]
+    },
+    Urgot: {
+      version: "V10.14",
+      id: "Urgot",
+      key: "6",
+      name: "Urgot",
+      title: "El Temerario",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Urgot.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Urgot_0.jpg",
+      blurb:
+        "Urgot, quien fue alguna vez un poderoso verdugo noxiano, había sido traicionado por el imperio que lo hizo matar a tantos en su nombre. Atado con cadenas de hierro, lo forzaron a aprender el verdadero significado de la fuerza en el Dragado, una mina de prisioneros en las profundidades de Zaun, de donde emergió como un desastre que propaga caos por toda la ciudad y proyecta una imponente sombra sobre el submundo criminal. Levantando a sus víctimas con las mismas cadenas que alguna vez lo esclavizaron, purgará su nuevo hogar de los indignos y lo convertirá en un crisol de dolor.",
+      info: {
+        attack: 8,
+        defense: 5,
+        magic: 3,
+        difficulty: 3
+      },
+      image: {
+        full: "Urgot.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 96,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tirador", "Luchador"],
+      partype: "MP",
+      rangetype:"a distancia ",
+      date: "2010-08-24",
+      patch: "V1.0.0.99",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:2,
+        mobility:1,
+        utility:1,
+      },
+      stats: {
+        hp: 585,
+        hpperlevel:88 ,
+        mp: 340,
+        mpperlevel:45 ,
+        armor: 36,
+        armorperlevel:4.25 ,
+        mrbase:32.1 ,
+        mrlevel :1.25 ,
+        hpregen:7.5 ,
+        hpregenperlevel: 0.7,
+        mpregen: 7.25,
+        mpregenperlevel: 0.8,
+        attackdamage: 63,
+        attackdamageperlevel:4,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 3.75,
+        attackrange:350 ,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Flamas Reverberantes",img:"https://opgg-static.akamaized.net/images/lol/passive/Urgot_Passive.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos y Purga de Urgot activan de forma periódica explosiones de fuego de sus piernas, lo que inflige daño físico."},
+        {q:"Carga Corrosiva",img:"https://opgg-static.akamaized.net/images/lol/spell/UrgotQ.png?image=q_auto,w_48&v=1591083841",info:"Dispara una carga explosiva hacia la ubicación del objetivo que inflige daño físico y ralentiza a los enemigos que queden atrapados en la explosión."},
+        {w:"Purga",img:"https://opgg-static.akamaized.net/images/lol/spell/UrgotW.png?image=q_auto,w_48&v=1591083841",info:"Urgot se ralentiza mientras descarga su arma contra los enemigos cercanos. Da prioridad a campeones enemigos que Urgot haya alcanzado recientemente con otras habilidades y activa Flamas Reverberantes."},
+        {e:"Desdén",img:"https://opgg-static.akamaized.net/images/lol/spell/UrgotE.png?image=q_auto,w_48&v=1591083841",info:"Urgot carga en una dirección, se escuda y pisotea a enemigos que no sean campeones. Si se topa con un campeón enemigo, se detendrá y lo lanzará fuera de su camino."},
+        {r:"Miedo de Ultratumba",img:"https://opgg-static.akamaized.net/images/lol/spell/UrgotR.png?image=q_auto,w_48&v=1591083841",info:"Urgot dispara un taladro químico que empala al primer campeón enemigo que alcanza. Si la vida de ese campeón baja a menos de un límite, Urgot determina que está débil y podrá ejecutarlo."}
+     ]
+    },
+    Varus: {
+      version: "V10.14",
+      id: "Varus",
+      key: "110",
+      name: "Varus",
+      title: "La Flecha Del Castigo",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Varus.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg",
+      blurb:
+        "Varus, como uno de los antiguos darkin, era un mortal asesino que amaba atormentar a sus enemigos y los llevaba casi hasta la locura antes de darles el flechazo final. Lo encerraron al final de la Gran Guerra Darkin, pero escapó siglos después en un cuerpo manipulado que pertenecía a dos cazadores jonios que lo liberaron sin saberlo y fueron condenados a blandir el arco que contenía su esencia atrapada. Ahora, Varus busca a quienes lo encerraron para llevar a cabo su brutal venganza, pero las almas de los mortales dentro de él todavía se resisten a cada paso.",
+      info: {
+        attack: 7,
+        defense: 3,
+        magic: 4,
+        difficulty: 1
+      },
+      image: {
+        full: "Varus.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 144,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tirador", "Mago"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2012-05-08",
+      patch: "V1.0.0.139",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:0,
+        utility:0,
+      },
+      stats: {
+        hp: 530,
+        hpperlevel:91 ,
+        mp: 360,
+        mpperlevel: 33,
+        armor: 27,
+        armorperlevel: 3.4,
+        mrbase: 30,
+        mrlevel : 0.5,
+        hpregen: 3.5,
+        hpregenperlevel: 0.55,
+        mpregen: 8,
+        mpregenperlevel: 0.8,
+        attackdamage: 61,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.658,
+        attackspeedperlevel: 3,
+        attackrange: 575,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Venganza Viviente",img:"https://opgg-static.akamaized.net/images/lol/passive/VarusPassive.png?image=q_auto,w_48&v=1591083841",info:"Al matar o asistir, Varus obtiene temporalmente un extra de Velocidad de Ataque. Esta bonificación será mayor si el enemigo es un campeón."},
+        {q:"Flecha Penetrante",img:"https://opgg-static.akamaized.net/images/lol/spell/VarusQ.png?image=q_auto,w_48&v=1591083841",info:"Varus prepara y luego lanza un poderoso disparo que obtiene alcance y daño adicionales mientras más tiempo se prepare para disparar."},
+        {w:"El Carcaj Maldito",img:"https://opgg-static.akamaized.net/images/lol/spell/VarusW.png?image=q_auto,w_48&v=1591083841",info:"Pasiva: los ataques básicos de Varus infligen daño mágico adicional y detonan Infección. Las demás habilidades de Varus detonan Infección e infligen daño mágico según la vida máxima del objetivo. Activa: potencia la siguiente Flecha Penetrante de Varus."},
+        {e:"Lluvia de Flechas",img:"https://opgg-static.akamaized.net/images/lol/spell/VarusE.png?image=q_auto,w_48&v=1591083841",info:"Varus dispara una tormenta de flechas que inflige daño físico y profana el terreno. El terreno profanado ralentiza la velocidad de movimiento de los enemigos y reduce su curación y regeneración."},
+        {r:"Cadena de Corrupción",img:"https://opgg-static.akamaized.net/images/lol/spell/VarusR.png?image=q_auto,w_48&v=1591083841",info:"Varus arroja un tentáculo de corrupción que inmoviliza al primer campeón enemigo alcanzado y luego se expande a los campeones cercanos no infectados para inmovilizarlos al contacto."}
+     ]
+    },
+    Vayne: {
+      version: "V10.14",
+      id: "Vayne",
+      key: "67",
+      name: "Vayne",
+      title: "La Cazadora Nocturna",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Vayne.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg",
+      blurb:
+        "Shauna Vayne es una mortal e implacable cazadora de monstruos demaciana que ha dedicado su vida a encontrar y destruir al demonio que asesinó a su familia. Armada con una ballesta que lleva montada en la muñeca y un corazón lleno de venganza, solo es verdaderamente feliz cuando acaba con practicantes o creaciones de las artes oscuras mientras ataca desde las sombras con una lluvia de proyectiles de plata.",
+      info: {
+        attack: 10,
+        defense: 1,
+        magic: 1,
+        difficulty: 3
+      },
+      image: {
+        full: "Vayne.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 192,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tirador", "Asesino"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2011-05-10",
+      patch: "V1.0.0.118",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:2,
+        utility:0,
+      },
+      stats: {
+        hp:515 ,
+        hpperlevel: 89,
+        mp: 231.8,
+        mpperlevel:35 ,
+        armor:23 ,
+        armorperlevel: 3.4,
+        mrbase:30 ,
+        mrlevel :0.5 ,
+        hpregen:3.5 ,
+        hpregenperlevel:0.55 ,
+        mpregen:6.972 ,
+        mpregenperlevel:0.4 ,
+        attackdamage:60 ,
+        attackdamageperlevel:2.36,
+        attackspeedoffset: 0.658,
+        attackspeedperlevel:3.3 ,
+        attackrange: 550,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Cazadora Nocturna",img:"https://opgg-static.akamaized.net/images/lol/passive/Vayne_NightHunter.png?image=q_auto,w_48&v=1591083841",info:"Vayne caza sin piedad a los malhechores. Obtiene 30 puntos de Velocidad de Movimiento cuando avanza hacia un campeón enemigo cercano."},
+        {q:"Voltereta",img:"https://opgg-static.akamaized.net/images/lol/spell/VayneTumble.png?image=q_auto,w_48&v=1591083841",info:"Vayne realiza una voltereta y se prepara para su próximo disparo. Su siguiente ataque inflige daño adicional."},
+        {w:"Proyectiles de Plata",img:"https://opgg-static.akamaized.net/images/lol/spell/VayneSilveredBolts.png?image=q_auto,w_48&v=1591083841",info:"La punta de los proyectiles de Vayne está hecha de un material único, tóxico para seres malignos. El tercer ataque o habilidad consecutivos contra el mismo objetivo inflige un porcentaje de la vida máxima del objetivo como daño verdadero adicional."},
+        {e:"Condena",img:"https://opgg-static.akamaized.net/images/lol/spell/VayneCondemn.png?image=q_auto,w_48&v=1591083841",info:"Vayne usa la pesada ballesta que lleva en su espalda y dispara un enorme proyectil a su objetivo, lanzándolo hacia atrás y e infligiéndole daño. Si el objetivo impacta contra terreno, queda empalado, lo que le inflige daño adicional y lo aturde."},
+        {r:"Hora Final",img:"https://opgg-static.akamaized.net/images/lol/spell/VayneInquisition.png?image=q_auto,w_48&v=1591083841",info:"Vayne se prepara para una confrontación épica y obtiene un aumento en su daño de ataque, invisibilidad durante Voltereta, enfriamiento reducido de Voltereta y mayor velocidad de movimiento adicional de Cazadora Nocturna"}
+     ]
+    },
+    Veigar: {
+      version: "V10.14",
+      id: "Veigar",
+      key: "45",
+      name: "Veigar",
+      title: "El Pequeño Maestro Del Mal",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Veigar.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg",
+      blurb:
+        "Veigar, entusiasta maestro de la magia oscura, se adaptó a poderes que pocos mortales se atreven a explorar. Como un habitante de espíritu libre de Ciudad de Bandle, deseaba rebasar las limitaciones de la magia yordle. Así fue como llegó a unos textos arcanos que habían permanecido ocultos por miles de años. Ahora Veigar es una criatura necia con una interminable fascinación por los misterios del universo y a menudo es subestimado por otros. Aunque él cree que verdaderamente es malvado, posee una moralidad interna que hace dudar a los demás sobre sus motivaciones reales.",
+      info: {
+        attack: 2,
+        defense: 2,
+        magic: 10,
+        difficulty: 2
+      },
+      image: {
+        full: "Veigar.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 240,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2009-07-24",
+      patch: "V0.8.22.115",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:3,
+        mobility:0,
+        utility:1,
+      },
+      stats: {
+        hp:505 ,
+        hpperlevel: 94,
+        mp:490 ,
+        mpperlevel:26 ,
+        armor: 23,
+        armorperlevel:3.75 ,
+        mrbase: 30,
+        mrlevel :0.5 ,
+        hpregen: 6.5,
+        hpregenperlevel:0.6 ,
+        mpregen:8 ,
+        mpregenperlevel:0.8 ,
+        attackdamage:52 ,
+        attackdamageperlevel:2.7,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:2.24 ,
+        attackrange:550 ,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Poder Maligno Fenomenal",img:"https://opgg-static.akamaized.net/images/lol/passive/Veigar_Entropy.png?image=q_auto,w_48&v=1591083841",info:"Veigar es el mal más grande que jamás ha atacado a los habitantes de Runaterra, ¡y cada vez se vuelve más grande! Atacar a un campeón enemigo con un hechizo o lograr un derribo aumenta de forma permanente el poder de habilidad de Veigar."},
+        {q:"Ataque Maligno",img:"https://opgg-static.akamaized.net/images/lol/spell/VeigarBalefulStrike.png?image=q_auto,w_48&v=1591083841",info:"Veigar lanza un rayo de energía oscura que inflige daño mágico a los dos primeros enemigos alcanzados. Las unidades asesinadas por el rayo otorgan a Veigar un poco de poder de habilidad permanente."},
+        {w:"Materia Oscura",img:"https://opgg-static.akamaized.net/images/lol/spell/VeigarDarkMatter.png?image=q_auto,w_48&v=1591083841",info:"Veigar invoca una gran masa de materia oscura que cae del cielo sobre la ubicación objetivo e inflige daño mágico. Las acumulaciones de Poder de Mal Fenomenal reducen el enfriamiento de Materia Oscura."},
+        {e:"Horizonte de Sucesos",img:"https://opgg-static.akamaized.net/images/lol/spell/VeigarEventHorizon.png?image=q_auto,w_48&v=1591083841",info:"Tras unos instantes de demora, Veigar retuerce los límites del espacio alrededor de una ubicación durante 3 seg. Los enemigos que atraviesan el perímetro quedan aturdidos."},
+        {r:"Estallido Primordial",img:"https://opgg-static.akamaized.net/images/lol/spell/VeigarR.png?image=q_auto,w_48&v=1591083841",info:"Una explosión inflige al campeón enemigo una gran cantidad de daño mágico, que aumenta según la vida que le falte al objetivo."}
+     ]
+    },
+    Velkoz: {
+      version: "V10.14",
+      id: "Velkoz",
+      key: "161",
+      name: "Vel'Koz",
+      title: "El Ojo Del Vacío",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Velkoz.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Velkoz_0.jpg",
+      blurb:
+        "No está claro si Vel'Koz fue la primera manifestación del Vacío que emergió en Runaterra, pero ciertamente no ha habido ninguna que llegue a su nivel de cruel y calculadora conciencia. Mientras que los suyos devoran o corrompen todo a su alrededor, él busca indagar y estudiar el mundo físico y a los extraños seres guerreros que habitan allí para encontrar cualquier debilidad que los seres del Vacío puedan aprovechar. Pero Vel'Koz no es un observador pasivo, pues ataca a sus enemigos con un mortífero plasma y altera las leyes del mismo mundo.",
+      info: {
+        attack: 2,
+        defense: 2,
+        magic: 10,
+        difficulty: 3
+      },
+      image: {
+        full: "Velkoz.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 288,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2014-02-27",
+      patch: "V4.3",
+      graphic :{
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:0,
+        utility:1,
+      },
+      stats: {
+        hp: 520,
+        hpperlevel:88 ,
+        mp:469 ,
+        mpperlevel:21 ,
+        armor: 21.88,
+        armorperlevel:3.5,
+        mrbase: 30,
+        mrlevel :0.5 ,
+        hpregen: 5.5,
+        hpregenperlevel: 0.55,
+        mpregen: 8,
+        mpregenperlevel:0.8 ,
+        attackdamage:54.9379 ,
+        attackdamageperlevel:3.1416,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 1.36,
+        attackrange: 525,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Deconstrucción Orgánica",img:"https://opgg-static.akamaized.net/images/lol/passive/VelKoz_Passive.png?image=q_auto,w_48&v=1591083841",info:"Las habilidades de Vel'Koz aplican Deconstrucción Orgánica sobre los enemigos impactados. Al llegar a 3 acumulaciones, el enemigo recibirá una gran cantidad de daño verdadero."},
+        {q:"Fisión de Plasma",img:"https://opgg-static.akamaized.net/images/lol/spell/VelkozQ.png?image=q_auto,w_48&v=1591083841",info:"Vel'Koz dispara un proyectil de plasma que se divide en dos al reactivarse o al alcanzar a un enemigo. El proyectil ralentiza e inflige daño al impacto."},
+        {w:"Grieta del Vacío",img:"https://opgg-static.akamaized.net/images/lol/spell/VelkozW.png?image=q_auto,w_48&v=1591083841",info:"Vel'Koz abre una grieta al Vacío que inflige una explosión inicial de daño, luego explota y causa una segunda explosión de daño después de un breve periodo."},
+        {e:"Perturbación Tectónica",img:"https://opgg-static.akamaized.net/images/lol/spell/VelkozE.png?image=q_auto,w_48&v=1591083841",info:"Vel'Koz provoca que un área explote, lo que lanza a los enemigos por el aire y aleja un poco a los enemigos cercanos."},
+        {r:"Rayo Desintegrador de Seres Vivos",img:"https://opgg-static.akamaized.net/images/lol/spell/VelkozR.png?image=q_auto,w_48&v=1591083841",info:"Vel'Koz desata un rayo canalizado que sigue el cursor durante 2.5 seg e inflige daño mágico. Deconstrucción Orgánica investiga a los campeones enemigos, lo que causa que reciban daño verdadero."}
+     ]
+    },
+    Vi: {
+      version: "V10.14",
+      id: "Vi",
+      key: "254",
+      name: "Vi",
+      title: "La Vigilante De Piltóver",
+      img: "https://www.masterypoints.com/assets/img/lol/champion_icons/Vi.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg",
+      blurb:
+        "Vi es una antigua criminal de las calles de Zaun impulsiva e imponente con un respeto hacia las autoridades casi nulo. Vi creció sola y desarrolló un instinto de supervivencia muy fino, así como un sentido del humor retorcido. Ahora trabaja con los Protectores de Piltóver para mantener la paz y utiliza unos poderosos guanteletes hextech que pueden atravesar muros y golpear a los sospechosos con la misma facilidad.",
+      info: {
+        attack: 8,
+        defense: 5,
+        magic: 3,
+        difficulty: 2
+      },
+      image: {
+        full: "Vi.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 336,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Asesino"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2012-12-19",
+      patch: "V1.0.0.153",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:3,
+        mobility:2,
+        utility:1,
+      },
+      stats: {
+        hp:585 ,
+        hpperlevel: 85,
+        mp: 295,
+        mpperlevel:45 ,
+        armor: 30,
+        armorperlevel: 4,
+        mrbase:32.1 ,
+        mrlevel :1.25 ,
+        hpregen: 10,
+        hpregenperlevel:1 ,
+        mpregen: 8,
+        mpregenperlevel:0.65 ,
+        attackdamage: 63,
+        attackdamageperlevel:3.5,
+        attackspeedoffset: 0.644,
+        attackspeedperlevel:2 ,
+        attackrange: 125,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"Escudo Explosivo",img:"https://opgg-static.akamaized.net/images/lol/passive/ViPassive.png?image=q_auto,w_48&v=1591083841",info:"Vi carga un escudo con el paso del tiempo. El escudo se puede activar alcanzando al enemigo con una habilidad."},
+        {q:"Rompebóvedas",img:"https://opgg-static.akamaized.net/images/lol/spell/ViQ.png?image=q_auto,w_48&v=1591083841",info:"Vi carga sus guanteletes y lanza un puñetazo despedazador cuyo impulso la arrastra hacia delante. Los enemigos a los que golpee se ven desplazados hacia atrás y reciben una acumulación de Golpes Abollantes."},
+        {w:"Golpes Abollantes",img:"https://opgg-static.akamaized.net/images/lol/spell/ViW.png?image=q_auto,w_48&v=1591083841",info:"Vi rompe a puñetazos la Armadura de su rival, lo que le inflige daño adicional y le otorga a ella Velocidad de Ataque."},
+        {e:"Fuerza Excesiva",img:"https://opgg-static.akamaized.net/images/lol/spell/ViE.png?image=q_auto,w_48&v=1591083841",info:"El siguiente ataque de Vi atraviesa a sus enemigos con un rayo, lo que inflige daño a los enemigos que tiene detrás."},
+        {r:"Asalto y Lesiones",img:"https://opgg-static.akamaized.net/images/lol/spell/ViR.png?image=q_auto,w_48&v=1591083841",info:"Vi se lanza hacia un enemigo, apartando a un lado a todo el que se cruza en su camino. Cuando alcanza al objetivo, lo lanza por el aire, salta tras él y lo derriba de un golpe."}
+     ]
+    },
+    Viktor: {
+      version: "V10.14",
+      id: "Viktor",
+      key: "112",
+      name: "Viktor",
+      title: "El Heraldo Mecánico",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Viktor.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_0.jpg",
+      blurb:
+        "Como heraldo de una nueva era tecnológica, Viktor ha dedicado su vida al progreso de la humanidad. Es un idealista que busca elevar a la gente de Zaun a un nuevo nivel de comprensión y cree que la humanidad solo podrá alcanzar todo su potencial una vez que haya aceptado la gloriosa evolución de la tecnología. Con un cuerpo amplificado con acero y ciencia, Viktor encabeza una cruzada para un futuro más brillante.",
+      info: {
+        attack: 2,
+        defense: 4,
+        magic: 10,
+        difficulty:3
+      },
+      image: {
+        full: "Viktor.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 384,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2011-12-29",
+      patch: "V1.0.0.131",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:2,
+        mobility:1,
+        utility:1,
+      },
+      stats: {
+        hp:530 ,
+        hpperlevel:90 ,
+        mp: 405,
+        mpperlevel:25 ,
+        armor:23 ,
+        armorperlevel:4 ,
+        mrbase:30 ,
+        mrlevel : 0.5,
+        hpregen: 8,
+        hpregenperlevel:0.65 ,
+        mpregen: 8,
+        mpregenperlevel: 0.8,
+        attackdamage: 53,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.658,
+        attackspeedperlevel:2.11 ,
+        attackrange:525 ,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Gloriosa Evolución",img:"https://opgg-static.akamaized.net/images/lol/passive/Viktor_Passive.png?image=q_auto,w_48&v=1591083841",info:"Viktor empieza con el Prototipo de Núcleo Hex, que se puede mejorar tres veces en la tienda para potenciar sus habilidades."},
+        {q:"Transferencia de Potencia",img:"https://opgg-static.akamaized.net/images/lol/spell/ViktorPowerTransfer.png?image=q_auto,w_48&v=1591083841",info:"Viktor ataca a una unidad enemiga, lo que inflige daño mágico, le otorga a Viktor un escudo y potencia de su siguiente ataque básico. Aumento: el escudo de Transferencia de Potencia aumenta un 60% y Viktor obtiene velocidad de movimiento adicional tras lanzarlo."},
+        {w:"Campo Gravitatorio",img:"https://opgg-static.akamaized.net/images/lol/spell/ViktorGravitonField.png?image=q_auto,w_48&v=1591083841",info:"Viktor crea un potente campo gravitacional que ralentiza a los enemigos situados en su radio de efecto. Los que permanecen demasiado tiempo dentro del dispositivo, quedan aturdidos. Aumento: Los enemigos aturdidos por Campo Gravitatorio se ven arrastrados hacia el centro."},
+        {e:"Rayo de la Muerte",img:"https://opgg-static.akamaized.net/images/lol/spell/ViktorDeathRay.png?image=q_auto,w_48&v=1591083841",info:"Viktor usa su brazo robótico para disparar un rayo de caos que atraviesa el campo en línea recta e inflige daño mágico a todos los enemigos en su camino. Aumento: se produce una explosión tras Rayo de la Muerte que inflige daño mágico."},
+        {r:"Tormenta del Caos",img:"https://opgg-static.akamaized.net/images/lol/spell/ViktorChaosStorm.png?image=q_auto,w_48&v=1591083841",info:"Viktor invoca una singularidad en el campo de batalla que inflige daño mágico e interrumpe las canalizaciones enemigas. La singularidad inflige daño mágico periódicamente a todos los enemigos cercanos. Viktor puede redirigirla. Aumento: Tormenta del Caos se mueve 25% más rápido."}
+     ]
+    },
+    Vladimir: {
+      version: "V10.14",
+      id: "Vladimir",
+      key: "8",
+      name: "Vladimir",
+      title: "El Segador Carmesí",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Vladimir.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladimir_0.jpg",
+      blurb:
+        "Vladimir, un demonio con sed de sangre mortal, ha influenciado la política de Noxus desde los primeros días del imperio. Además de extender su vida de manera sobrenatural, su maestría de la hemomancia le permite controlar las mentes y cuerpos de otros tan fácil como los suyos. En las extravagantes salas de la aristocracia de Noxus, esto le ha permitido hacerse de una fama y personalidad a su alrededor mientras que en los callejones más bajos le permite desangrar a sus enemigos hasta secarlos.",
+      info: {
+        attack: 2,
+        defense: 6,
+        magic: 8,
+        difficulty: 2
+      },
+      image: {
+        full: "Vladimir.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 432,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago", "Tanque"],
+      partype: "Gnarfury",
+      rangetype:"a distancia",
+      date: "2010-07-27",
+      patch: "V1.0.0.97",
+      graphic :{
+        damage:3,
+        toughness:2,
+        control:1,
+        mobility:1,
+        utility:1,
+      },
+      stats: {
+        hp: 537,
+        hpperlevel:96 ,
+        mp: 2,
+        mpperlevel:0 ,
+        armor: 23,
+        armorperlevel:3.3 ,
+        mrbase:30 ,
+        mrlevel : 0.5,
+        hpregen: 7,
+        hpregenperlevel:0.6 ,
+        mpregen: 0,
+        mpregenperlevel:0 ,
+        attackdamage:55 ,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.658,
+        attackspeedperlevel:2 ,
+        attackrange:450 ,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Pacto Carmesí",img:"https://opgg-static.akamaized.net/images/lol/passive/VladimirP.png?image=q_auto,w_48&v=1591083841",info:"Cada 40 puntos de Vida adicional le otorgan a Vladimir 1 punto de Poder de Habilidad, y cada punto de Poder de Habilidad le otorga a Vladimir 1.4 de Vida adicional (no se acumula entre sí)."},
+        {q:"Transfusión",img:"https://opgg-static.akamaized.net/images/lol/spell/VladimirQ.png?image=q_auto,w_48&v=1591083841",info:"Vladimir le roba vida a un enemigo. Cuando la barra de recursos de Vladimir esté llena, la Transfusión tendrá un aumento masivo de daño y curación por un breve periodo."},
+        {w:"Charco de Sangre",img:"https://opgg-static.akamaized.net/images/lol/spell/VladimirSanguinePool.png?image=q_auto,w_48&v=1591083841",info:"Vladimir se hunde en un charco de sangre y se vuelve inalcanzable durante 2 seg. Además, los enemigos en el charco quedan ralentizados y Vladimir extrae vida de ellos."},
+        {e:"Marea Roja",img:"https://opgg-static.akamaized.net/images/lol/spell/VladimirE.png?image=q_auto,w_48&v=1591083841",info:"Vladimir paga su propia vida para cargar una reserva de sangre que, al ser liberada, inflige daño en el área a su alrededor. Las unidades enemigas la pueden bloquear."},
+        {r:"Hemoplaga",img:"https://opgg-static.akamaized.net/images/lol/spell/VladimirHemoplague.png?image=q_auto,w_48&v=1591083841",info:"Vladimir infecta un área con una plaga virulenta. Los enemigos afectados reciben daño aumentado a lo largo de la duración. Después de unos pocos segundos, Hemoplaga inflige daño mágico a los enemigos infectados y cura a Vladimir por cada campeón enemigo alcanzado."}
+     ]
+    },
+    Volibear: {
+      version: "V10.14",
+      id: "Volibear",
+      key: "106",
+      name: "Volibear",
+      title: "La Tormenta Implacable",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Volibear.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_0.jpg",
+      blurb:
+        "Para quienes aún lo veneran, Volibear es la encarnación de la tormenta. Destructivo, salvaje y con una determinación obstinada, existió antes de que los mortales caminaran sobre la tundra del Fréljord. Protege salvajemente las tierras que él y los demás semidioses de su familia crearon. Tras cultivar un odio profundo hacia la civilización y sus debilidades, ahora pelea para restaurar las viejas costumbres, aquellos tiempos cuando la tierra era indómita y la sangre se derramaba libremente. Combate con avidez a todos aquellos que se le oponen, con garras, dientes y un estruendoso poderío.",
+      info: {
+        attack: 7,
+        defense: 7,
+        magic: 4,
+        difficulty: 1
+      },
+      image: {
+        full: "Volibear.png",
+        sprite: "champion4.png",
+        group: "champion",
+        x: 0,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Tanque"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2011-11-29",
+      patch: "V1.0.0.130",
+      graphic :{
+        damage:2,
+        toughness:3,
+        control:2,
+        mobility:2,
+        utility:1,
+      },
+      stats: {
+        hp:580 ,
+        hpperlevel: 90,
+        mp: 350,
+        mpperlevel: 50,
+        armor: 31,
+        armorperlevel:4 ,
+        mrbase:32 ,
+        mrlevel : 1.25,
+        hpregen: 9,
+        hpregenperlevel:0.65 ,
+        mpregen:6.25 ,
+        mpregenperlevel:0.5 ,
+        attackdamage: 57,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 2,
+        attackrange:150 ,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"La Tormenta Implacable",img:"https://opgg-static.akamaized.net/images/lol/passive/Volibear_Icon_P.png?image=q_auto,w_48&v=1591083841",info:"Los ataques y habilidades de Volibear le otorgan velocidad de ataque y sus ataques básicos pueden llegar a infligir daño mágico adicional a enemigos cercanos."},
+        {q:"Choque Estruendoso",img:"https://opgg-static.akamaized.net/images/lol/spell/VolibearQ.png?image=q_auto,w_48&v=1591083841",info:"Volibear obtiene velocidad al dirigirse hacia enemigos. Aturdirá e infligirá daño al primero que ataque."},
+        {w:"Zarpazo Frenético",img:"https://opgg-static.akamaized.net/images/lol/spell/VolibearW.png?image=q_auto,w_48&v=1591083841",info:"Volibear inflige daño a un enemigo, además de aplicar efectos al impacto y marcarlo. Lanzar este hechizo de nuevo sobre el mismo objetivo le inflige daño adicional y cura a Volibear."},
+        {e:"Rompecielos",img:"https://opgg-static.akamaized.net/images/lol/spell/VolibearE.png?image=q_auto,w_48&v=1591083841",info:"Volibear invoca un rayo sobre el área objetivo, el cual inflige daño y ralentiza a los enemigos a la vez que le otorga a Volibear un escudo si se encuentra dentro del radio de explosión."},
+        {r:"Invocador de Tormentas",img:"https://opgg-static.akamaized.net/images/lol/spell/VolibearR.png?image=q_auto,w_48&v=1591083841",info:"Volibear salta al área objetivo, lo que ralentiza e inflige daño a los enemigos que aplasta, además de otorgarle vida adicional. Las torres enemigas que estén cerca del área objetivo quedarán desactivadas temporalmente."}
+     ]
+    },
+    Warwick: {
+      version: "V10.14",
+      id: "Warwick",
+      key: "19",
+      name: "Warwick",
+      title: "La Furia Desatada De Zaun",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Warwick.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg",
+      blurb:
+        "Warwick es un monstruo que ronda por los callejones grises de Zaun. Víctima de agonizantes experimentos, su cuerpo está fusionado con un sistema complejo de cámaras y bombas, una maquinaria que llena sus venas con furia alquímica. Warwick emerge de las sombras y ataca a los criminales que aterrorizan las profundidades de la ciudad. Lo atrae la sangre y su aroma lo vuelve loco. Nadie que la derrame puede escapar de él.",
+      info: {
+        attack: 9,
+        defense: 5,
+        magic: 3,
+        difficulty: 1
+      },
+      image: {
+        full: "Warwick.png",
+        sprite: "champion4.png",
+        group: "champion",
+        x: 48,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Luchador", "Tanque"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
+      date: "2009-02-21",
+      patch: "Semana Alpha 2",
+      graphic :{
+        damage:2,
+        toughness:2,
+        control:2,
+        mobility:1,
+        utility:1,
+      },
+      stats: {
+        hp: 550,
+        hpperlevel:85 ,
+        mp: 280,
+        mpperlevel: 35,
+        armor: 33,
+        armorperlevel:3.2 ,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 4,
+        hpregenperlevel: 0.75,
+        mpregen: 7.466,
+        mpregenperlevel:0.575 ,
+        attackdamage:65 ,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.638,
+        attackspeedperlevel:2.3 ,
+        attackrange:125 ,
+        movespeed: 335
+      },
+      skill:[
+        {pasive:"Apetito Insaciable",img:"https://opgg-static.akamaized.net/images/lol/passive/WarwickP.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos de Warwick infligen daño mágico adicional. Si Warwick se encuentra por debajo del 50% de Vida, se cura esa cantidad. Si Warwick se encuentra por debajo del 25% de Vida, esta curación se triplica."},
+        {q:"Fauces de la Bestia",img:"https://opgg-static.akamaized.net/images/lol/spell/WarwickQ.png?image=q_auto,w_48&v=1591083841",info:"Warwick se lanza hacia adelante y muerde a su objetivo, infligiendo daño basado en sus PV máximos y curando a Warwick en proporción a los daños infligidos."},
+        {w:"Cacería de Sangre",img:"https://opgg-static.akamaized.net/images/lol/spell/WarwickW.png?image=q_auto,w_48&v=1591083841",info:"Warwick siente a los enemigos con menos de 50% de vida, con lo que gana velocidad de movimiento y de ataque contra ellos. Cuando la vida de los enemigos cae por debajo de un 20%, Warwick entra en frenesí y estas bonificaciones se triplican."},
+        {e:"Aullido Primigenio",img:"https://opgg-static.akamaized.net/images/lol/spell/WarwickE.png?image=q_auto,w_48&v=1591083841",info:"Warwick recibe daño reducido por 2,5 seg. Al finalizar, o si se activa de nuevo, Warwick aúlla y hace que los enemigos cercanos huyan de miedo por 1 seg."},
+        {r:"Opresión Infinita",img:"https://opgg-static.akamaized.net/images/lol/spell/WarwickR.png?image=q_auto,w_48&v=1591083841",info:"Warwick salta en una dirección (la distancia aumenta con su velocidad de movimiento adicional) y paraliza al primer campeón que encuentra durante 1,5 segundos."}
+     ]
+    },
+    Wukong: {
       version: "V10.14",
       id: "MonkeyKing",
       key: "62",
@@ -5026,3621 +9179,71 @@ export default {
         {r:"Ciclón",img:"https://opgg-static.akamaized.net/images/lol/spell/MonkeyKingSpinToWin.png?image=q_auto,w_48&v=1591083841",info:"Wukong extiende su báculo, lo hace girar repetidamente y obtiene velocidad de movimiento. Los enemigos alcanzados por el báculo reciben daño y son lanzados por el aire."}
      ]
     },
-    Mordekaiser: {
+    Xayah: {
       version: "V10.14",
-      id: "Mordekaiser",
-      key: "82",
-      name: "Mordekaiser",
-      title: "the Iron Revenant",
+      id: "Xayah",
+      key: "498",
+      name: "Xayah",
+      title: "La Rebelde",
       img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Mordekaiser.png",
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Xayah.png",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mordekaiser_0.jpg",
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg",
       blurb:
-        "''All things must die... and yet I live on.''<br><br>The baleful revenant Mordekaiser is among the most terrifying and hateful spirits haunting the Shadow Isles. He has existed for countless centuries, shielded from true death by necromantic sorcery ...",
+        "Letal y precisa, Xayah es una vastaya revolucionaria que lleva a cabo una guerra personal para salvar a su gente. Utiliza su velocidad, astucia y plumas afiladas para abatir a cualquiera que se interponga en su camino. Xayah pelea junto a su compañero y amante Rakan para proteger a su decreciente tribu y devolver la gloria a su raza.",
       info: {
-        attack: 4,
+        attack:10 ,
         defense: 6,
-        magic: 7,
-        difficulty: 4
-      },
-      image: {
-        full: "Mordekaiser.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 384,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Fighter"],
-      partype: "None",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Morgana: {
-      version: "V10.14",
-      id: "Morgana",
-      key: "25",
-      name: "Morgana",
-      title: "Fallen Angel",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Morgana.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg",
-      blurb:
-        "There is a world far away populated by graceful and beautiful winged beings gifted with immortality, where an ancient conflict still rages. Like so many conflicts, this war split families. One side proclaimed themselves as beings of perfect order and ...",
-      info: {
-        attack: 1,
-        defense: 6,
-        magic: 8,
-        difficulty: 1
-      },
-      image: {
-        full: "Morgana.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 432,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mage", "Support"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Nami: {
-      version: "V10.14",
-      id: "Nami",
-      key: "267",
-      name: "Nami",
-      title: "the Tidecaller",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nami.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_0.jpg",
-      blurb:
-        "Nami channels the primal energies of the ocean, harnessing its mystical restorative properties and commanding the raw power of the tides themselves. Though many doubted her, Nami had the bravery and determination to take on a dangerous quest when no ...",
-      info: {
-        attack: 4,
-        defense: 3,
-        magic: 7,
-        difficulty: 5
-      },
-      image: {
-        full: "Nami.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 0,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Support", "Mage"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Nasus: {
-      version: "V10.14",
-      id: "Nasus",
-      key: "75",
-      name: "Nasus",
-      title: "the Curator of the Sands",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nasus.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nasus_0.jpg",
-      blurb:
-        "''What was fallen will be great again.''<br><br>Nasus is an imposing, jackal-headed Ascended being from ancient Shurima, a heroic figure regarded as a demigod by the people of the desert. Fiercely intelligent, he was a guardian of knowledge and ...",
-      info: {
-        attack: 7,
-        defense: 5,
-        magic: 6,
-        difficulty: 6
-      },
-      image: {
-        full: "Nasus.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 48,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Fighter", "Tank"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Nautilus: {
-      version: "V10.14",
-      id: "Nautilus",
-      key: "111",
-      name: "Nautilus",
-      title: "the Titan of the Depths",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nautilus.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_0.jpg",
-      blurb:
-        "Once, Nautilus was a sailor commissioned by the Institute of War to explore the uncharted reaches of the Guardian's Sea. This expedition took him deep into unknown waters where he and his crew found a vast section of black oozing liquid that none of ...",
-      info: {
-        attack: 4,
-        defense: 6,
-        magic: 6,
-        difficulty: 6
-      },
-      image: {
-        full: "Nautilus.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 96,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tank", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Nidalee: {
-      version: "V10.14",
-      id: "Nidalee",
-      key: "76",
-      name: "Nidalee",
-      title: "the Bestial Huntress",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nidalee.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_0.jpg",
-      blurb:
-        "There are few dwellers, let alone champions, residing in the blasted and dangerous lands that lie south of the Great Barrier. Much of that world still bears the scars of past Runes Wars, especially the mysterious Kumungu Jungle. There are ...",
-      info: {
-        attack: 5,
-        defense: 4,
-        magic: 7,
-        difficulty: 8
-      },
-      image: {
-        full: "Nidalee.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 144,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Assassin", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Nocturne: {
-      version: "V10.14",
-      id: "Nocturne",
-      key: "56",
-      name: "Nocturne",
-      title: "the Eternal Nightmare",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nocturne.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nocturne_0.jpg",
-      blurb:
-        "Before Nocturne, people believed that dreams were figments of their imagination, meaningless images that flashed through the mind when one slept. This belief was put to the test when a rash of sleep-related incidents started afflicting summoners of ...",
-      info: {
-        attack: 9,
-        defense: 5,
-        magic: 2,
-        difficulty: 4
-      },
-      image: {
-        full: "Nocturne.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 192,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Assassin", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Nunu: {
-      version: "V10.14",
-      id: "Nunu",
-      key: "20",
-      name: "Nunu",
-      title: "the Yeti Rider",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Nunu.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nunu_0.jpg",
-      blurb:
-        "Sometimes bonds of friendship become stronger than even bonds of blood. When those bonds link a fearless boy to a fearsome Yeti, the bond becomes a force to be reckoned with. Given the responsibility of taming a terrifying beast, Nunu forged a ...",
-      info: {
-        attack: 4,
-        defense: 6,
-        magic: 7,
-        difficulty: 4
-      },
-      image: {
-        full: "Nunu.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 240,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Support", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Olaf: {
-      version: "V10.14",
-      id: "Olaf",
-      key: "2",
-      name: "Olaf",
-      title: "the Berserker",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Olaf.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Olaf_0.jpg",
-      blurb:
-        "Most men would say that death is a thing to be feared; none of those men would be Olaf. The Berserker lives only for the roar of a battle cry and the clash of steel. Spurred on by his hunger for glory and the looming curse of a forgettable death, Olaf ...",
-      info: {
-        attack: 9,
-        defense: 5,
-        magic: 3,
-        difficulty: 3
-      },
-      image: {
-        full: "Olaf.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 288,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Fighter", "Tank"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Orianna: {
-      version: "V10.14",
-      id: "Orianna",
-      key: "61",
-      name: "Orianna",
-      title: "the Lady of Clockwork",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Orianna.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Orianna_0.jpg",
-      blurb:
-        "There once was a Piltovian man named Corin Reveck who had a daughter named Orianna, whom he loved more than anything else in the world. Though Orianna had incredible talent for dancing, she was deeply fascinated by the champions of the League of ...",
-      info: {
-        attack: 4,
-        defense: 3,
-        magic: 9,
-        difficulty: 7
-      },
-      image: {
-        full: "Orianna.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 336,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mage", "Support"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Pantheon: {
-      version: "V10.14",
-      id: "Pantheon",
-      key: "80",
-      name: "Pantheon",
-      title: "the Artisan of War",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Pantheon.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pantheon_0.jpg",
-      blurb:
-        "''Bring forth one true champion, or a hundred more like you, and then we shall have a battle that will be spoken of until the end of time.''<br><br>The peerless warrior known as Pantheon is a nigh-unstoppable paragon of battle. He was born among the ...",
-      info: {
-        attack: 9,
-        defense: 4,
-        magic: 3,
-        difficulty: 4
-      },
-      image: {
-        full: "Pantheon.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 384,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Fighter", "Assassin"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Poppy: {
-      version: "V10.14",
-      id: "Poppy",
-      key: "78",
-      name: "Poppy",
-      title: "Keeper of the Hammer",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Poppy.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Poppy_0.jpg",
-      blurb:
-        "''I'm no hero. Just a yordle with a hammer.''<br><br>Runeterra has no shortage of valiant champions, but few are as tenacious as Poppy. Bearing a hammer twice the length of her body, this determined yordle has spent untold years searching for the ...",
-      info: {
-        attack: 6,
-        defense: 7,
-        magic: 2,
-        difficulty: 6
-      },
-      image: {
-        full: "Poppy.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 432,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tank", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Quinn: {
-      version: "V10.14",
-      id: "Quinn",
-      key: "133",
-      name: "Quinn",
-      title: "Demacia's Wings",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Quinn.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg",
-      blurb:
-        "Quinn and Valor are an elite ranger team. With crossbow and claw, they undertake their nation's most dangerous missions deep within enemy territory, from swift reconnaissance to lethal strikes. The pair's unbreakable bond is deadly on the battlefield, ...",
-      info: {
-        attack: 9,
-        defense: 4,
-        magic: 2,
-        difficulty: 5
-      },
-      image: {
-        full: "Quinn.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 0,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Marksman", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Rammus: {
-      version: "V10.14",
-      id: "Rammus",
-      key: "33",
-      name: "Rammus",
-      title: "the Armordillo",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Rammus.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rammus_0.jpg",
-      blurb:
-        "''OK.''<br><br>Idolized by many, dismissed by some, mystifying to all, the curious being, Rammus, is an enigma. Protected by a spiked shell, Rammus inspires increasingly disparate theories on his origin wherever he goes - from demigod, to sacred ...",
-      info: {
-        attack: 4,
-        defense: 10,
-        magic: 5,
-        difficulty: 5
-      },
-      image: {
-        full: "Rammus.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 48,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tank", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    RekSai: {
-      version: "V10.14",
-      id: "RekSai",
-      key: "421",
-      name: "Rek'Sai",
-      title: "the Void Burrower",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/RekSai.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/RekSai_0.jpg",
-      blurb:
-        "The largest and fiercest of her species, Rek'Sai is a merciless predator that tunnels through the earth to ambush and devour her prey. Her insatiable hunger has laid waste to entire regions of the once-great Shuriman empire. Merchants, traders and ...",
-      info: {
-        attack: 8,
-        defense: 5,
-        magic: 2,
-        difficulty: 3
-      },
-      image: {
-        full: "RekSai.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 96,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Fighter"],
-      partype: "Battlefury",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Renekton: {
-      version: "V10.14",
-      id: "Renekton",
-      key: "58",
-      name: "Renekton",
-      title: "the Butcher of the Sands",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Renekton.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renekton_0.jpg",
-      blurb:
-        "''Blood and vengeance.''<br><br>Renekton is a terrifying, rage-fueled Ascended being from the scorched deserts of Shurima. Once, he was his empire's most esteemed warrior, leading the armies of Shurima to countless victories. However, after the ...",
-      info: {
-        attack: 8,
-        defense: 5,
-        magic: 2,
-        difficulty: 3
-      },
-      image: {
-        full: "Renekton.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 144,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Fighter", "Tank"],
-      partype: "Rage",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Rengar: {
-      version: "V10.14",
-      id: "Rengar",
-      key: "107",
-      name: "Rengar",
-      title: "the Pridestalker",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Rengar.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg",
-      blurb:
-        "On every wall of his den, the trophy hunter Rengar mounts the heads, horns, claws, and fangs of the most lethal creatures in Valoran. Though his collection is extensive, he remains unsatisfied, tirelessly seeking greater game. He takes time with every ...",
-      info: {
-        attack: 7,
-        defense: 4,
-        magic: 2,
-        difficulty: 8
-      },
-      image: {
-        full: "Rengar.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 192,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Assassin", "Fighter"],
-      partype: "Ferocity",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Riven: {
-      version: "V10.14",
-      id: "Riven",
-      key: "92",
-      name: "Riven",
-      title: "the Exile",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Riven.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg",
-      blurb:
-        "''There is a place between war and murder in which our demons lurk.''<br><br>In Noxus, any citizen may rise to power regardless of race, gender, or social standing - strength is all that matters. It was with committed faith in this ideal that Riven ...",
-      info: {
-        attack: 8,
-        defense: 5,
         magic: 1,
-        difficulty: 8
+        difficulty:2 
       },
       image: {
-        full: "Riven.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 240,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Fighter", "Assassin"],
-      partype: "None",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Rumble: {
-      version: "V10.14",
-      id: "Rumble",
-      key: "68",
-      name: "Rumble",
-      title: "the Mechanized Menace",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Rumble.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rumble_0.jpg",
-      blurb:
-        "''Ugh, it's gonna take forever to scrape your face off my suit!''<br><br>Even amongst yordles, Rumble was always the runt of the litter. As such, he was used to being bullied. In order to survive, he had to be scrappier and more resourceful than his ...",
-      info: {
-        attack: 3,
-        defense: 6,
-        magic: 8,
-        difficulty: 10
-      },
-      image: {
-        full: "Rumble.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 288,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Fighter", "Mage"],
-      partype: "Heat",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Ryze: {
-      version: "V10.14",
-      id: "Ryze",
-      key: "13",
-      name: "Ryze",
-      title: "the Rune Mage",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Ryze.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg",
-      blurb:
-        "''Take care with this world. What is made can be unmade.''<br><br>Widely considered one of the most adept sorcerers on Runeterra, Ryze is an ancient, hard-bitten archmage with an impossibly heavy burden to bear. Armed with a boundless constitution and ...",
-      info: {
-        attack: 2,
-        defense: 2,
-        magic: 10,
-        difficulty: 7
-      },
-      image: {
-        full: "Ryze.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 336,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mage", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Sejuani: {
-      version: "V10.14",
-      id: "Sejuani",
-      key: "113",
-      name: "Sejuani",
-      title: "the Winter's Wrath",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Sejuani.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sejuani_0.jpg",
-      blurb:
-        "Sejuani was weaned on hardship and reared on barbarity. Where others succumbed to the harshness of the Freljord, she was tempered by it until pain became power, hunger an encouragement, and frost an ally in culling the weak. Through her ordeals, she ...",
-      info: {
-        attack: 5,
-        defense: 7,
-        magic: 6,
-        difficulty: 4
-      },
-      image: {
-        full: "Sejuani.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 384,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tank", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Shaco: {
-      version: "V10.14",
-      id: "Shaco",
-      key: "35",
-      name: "Shaco",
-      title: "the Demon Jester",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Shaco.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shaco_0.jpg",
-      blurb:
-        "Most would say that death isn't funny. It isn't, unless you're Shaco - then it's hysterical. He is Valoran's first fully functioning homicidal comic; he jests until someone dies, and then he laughs. The figure that has come to be known as the Demon ...",
-      info: {
-        attack: 8,
-        defense: 4,
-        magic: 6,
-        difficulty: 9
-      },
-      image: {
-        full: "Shaco.png",
-        sprite: "champion2.png",
-        group: "champion",
-        x: 432,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Assassin"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Shen: {
-      version: "V10.14",
-      id: "Shen",
-      key: "98",
-      name: "Shen",
-      title: "the Eye of Twilight",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Shen.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg",
-      blurb:
-        "''The Eye is blind to fear, to hate, to love - to all things that would sway equilibrium.''<br><br>Leader of a secret clan of mystic warriors, Shen serves as the Eye of Twilight, entrusted to enforce equilibrium in the world. Longing to remain free ...",
-      info: {
-        attack: 3,
-        defense: 9,
-        magic: 3,
-        difficulty: 4
-      },
-      image: {
-        full: "Shen.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 0,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tank", "Melee"],
-      partype: "Energy",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Shyvana: {
-      version: "V10.14",
-      id: "Shyvana",
-      key: "102",
-      name: "Shyvana",
-      title: "the Half-Dragon",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Shyvana.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg",
-      blurb:
-        "A half-breed born from the union between dragon and human, Shyvana searched all her life for belonging. Persecution forged her into a brutal warrior, and those who dare stand against Shyvana face the fiery beast lurking just beneath her skin....",
-      info: {
-        attack: 8,
-        defense: 6,
-        magic: 3,
-        difficulty: 4
-      },
-      image: {
-        full: "Shyvana.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 48,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Fighter", "Tank"],
-      partype: "Dragonfury",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Singed: {
-      version: "V10.14",
-      id: "Singed",
-      key: "27",
-      name: "Singed",
-      title: "the Mad Chemist",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Singed.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Singed_0.jpg",
-      blurb:
-        "Singed descended from a long line of Zaun's revered chemists. Even in his youth, his talent for concocting potions far outstripped that of his peers, and he quickly distinguished himself from his less extraordinary chemist compatriots. It came as no ...",
-      info: {
-        attack: 4,
-        defense: 8,
-        magic: 7,
-        difficulty: 5
-      },
-      image: {
-        full: "Singed.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 96,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tank", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Sion: {
-      version: "V10.14",
-      id: "Sion",
-      key: "14",
-      name: "Sion",
-      title: "The Undead Juggernaut",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Sion.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg",
-      blurb:
-        "BLOOD.<br><br>SMELL IT.<br><br>WANT. ACHING. NEED!<br><br>CLOSE NOW. THEY COME.<br><br>NO CHAINS? FREE! KILL!<br><br>IN REACH. YES! DIE! DIE!<br><br>Gone. Too quick. No fight. More. I want... more.<br><br>A voice? Unfamiliar. I see him. The Grand ...",
-      info: {
-        attack: 5,
-        defense: 9,
-        magic: 3,
-        difficulty: 5
-      },
-      image: {
-        full: "Sion.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 144,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tank", "Fighter"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Sivir: {
-      version: "V10.14",
-      id: "Sivir",
-      key: "15",
-      name: "Sivir",
-      title: "the Battle Mistress",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Sivir.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sivir_0.jpg",
-      blurb:
-        "''I don't care what face is on your coin, as long as it pays.''<br><br>Sivir is a renowned fortune hunter and mercenary captain who plies her trade in the deserts of Shurima. Armed with her legendary jeweled crossblade, she has fought and won ...",
-      info: {
-        attack: 9,
-        defense: 3,
-        magic: 1,
-        difficulty: 4
-      },
-      image: {
-        full: "Sivir.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 192,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Marksman"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Skarner: {
-      version: "V10.14",
-      id: "Skarner",
-      key: "72",
-      name: "Skarner",
-      title: "the Crystal Vanguard",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Skarner.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Skarner_0.jpg",
-      blurb:
-        "''We are one. We cannot be shattered.''<br><br>Skarner is an immense crystalline scorpion from a hidden valley in Shurima. Part of the ancient Brackern race, Skarner and his kin are known for their great wisdom and deep connection to the land, as ...",
-      info: {
-        attack: 7,
-        defense: 6,
-        magic: 5,
-        difficulty: 5
-      },
-      image: {
-        full: "Skarner.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 240,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Fighter", "Tank"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Sona: {
-      version: "V10.14",
-      id: "Sona",
-      key: "37",
-      name: "Sona",
-      title: "Maven of the Strings",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Sona.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sona_0.jpg",
-      blurb:
-        "Sona has no memories of her true parents. As an infant, she was found abandoned on the doorstep of an Ionian adoption house, nestled atop an ancient instrument in an exquisite case of unknown origins. She was an unusually well-behaved child, always ...",
-      info: {
-        attack: 5,
-        defense: 2,
-        magic: 8,
-        difficulty: 4
-      },
-      image: {
-        full: "Sona.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 288,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Soporte", "Mago"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]}
-    },
-    Soraka: {
-      version: "V10.14",
-      id: "Soraka",
-      key: "16",
-      name: "Soraka",
-      title: "the Starchild",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Soraka.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg",
-      blurb:
-        "A healer gifted with the magic of the stars, Soraka holds all living creatures close to her heart. She was once a celestial being, but she sacrificed her immortality and entered the world of mortals. So long as evil threatens life in Valoran, Soraka ...",
-      info: {
-        attack: 2,
-        defense: 5,
-        magic: 7,
-        difficulty: 3
-      },
-      image: {
-        full: "Soraka.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 336,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Soporte", "Mago"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Swain: {
-      version: "V10.14",
-      id: "Swain",
-      key: "50",
-      name: "Swain",
-      title: "the Master Tactician",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Swain.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Swain_0.jpg",
-      blurb:
-        "The earliest account of Swain's existence comes from a Noxian infirmary doctor's notes. According to them, Swain limped into the ward without cry or complaint; his right leg was snapped in half, with bone protruding from the skin. A small, scowling ...",
-      info: {
-        attack: 2,
-        defense: 6,
-        magic: 9,
-        difficulty: 8
-      },
-      image: {
-        full: "Swain.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 384,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mago", "Luchador"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Syndra: {
-      version: "V10.14",
-      id: "Syndra",
-      key: "134",
-      name: "Syndra",
-      title: "the Dark Sovereign",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Syndra.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Syndra_0.jpg",
-      blurb:
-        "Born with immense magical potential, Syndra loves nothing more than exercising the incredible power at her command. With each passing day, her mastery of magical force grows more potent and devastating. Refusing any notion of balance or restraint, ...",
-      info: {
-        attack: 2,
-        defense: 3,
-        magic: 9,
-        difficulty: 8
-      },
-      image: {
-        full: "Syndra.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 432,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mago", "Soporte"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    TahmKench: {
-      version: "V10.14",
-      id: "TahmKench",
-      key: "223",
-      name: "Tahm Kench",
-      title: "the River King",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/TahmKench.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/TahmKench_0.jpg",
-      blurb:
-        "''The whole world's a river, and I'm its king.''<br>Tahm Kench travels Runeterra's waterways, feeding his insatiable appetite with the misery of the unsuspecting. The singularly charming gourmand savors every moment of his victims' suffering.  A deal ...",
-      info: {
-        attack: 3,
-        defense: 9,
-        magic: 6,
-        difficulty: 5
-      },
-      image: {
-        full: "TahmKench.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 0,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Soporte", "Tanque"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Taliyah: {
-      version: "V10.14",
-      id: "Taliyah",
-      key: "163",
-      name: "Taliyah",
-      title: "the Stoneweaver",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Taliyah.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taliyah_0.jpg",
-      blurb:
-        "Taliyah is a nomadic mage from Shurima who weaves stone with energetic enthusiasm and raw determination. Torn between teenage wonder and adult responsibility, she has crossed nearly all of Valoran on a journey to learn the true nature of her growing ...",
-      info: {
-        attack: 1,
-        defense: 7,
-        magic: 8,
-        difficulty: 5
-      },
-      image: {
-        full: "Taliyah.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 48,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mago", "Soporte"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Talon: {
-      version: "V10.14",
-      id: "Talon",
-      key: "91",
-      name: "Talon",
-      title: "the Blade's Shadow",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Talon.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg",
-      blurb:
-        "''The three deadliest blademasters in all of Valoran are bound to the house of Du Couteau: my father, myself, and Talon. Challenge us, if you dare.''<br>-- Katarina Du Couteau<br><br>Talon's earliest memories are the darkness of Noxus' underground ...",
-      info: {
-        attack: 9,
-        defense: 3,
-        magic: 1,
-        difficulty: 7
-      },
-      image: {
-        full: "Talon.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 96,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Asesino", "Luchador"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Taric: {
-      version: "V10.14",
-      id: "Taric",
-      key: "44",
-      name: "Taric",
-      title: "the Shield of Valoran",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Taric.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taric_0.jpg",
-      blurb:
-        "''The best weapons are beautiful.''<br><br>Taric is the Aspect of the Protector, wielding incredible power as Runeterra's guardian of life, love, and beauty. Shamed by a dereliction of duty and exiled from his homeland Demacia, Taric ascended Mount ...",
-      info: {
-        attack: 4,
-        defense: 8,
-        magic: 5,
-        difficulty: 3
-      },
-      image: {
-        full: "Taric.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 144,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Soporte", "Luchador"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Teemo: {
-      version: "V10.14",
-      id: "Teemo",
-      key: "17",
-      name: "Teemo",
-      title: "the Swift Scout",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Teemo.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
-      blurb:
-        "Teemo is a legend among his yordle brothers and sisters in Bandle City. As far as yordles are concerned, there is something just slightly off about him. While Teemo enjoys the companionship of other yordles, he also insists on frequent solo missions ...",
-      info: {
-        attack: 5,
-        defense: 3,
-        magic: 7,
-        difficulty: 6
-      },
-      image: {
-        full: "Teemo.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 192,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tirador", "Asesino"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Thresh: {
-      version: "V10.14",
-      id: "Thresh",
-      key: "412",
-      name: "Thresh",
-      title: "the Chain Warden",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Thresh.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
-      blurb:
-        "''The mind is a wondrous thing to tear apart.''<br><br>Sadistic and cunning, Thresh is a restless spirit who prides himself on tormenting mortals and breaking them with slow, excruciating inventiveness. His victims suffer far beyond the point of death,...",
-      info: {
-        attack: 5,
-        defense: 6,
-        magic: 6,
-        difficulty: 7
-      },
-      image: {
-        full: "Thresh.png",
-        sprite: "champion3.png",
+        full: "Xayah.png",
+        sprite: "champion1.png",
         group: "champion",
         x: 240,
         y: 48,
         w: 48,
         h: 48
       },
-      tags: ["Soporte", "Luchador"],
+      tags: ["Tirador"],
       partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"a distancia",
+      date: "2017-04-19",
+      patch: "V7.8",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:3,
+        toughness:2,
+        control:3,
+        mobility:1,
+        utility:0,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 590,
+        hpperlevel: 88,
+        mp: 340,
+        mpperlevel: 40,
+        armor: 25,
+        armorperlevel: 3,
+        mrbase:30 ,
+        mrlevel : 0.5,
+        hpregen: 3.25,
+        hpregenperlevel:0.75 ,
+        mpregen:8.25 ,
+        mpregenperlevel:0.75 ,
+        attackdamage:60 ,
+        attackdamageperlevel:2.9,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:3.3 ,
+        attackrange: 525,
+        movespeed: 325
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Tristana: {
-      version: "V10.14",
-      id: "Tristana",
-      key: "18",
-      name: "Tristana",
-      title: "the Yordle Gunner",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Tristana.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_0.jpg",
-      blurb:
-        "Greatness comes in all shapes and sizes, as proven by this diminutive, cannon-wielding yordle. In a world fraught with turmoil, Tristana refuses to back down from any challenge. She represents the pinnacle of martial proficiency, unwavering courage, ...",
-      info: {
-        attack: 9,
-        defense: 3,
-        magic: 5,
-        difficulty: 4
-      },
-      image: {
-        full: "Tristana.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 288,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tirador", "Asesino"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Trundle: {
-      version: "V10.14",
-      id: "Trundle",
-      key: "48",
-      name: "Trundle",
-      title: "the Troll King",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Trundle.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Trundle_0.jpg",
-      blurb:
-        "Trundle is a hulking and devious troll with a mischievous streak. There is nothing he can't beat into submission and bend to his will, not even the ice itself. With his massive, frozen club, he chills his enemies to the core and runs them through with ...",
-      info: {
-        attack: 7,
-        defense: 6,
-        magic: 2,
-        difficulty: 5
-      },
-      image: {
-        full: "Trundle.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 336,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Luchador", "Tanque"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Tryndamere: {
-      version: "V10.14",
-      id: "Tryndamere",
-      key: "23",
-      name: "Tryndamere",
-      title: "the Barbarian King",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Tryndamere.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tryndamere_0.jpg",
-      blurb:
-        "Fueled by his unbridled fury and rage, Tryndamere cuts his way through the tundra, mastering the art of battle by challenging the Freljord's greatest warriors. The wrathful barbarian seeks revenge on the one who decimated his clan and strikes down all ...",
-      info: {
-        attack: 10,
-        defense: 5,
-        magic: 2,
-        difficulty: 5
-      },
-      image: {
-        full: "Tryndamere.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 384,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Luchador", "Asesino"],
-      partype: "Battlefury",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    TwistedFate: {
-      version: "V10.14",
-      id: "TwistedFate",
-      key: "4",
-      name: "Twisted Fate",
-      title: "the Card Master",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Maokai.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Maokai_0.jpg",
-      blurb:
-        "Twisted Fate is an infamous card sharp and swindler who has gambled and charmed his way across much of the known world, earning the enmity and admiration of the rich and foolish alike. He rarely takes things seriously, greeting each day with a mocking ...",
-      info: {
-        attack: 6,
-        defense: 2,
-        magic: 6,
-        difficulty: 9
-      },
-      image: {
-        full: "TwistedFate.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 432,
-        y: 48,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mago"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Twitch: {
-      version: "V10.14",
-      id: "Twitch",
-      key: "29",
-      name: "Twitch",
-      title: "the Plague Rat",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Twitch.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Twitch_0.jpg",
-      blurb:
-        "H.I.V.E. Incident Report<br>Code Violation: Industrial Homicide<br>Casefile Status: Unsolved<br>Investigating Agent: Rol, P.<br><br>Team responded to report of suspicious character, criminal activity; proceeded to Sump Works, Sector 90TZ. Sector 90TZ ...",
-      info: {
-        attack: 9,
-        defense: 2,
-        magic: 3,
-        difficulty: 6
-      },
-      image: {
-        full: "Twitch.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 0,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tirador", "Asesino"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Udyr: {
-      version: "V10.14",
-      id: "Udyr",
-      key: "77",
-      name: "Udyr",
-      title: "the Spirit Walker",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Udyr.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg",
-      blurb:
-        "Udyr is more than a man; he is a vessel for the untamed power of four primal animal spirits. When tapping into the spirits' bestial natures, Udyr can harness their unique strengths: the tiger grants him speed and ferocity, the turtle resilience, the ...",
-      info: {
-        attack: 8,
-        defense: 7,
-        magic: 4,
-        difficulty: 7
-      },
-      image: {
-        full: "Udyr.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 48,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Luchador", "Tanque"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Urgot: {
-      version: "V10.14",
-      id: "Urgot",
-      key: "6",
-      name: "Urgot",
-      title: "the Headsman's Pride",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Urgot.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Urgot_0.jpg",
-      blurb:
-        "There are warriors who become great for their strength, cunning, or skill with arms. Others simply refuse to die. Urgot, once a great soldier of Noxus, may constitute a case in support of the latter. Prone to diving headlong into enemy battle lines, ...",
-      info: {
-        attack: 8,
-        defense: 5,
-        magic: 3,
-        difficulty: 8
-      },
-      image: {
-        full: "Urgot.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 96,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tirador", "Luchador"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Varus: {
-      version: "V10.14",
-      id: "Varus",
-      key: "110",
-      name: "Varus",
-      title: "the Arrow of Retribution",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Varus.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg",
-      blurb:
-        "''The life of an arrow is fleeting, built of nothing but direction and intent.''<br><br>For his incomparable skill with the bow and his unquestioned sense of honor, Varus was chosen to be the warden of a sacred Ionian temple. The temple was built to ...",
-      info: {
-        attack: 7,
-        defense: 3,
-        magic: 4,
-        difficulty: 2
-      },
-      image: {
-        full: "Varus.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 144,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tirador", "Mago"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Vayne: {
-      version: "V10.14",
-      id: "Vayne",
-      key: "67",
-      name: "Vayne",
-      title: "the Night Hunter",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Vayne.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg",
-      blurb:
-        "The world is not always as civilized as people might think. There are still those who would follow the blackest paths of magic and become corrupted by the darker powers that flow through Runeterra. Shauna Vayne knows this fact well.<br><br>As a young ...",
-      info: {
-        attack: 10,
-        defense: 1,
-        magic: 1,
-        difficulty: 8
-      },
-      image: {
-        full: "Vayne.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 192,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Tirador", "Asesino"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Veigar: {
-      version: "V10.14",
-      id: "Veigar",
-      key: "45",
-      name: "Veigar",
-      title: "the Tiny Master of Evil",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Veigar.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg",
-      blurb:
-        "To most, thoughts of yordles do not conjure images to be feared. The easygoing half-pint race, though fierce, is often regarded with some degree of joviality. Their high-pitched voices and naturally cute forms inspire something of a protective ...",
-      info: {
-        attack: 2,
-        defense: 2,
-        magic: 10,
-        difficulty: 7
-      },
-      image: {
-        full: "Veigar.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 240,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mago"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Velkoz: {
-      version: "V10.14",
-      id: "Velkoz",
-      key: "161",
-      name: "Vel'Koz",
-      title: "the Eye of the Void",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Velkoz.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Velkoz_0.jpg",
-      blurb:
-        "I pass into the sudden glare. Blink. Blink, blink, blink. My eyes adjust and evaluate the landscape before me.<br><br>There's a scurrying. I look down to find a small, white creature standing on its hind legs, sniffing at my body. It intrigues me....",
-      info: {
-        attack: 2,
-        defense: 2,
-        magic: 10,
-        difficulty: 8
-      },
-      image: {
-        full: "Velkoz.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 288,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mago"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Vi: {
-      version: "V10.14",
-      id: "Vi",
-      key: "254",
-      name: "Vi",
-      title: "the Piltover Enforcer",
-      img: "https://www.masterypoints.com/assets/img/lol/champion_icons/Vi.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg",
-      blurb:
-        "To Vi, every problem is just another brick wall to punch through with her gigantic hextech gauntlets. Though she grew up on the wrong side of the law, Vi now uses her criminal know-how to serve Piltover's police force. Vi's brash attitude, abrasive ...",
-      info: {
-        attack: 8,
-        defense: 5,
-        magic: 3,
-        difficulty: 4
-      },
-      image: {
-        full: "Vi.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 336,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Luchador", "Asesino"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Viktor: {
-      version: "V10.14",
-      id: "Viktor",
-      key: "112",
-      name: "Viktor",
-      title: "the Machine Herald",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Viktor.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_0.jpg",
-      blurb:
-        "Early in life, Viktor discovered his passion for science and invention, particularly in the field of mechanical automation. He attended Zaun's prestigious College of Techmaturgy and led the team that constructed Blitzcrank - a scientific breakthrough ...",
-      info: {
-        attack: 2,
-        defense: 4,
-        magic: 10,
-        difficulty: 9
-      },
-      image: {
-        full: "Viktor.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 384,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mago"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Vladimir: {
-      version: "V10.14",
-      id: "Vladimir",
-      key: "8",
-      name: "Vladimir",
-      title: "the Crimson Reaper",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Vladimir.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladimir_0.jpg",
-      blurb:
-        "There is a temple hidden in the mountains between Noxus and the Tempest Flats, where the secrets of an ancient and terrifying sorcery are kept. The area surrounding the temple is littered with the exsanguinated corpses of those who have mistakenly ...",
-      info: {
-        attack: 2,
-        defense: 6,
-        magic: 8,
-        difficulty: 7
-      },
-      image: {
-        full: "Vladimir.png",
-        sprite: "champion3.png",
-        group: "champion",
-        x: 432,
-        y: 96,
-        w: 48,
-        h: 48
-      },
-      tags: ["Mago", "Tanque"],
-      partype: "Gnarfury",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Volibear: {
-      version: "V10.14",
-      id: "Volibear",
-      key: "106",
-      name: "Volibear",
-      title: "the Thunder's Roar",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Volibear.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_0.jpg",
-      blurb:
-        "The unforgiving northern reaches of the Freljord are home to the Ursine, a fierce and warlike race that has endured the barren tundra for thousands of years. Their leader is a furious adversary who commands the force of lightning to strike fear within ...",
-      info: {
-        attack: 7,
-        defense: 7,
-        magic: 4,
-        difficulty: 3
-      },
-      image: {
-        full: "Volibear.png",
-        sprite: "champion4.png",
-        group: "champion",
-        x: 0,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Luchador", "Tanque"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
-    },
-    Warwick: {
-      version: "V10.14",
-      id: "Warwick",
-      key: "19",
-      name: "Warwick",
-      title: "the Blood Hunter",
-      img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Warwick.png",
-      splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg",
-      blurb:
-        "Warwick was once a man revered for his ability to track down human specimens for the darkest types of scientific research. When his ambitions exceeded his physical limits, he drank a dangerous elixir to transform himself into an unstoppable manhunter. ...",
-      info: {
-        attack: 7,
-        defense: 4,
-        magic: 4,
-        difficulty: 3
-      },
-      image: {
-        full: "Warwick.png",
-        sprite: "champion4.png",
-        group: "champion",
-        x: 48,
-        y: 0,
-        w: 48,
-        h: 48
-      },
-      tags: ["Luchador", "Tanque"],
-      partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
-      graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
-      },
-      stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
-      },
-      skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
+        {pasive:"Cortes Limpios",img:"https://opgg-static.akamaized.net/images/lol/passive/XayahPassive.png?image=q_auto,w_48&v=1591083841",info:"Después de usar una habilidad, los siguientes ataques básicos de Xayah impactan a todos los enemigos en su camino y sueltan una pluma."},
+        {q:"Dagas Dobles",img:"https://opgg-static.akamaized.net/images/lol/spell/XayahQ.png?image=q_auto,w_48&v=1591083841",info:"Xayah arroja dos dagas que infligen daño y también sueltan Plumas que puede llamar."},
+        {w:"Plumaje Letal",img:"https://opgg-static.akamaized.net/images/lol/spell/XayahW.png?image=q_auto,w_48&v=1591083841",info:"Xayah crea una tormenta de cuchillas que aumentan su velocidad de ataque daño básicos mientras le otorgan velocidad de movimiento si ataca a un campeón."},
+        {e:"Invocadora de Cuchillas",img:"https://opgg-static.akamaized.net/images/lol/spell/XayahE.png?image=q_auto,w_48&v=1591083841",info:"Xayah llama a todas las Plumas que soltó, lo que inflige daño e inmoviliza a los enemigos."},
+        {r:"Tormenta de Plumas",img:"https://opgg-static.akamaized.net/images/lol/spell/XayahR.png?image=q_auto,w_48&v=1591083841",info:"Xayah se eleva, lo que la vuelve imposible de atacar y arroja un abanico de dagas, lo que suelta Plumas que puede llamar."}
      ]
     },
     Xerath: {
@@ -8648,18 +9251,18 @@ export default {
       id: "Xerath",
       key: "101",
       name: "Xerath",
-      title: "the Magus Ascendant",
+      title: "El Mago Ascendente",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Xerath.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xerath_0.jpg",
       blurb:
-        "''A lifetime as a slave has prepared me for eternity as your master.''<br><br>Xerath is an Ascended Magus of ancient Shurima, a being of arcane energy writhing in the broken shards of a magical sarcophagus. For millennia, he was trapped beneath the ...",
+        "Xerath es un mago Ascendido de la antigua Shurima, un ser con energía arcana retorciéndose en los quebrados fragmentos de un sarcófago mágico. Estuvo atrapado durante milenios bajo las arenas del desierto, pero el ascenso de Shurima lo liberó de su prisión ancestral. Arrastrado a la locura por el poder, ahora busca recuperar lo que cree que le pertenece y reemplazar las civilizaciones soberbias del mundo con una diseñada a su imagen y semejanza.",
       info: {
         attack: 1,
         defense: 3,
         magic: 10,
-        difficulty: 8
+        difficulty: 3
       },
       image: {
         full: "Xerath.png",
@@ -8672,42 +9275,42 @@ export default {
       },
       tags: ["Mago", "Asesino"],
       partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"a distancia",
+      date: "2011-10-05",
+      patch: "V1.0.0.126",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:0,
+        utility:1,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 526,
+        hpperlevel:92,
+        mp: 459,
+        mpperlevel:22 ,
+        armor: 21.88,
+        armorperlevel: 3.5,
+        mrbase: 30,
+        mrlevel :0.5 ,
+        hpregen:5.5 ,
+        hpregenperlevel: 0.55,
+        mpregen: 8,
+        mpregenperlevel:0.8 ,
+        attackdamage: 54.7,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:1.36 ,
+        attackrange: 525,
+        movespeed: 340
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
+        {pasive:"Sobrecarga de Maná",img:"https://opgg-static.akamaized.net/images/lol/passive/Xerath_Passive1.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos de Xerath restauran Maná de manera periódica."},
+        {q:"Pulso Arcano",img:"https://opgg-static.akamaized.net/images/lol/spell/XerathArcanopulseChargeUp.png?image=q_auto,w_48&v=1591083841",info:"Dispara un rayo de energía de largo alcance que inflige daño mágico a todos los objetivos alcanzados."},
+        {w:"Ojo de la Destrucción",img:"https://opgg-static.akamaized.net/images/lol/spell/XerathArcaneBarrage2.png?image=q_auto,w_48&v=1591083841",info:"Lanza una ráfaga de energía arcana que ralentiza e inflige daño mágico a todos los enemigos en un área. Los objetivos en el centro reciben daño adicional y una ralentización más potente."},
+        {e:"Impacto Orbital",img:"https://opgg-static.akamaized.net/images/lol/spell/XerathMageSpear.png?image=q_auto,w_48&v=1591083841",info:"Inflige daño mágico a un enemigo y lo aturde."},
+        {r:"Rito de Arcano",img:"https://opgg-static.akamaized.net/images/lol/spell/XerathLocusOfPower2.png?image=q_auto,w_48&v=1591083841",info:"Xerath se inmoviliza y obtiene numerosos torrentes a larga distancia."}
      ]
     },
     XinZhao: {
@@ -8715,18 +9318,18 @@ export default {
       id: "XinZhao",
       key: "5",
       name: "Xin Zhao",
-      title: "the Seneschal of Demacia",
+      title: "El Senescal De Demacia",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/XinZhao.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/XinZhao_0.jpg",
       blurb:
-        "''Death is inevitable, one can only avoid defeat.''<br><br>Whenever Jarvan III, the king of Demacia, delivers one of his rallying speeches from the glinting marble balcony atop the Royal Palace, Xin Zhao is at his side. Coined the Seneschal of Demacia,...",
+        "Xin Zhao es un determinado guerrero y leal a la dinastía regente de los Escudo de Luz. Alguna vez condenado al coliseo de combate de Noxus, sobrevivió a un sin fin de batallas de gladiadores, pero después de ser liberado por fuerzas demacianas, juró su vida y lealtad a sus valientes liberadores. Armado con su lanza favorita de tres filos, Xin Zhao ahora combate por su reino adoptado y reta con audacia a cualquier enemigo sin importar la situación.",
       info: {
         attack: 8,
         defense: 6,
         magic: 3,
-        difficulty: 2
+        difficulty: 1
       },
       image: {
         full: "XinZhao.png",
@@ -8739,42 +9342,42 @@ export default {
       },
       tags: ["Luchador", "Asesino"],
       partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"cuerpo a cuerpo",
+      date: "2010-07-13",
+      patch: "V1.0.0.96",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:2,
+        toughness:2,
+        control:2,
+        mobility:2,
+        utility:1,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 570,
+        hpperlevel:92 ,
+        mp:273.8 ,
+        mpperlevel:35 ,
+        armor: 35,
+        armorperlevel:3.5 ,
+        mrbase: 32.1,
+        mrlevel : 1.25,
+        hpregen: 8,
+        hpregenperlevel:0.7 ,
+        mpregen:7.256 ,
+        mpregenperlevel:0.45 ,
+        attackdamage: 66,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.645,
+        attackspeedperlevel: 3.5,
+        attackrange:175 ,
+        movespeed: 345
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
+        {pasive:"Determinación",img:"https://opgg-static.akamaized.net/images/lol/passive/XinZhaoP.png?image=q_auto,w_48&v=1591083841",info:"Cada tercer ataque inflige una bonificación de daño y cura a Xin Zhao."},
+        {q:"Golpe de Garra Triple",img:"https://opgg-static.akamaized.net/images/lol/spell/XinZhaoQ.png?image=q_auto,w_48&v=1591083841",info:"Los siguientes tres ataques estándar de Xin Zhao infligirán daño aumentado y el tercero lanzará a un oponente por el aire."},
+        {w:"El Viento se Convierte en Rayos",img:"https://opgg-static.akamaized.net/images/lol/spell/XinZhaoW.png?image=q_auto,w_48&v=1591083841",info:"Xin Zhao corta frente a él con su lanza y luego hace una estocada hacia adelante que ralentiza a los enemigos afectados."},
+        {e:"Carga Audaz",img:"https://opgg-static.akamaized.net/images/lol/spell/XinZhaoE.png?image=q_auto,w_48&v=1591083841",info:"Xin Zhao carga contra un enemigo, lo que inflige daño a todos los enemigos en el área y los ralentiza de forma breve."},
+        {r:"Guardia Creciente",img:"https://opgg-static.akamaized.net/images/lol/spell/XinZhaoR.png?image=q_auto,w_48&v=1591083841",info:"Xin Zhao inflige daño a los enemigos cercanos según su vida actual y derriba a aquellos objetivos no desafiados. Xin Zhao es inmune al daño infligido por campeones afuera del círculo creado."}
      ]
     },
     Yasuo: {
@@ -8782,18 +9385,18 @@ export default {
       id: "Yasuo",
       key: "157",
       name: "Yasuo",
-      title: "the Unforgiven",
+      title: "El Imperdonable",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Yasuo.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
       blurb:
-        "Yasuo is a man of resolve, an agile swordsman who wields the wind itself to cut down his foes. This once-proud warrior has been disgraced by a false accusation and forced into a desperate fight for survival. With the world turned against him, he will ...",
+        "Yasuo, un jonio de gran determinación, es un ágil espadachín entrenado para empuñar al mismo viento contra sus enemigos. Cuando era joven y orgulloso, lo acusaron de asesinar a su maestro, algo que no era verdad. Al no poder demostrar su inocencia, se vio obligado a tomar la vida de su hermano en defensa propia. Incluso después de que el verdadero asesino de su maestro quedara revelado, Yasuo sigue sin poder perdonarse a sí mismo por todo lo que ha hecho. Ahora, deambula en su tierra natal y solo cuenta con el viento para guiar su espada.",
       info: {
         attack: 8,
         defense: 4,
         magic: 4,
-        difficulty: 10
+        difficulty: 3
       },
       image: {
         full: "Yasuo.png",
@@ -8806,35 +9409,102 @@ export default {
       },
       tags: ["Luchador", "Asesino"],
       partype: "Wind",
-      rangetype:"",
+      rangetype:"cuerpo a cuerpo",
+      date: "2013-12-13",
+      patch: "V3.15",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:2,
+        mobility:3,
+        utility:2,
+      },
+      stats: {
+        hp: 490,
+        hpperlevel:87 ,
+        mp:100 ,
+        mpperlevel: 0,
+        armor: 30,
+        armorperlevel:3.4 ,
+        mrbase: 30,
+        mrlevel :1.25 ,
+        hpregen: 6.5,
+        hpregenperlevel:0.9 ,
+        mpregen: 0,
+        mpregenperlevel:0 ,
+        attackdamage:60 ,
+        attackdamageperlevel:3.2,
+        attackspeedoffset: 0.67,
+        attackspeedperlevel:2.5 ,
+        attackrange: 175,
+        movespeed: 345
+      },
+      skill:[
+        {pasive:"Camino del Vagabundo",img:"https://opgg-static.akamaized.net/images/lol/passive/Yasuo_Passive.png?image=q_auto,w_48&v=1591083841",info:"La Probabilidad de Golpe Crítico de Yasuo se multiplica por dos. Además, Yasuo va acumulando su escudo mientras se mueve, que se activa cuando recibe daño de un campeón o monstruo."},
+        {q:"Tempestad de Acero",img:"https://opgg-static.akamaized.net/images/lol/spell/YasuoQ1Wrapper.png?image=q_auto,w_48&v=1591083841",info:"Ataca hacia adelante y daña a todos los enemigos a su paso. Al impacto, otorga acumulaciones de Tormenta Creciente durante unos segundos. Con 2 acumulaciones, Tempestad de Acero proyecta un remolino que lanza al objetivo por el aire. Tempestad de Acero se comporta como un ataque básico y progresa con los mismos efectos."},
+        {w:"Muro de Viento",img:"https://opgg-static.akamaized.net/images/lol/spell/YasuoW.png?image=q_auto,w_48&v=1591083841",info:"Crea un muro en movimiento que bloquea todos los proyectiles rivales durante 4 seg."},
+        {e:"Hoja al Viento",img:"https://opgg-static.akamaized.net/images/lol/spell/YasuoE.png?image=q_auto,w_48&v=1591083841",info:"Te desplazas a través del objetivo e infliges daño mágico. Cada vez que se usa, aumenta el daño básico de tu siguiente desplazamiento, hasta un límite. No se puede lanzar otra vez contra el mismo enemigo durante unos segundos. Tempestad de Acero impacta de manera circular si se usa al mismo tiempo que el desplazamiento de Hoja al Viento."},
+        {r:"Último Aliento",img:"https://opgg-static.akamaized.net/images/lol/spell/YasuoR.png?image=q_auto,w_48&v=1591083841",info:"Se desplaza hacia un campeón enemigo en el aire, lo que inflige daño físico y mantiene en el aire a todos los enemigos en el área. Otorga el máximo de Flujo, pero reinicia todas las acumulaciones de Tormenta Creciente. Por un periodo, los golpes críticos de Yasuo otorgan penetración de armadura adicional."}
+     ]
+    },
+    Yone: {
+      version: "V10.14",
+      id: "Yone",
+      key: "999",
+      name: "Yone",
+      title: "El Asesino Enmascarado",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Yone.png",
+      splash:
+        "https://i.redd.it/1njggu2khta51.jpg",
+      blurb:
+        "Todo mito tiene un atisbo de verdad. Un espadachín asesinado debe decidirse entre estar en paz con su pasado, o ser consumido por él.",
+      info: {
+        attack: 0,
+        defense:0 ,
+        magic: 0,
+        difficulty:0 
+      },
+      image: {
+        full: "Yone.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Asesino"],
+      partype: "MP",
+      rangetype:"cuerpo a cuerpo",
       date: "",
       patch: "",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:0,
+        toughness:0,
+        control:0,
+        mobility:0,
+        utility:0,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 0,
+        hpperlevel: 0,
+        mp:0 ,
+        mpperlevel:0 ,
+        armor:0 ,
+        armorperlevel: 0,
+        mrbase: 32.1,
+        mrlevel :0.5 ,
+        hpregen: 0,
+        hpregenperlevel: 0,
+        mpregen: 0,
+        mpregenperlevel: 0,
+        attackdamage: 0,
+        attackdamageperlevel:0,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:0 ,
+        attackrange:175 ,
+        movespeed: 330
       },
       skill:[
         {pasive:"",img:"",info:""},
@@ -8849,18 +9519,18 @@ export default {
       id: "Yorick",
       key: "83",
       name: "Yorick",
-      title: "Shepherd of Souls",
+      title: "Pastor De Almas",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Yorick.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yorick_0.jpg",
       blurb:
-        "''These isles… How they scream.''<br>The last survivor of a long-forgotten religious order, Yorick is both blessed and cursed with power over the dead. Trapped on the Shadow Isles, his only companions are the rotting corpses and shrieking spirits that ...",
+        "Yorick, el último superviviente de una orden religiosa olvidada hace tiempo, carga con la bendición y la maldición del poder sobre los muertos. Atrapado en las Islas de la Sombra, sus únicos compañeros son cadáveres en descomposición y los espíritus aullantes que atrae. Sus monstruosos actos ocultan un objetivo noble: liberar a su hogar de la maldición de la Ruina.",
       info: {
         attack: 6,
         defense: 6,
         magic: 4,
-        difficulty: 6
+        difficulty:2
       },
       image: {
         full: "Yorick.png",
@@ -8873,42 +9543,109 @@ export default {
       },
       tags: ["Luchador", "Tanque"],
       partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"cuerpo a cuerpo",
+      date: "2011-06-22",
+      patch: "V1.0.0.120",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:2,
+        toughness:2,
+        control:2,
+        mobility:0,
+        utility:2,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 580,
+        hpperlevel:100 ,
+        mp: 300,
+        mpperlevel:40 ,
+        armor: 39,
+        armorperlevel: 4,
+        mrbase:32 ,
+        mrlevel :1.25 ,
+        hpregen: 8,
+        hpregenperlevel:0.8 ,
+        mpregen: 7.5,
+        mpregenperlevel: 0.75,
+        attackdamage:62 ,
+        attackdamageperlevel:5,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 2,
+        attackrange:175 ,
+        movespeed: 340
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
+        {pasive:"Pastor de Almas",img:"https://opgg-static.akamaized.net/images/lol/passive/Yorick_P.png?image=q_auto,w_48&v=1591083841",info:"La Horda Maldita: Yorick puede invocar seres de niebla para atacar a los enemigos cercanos."},
+        {q:"Extremaunción",img:"https://opgg-static.akamaized.net/images/lol/spell/YorickQ.png?image=q_auto,w_48&v=1591083841",info:"Yorick inflige daño adicional en su siguiente ataque y se cura. Si muere un objetivo, se cavará una tumba."},
+        {w:"Procesión Oscura",img:"https://opgg-static.akamaized.net/images/lol/spell/YorickW.png?image=q_auto,w_48&v=1591083841",info:"Yorick invoca alrededor de una zona objetivo un muro destructible que bloquea el movimiento de los enemigos."},
+        {e:"Niebla de Lamento",img:"https://opgg-static.akamaized.net/images/lol/spell/YorickE.png?image=q_auto,w_48&v=1591083841",info:"Yorick lanza un glóbulo de Niebla Negra que inflige daño, ralentiza y marca a los enemigos."},
+        {r:"Elegía de las Islas",img:"https://opgg-static.akamaized.net/images/lol/spell/YorickR.png?image=q_auto,w_48&v=1591083841",info:"Yorick invoca a la Dama de la Niebla, que provoca que los ataques de Yorick al objetivo de la Dama inflijan daño adicional. La Dama además convertirá a los enemigos muertos en Seres de Niebla."}
+     ]
+    },
+    Yuumi: {
+      version: "V10.14",
+      id: "Yuumi",
+      key: "350",
+      name: "Yuumi",
+      title: "La Gatita Mágica",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Yuumi.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg",
+      blurb:
+        "Yuumi, una gatita mágica proveniente de la Ciudad de Bandle, alguna vez fue la compañera de una hechicera yordle, Norra. Cuando su dueña desapareció misteriosamente, Yuumi se convirtió en la Guardiana del Libro de los Umbrales, perteneciente a Norra, cuyas páginas contienen portales que usan para viajar y buscarla. En su deseo de cariño, Yuumi busca compañeros amigables con quienes formar un equipo a lo largo de su travesía, protegiéndolos con escudos luminosos y su feroz determinación. Libro se esfuerza por mantener a Yuumi enfocada en su misión, pero las comodidades terrenales, como las siestas y el pescado, a menudo capturan su atención. Sin embargo, al final, ella siempre vuelve a su misión de encontrar a su amiga.",
+      info: {
+        attack: 5,
+        defense: 1,
+        magic: 8,
+        difficulty: 1
+      },
+      image: {
+        full: "Yuumi.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Soporte"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2019-05-14",
+      patch: "V9.10",
+      graphic :{
+        damage:1,
+        toughness:1,
+        control:1,
+        mobility:3,
+        utility:3,
+      },
+      stats: {
+        hp: 480,
+        hpperlevel:70 ,
+        mp: 400,
+        mpperlevel:45 ,
+        armor:25 ,
+        armorperlevel:3 ,
+        mrbase: 25,
+        mrlevel :0.3 ,
+        hpregen:7 ,
+        hpregenperlevel:0.55 ,
+        mpregen: 10,
+        mpregenperlevel: 0.4,
+        attackdamage:55 ,
+        attackdamageperlevel:3.1,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel: 1,
+        attackrange: 500,
+        movespeed: 330
+      },
+      skill:[
+        {pasive:"Manotazo Mágico",img:"https://opgg-static.akamaized.net/images/lol/passive/YuumiP.png?image=q_auto,w_48&v=1591083841",info:"Cada cierto tiempo, Yuumi restaura maná y obtiene un escudo cuando ataca a un campeón. El escudo la sigue y la protege tanto a ella como al aliado al que esté unida."},
+        {q:"Proyectil Acechador",img:"https://opgg-static.akamaized.net/images/lol/spell/YuumiQ.png?image=q_auto,w_48&v=1591083841",info:"Yuumi lanza un misil que inflige daño mágico al primer objetivo alcanzado. Si tarda al menos 1 segundo en impactar al objetivo, el misil inflige daño adicional y aplica una ralentización. Si Yuumi está unida, puede controlar el misil con el cursor."},
+        {w:"¡Tú y Yo!",img:"https://opgg-static.akamaized.net/images/lol/spell/YuumiW.png?image=q_auto,w_48&v=1591083841",info:"Yuumi aumenta de forma pasiva la fuerza adaptable de su aliado y la de ella. Al activar la habilidad, Yuumi se desplaza hacia un aliado y se vuelve inalcanzable excepto por ataques de torretas."},
+        {e:"¡Acelera!",img:"https://opgg-static.akamaized.net/images/lol/spell/YuumiE.png?image=q_auto,w_48&v=1591083841",info:"Cura a Yuumi y aumenta la velocidad de movimiento y velocidad de ataque. Si se encuentra unida a un aliado, la velocidad de movimiento adicional será para él."},
+        {r:"Últimas Páginas",img:"https://opgg-static.akamaized.net/images/lol/spell/YuumiR.png?image=q_auto,w_48&v=1591083841",info:"Yuumi canaliza siete ráfagas de daño e inmoviliza a cualquier enemigo alcanzado por tres o más. Yuumi puede moverse, unirse y lanzar ¡Acelera! mientras canaliza."}
      ]
     },
     Zac: {
@@ -8916,18 +9653,18 @@ export default {
       id: "Zac",
       key: "154",
       name: "Zac",
-      title: "the Secret Weapon",
+      title: "El Arma Secreta",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Zac.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zac_0.jpg",
       blurb:
-        "Zac is the product of a Zaun experiment to manufacture a hexchem-engineered supersoldier - the Zaun Amorphous Combatant. Combining brute strength with limitless flexibility, he is a versatile juggernaut: a creative fighter who bounces over obstacles ...",
+        "Zac es el producto de un derrame tóxico que pasó por una soldadura tecnoquímica y que cayó en una caverna aislada en lo profundo del Sumidero de Zaun. A pesar de su humilde origen, Zac pasó de ser un fluido primigenio a un ser pensante que vive en las tuberías de la ciudad y que emerge de vez en cuando para ayudar a quienes lo necesitan o para reconstruir la infraestructura rota de Zaun.",
       info: {
         attack: 3,
         defense: 7,
         magic: 7,
-        difficulty: 8
+        difficulty: 3
       },
       image: {
         full: "Zac.png",
@@ -8940,42 +9677,42 @@ export default {
       },
       tags: ["Tanque", "Luchador"],
       partype: "None",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"cuerpo a cuerpo",
+      date: "2013-03-29",
+      patch: "V3.5",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:2,
+        toughness:3,
+        control:3,
+        mobility:2,
+        utility:0,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 615,
+        hpperlevel: 95,
+        mp: 0,
+        mpperlevel:0 ,
+        armor: 33,
+        armorperlevel:3.5 ,
+        mrbase: 32,
+        mrlevel : 1.25,
+        hpregen: 8,
+        hpregenperlevel: 0.5,
+        mpregen:0 ,
+        mpregenperlevel: 0,
+        attackdamage: 60,
+        attackdamageperlevel:3.4,
+        attackspeedoffset: 0.638,
+        attackspeedperlevel:1.6 ,
+        attackrange: 175,
+        movespeed: 340
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
+        {pasive:"División celular",img:"https://opgg-static.akamaized.net/images/lol/passive/ZacPassive.png?image=q_auto,w_48&v=1591083841",info:"Cada vez que Zac alcanza a un enemigo con una habilidad, pierde un trozo de sí mismo que puede reabsorberse para restaurar vida. Al recibir un golpe letal, Zac se divide en 4 partículas que intentan recombinarse. Si alguna de las partículas perdura, revivirá con una cantidad de vida según la vida de las células restantes. Cada partícula tiene un porcentaje de la vida máxima, de la armadura y de la resistencia mágica de Zac. Esta habilidad tiene un enfriamiento de 5 minutos."},
+        {q:"Golpes de Estiramiento",img:"https://opgg-static.akamaized.net/images/lol/spell/ZacQ.png?image=q_auto,w_48&v=1591083841",info:"Zac estira un brazo y agarra a un enemigo. Atacar a un enemigo diferente causará que lance a los dos objetivos el uno contra el otro."},
+        {w:"Materia Inestable",img:"https://opgg-static.akamaized.net/images/lol/spell/ZacW.png?image=q_auto,w_48&v=1591083841",info:"Zac explota hacia afuera en dirección de los enemigos cercanos, lo que inflige un porcentaje de su vida máxima como daño mágico."},
+        {e:"Honda Elástica",img:"https://opgg-static.akamaized.net/images/lol/spell/ZacE.png?image=q_auto,w_48&v=1591083841",info:"Zac amarra sus brazos al suelo y los extiende hacia atrás para lanzarse."},
+        {r:"¡Rebotemos!",img:"https://opgg-static.akamaized.net/images/lol/spell/ZacR.png?image=q_auto,w_48&v=1591083841",info:"Zac rebota cuatro veces, lo que lanza a los enemigos por el aire y los ralentiza."}
      ]
     },
     Zed: {
@@ -8983,18 +9720,18 @@ export default {
       id: "Zed",
       key: "238",
       name: "Zed",
-      title: "the Master of Shadows",
+      title: "El Maestro De Las Sombras",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Zed.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
       blurb:
-        "Zed is the first ninja in 200 years to unlock the ancient, forbidden ways. He defied his clan and master, casting off the balance and discipline that had shackled him all his life. Zed now offers power to those who embrace knowledge of the shadows, ...",
+        "Implacable y despiadado, Zed es el líder de la Orden de la Sombra, una organización que él creó con la intención de militarizar las tradiciones de artes marciales y mágicas de Jonia para repeler a los invasores noxianos. Durante la guerra, la desesperación lo llevó a revelar la forma secreta de las sombras, una malévola magia espiritual tan poderosa como corrupta y peligrosa. Zed dominó todas esas técnicas prohibidas para destruir cualquier amenaza para su nación o su nueva orden.",
       info: {
         attack: 9,
         defense: 2,
         magic: 1,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Zed.png",
@@ -9007,42 +9744,42 @@ export default {
       },
       tags: ["Asesino", "Luchador"],
       partype: "Energy",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"cuerpo a cuerpo",
+      date: "2012-11-13",
+      patch: "V1.0.0.151",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:3,
+        toughness:0,
+        control:1,
+        mobility:3,
+        utility:0,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp:584 ,
+        hpperlevel:85 ,
+        mp:200 ,
+        mpperlevel: 0,
+        armor: 32,
+        armorperlevel: 3.5,
+        mrbase: 32.1,
+        mrlevel :1.25 ,
+        hpregen: 7,
+        hpregenperlevel:0.65 ,
+        mpregen: 50,
+        mpregenperlevel: 0,
+        attackdamage: 63,
+        attackdamageperlevel:3.4,
+        attackspeedoffset: 0.651,
+        attackspeedperlevel:3.3 ,
+        attackrange:125 ,
+        movespeed: 345
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
+        {pasive:"Desprecio hacia los Débiles",img:"https://opgg-static.akamaized.net/images/lol/passive/shadowninja_P.png?image=q_auto,w_48&v=1591083841",info:"Los ataques básicos de Zed contra objetivos con poca vida infligen daño mágico adicional. Este efecto solo puede aplicarse una vez cada cierto tiempo sobre el mismo objetivo."},
+        {q:"Navaja Shuriken",img:"https://opgg-static.akamaized.net/images/lol/spell/ZedQ.png?image=q_auto,w_48&v=1591083841",info:"Zed y sus sombras arrojan sus shurikens. Cada shuriken inflige daño a todos los enemigos alcanzados."},
+        {w:"Sombra Viviente",img:"https://opgg-static.akamaized.net/images/lol/spell/ZedW.png?image=q_auto,w_48&v=1591083841",info:"Pasiva: Zed obtiene energía cada vez que él y sus sombras alcanzan a un enemigo con la misma habilidad. Solo puede obtener energía una vez por cada habilidad. Activa: la Sombra de Zed se desplaza hacia adelante y permanece en su lugar por unos segundos. Reactivar Sombra Viviente hará que Zed cambie de posición con esta sombra."},
+        {e:"Cuchillada Sombría",img:"https://opgg-static.akamaized.net/images/lol/spell/ZedE.png?image=q_auto,w_48&v=1591083841",info:"Zed y sus sombras realizan una cuchillada que inflige daño a los enemigos cercanos."},
+        {r:"Marca de la Muerte",img:"https://opgg-static.akamaized.net/images/lol/spell/ZedR.png?image=q_auto,w_48&v=1591083841",info:"Zed se vuelve inalcanzable y se desplaza hacia un campeón enemigo para marcarlo. La marca se activa después de 3 seg, lo que repite una parte del daño que Zed infligió al objetivo mientras estaba marcado."}
      ]
     },
     Ziggs: {
@@ -9050,18 +9787,18 @@ export default {
       id: "Ziggs",
       key: "115",
       name: "Ziggs",
-      title: "the Hexplosives Expert",
+      title: "El Experto En Hexplosivos",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Ziggs.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ziggs_0.jpg",
       blurb:
-        "Ziggs was born with a talent for tinkering, but his chaotic, hyperactive nature was unusual among yordle scientists. Aspiring to be a revered inventor like Heimerdinger, he rattled through ambitious projects with manic zeal, emboldened by both his ...",
+        "Con un amor por las grandes bombas y los fusibles cortos, el yordle Ziggs es una explosiva fuerza de la naturaleza. Como asistente de un inventor en Piltóver, estaba aburrido de su predecible vida y se hizo amigo de una loca bombardera de cabello azul llamada Jinx. Después de una loca noche en la ciudad, Ziggs tomó su consejo y se mudó a Zaun, donde ahora explora sus fascinaciones con más libertad, aterrorizando tanto a los químicos como a ciudadanos comunes en su misión incansable de hacer estallar las cosas.",
       info: {
         attack: 2,
         defense: 4,
         magic: 9,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Ziggs.png",
@@ -9074,42 +9811,42 @@ export default {
       },
       tags: ["Mago"],
       partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"a distancia",
+      date: "2012-02-01",
+      patch: "V1.0.0.133",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:3,
+        toughness:0,
+        control:2,
+        mobility:2,
+        utility:0,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 536,
+        hpperlevel:92 ,
+        mp: 480,
+        mpperlevel:23.5,
+        armor: 21.544,
+        armorperlevel:3.3 ,
+        mrbase: 30,
+        mrlevel :0.5 ,
+        hpregen: 6.5,
+        hpregenperlevel: 0.6,
+        mpregen: 8,
+        mpregenperlevel: 0.8,
+        attackdamage: 54.208,
+        attackdamageperlevel:3.1,
+        attackspeedoffset: 0.656,
+        attackspeedperlevel: 2,
+        attackrange: 550,
+        movespeed: 325
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
+        {pasive:"Mecha Corta",img:"https://opgg-static.akamaized.net/images/lol/passive/ZiggsPassiveReady.png?image=q_auto,w_48&v=1591083841",info:"El próximo ataque básico de Ziggs inflige daño mágico adicional de forma periódica. Este enfriamiento se reduce si Ziggs utiliza una habilidad."},
+        {q:"Bomba Rebotante",img:"https://opgg-static.akamaized.net/images/lol/spell/ZiggsQ.png?image=q_auto,w_48&v=1591083841",info:"Ziggs lanza una bomba rebotante que inflige daño mágico."},
+        {w:"Carga Concentrada",img:"https://opgg-static.akamaized.net/images/lol/spell/ZiggsW.png?image=q_auto,w_48&v=1591083841",info:"Ziggs arroja una carga explosiva que detona después de 4 seg o cuando la habilidad se activa de nuevo. La explosión inflige daño mágico a los enemigos, lo que los lanza hacia atrás. Ziggs también es lanzado hacia atrás, pero no recibe daño. Ziggs puede usar la Carga Concentrada para hexplotar torretas enemigas vulnerables."},
+        {e:"Minas Hexplosivas",img:"https://opgg-static.akamaized.net/images/lol/spell/ZiggsE.png?image=q_auto,w_48&v=1591083841",info:"Ziggs esparce minas de proximidad que detonan al entrar en contacto con el enemigo, lo que inflige daño mágico y lo ralentiza. Detonar minas sucesivas sobre el mismo objetivo hace que las demás inflijan daño reducido."},
+        {r:"Bomba Megainfernal",img:"https://opgg-static.akamaized.net/images/lol/spell/ZiggsR.png?image=q_auto,w_48&v=1591083841",info:"Ziggs arroja su creación definitiva, la Bomba Megainfernal, a una gran distancia. Los enemigos que se encuentren en la zona de impacto principal recibirán más daño que los más lejanos."}
      ]
     },
     Zilean: {
@@ -9117,18 +9854,18 @@ export default {
       id: "Zilean",
       key: "26",
       name: "Zilean",
-      title: "the Chronokeeper",
+      title: "El Guardián Del Tiempo",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Zilean.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zilean_0.jpg",
       blurb:
-        "In the wastelands of Urtistan, there was once a great city. It perished long ago in a terrible Rune War, like most of the lands below the Great Barrier. Nevertheless, one man survived: a sorcerer named Zilean. Being obsessed with time, it was only ...",
+        "Anteriormente un poderoso mago de Icathia, Zilean se obsesionó con el paso del tiempo después de presenciar la destrucción de su tierra por el Vacío. No dando ni un minuto para lamentar la catastrófica pérdida, invocó a ancestrales magias del tiempo para revelar todos los posibles resultados. Habiéndose convertido en un inmortal funcionalmente, Zilean ahora se mueve entre pasado, presente y futuro, manipulando y distorsionando el flujo del tiempo a su alrededor, siempre en búsqueda de ese escurridizo momento que regresará el reloj y revertirá la destrucción de Icathia.",
       info: {
         attack: 2,
         defense: 5,
         magic: 8,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Zilean.png",
@@ -9141,42 +9878,109 @@ export default {
       },
       tags: ["Soporte", "Mago"],
       partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"a distancia",
+      date: "2009-04-18",
+      patch: "04.18.2009",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:2,
+        toughness:1,
+        control:2,
+        mobility:2,
+        utility:3,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 504,
+        hpperlevel:82 ,
+        mp: 452,
+        mpperlevel: 30,
+        armor: 24,
+        armorperlevel:3.8 ,
+        mrbase:30 ,
+        mrlevel :0.5 ,
+        hpregen: 5.5,
+        hpregenperlevel: 0.5,
+        mpregen: 11.335,
+        mpregenperlevel:0.8 ,
+        attackdamage: 51.64,
+        attackdamageperlevel:3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:2.13 ,
+        attackrange:550 ,
+        movespeed: 335
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
+        {pasive:"Tiempo Embotellado",img:"https://opgg-static.akamaized.net/images/lol/passive/Zilean_Passive.png?image=q_auto,w_48&v=1591083841",info:"Zilean almacena el tiempo como experiencia. Cuando tiene experiencia suficiente para completar el nivel de un aliado, solo tiene que hacer clic derecho sobre él para dársela. Zilean recibe tanta experiencia como da. No se puede usar en combate."},
+        {q:"Bomba de Tiempo",img:"https://opgg-static.akamaized.net/images/lol/spell/ZileanQ.png?image=q_auto,w_48&v=1591083841",info:"Coloca una bomba en una zona objetivo. La bomba, que se adhiere a las unidades cercanas (prioriza a los campeones), detona pasados 3 segundos e inflige daño de Área de efecto. Además, si la Bomba de Tiempo detona antes de tiempo por la acción de otra, aturde a los enemigos afectados."},
+        {w:"Retroceder",img:"https://opgg-static.akamaized.net/images/lol/spell/ZileanW.png?image=q_auto,w_48&v=1591083841",info:"Zilean puede prepararse para futuros enfrentamientos reduciendo el enfriamiento de sus demás habilidades básicas."},
+        {e:"Distorsión Temporal",img:"https://opgg-static.akamaized.net/images/lol/spell/TimeWarp.png?image=q_auto,w_48&v=1591083841",info:"Zilean pliega el tiempo alrededor de cualquier unidad, reduciendo la Velocidad de Movimiento de un enemigo o aumentando la de un aliado durante un breve tiempo."},
+        {r:"Cronoviaje",img:"https://opgg-static.akamaized.net/images/lol/spell/ChronoShift.png?image=q_auto,w_48&v=1591083841",info:"Zilean coloca sobre un campeón aliado una runa temporal protectora que lo lleva atrás en el tiempo en caso de sufrir daño letal."}
+     ]
+    },
+    Zoe: {
+      version: "V10.14",
+      id: "Zoe",
+      key: "142",
+      name: "Zoe",
+      title: "El Aspecto Del Crepúsculo",
+      img:
+        "https://www.masterypoints.com/assets/img/lol/champion_icons/Zoe.png",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zoe_0.jpg",
+      blurb:
+        "Como la personificación de las travesuras, la imaginación y el cambio, Zoe actúa como la mensajera cósmica de Targón y anuncia grandes acontecimientos que pueden alterar mundos. Su mera presencia distorsiona las matemáticas arcanas que rigen las realidades; en ocasiones, sin ser consciente de su poder, provoca todo tipo de cataclismos.Tal vez eso explique la actitud indiferente con la cual Zoe ''cumple'' con su deber. Tomándose todo el tiempo de los mundos para jugar, engañar a los mortales o simplemente entretenerse a sí misma. Un encuentro con Zoe puede ser alegre y alentador, pero siempre hay algo más detrás de las apariencias y a menudo es muy peligroso.",
+      info: {
+        attack:1 ,
+        defense: 7,
+        magic: 8,
+        difficulty:2 
+      },
+      image: {
+        full: "Zoe.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 240,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mago"],
+      partype: "MP",
+      rangetype:"a distancia",
+      date: "2017-11-21",
+      patch: "V7.23",
+      graphic :{
+        damage:3,
+        toughness:1,
+        control:2,
+        mobility:2,
+        utility:1,
+      },
+      stats: {
+        hp:560 ,
+        hpperlevel: 92,
+        mp: 425,
+        mpperlevel:25 ,
+        armor: 20.8,
+        armorperlevel:3.5 ,
+        mrbase:30 ,
+        mrlevel :0.5 ,
+        hpregen: 6.5,
+        hpregenperlevel: 0.6,
+        mpregen: 8,
+        mpregenperlevel: 0.65,
+        attackdamage:58 ,
+        attackdamageperlevel:3.3,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:2.5 ,
+        attackrange: 550,
+        movespeed: 340
+      },
+      skill:[
+        {pasive:"¡Más Chispas!",img:"https://opgg-static.akamaized.net/images/lol/passive/Zoe_P.png?image=q_auto,w_48&v=1591083841",info:"Después de lanzar un hechizo, el siguiente ataque básico de Zoe infligirá daño mágico adicional."},
+        {q:"Estrella Saltarina",img:"https://opgg-static.akamaized.net/images/lol/spell/ZoeQ.png?image=q_auto,w_48&v=1591083841",info:"Zoe dispara un misil que puede redirigir mientras este vuela. Inflige más daño entre más tiempo vuele en línea recta."},
+        {w:"Ladrona de Hechizos",img:"https://opgg-static.akamaized.net/images/lol/spell/ZoeW.png?image=q_auto,w_48&v=1591083841",info:"Zoe puede recoger los restos de hechizos de invocador y los lanzamientos de activas de objetos y lanzarlos una vez. Cada que lance un hechizo de invocador, obtiene 3 misiles que se dispararán al objetivo más cercano."},
+        {e:"Burbuja Dormilona",img:"https://opgg-static.akamaized.net/images/lol/spell/ZoeE.png?image=q_auto,w_48&v=1591083841",info:"Hace que el objetivo quede aletargado y luego se duerma. La primera fuente de daño que lo despierte duplicará su potencia, pero tiene un límite."},
+        {r:"Salto de Portal",img:"https://opgg-static.akamaized.net/images/lol/spell/ZoeR.png?image=q_auto,w_48&v=1591083841",info:"Te transportas a una posición cercana por 1 seg. Luego, regresas."}
      ]
     },
     Zyra: {
@@ -9184,18 +9988,18 @@ export default {
       id: "Zyra",
       key: "143",
       name: "Zyra",
-      title: "Rise of the Thorns",
+      title: "El Despertar De Las Espinas",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Zyra.png",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zyra_0.jpg",
       blurb:
-        "Longing to take control of her fate, the ancient, dying plant Zyra transferred her consciousness into a human body for a second chance at life. Centuries ago, she and her kind dominated the Kumungu Jungle, using thorns and vines to consume any animal ...",
+        "Nacida en una antigua y mágica catástrofe, Zyra es la manifestación de la ira de la naturaleza: una seductora mezcla entre planta y humana que crea vida nueva a cada paso. Ve a los mortales de Valoran como poco más que presa para su progenie de semillas y no le molesta acabarlos con lluvias de mortales espinas. Aunque su verdadero propósito no se ha revelado, Zyra recorre el mundo satisfaciendo sus más básicas necesidades de colonizarlo y despojarlo de cualquier otra forma de vida.",
       info: {
         attack: 4,
         defense: 3,
         magic: 8,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Zyra.png",
@@ -9208,43 +10012,42 @@ export default {
       },
       tags: ["Mago", "Soporte"],
       partype: "MP",
-      rangetype:"",
-      date: "",
-      patch: "",
+      rangetype:"a distancia",
+      date: "2012-07-24",
+      patch: "V1.0.0.143",
       graphic :{
-        damage:,
-        toughness:,
-        control:,
-        mobility:,
-        utility:,
+        damage:3,
+        toughness:0,
+        control:3,
+        mobility:0,
+        utility:1,
       },
       stats: {
-        hp: ,
-        hpperlevel: ,
-        mp: ,
-        mpperlevel: ,
-        armor: ,
-        armorperlevel: ,
-        mrbase: ,
-        mrlevel : ,
-        hpregen: ,
-        hpregenperlevel: ,
-        mpregen: ,
-        mpregenperlevel: ,
-        attackdamage: ,
-        attackdamageperlevel:,
-        attackspeedoffset: -,
-        attackspeedperlevel: ,
-        attackrange: ,
-        movespeed: 
+        hp: 504,
+        hpperlevel:79 ,
+        mp: 418,
+        mpperlevel:25 ,
+        armor: 29,
+        armorperlevel:3 ,
+        mrbase:30 ,
+        mrlevel : 0.5,
+        hpregen:5.5 ,
+        hpregenperlevel:0.5 ,
+        mpregen: 13,
+        mpregenperlevel:0.4 ,
+        attackdamage:53.376 ,
+        attackdamageperlevel:3.2,
+        attackspeedoffset: 0.625,
+        attackspeedperlevel:2.11 ,
+        attackrange:575 ,
+        movespeed: 340
       },
       skill:[
-        {pasive:"",img:"",info:""},
-        {q:"",img:"",info:""},
-        {w:"",img:"",info:""},
-        {e:"",img:"",info:""},
-        {r:"",img:"",info:""}
-     ]
+        {pasive:"Jardín de Espinas",img:"https://opgg-static.akamaized.net/images/lol/passive/ZyraP.png?image=q_auto,w_48&v=1591083841",info:"Las semillas aparecen alrededor de Zyra periódicamente; lo hacen más rápido al aumentar el nivel. Zyra puede lanzar Espinas Mortales o Raíces Atrapadoras cerca de una semilla para hacer brotar una planta que lucha por Zyra."},
+        {q:"Espinas Mortales",img:"https://opgg-static.akamaized.net/images/lol/spell/ZyraQ.png?image=q_auto,w_48&v=1591083841",info:"Unas gruesas vides se extienden por el suelo, explotan y lanzan espinas que infligen daño mágico a los enemigos en el área. Si se lanza Espinas Mortales cerca de una semilla, brotará un Escupespinas, que dispara a los enemigos a distancia."},
+        {w:"Crecimiento Desenfrenado",img:"https://opgg-static.akamaized.net/images/lol/spell/ZyraW.png?image=q_auto,w_48&v=1591083841",info:"Zyra planta semillas que duran hasta 60 seg. Si lanza Espinas Mortales y Raíces Atrapadoras cerca de ellas, estas se convertirán en plantas que pelearán por Zyra. Zyra puede almacenar varias semillas al mismo tiempo y matar enemigos reduce el tiempo de recarga de Crecimiento Desenfrenado."},
+        {e:"Raíces Atrapadoras",img:"https://opgg-static.akamaized.net/images/lol/spell/ZyraE.png?image=q_auto,w_48&v=1591083841",info:"Zyra lanza unas vides que se extienden por el suelo para aprisionar a su objetivo, lo que inflige daño e inmoviliza a los enemigos en su camino. Si lanza Raíces Atrapadoras cerca de una semilla, brotará un Azotavides, cuyos ataques de corto alcance reducen la velocidad de movimiento del enemigo."},
+        {r:"Tuercespinas",img:"https://opgg-static.akamaized.net/images/lol/spell/ZyraR.png?image=q_auto,w_48&v=1591083841",info:"Zyra invoca un matorral retorcido en la ubicación indicada, lo que inflige daño a los enemigos a medida que se expande y los lanza por el aire cuando se contrae. Las plantas dentro del matorral se enfurecen."}
+    ]
     }
   }
-};
