@@ -1,5 +1,7 @@
 //import lol from './filtrar.js';
 import lol from './data/lol/lol.js';
+
+
 const dataLol = Object.values(lol.data);
 
 let champions = '';
@@ -17,14 +19,19 @@ function showChampions (){
         <p> ${dataLol[i].blurb} </p>
         </section>`;
         allFiles.appendChild(file);
-        console.log(file)
+        //console.log(file)
         file.innerHTML = champions;
 
+        /*<div class "hab">// esta dando error si se agregan las habilidades, no muestra más allá de amumu
+        habilidad: <img src='${dataLol[i].skill[i].img}'>
+        <img src='${dataLol[i].skill[i].img}'>
+        <img src='${dataLol[i].skill[i].img}'>
+        <img src='${dataLol[i].skill[i].img}'>
+        <img src='${dataLol[i].skill[i].img}'></div>
+        </section>`;*/
     };
 };
 showChampions();
-
-
 
 // console.log (datos);
 //let initList = datos.allCards();
@@ -40,10 +47,36 @@ const filtMarksman = document.getElementById("Marksman");
 const filtSupport = document.getElementById("supportBtn");
 const filtro = document.getElementById("tags");
 
-filtTank.addEventListener ("click", function(){
-    let tank = document.getElementById("tankBtn").value;
-    
-});
+
+
+
+
+
+
+
+
+
+// document.getElementById("tankBtn").addEventListener("click", function roleTank() {
+//     let list = document.getElementById("root");
+//     let listedElements = list.getElementsByTagName("section");
+//     const totalElements = listedElements.length;
+//     for (i = 0; i < totalElements; i++) {
+//         let element = listedElements[i].getElementsByTagName("h4")[0];
+//         console.log(element);
+
+//         let elementValue = element.textContent || element.innerText;
+        
+//         if (elementValue="Tanque") {
+            
+//             listedElements[i].style.display = "";
+            
+//         } else {
+//             listedElements[i].style.display = "none";
+//         }
+//     }
+// });
+
+/*
 filtAsesino.addEventListener ("click", function(){
 
 });
@@ -58,7 +91,7 @@ filtMarksman.addEventListener ("click", function(){
 });
 filtSupport.addEventListener ("click", function(){
 
-});
+});*/
 
 //<!-----------------------------filtro de la A - Z-------------------------->
 // A_Z.addEventListener("click", filtrar_A_Z);
@@ -73,58 +106,24 @@ filtSupport.addEventListener ("click", function(){
 //     fillDashboard(finList);
 // }
 
-//<!-------------------------------- ROLE FILTERS ------------------------------------>
-document.getElementById("tankBtn").addEventListener("click", function roleTank() {
-    console.log("holi")
-  finList = initList.filter(champ => champ.tags.includes("Tank"));
-    fillDashboard(finList);
-});
 
-// document.getElementById("assassinBtn").addEventListener("click", function roleAssassin() {
-//     finList = initList.filter(champ => champ.tags.includes("Assassin"));
-//     fillDashboard(finList);
-// });
 
-// document.getElementById("mageBtn").addEventListener("click", function roleMage() {
-//     finList = initList.filter(champ => champ.tags.includes("Mage"));
-//     fillDashboard(finList);
-//});
-
-// document.getElementById("fighterBtn").addEventListener("click", function roleFighter() {
-//     finList = initList.filter(champ => champ.tags.includes("Fighter"));
-//     fillDashboard(finList);
-//});
-
-// document.getElementById("marksmanBtn").addEventListener("click", function roleMarksman() {
-//     finList = initList.filter(champ => champ.tags.includes("Marksman"));
-//     fillDashboard(finList);
-//});
-
-// document.getElementById("supportBtn").addEventListener("click", function roleSupport() {
-//     finList = initList.filter(champ => champ.tags.includes("Support"));
-//     fillDashboard(finList);
-//});
-
-// <!-- -------------------------filtro por Dificultad------------------------------------>
-// filtro.addEventListener("click", difficulty);
-// function difficulty(){
-//     const filterItems = query => {
-//         return fruits.filter((el) =>
-//           el.toLowerCase().indexOf(query.toLowerCase()) > -1
-//         );
-//       }
-//     if(champ => champ.difficulty <= 4){
+ //<!-- -------------------------filtro por Dificultad------------------------------------>
+//  filtro.addEventListener("click", difficulty);
+//  function difficulty(){
+     
+//     if(champ => champ.difficulty = 1){
 //         const difficultyEasy;
-//         difficultyEasy = initList.filter(champ => champ.difficulty <= 4);
+//         difficultyEasy = initList.filter(champ => champ.difficulty = 1);
 //         console.log(filterItems('difficultyEasy')); // ['easy']
 //     }
-//     else if (champ => champ.difficulty >= 5) {
+//     else if (champ => champ.difficulty = 2) {
 //         const difficultyMiddle;
-//         difficultyMiddle = initList.filter(champ => champ.difficulty >= 5);
+//         difficultyMiddle = initList.filter(champ => champ.difficulty = 2);
 //         console.log(filterItems('difficultyMiddle')); // ['middle']
-//     }else if(champ => champ.difficulty >=8){
+//     }else if(champ => champ.difficulty =3){
 //         const difficultyHard;
-//         difficultyHard = initList.filter(champ => champ.difficulty >=8);
+//         difficultyHard = initList.filter(champ => champ.difficulty =3);
 //         console.log(filterHard('diffficultyHard')); //['Hard']
 //     }
 // }

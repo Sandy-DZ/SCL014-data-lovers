@@ -63,7 +63,7 @@ body{
   /* border: solid rgb(174, 145, 75); */
 }
 
-h4{
+.howToPlay h4{
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
@@ -99,9 +99,9 @@ h4{
   align-items: flex-end;
   justify-content: center;
   /* font-family: 'Trebuchet MS'; */
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
   color:white;
-  font-size: 1.3rem
+  font-size: 1.1rem
 }
 .mage{
   background-image: url(https://i.imgur.com/MkhREJw.png);
@@ -120,9 +120,9 @@ h4{
   align-items: flex-end;
   justify-content: center;
   /* font-family: 'Trebuchet MS'; */
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
   color:white;
-  font-size: 1.3rem
+  font-size: 1.1rem
 }
 .fighter{
   background-image: url(https://i.imgur.com/OuuslSa.png);
@@ -141,7 +141,7 @@ h4{
   align-items: flex-end;
   justify-content: center;
   /* font-family: 'Trebuchet MS'; */
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
   color:white;
   font-size: 1.1rem
 }
@@ -163,9 +163,9 @@ h4{
   align-items: flex-end;
   justify-content: center;
   /* font-family: 'Trebuchet MS'; */
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
   color:white;
-  font-size: 1.3rem
+  font-size: 1.1rem
 }
 .marksman{
   background-image: url(https://i.imgur.com/OVz7c6F.png);
@@ -184,9 +184,9 @@ h4{
   align-items: flex-end;
   justify-content: center;
   /* font-family: 'Trebuchet MS'; */
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
   color:white;
-  font-size: 1.3rem
+  font-size: 1.1rem
 }
 
 .tank{
@@ -206,9 +206,9 @@ h4{
   align-items: flex-end;
   justify-content: center;
   /* font-family: 'Trebuchet MS'; */
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
   color:white;
-  font-size: 1.3rem
+  font-size: 1.1rem
 }
 
 /* BOX FOR CHAMPION FILES */
