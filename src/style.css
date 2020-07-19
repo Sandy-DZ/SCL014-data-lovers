@@ -1,31 +1,23 @@
 body{
-  background:rgb(9, 27, 49);
-  font-family: 'Abhaya Libre', serif;
-  font-size: 1.2rem;
-  line-height: 1.6em;
-  margin: 0;  /*con este le quite el margen de arriba al header para que no quede separado en la barra inicial*/
+  background-image: url(https://i.imgur.com/7JV2ErD.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 4rem;
+  font-family: 'Trebuchet MS';
   color: white;
-  /*background-image: url(https://i.imgur.com/7JV2ErD.jpg);
-  background-repeat: no-repeat;*/
+  margin: 0;  /*con este le quite el margen de arriba al header para que no quede separado en la barra inicial*/
+  /* background:rgb(9, 27, 49);
+  font-size: 1.2rem;
+  line-height: 1.6em; */
 } 
 
-
-h1{
-  font-family: 'Abhaya Libre', serif;
-  font-size: 4rem;
-  line-height: 1.3em;
-  text-align: center;
-}
-h3{
-  font-family: 'Abhaya Libre', serif;
-  font-size: 2.5rem;
-  line-height: 1.3em;
-  text-align: center;
-}
-p{
-  font-family: 'Abhaya Libre', serif;
-  font-weight: bolder;
-  margin-bottom:1.6em ;
+#root{
+  flex-direction: column;
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+  
 }
 
 .container {
@@ -35,14 +27,20 @@ p{
 }
 
 .header{
-  background:rgba(4, 13, 24, 1);
+  background:rgba(4, 13, 24);
   color: white;
-  padding: 2rem 0;
-
+  padding: 0.1rem 0 1.5rem;
   position: fixed; /* con este fijamos el header a la pantalla */
   left: 0;
   right: 0;
   top: 0;
+}
+
+.navLogo{
+  width: 130px;
+  height: auto;
+  position: relative;
+  top: 20px;
 }
 
 .header a{
@@ -50,20 +48,205 @@ p{
   text-decoration: none;
 }
 
-.logo-nav-container{
+.searchBar{
+  position: relative;
+  left: 1.5rem;
+  width: 8rem;
+}
+
+.welcomeContent{
+  justify-content: center;
+  display: flex;
+
+}
+
+.howToPlay{
+  background-color: rgba(4, 13, 24, 0.705);
+  padding: 0.5rem 8rem 2.5rem;
+  /* border: solid rgb(174, 145, 75); */
+}
+
+.rolesBox{
+  padding: 5rem;
+  align-items: stretch;
+}
+
+.roleBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 10rem;
+}
+
+.assassin{
+  background-image: url(https://i.imgur.com/2Qj7X7s.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7rem 7rem;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+  border-radius: 5px;
+}
+
+.assassin:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: 'Trebuchet MS';
+  color:rgb(237, 239, 245);
+  font-size: 1.3rem
+}
+.mage{
+  background-image: url(https://i.imgur.com/MkhREJw.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7rem 7rem;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+  border-radius: 5px;
+}
+
+.mage:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: 'Trebuchet MS';
+  color:rgb(237, 239, 245);
+  font-size: 1.3rem
+}
+.fighter{
+  background-image: url(https://i.imgur.com/OuuslSa.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7.5rem 7rem;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+  border-radius: 5px;
+}
+
+.fighter:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: 'Trebuchet MS';
+  color:rgb(237, 239, 245);
+  font-size: 1.3rem
+}
+.support{
+  background-image: url(https://i.imgur.com/CImDB4Z.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7.1rem 7rem;
+  justify-content: center;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+  border-radius: 5px;
+}
+
+.support:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: 'Trebuchet MS';
+  color:rgb(237, 239, 245);
+  font-size: 1.3rem
+}
+.marksman{
+  background-image: url(https://i.imgur.com/OVz7c6F.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7rem 7rem;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+  border-radius: 5px;
+}
+
+.marksman:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: 'Trebuchet MS';
+  color:rgb(237, 239, 245);
+  font-size: 1.3rem
+}
+
+.tank{
+  background-image: url(https://i.imgur.com/wHxzpv4.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7rem 7rem;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+  border-radius: 5px;
+}
+
+.tank:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: 'Trebuchet MS';
+  color:rgb(237, 239, 245);
+  font-size: 1.3rem
+}
+
+.championFiles {
+  justify-content: center;
+  background-color: rgba(3, 29, 63, 0.123);
+  /*background-image: url(https://i.imgur.com/RhQRUme.png);*/
+  align-items: space-around;
+  
+}
+
+/* .file{
+  text-align: center;
+  background-image: url(https://i.imgur.com/6GK6izh.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: left;
+  
+} */
+
+.nameFile{
+  background-color: indigo;
+}
+
+h1{
+  background-color: coral;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 4rem;
+  /* line-height: 1.3em; */
+  text-align: center;
+}
+h3{
+  background-color: blueviolet;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 2rem;
+  line-height: 1.3em;
+  text-align: center;
+}
+h2{
+  font-family: 'Abhaya Libre', serif;
+}
+p{
+  background-color: blue;
+  /* margin-bottom:1.6em ; */
+}
+
+/* .logo-nav-container{
   display: flex;
   justify-content:space-between;
   align-items: center;
-  flex-wrap: wrap;/*con este le indicamos que no fuerce el elemento a estar junto a los otros*/
-}
-.logo{
-  letter-spacing: 5px;
-  font-size: 1.4em;
-}
-.menu-icon{
-  display: none;
-}
+  flex-wrap: wrap; /*con este le indicamos que no fuerce el elemento a estar junto a los otros*/
+/*}*/ 
 
+/* .menu-icon{
+  display: none;
+} */
+
+
+/* Navigation bar settings and effects */
 .navigation dl{ 
   margin: 0;
   padding: 0;
@@ -76,7 +259,7 @@ p{
 .navigation dl dt a{
   display: block;
   padding: 0.5rem 1rem;
-  transition: all 0.4s linear; /*transición que tomara el boton para verse*/
+  transition: all 0.3s linear; /*transición que tomara el boton para verse*/
   border-radius: 0px 25px 0px ; /* aquí hice que los bordes fueran irregular*/
 }
 .navigation dl dt a:hover{
@@ -87,55 +270,24 @@ p{
   display :inline-block;
 }
 .main{
-  padding-top: 12rem;
+  padding-top: 11rem;
 }
 
-img{
-  border-radius:60%;
-  width: 315px;
-  height: 206px;
-  
-}
-.item{
+/* .item{
   order: 2;
-}
-.file{
-  /*text-align: center;*/
-  background-image: url(https://i.imgur.com/6GK6izh.png);
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  justify-content: left;
-  
-}
-.champ {
-  justify-content: center;
-  background-color: rgba(3, 29, 63, 0.123);
-  /*background-image: url(https://i.imgur.com/RhQRUme.png);*/
-  align-items: space-around;
-  
-}
-.allChamps{
-  padding: 5rem;
-}
-icon{
-  width: 60px;
-  height: 50px;
-  display: flex;
-  justify-content: space-around;
-  
-}
+} */
 
+/* footer bar settings */
 .footer{
   background: rgba(4, 13, 24, 1);
-  padding: 3rem 0; /*con este doy grosor al footer*/
+  padding: 0.3rem 0; /*con este doy grosor al footer*/
   text-align: center;
   color: rgb(255, 255, 255);
-  margin-top: 6rem; /*con este lo separo del parrafo de contenido al footer*/
+  margin: 6rem 0 2rem; /*con este lo separo del parrafo de contenido al footer*/
   
 }
 
+/* media queries */
 @media only screen and (max-width:767px){
   .menu-icon{
     display: block;

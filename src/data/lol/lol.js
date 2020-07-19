@@ -40,7 +40,7 @@ export default {
         toughness:3,
         control:2,
         mobility:2,
-        utility:2,
+        utility:2
       },
       stats: {
         hp: 580,
@@ -468,7 +468,7 @@ export default {
         {q:"Desintegrar",img:"https://opgg-static.akamaized.net/images/lol/spell/AnnieQ.png?image=q_auto,w_48&v=1591083841",info:"Annie lanza una bola de fuego imbuida de Maná, infligiendo daño y recuperando el costo de Maná si destruye el objetivo."},
         {w:"Incinerar",img:"https://opgg-static.akamaized.net/images/lol/spell/AnnieW.png?image=q_auto,w_48&v=1591083841",info:"Annie lanza un abrasador cono de fuego, dañando a todos los enemigos de la zona."},
         {e:"Escudo Fundido",img:"https://opgg-static.akamaized.net/images/lol/spell/AnnieE.png?image=q_auto,w_48&v=1591083841",info:"Le otorga a Annie un porcentaje aumentado de reducción de daño, un aumento de velocidad de movimiento y daña a los enemigos que la atacan con ataques básicos."},
-        {r:"Invocar Tibbers",r2:"Controlar Tibbers",img:"https://opgg-static.akamaized.net/images/lol/spell/AnnieR.png?image=q_auto,w_48&v=1591083841",info:"Annie da vida a su oso Tibbers, que daña a todas las unidades de la zona. Tibbers puede atacar y quemar a los enemigos adyacentes."}
+        {r:"Invocar Tibbers",img:"https://opgg-static.akamaized.net/images/lol/spell/AnnieR.png?image=q_auto,w_48&v=1591083841",info:"Annie da vida a su oso Tibbers, que daña a todas las unidades de la zona. Tibbers puede atacar y quemar a los enemigos adyacentes."}
       ]
     },
     Aphelios: {
@@ -7369,7 +7369,7 @@ export default {
         {w:"Aria de la Perseverancia",img:"https://opgg-static.akamaized.net/images/lol/spell/SonaW.png?image=q_auto,w_48&v=1591083841",info:"Sona toca el Aria de la Perseverancia y envía melodías protectoras, lo que cura a Sona y a un aliado cercano herido. Sona obtiene un aura temporal que le otorga a los aliados dentro de la zona un escudo temporal."},
         {e:"Canción de la Celeridad",img:"https://opgg-static.akamaized.net/images/lol/spell/SonaE.png?image=q_auto,w_48&v=1591083841",info:"Sona toca la Canción de la Celeridad y les otorga velocidad de movimiento adicional a los aliados cercanos. Sona obtiene un aura temporal que le otorga velocidad de movimiento adicional a los campeones aliados que entren a la zona."},
         {r:"Crescendo",img:"https://opgg-static.akamaized.net/images/lol/spell/SonaR.png?image=q_auto,w_48&v=1591083841",info:"Sona toca su acorde definitivo para aturdir a campeones enemigos y obligarlos a bailar, lo que les inflige daño mágico. Cada rango reduce el enfriamiento de las habilidades básicas de Sona."}
-     ]}
+     ]
     },
     Soraka: {
       version: "V10.14",
@@ -8814,7 +8814,7 @@ export default {
         toughness:2,
         control:3,
         mobility:2,
-        utility:1,
+        utility:1
       },
       stats: {
         hp:585 ,
@@ -8881,7 +8881,7 @@ export default {
         toughness:1,
         control:2,
         mobility:1,
-        utility:1,
+        utility:1
       },
       stats: {
         hp:530 ,
@@ -8948,7 +8948,7 @@ export default {
         toughness:2,
         control:1,
         mobility:1,
-        utility:1,
+        utility:1
       },
       stats: {
         hp: 537,
@@ -9015,7 +9015,7 @@ export default {
         toughness:3,
         control:2,
         mobility:2,
-        utility:1,
+        utility:1
       },
       stats: {
         hp:580 ,
@@ -9082,7 +9082,7 @@ export default {
         toughness:2,
         control:2,
         mobility:1,
-        utility:1,
+        utility:1
       },
       stats: {
         hp: 550,
@@ -9149,7 +9149,7 @@ export default {
         toughness:2,
         control:2,
         mobility:2,
-        utility:1,
+        utility:1
       },
       stats: {
         hp:540 ,
@@ -9216,7 +9216,7 @@ export default {
         toughness:2,
         control:3,
         mobility:1,
-        utility:0,
+        utility:0
       },
       stats: {
         hp: 590,
@@ -9283,7 +9283,7 @@ export default {
         toughness:0,
         control:2,
         mobility:0,
-        utility:1,
+        utility:1
       },
       stats: {
         hp: 526,
@@ -9350,7 +9350,7 @@ export default {
         toughness:2,
         control:2,
         mobility:2,
-        utility:1,
+        utility:1
       },
       stats: {
         hp: 570,
@@ -9417,7 +9417,7 @@ export default {
         toughness:1,
         control:2,
         mobility:3,
-        utility:2,
+        utility:2
       },
       stats: {
         hp: 490,
@@ -9484,7 +9484,7 @@ export default {
         toughness:0,
         control:0,
         mobility:0,
-        utility:0,
+        utility:0
       },
       stats: {
         hp: 0,
@@ -9551,7 +9551,7 @@ export default {
         toughness:2,
         control:2,
         mobility:0,
-        utility:2,
+        utility:2
       },
       stats: {
         hp: 580,
@@ -9618,7 +9618,7 @@ export default {
         toughness:1,
         control:1,
         mobility:3,
-        utility:3,
+        utility:3
       },
       stats: {
         hp: 480,
@@ -9685,7 +9685,7 @@ export default {
         toughness:3,
         control:3,
         mobility:2,
-        utility:0,
+        utility:0
       },
       stats: {
         hp: 615,
@@ -9752,7 +9752,7 @@ export default {
         toughness:0,
         control:1,
         mobility:3,
-        utility:0,
+        utility:0
       },
       stats: {
         hp:584 ,
@@ -9819,7 +9819,7 @@ export default {
         toughness:0,
         control:2,
         mobility:2,
-        utility:0,
+        utility:0
       },
       stats: {
         hp: 536,
@@ -9886,7 +9886,7 @@ export default {
         toughness:1,
         control:2,
         mobility:2,
-        utility:3,
+        utility:3
       },
       stats: {
         hp: 504,
@@ -9953,7 +9953,7 @@ export default {
         toughness:1,
         control:2,
         mobility:2,
-        utility:1,
+        utility:1
       },
       stats: {
         hp:560 ,
@@ -10020,7 +10020,7 @@ export default {
         toughness:0,
         control:3,
         mobility:0,
-        utility:1,
+        utility:1
       },
       stats: {
         hp: 504,
@@ -10048,6 +10048,7 @@ export default {
         {w:"Crecimiento Desenfrenado",img:"https://opgg-static.akamaized.net/images/lol/spell/ZyraW.png?image=q_auto,w_48&v=1591083841",info:"Zyra planta semillas que duran hasta 60 seg. Si lanza Espinas Mortales y Raíces Atrapadoras cerca de ellas, estas se convertirán en plantas que pelearán por Zyra. Zyra puede almacenar varias semillas al mismo tiempo y matar enemigos reduce el tiempo de recarga de Crecimiento Desenfrenado."},
         {e:"Raíces Atrapadoras",img:"https://opgg-static.akamaized.net/images/lol/spell/ZyraE.png?image=q_auto,w_48&v=1591083841",info:"Zyra lanza unas vides que se extienden por el suelo para aprisionar a su objetivo, lo que inflige daño e inmoviliza a los enemigos en su camino. Si lanza Raíces Atrapadoras cerca de una semilla, brotará un Azotavides, cuyos ataques de corto alcance reducen la velocidad de movimiento del enemigo."},
         {r:"Tuercespinas",img:"https://opgg-static.akamaized.net/images/lol/spell/ZyraR.png?image=q_auto,w_48&v=1591083841",info:"Zyra invoca un matorral retorcido en la ubicación indicada, lo que inflige daño a los enemigos a medida que se expande y los lanza por el aire cuando se contrae. Las plantas dentro del matorral se enfurecen."}
-     ]
+    ]
     }
   }
+};
