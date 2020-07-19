@@ -1,7 +1,5 @@
-
 //import lol from './filtrar.js';
 import lol from './data/lol/lol.js';
-
 const dataLol = Object.values(lol.data);
 
 let champions = '';
@@ -11,17 +9,22 @@ function showChampions (){
         let file = document.createElement('section');
         file.setAttribute('class','file');
         champions =
-        `<h1 class='nameFile'> ${dataLol[i].name} </h1>
-        <h3> ${dataLol[i].title} </h3>
+        `<div class='splashSection'><img src='${dataLol[i].splash}'></div>
+        <section id= 'textFile' class='textFile'>
+        <h1> ${(dataLol[i].name).toUpperCase()} </h1>
+        <h3> ${(dataLol[i].title).toUpperCase()} </h3>
+        <h4>${dataLol[i].tags} </h4>
         <p> ${dataLol[i].blurb} </p>
-        <h2> ${dataLol[i].tags} </h2>
-        <p> ${dataLol[i].skill}</p>
-        <img src='${dataLol[i].splash}'>`;
+        </section>`;
         allFiles.appendChild(file);
+        console.log(file)
         file.innerHTML = champions;
+
     };
 };
 showChampions();
+
+
 
 // console.log (datos);
 //let initList = datos.allCards();
@@ -37,9 +40,26 @@ const filtMarksman = document.getElementById("Marksman");
 const filtSupport = document.getElementById("supportBtn");
 const filtro = document.getElementById("tags");
 
+filtTank.addEventListener ("click", function(){
+    let tank = document.getElementById("tankBtn").value;
+    
+});
 filtAsesino.addEventListener ("click", function(){
 
 });
+filtMage.addEventListener ("click", function(){
+
+});
+filtFighter.addEventListener ("click", function(){
+
+});
+filtMarksman.addEventListener ("click", function(){
+
+});
+filtSupport.addEventListener ("click", function(){
+
+});
+
 //<!-----------------------------filtro de la A - Z-------------------------->
 // A_Z.addEventListener("click", filtrar_A_Z);
 // function filtrar_A_Z(){

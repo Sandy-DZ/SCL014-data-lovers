@@ -4,7 +4,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 0 4rem;
-  font-family: 'Trebuchet MS';
+  font-family: 'Roboto Condensed', sans-serif;
   color: white;
   margin: 0;  /*con este le quite el margen de arriba al header para que no quede separado en la barra inicial*/
   /* background:rgb(9, 27, 49);
@@ -12,35 +12,22 @@ body{
   line-height: 1.6em; */
 } 
 
-#root{
-  flex-direction: column;
-  width: 85%;
-  max-width: 850px;
-  margin: 0 auto;
-  
-}
-
 .container {
   width: 85%;
   max-width: 850px;
   margin: 0 auto;
 }
 
+/* HEADER SETTINGS */
 .header{
   background:rgba(4, 13, 24);
   color: white;
   padding: 0.1rem 0 1.5rem;
   position: fixed; /* con este fijamos el header a la pantalla */
+  z-index: 300;
   left: 0;
   right: 0;
   top: 0;
-}
-
-.navLogo{
-  width: 130px;
-  height: auto;
-  position: relative;
-  top: 20px;
 }
 
 .header a{
@@ -48,12 +35,22 @@ body{
   text-decoration: none;
 }
 
+/* LOGOTYPE SETTINGS */
+.navLogo{
+  width: 17%;
+  height: auto;
+  position: relative;
+  top: 20px;
+}
+
+/* SEARCH BAR INPUT SETTINGS */
 .searchBar{
   position: relative;
   left: 1.5rem;
   width: 8rem;
 }
 
+/* HOW TO PLAY SECTION SETTINGS */
 .welcomeContent{
   justify-content: center;
   display: flex;
@@ -66,8 +63,14 @@ body{
   /* border: solid rgb(174, 145, 75); */
 }
 
+h4{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* FILTER BY ROLE BUTTONS */
 .rolesBox{
-  padding: 5rem;
+  padding: 7rem 0 1rem;
   align-items: stretch;
 }
 
@@ -75,163 +78,215 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 0 10rem;
+  padding: 0 7rem;
 }
 
+/* ROLE IMAGES FOR BUTTONS */
 .assassin{
   background-image: url(https://i.imgur.com/2Qj7X7s.png);
   background-color: rgba(4, 13, 24, 0.705);
-  background-size: 7rem 7rem;
+  background-size: 7rem 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
   width: 7rem;
   height: 7rem;
   font-size: 0rem;
-  border-radius: 5px;
 }
 
 .assassin:hover{
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  font-family: 'Trebuchet MS';
-  color:rgb(237, 239, 245);
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Fugaz One', cursive;
+  color:white;
   font-size: 1.3rem
 }
 .mage{
   background-image: url(https://i.imgur.com/MkhREJw.png);
   background-color: rgba(4, 13, 24, 0.705);
-  background-size: 7rem 7rem;
+  background-size: 7rem 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
   width: 7rem;
   height: 7rem;
   font-size: 0rem;
-  border-radius: 5px;
 }
 
 .mage:hover{
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  font-family: 'Trebuchet MS';
-  color:rgb(237, 239, 245);
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Fugaz One', cursive;
+  color:white;
   font-size: 1.3rem
 }
 .fighter{
   background-image: url(https://i.imgur.com/OuuslSa.png);
   background-color: rgba(4, 13, 24, 0.705);
-  background-size: 7.5rem 7rem;
+  background-size: 8rem 6.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
   width: 7rem;
   height: 7rem;
   font-size: 0rem;
-  border-radius: 5px;
 }
 
 .fighter:hover{
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  font-family: 'Trebuchet MS';
-  color:rgb(237, 239, 245);
-  font-size: 1.3rem
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Fugaz One', cursive;
+  color:white;
+  font-size: 1.1rem
 }
 .support{
   background-image: url(https://i.imgur.com/CImDB4Z.png);
   background-color: rgba(4, 13, 24, 0.705);
-  background-size: 7.1rem 7rem;
+  background-size: 7rem 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
   justify-content: center;
+  border-radius: 5px;
   width: 7rem;
   height: 7rem;
   font-size: 0rem;
-  border-radius: 5px;
 }
 
 .support:hover{
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  font-family: 'Trebuchet MS';
-  color:rgb(237, 239, 245);
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Fugaz One', cursive;
+  color:white;
   font-size: 1.3rem
 }
 .marksman{
   background-image: url(https://i.imgur.com/OVz7c6F.png);
   background-color: rgba(4, 13, 24, 0.705);
-  background-size: 7rem 7rem;
+  background-size: 7rem 5.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
   width: 7rem;
   height: 7rem;
   font-size: 0rem;
-  border-radius: 5px;
 }
 
 .marksman:hover{
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  font-family: 'Trebuchet MS';
-  color:rgb(237, 239, 245);
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Fugaz One', cursive;
+  color:white;
   font-size: 1.3rem
 }
 
 .tank{
   background-image: url(https://i.imgur.com/wHxzpv4.png);
   background-color: rgba(4, 13, 24, 0.705);
-  background-size: 7rem 7rem;
+  background-size: 7rem 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
   width: 7rem;
   height: 7rem;
   font-size: 0rem;
-  border-radius: 5px;
 }
 
 .tank:hover{
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  font-family: 'Trebuchet MS';
-  color:rgb(237, 239, 245);
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Fugaz One', cursive;
+  color:white;
   font-size: 1.3rem
 }
 
+/* BOX FOR CHAMPION FILES */
 .championFiles {
-  justify-content: center;
-  background-color: rgba(3, 29, 63, 0.123);
+  margin-top: 0rem;
   /*background-image: url(https://i.imgur.com/RhQRUme.png);*/
-  align-items: space-around;
+  
   
 }
 
-/* .file{
-  text-align: center;
-  background-image: url(https://i.imgur.com/6GK6izh.png);
-  background-repeat: no-repeat;
+/* FILE ELEMENTS */
+.file{
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10rem 5rem;
+  padding: 3rem 0;
+  background-color: rgba(4, 13, 24, 0.705);
+  /* background-image: url(https://i.imgur.com/6GK6izh.png);
+  background-repeat: no-repeat;
+  background-size: 540px;
+  background-position: relative;
+  top: 30rem; */
+}
+
+/* SPLASH IMAGE FOR FILE */
+.splashSection{
+  /* background-image: url(https://i.imgur.com/6GK6izh.png);
+  background-repeat: no-repeat;
+  background-size: 540px; */
+  width: 400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 5rem;
+}
+
+.splashSection img{
+  /* display: inline; */
+  margin: 0 auto;
+  margin-left: -60%;
+  height: 100%;
+  width: auto;
+}
+
+/* TEXT ELEMENTS FOR FILE */
+.textFile{
+  width: 20rem;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
   flex-direction: column;
-  justify-content: left;
-  
-} */
-
-.nameFile{
-  background-color: indigo;
+  border: solid rgb(174, 145, 75);
+  padding: 2rem;
 }
 
-h1{
-  background-color: coral;
-  font-family: 'Abhaya Libre', serif;
-  font-size: 4rem;
-  /* line-height: 1.3em; */
-  text-align: center;
+.textFile h1{
+  font-family: 'Fugaz One', cursive;
+  font-size: 3rem;
+  margin: 0;
 }
-h3{
-  background-color: blueviolet;
-  font-family: 'Abhaya Libre', serif;
-  font-size: 2rem;
-  line-height: 1.3em;
-  text-align: center;
+
+.textFile h3{
+  font-size: 1.3rem;
+  margin: 0rem;
 }
-h2{
-  font-family: 'Abhaya Libre', serif;
+
+.textFile h4{
+  font-weight: normal;
 }
-p{
-  background-color: blue;
-  /* margin-bottom:1.6em ; */
+
+.textFile p{
+  /* padding: 1rem 2rem;
+  border: solid rgb(174, 145, 75); */
+  font-weight: lighter;
+  margin: 0rem;
 }
 
 /* .logo-nav-container{
@@ -282,9 +337,9 @@ p{
   background: rgba(4, 13, 24, 1);
   padding: 0.3rem 0; /*con este doy grosor al footer*/
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: white;
   margin: 6rem 0 2rem; /*con este lo separo del parrafo de contenido al footer*/
-  
+  font-weight: normal;
 }
 
 /* media queries */
