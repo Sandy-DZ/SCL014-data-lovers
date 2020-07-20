@@ -1,37 +1,387 @@
-.filterDiv {
-    float: left;
-    background-color: #2196F3;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;
-    display: none;
-  }
+body{
+  background-image: url(https://i.imgur.com/7JV2ErD.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 4rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  margin: 0;  /*con este le quite el margen de arriba al header para que no quede separado en la barra inicial*/
+  /* background:rgb(9, 27, 49);
+  font-size: 1.2rem;
+  line-height: 1.6em; */
+} 
+
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* HEADER SETTINGS */
+.header{
+  background:rgba(4, 13, 24);
+  color: white;
+  padding: 0.1rem 0 1.5rem;
+  position: fixed; /* con este fijamos el header a la pantalla */
+  z-index: 300;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+}
+
+/* LOGOTYPE SETTINGS */
+.navLogo{
+  width: 17%;
+  height: auto;
+  position: relative;
+  top: 20px;
+}
+
+/* SEARCH BAR INPUT SETTINGS */
+.searchBar{
+  position: relative;
+  left: 1.5rem;
+  width: 8rem;
+}
+
+/* HOW TO PLAY SECTION SETTINGS */
+.welcomeContent{
+  justify-content: center;
+  display: flex;
+
+}
+
+.howToPlay{
+  background-color: rgba(4, 13, 24, 0.705);
+  padding: 0.5rem 8rem 2.5rem;
+  /* border: solid rgb(174, 145, 75); */
+}
+
+.howToPlay h4{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* FILTER BY ROLE BUTTONS */
+.rolesBox{
+  padding: 7rem 0 1rem;
+  align-items: stretch;
+}
+
+.roleBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 7rem;
+}
+
+/* ROLE IMAGES FOR BUTTONS */
+.assassin{
+  background-image: url(https://i.imgur.com/2Qj7X7s.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7rem 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+}
+
+.assassin:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+  font-size: 1.1rem
+}
+.mage{
+  background-image: url(https://i.imgur.com/MkhREJw.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7rem 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+}
+
+.mage:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+  font-size: 1.1rem
+}
+.fighter{
+  background-image: url(https://i.imgur.com/OuuslSa.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 8rem 6.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+}
+
+.fighter:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+  font-size: 1.1rem
+}
+.support{
+  background-image: url(https://i.imgur.com/CImDB4Z.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7rem 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+}
+
+.support:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+  font-size: 1.1rem
+}
+.marksman{
+  background-image: url(https://i.imgur.com/OVz7c6F.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7rem 5.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+}
+
+.marksman:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+  font-size: 1.1rem
+}
+
+.tank{
+  background-image: url(https://i.imgur.com/wHxzpv4.png);
+  background-color: rgba(4, 13, 24, 0.705);
+  background-size: 7rem 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  width: 7rem;
+  height: 7rem;
+  font-size: 0rem;
+}
+
+.tank:hover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+  font-size: 1.1rem
+}
+
+/* BOX FOR CHAMPION FILES */
+.championFiles {
+  margin-top: 0rem;
+  /*background-image: url(https://i.imgur.com/RhQRUme.png);*/
   
-  .show {
+  
+}
+
+/* FILE ELEMENTS */
+.file{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10rem 5rem;
+  padding: 3rem 0;
+  background-color: rgba(4, 13, 24, 0.705);
+  /* background-image: url(https://i.imgur.com/6GK6izh.png);
+  background-repeat: no-repeat;
+  background-size: 540px;
+  background-position: relative;
+  top: 30rem; */
+}
+
+/* SPLASH IMAGE FOR FILE */
+.splashSection{
+  /* background-image: url(https://i.imgur.com/6GK6izh.png);
+  background-repeat: no-repeat;
+  background-size: 540px; */
+  width: 400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 5rem;
+}
+
+.splashSection img{
+  /* display: inline; */
+  margin: 0 auto;
+  margin-left: -60%;
+  height: 100%;
+  width: auto;
+}
+
+/* TEXT ELEMENTS FOR FILE */
+.textFile{
+  width: 20rem;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  flex-direction: column;
+  border: solid rgb(174, 145, 75);
+  padding: 2rem;
+}
+
+.textFile h1{
+  font-family: 'Fugaz One', cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.textFile h3{
+  font-size: 1.3rem;
+  margin: 0rem;
+}
+
+.textFile h4{
+  font-weight: normal;
+}
+
+.textFile p{
+  /* padding: 1rem 2rem;
+  border: solid rgb(174, 145, 75); */
+  font-weight: lighter;
+  margin: 0rem;
+}
+
+/* .logo-nav-container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-wrap: wrap; /*con este le indicamos que no fuerce el elemento a estar junto a los otros*/
+/*}*/ 
+
+/* .menu-icon{
+  display: none;
+} */
+
+
+/* Navigation bar settings and effects */
+.navigation dl{ 
+  margin: 0;
+  padding: 0;
+  list-style: none; /*quitamos los efectos de lista*/
+}
+
+.navigation dl dt{ /* ----------------------------------Nav de la lista de pagina ------------------------------------- */
+  display :inline-block; /*los ponemos a los costados*/
+}
+.navigation dl dt a{
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear; /*transición que tomara el boton para verse*/
+  border-radius: 0px 25px 0px ; /* aquí hice que los bordes fueran irregular*/
+}
+.navigation dl dt a:hover{
+  background: rgba(147, 115, 65, 1);
+}
+
+.icon dl dt { /* ----------------------------------------Nav de los iconos de rol --------------------------------------*/
+  display :inline-block;
+}
+.main{
+  padding-top: 11rem;
+}
+
+/* .item{
+  order: 2;
+} */
+
+/* footer bar settings */
+.footer{
+  background: rgba(4, 13, 24, 1);
+  padding: 0.3rem 0; /*con este doy grosor al footer*/
+  text-align: center;
+  color: white;
+  margin: 6rem 0 2rem; /*con este lo separo del parrafo de contenido al footer*/
+  font-weight: normal;
+}
+
+/* media queries */
+@media only screen and (max-width:767px){
+  .menu-icon{
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+  }
+  .navigation{
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .navigation dl{
+    display:none;
+  }
+  .navigation dl.show{
     display: block;
   }
-  
-  .container {
-    margin-top: 20px;
-    overflow: hidden;
+  .navigation dl dt{
+    display :block; /*los ponemos a los costados*/
+  }
+  .navigation dl dt a{
+    display: block;
+    padding: 0.5rem 0;
+    transition: all 0.4s linear; /*transición que tomara el boton para verse*/
+    border-radius: 5px 20px 5px; /* aquí hice que los bordes fueran irregular*/
+  }
+  .navigation dl dt a:hover{
+    background: rgba(147, 115, 65, 1);
   }
   
-  /* Style the buttons */
-  .btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: #ddd;
-  }
-  
-  .btn.active {
-    background-color: #666;
-    color: white;
-  }
+}
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
